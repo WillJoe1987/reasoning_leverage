@@ -1,0 +1,164 @@
+# AI-Trader Agent Tools - Local Tools 目录描述
+
+## 目录概述
+**路径**: `/prog/pweb/AI-Trader/agent_tools/local_tools`
+**父目录**: `/prog/pweb/AI-Trader/agent_tools`
+**描述**: 该目录包含AI-Trader项目中智能体使用的本地工具模块，主要为Git相关的工具函数。
+
+## 文件结构
+
+### 代码文件
+
+#### 1. `git.py` - Git忽略检查工具
+- **文件路径**: `./git.py`
+- **文件大小**: 6318 字符
+- **文件类型**: Python模块
+- **版本控制状态**: 未被 `.gitignore` 忽略（位于Git仓库 `/prog/pweb/AI-Trader` 中）
+
+##### 核心功能
+1. **Git忽略状态检查**: 通过 `is_git_ignored()` 函数检查文件/目录是否被Git忽略
+2. **智能检测机制**:
+   - 优先使用 `git check-ignore` 命令进行精确检测
+   - 当Git不可用时，回退到手动解析 `.gitignore` 文件
+   - 支持多层 `.gitignore` 文件的级联规则
+3. **全面的规则支持**:
+   - 支持标准 `.gitignore` 语法
+   - 支持通配符模式匹配（`*` 和 `?`）
+   - 支持目录模式（以 `/` 结尾）
+   - 支持否定规则（以 `!` 开头）
+
+##### 主要接口
+- `create_check_git_ignore_tool()`: 创建Git忽略检查工具
+- `is_git_ignored(path: str) -> dict`: 主检查函数，返回包含以下字段的字典：
+  - `path`: 检查的路径
+  - `git_root`: Git仓库根目录路径（如果找到）
+  - `ignored`: 是否被忽略（布尔值）
+  - `matched_pattern`: 匹配的忽略模式
+  - `method`: 使用的检测方法（"git" 或 "parse"）
+  - `git_error`: Git命令错误信息（如果有）
+  - `error`: 其他异常信息
+
+##### 技术实现细节
+**导入模块**:
+```python
+import os, sys
+from pathlib import Path
+from langchain.tools import tool  # LangChain工具装饰器
+import subprocess  # 执行Git命令
+import fnmatch    # 文件模式匹配
+import re         # 正则表达式
+```
+
+**项目根目录设置**:
+```python
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, project_root)  # 将项目根目录添加到Python路径
+```
+
+**算法特点**:
+1. **路径解析**: 使用 `pathlib` 进行跨平台路径操作
+2. **相对路径计算**: 正确处理相对于Git根目录的路径
+3. **模式匹配**: 支持 `fnmatch` 通配符和自定义目录匹配
+4. **规则优先级**: 正确处理多层 `.gitignore` 的覆盖关系
+5. **错误恢复**: 优雅降级机制确保功能可用性
+
+**Git命令集成**:
+```python
+# 使用subprocess执行Git命令
+res = subprocess.run(
+    ["git", "check-ignore", "-v", "--", target],
+    cwd=str(git_root),
+    stdout=subprocess.PIPE,
+    stderr=subprocess.PIPE,
+    text=True,
+)
+```
+
+##### 错误处理策略
+1. **路径不存在**: 返回明确的错误信息
+2. **Git命令失败**: 回退到手动解析
+3. **文件读取错误**: 跳过无法读取的 `.gitignore` 文件
+4. **异常捕获**: 全面的try-except块确保稳定性
+
+##### 在业务流中的角色
+该工具在AI-Trader项目中用于：
+
+**代码管理自动化**:
+- 在自动化部署流程中检查文件是否应该被版本控制
+- 防止将敏感文件或临时文件意外提交到仓库
+
+**智能体决策支持**:
+- AI智能体在生成或修改代码时，可以判断文件是否应该被Git跟踪
+- 在自动化代码生成过程中避免创建应该被忽略的文件
+
+**开发流程集成**:
+- 集成到CI/CD流程中，确保只有合适的文件被提交
+- 在代码审查前自动检查文件忽略状态
+
+##### 与其他组件的关系
+- **依赖**: `langchain.tools` 框架，用于创建标准的工具接口
+- **被调用**: 可能被AI-Trader的主智能体或其他工具调用
+- **独立性**: 相对独立，专注于Git忽略检查的单一职责
+
+##### 代码质量评估
+**优点**:
+1. **模块化设计**: 单一职责原则，专注于Git忽略检查
+2. **鲁棒性**: 多层回退机制确保功能可用性
+3. **可读性**: 清晰的代码结构和注释
+4. **错误处理**: 详细的错误信息和状态返回
+5. **兼容性**: 支持多种 `.gitignore` 语法特性
+
+**潜在改进点**:
+1. **性能优化**: 对于大型项目，手动解析可能较慢
+2. **缓存机制**: 可添加模式缓存提高重复检查效率
+3. **配置扩展**: 可支持自定义忽略规则
+4. **测试覆盖**: 需要更全面的单元测试
+
+### 目录结构
+- `__pycache__/`: Python字节码缓存目录（自动忽略）
+- `git.py`: 主工具文件
+
+## 依赖关系
+- **项目根目录**: `/prog/pweb/AI-Trader`
+- **Python路径**: 自动将项目根目录添加到 `sys.path`
+- **外部依赖**: 
+  - `langchain.tools`
+  - `pathlib`
+  - `subprocess`
+  - `fnmatch`
+  - `re`
+
+## 使用示例
+```python
+# 导入和使用示例
+from agent_tools.local_tools.git import create_check_git_ignore_tool
+
+# 创建工具
+git_ignore_tool = create_check_git_ignore_tool()
+
+# 检查文件是否被忽略
+result = git_ignore_tool("/prog/pweb/AI-Trader/agent_tools/local_tools/git.py")
+# 返回: {"path": "...", "ignored": False, "git_root": "/prog/pweb/AI-Trader", ...}
+```
+
+## 更新与维护
+- **更新频率**: 代码稳定，按需更新
+- **数据文件**: 无数据文件，纯代码模块
+- **配置文件**: 无配置文件，规则从 `.gitignore` 动态读取
+
+## 注意事项
+1. 该工具依赖于项目根目录的正确设置
+2. 需要Git命令行工具支持 `git check-ignore` 命令
+3. 当Git命令不可用时，会自动降级到规则解析模式
+4. 确保 `.gitignore` 文件存在于Git仓库根目录
+5. 支持跨平台路径操作，使用 `pathlib` 处理路径分隔符差异
+
+## 总结
+`git.py` 文件是AI-Trader项目中一个设计良好的Git工具模块，具有以下特点：
+1. **功能专一**: 专注于Git忽略检查这一核心功能
+2. **实现完整**: 支持标准的 `.gitignore` 语法和Git命令
+3. **错误容忍**: 多层回退机制确保在各种环境下都能工作
+4. **接口规范**: 符合LangChain工具标准，易于集成
+5. **业务价值**: 为AI智能体提供重要的版本控制能力
+
+该模块在AI-Trader的自动化开发流程中扮演着重要角色，帮助智能体正确处理代码版本控制，避免将不必要的文件提交到仓库，从而提高开发效率和代码质量。

@@ -1,0 +1,237 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T02:31:14.448848",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 52241,
+          "advise_cost": 0,
+          "whole_cost": 115333,
+          "execution_cost": 478466
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2237d132",
+            "advisor_id": "adv_ca3c3590",
+            "task_key_target": "几何组合分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:31:31.899079",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 17148,
+                "advise_cost": 2419,
+                "whole_cost": 66875,
+                "execution_cost": 232717
+              },
+              "advisor": {
+                "system_prompt_size": 15409,
+                "whole_cost": 2666
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2237d132",
+              "agents": [
+                {
+                  "agent_id": "emp_0acf83ad",
+                  "advisor_id": "adv_29ea701f",
+                  "task_key_target": "二维凸集封装点分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:33:07.197300",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 609,
+                      "hire_cost": 0,
+                      "advise_cost": 4943,
+                      "whole_cost": 156681,
+                      "execution_cost": 151738
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13847,
+                      "whole_cost": 65850
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_72fec064",
+                  "advisor_id": "adv_5d99d73b",
+                  "task_key_target": "凸集排列理论分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:34:33.391326",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 556,
+                      "hire_cost": 0,
+                      "advise_cost": 699,
+                      "whole_cost": 34370,
+                      "execution_cost": 33671
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21942,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8ca76e94",
+            "advisor_id": "adv_56d9b57b",
+            "task_key_target": "拓扑与边界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:31:36.813410",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2577,
+                "hire_cost": 0,
+                "advise_cost": 2869,
+                "whole_cost": 13367,
+                "execution_cost": 10498
+              },
+              "advisor": {
+                "system_prompt_size": 14020,
+                "whole_cost": 3091
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8ca76e94",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_032d6830",
+            "advisor_id": "adv_4e5f7469",
+            "task_key_target": "具体构造与下界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:31:41.553002",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2537,
+                "hire_cost": 0,
+                "advise_cost": 1679,
+                "whole_cost": 28873,
+                "execution_cost": 27194
+              },
+              "advisor": {
+                "system_prompt_size": 14640,
+                "whole_cost": 1862
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_032d6830",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_50184e88",
+            "advisor_id": "adv_1904ad36",
+            "task_key_target": "验证d=1情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:32:38.052320",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 488,
+                "hire_cost": 0,
+                "advise_cost": 2705,
+                "whole_cost": 26864,
+                "execution_cost": 24159
+              },
+              "advisor": {
+                "system_prompt_size": 18765,
+                "whole_cost": 2886
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_5b451c26",
+            "advisor_id": "adv_f0996b91",
+            "task_key_target": "严格证明d=1上界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:36:21.668476",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 541,
+                "hire_cost": 0,
+                "advise_cost": 2065,
+                "whole_cost": 16373,
+                "execution_cost": 14308
+              },
+              "advisor": {
+                "system_prompt_size": 29898,
+                "whole_cost": 2299
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_ce239d96",
+            "advisor_id": "adv_2019b3ea",
+            "task_key_target": "寻找有效d=2构造",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:40:03.479897",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 566,
+                "hire_cost": 0,
+                "advise_cost": 2758,
+                "whole_cost": 109256,
+                "execution_cost": 106498
+              },
+              "advisor": {
+                "system_prompt_size": 53282,
+                "whole_cost": 3015
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

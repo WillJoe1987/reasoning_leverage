@@ -1,0 +1,117 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-04T19:46:11.156738",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 13485,
+          "advise_cost": 0,
+          "whole_cost": 21522
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_769770d5",
+            "advisor_id": "adv_bd427f6d",
+            "task_key_target": "分析 n!/((n+1)(n+2)) 的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T19:46:38.009073",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2260,
+                "hire_cost": 0,
+                "advise_cost": 2982,
+                "whole_cost": 11902
+              },
+              "advisor": {
+                "system_prompt_size": 8480,
+                "whole_cost": 3159
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_769770d5",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3d0c8745",
+            "advisor_id": "adv_8350ae48",
+            "task_key_target": "验证表达式推导",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T19:46:45.695468",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 430,
+                "hire_cost": 0,
+                "advise_cost": 2326,
+                "whole_cost": 8549
+              },
+              "advisor": {
+                "system_prompt_size": 9852,
+                "whole_cost": 2539
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_3f4d2f5b",
+            "advisor_id": "adv_17e335bb",
+            "task_key_target": "计算更多 n 值的表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T19:50:12.584334",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 360,
+                "hire_cost": 0,
+                "advise_cost": 1134,
+                "whole_cost": 1877
+              },
+              "advisor": {
+                "system_prompt_size": 14558,
+                "whole_cost": 1277
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_bb7d3846",
+            "advisor_id": "adv_8c6e3e9e",
+            "task_key_target": "检查推导和计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T19:51:54.406955",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 409,
+                "hire_cost": 0,
+                "advise_cost": 1174,
+                "whole_cost": 2041
+              },
+              "advisor": {
+                "system_prompt_size": 18396,
+                "whole_cost": 1376
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

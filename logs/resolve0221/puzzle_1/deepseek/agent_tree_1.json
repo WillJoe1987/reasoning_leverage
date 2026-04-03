@@ -1,0 +1,141 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T16:11:49.891577",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 14663,
+          "advise_cost": 0,
+          "whole_cost": 47872,
+          "execution_cost": 179556
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_17b80502",
+            "advisor_id": "adv_a507c4d8",
+            "task_key_target": "分析等边三角形网格结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:11:58.184919",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2589,
+                "hire_cost": 0,
+                "advise_cost": 3990,
+                "whole_cost": 26597,
+                "execution_cost": 22607
+              },
+              "advisor": {
+                "system_prompt_size": 13145,
+                "whole_cost": 4214
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_17b80502",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_1ba45e49",
+            "advisor_id": "adv_571f571e",
+            "task_key_target": "分析网格中的等腰三角形",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:14:04.761712",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2828,
+                "hire_cost": 6955,
+                "advise_cost": 1757,
+                "whole_cost": 42725,
+                "execution_cost": 71462
+              },
+              "advisor": {
+                "system_prompt_size": 23420,
+                "whole_cost": 2221
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1ba45e49",
+              "agents": [
+                {
+                  "agent_id": "emp_0eca6f9f",
+                  "advisor_id": "adv_3f6664ce",
+                  "task_key_target": "计算等腰三角形分布和最大自由点集",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T16:14:49.151438",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 895,
+                      "hire_cost": 0,
+                      "advise_cost": 748,
+                      "whole_cost": 38197,
+                      "execution_cost": 37449
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12613,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_46015a4b",
+            "advisor_id": "adv_9bba0aef",
+            "task_key_target": "搜索最大的等腰三角形自由点集",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:15:56.396629",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2631,
+                "hire_cost": 0,
+                "advise_cost": 2160,
+                "whole_cost": 54438,
+                "execution_cost": 52278
+              },
+              "advisor": {
+                "system_prompt_size": 27124,
+                "whole_cost": 2440
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_46015a4b",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

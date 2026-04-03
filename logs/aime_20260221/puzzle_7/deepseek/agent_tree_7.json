@@ -1,0 +1,116 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:57:20.015612",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 8361,
+          "advise_cost": 0,
+          "whole_cost": 28471,
+          "execution_cost": 79793
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_21086b12",
+            "advisor_id": "adv_b9ea7e2c",
+            "task_key_target": "分析置换的阶条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:57:28.360659",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2589,
+                "hire_cost": 0,
+                "advise_cost": 1895,
+                "whole_cost": 17776,
+                "execution_cost": 15881
+              },
+              "advisor": {
+                "system_prompt_size": 11787,
+                "whole_cost": 2123
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_21086b12",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_cb4267c9",
+            "advisor_id": "adv_012ed526",
+            "task_key_target": "置换的循环结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:57:40.140178",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2580,
+                "hire_cost": 0,
+                "advise_cost": 1325,
+                "whole_cost": 13746,
+                "execution_cost": 12421
+              },
+              "advisor": {
+                "system_prompt_size": 11452,
+                "whole_cost": 1544
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_cb4267c9",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_e2ef6fc1",
+            "advisor_id": "adv_12a3d51f",
+            "task_key_target": "验证和数值计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:57:44.329725",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2516,
+                "hire_cost": 850,
+                "advise_cost": 1523,
+                "whole_cost": 33754,
+                "execution_cost": 31381
+              },
+              "advisor": {
+                "system_prompt_size": 12120,
+                "whole_cost": 1679
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e2ef6fc1",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T19:43:21.439496",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 31470,
+          "advise_cost": 0,
+          "whole_cost": 75562,
+          "execution_cost": 317283
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8b5e32d1",
+            "advisor_id": "adv_74172046",
+            "task_key_target": "几何分析思路",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:43:34.166057",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2608,
+                "hire_cost": 16032,
+                "advise_cost": 2962,
+                "whole_cost": 37150,
+                "execution_cost": 76069
+              },
+              "advisor": {
+                "system_prompt_size": 13661,
+                "whole_cost": 3207
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8b5e32d1",
+              "agents": [
+                {
+                  "agent_id": "emp_471c5e59",
+                  "advisor_id": "adv_cfce5258",
+                  "task_key_target": "数值验证最小直径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:46:10.470477",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 626,
+                      "hire_cost": 0,
+                      "advise_cost": 786,
+                      "whole_cost": 58699,
+                      "execution_cost": 57913
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17009,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_53ae9ae6",
+            "advisor_id": "adv_4a31eb05",
+            "task_key_target": "代数分析思路",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:43:39.659511",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 14479,
+                "advise_cost": 1985,
+                "whole_cost": 29542,
+                "execution_cost": 43258
+              },
+              "advisor": {
+                "system_prompt_size": 12294,
+                "whole_cost": 2234
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_53ae9ae6",
+              "agents": [
+                {
+                  "agent_id": "emp_88463484",
+                  "advisor_id": "adv_07ee724a",
+                  "task_key_target": "数值验证与构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:45:01.004181",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 626,
+                      "hire_cost": 0,
+                      "advise_cost": 872,
+                      "whole_cost": 31052,
+                      "execution_cost": 30180
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11904,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b7619e13",
+            "advisor_id": "adv_699f1288",
+            "task_key_target": "数值验证思路",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:43:44.231433",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2565,
+                "hire_cost": 4955,
+                "advise_cost": 2236,
+                "whole_cost": 56326,
+                "execution_cost": 97671
+              },
+              "advisor": {
+                "system_prompt_size": 13008,
+                "whole_cost": 2446
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b7619e13",
+              "agents": [
+                {
+                  "agent_id": "emp_faacd7f7",
+                  "advisor_id": "adv_5b8afe3c",
+                  "task_key_target": "数值优化配置",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:47:39.175547",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 575,
+                      "hire_cost": 0,
+                      "advise_cost": 3531,
+                      "whole_cost": 52067,
+                      "execution_cost": 48536
+                    },
+                    "advisor": {
+                      "system_prompt_size": 45043,
+                      "whole_cost": 3758
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0c84aa95",
+            "advisor_id": "adv_162dad13",
+            "task_key_target": "系统数值优化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:49:16.181328",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 615,
+                "hire_cost": 0,
+                "advise_cost": 3036,
+                "whole_cost": 59229,
+                "execution_cost": 56193
+              },
+              "advisor": {
+                "system_prompt_size": 46429,
+                "whole_cost": 3330
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

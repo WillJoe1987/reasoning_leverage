@@ -1,0 +1,166 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-05T10:20:35.951740",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3491,
+          "hire_cost": 23463,
+          "advise_cost": 0,
+          "whole_cost": 68852,
+          "execution_cost": 252707
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_833c91d6",
+            "advisor_id": "adv_58175cca",
+            "task_key_target": "计算A值并分析模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T10:21:00.308415",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2614,
+                "hire_cost": 6964,
+                "advise_cost": 2254,
+                "whole_cost": 41145,
+                "execution_cost": 70492
+              },
+              "advisor": {
+                "system_prompt_size": 12793,
+                "whole_cost": 2492
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_833c91d6",
+              "agents": [
+                {
+                  "agent_id": "emp_0283e2a9",
+                  "advisor_id": "adv_a4a49d59",
+                  "task_key_target": "精确计算A值和E值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T10:23:11.796976",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 617,
+                      "hire_cost": 0,
+                      "advise_cost": 363,
+                      "whole_cost": 38928,
+                      "execution_cost": 38565
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14551,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5ea29eee",
+            "advisor_id": "adv_50ad906b",
+            "task_key_target": "数论分析A模32的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T10:23:37.137481",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2593,
+                "hire_cost": 7182,
+                "advise_cost": 1899,
+                "whole_cost": 66927,
+                "execution_cost": 106306
+              },
+              "advisor": {
+                "system_prompt_size": 25275,
+                "whole_cost": 2111
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5ea29eee",
+              "agents": [
+                {
+                  "agent_id": "emp_8a19e0e4",
+                  "advisor_id": "adv_74359902",
+                  "task_key_target": "分析A为整数的条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T10:26:19.704969",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 537,
+                      "hire_cost": 0,
+                      "advise_cost": 2425,
+                      "whole_cost": 50885,
+                      "execution_cost": 48460
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32695,
+                      "whole_cost": 2668
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_bb83f9f4",
+            "advisor_id": "adv_814b3271",
+            "task_key_target": "证明E总是偶数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T10:29:04.848984",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2546,
+                "hire_cost": 0,
+                "advise_cost": 2443,
+                "whole_cost": 32963,
+                "execution_cost": 30520
+              },
+              "advisor": {
+                "system_prompt_size": 58017,
+                "whole_cost": 2613
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bb83f9f4",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-30T14:33:20.386482",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3350,
+          "hire_cost": 22483,
+          "advise_cost": 0,
+          "whole_cost": 35432,
+          "execution_cost": 85530
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_bb394afd",
+            "advisor_id": "adv_fac5df2c",
+            "task_key_target": "分析亲兄弟关系和家族结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T14:33:36.727289",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2550,
+                "hire_cost": 0,
+                "advise_cost": 2111,
+                "whole_cost": 13267,
+                "execution_cost": 11156
+              },
+              "advisor": {
+                "system_prompt_size": 10409,
+                "whole_cost": 2297
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bb394afd",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_760e3a49",
+            "advisor_id": "adv_9ebeef9b",
+            "task_key_target": "分析女儿关系和\"没有共同孩子\"条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T14:33:43.514725",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2567,
+                "hire_cost": 0,
+                "advise_cost": 2318,
+                "whole_cost": 17447,
+                "execution_cost": 15129
+              },
+              "advisor": {
+                "system_prompt_size": 9938,
+                "whole_cost": 2503
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_760e3a49",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_05bad1e4",
+            "advisor_id": "adv_57eaf276",
+            "task_key_target": "构建最小人数模型和证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T14:33:49.836081",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2524,
+                "hire_cost": 412,
+                "advise_cost": 3373,
+                "whole_cost": 17826,
+                "execution_cost": 14041
+              },
+              "advisor": {
+                "system_prompt_size": 10655,
+                "whole_cost": 3811
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_05bad1e4",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d18224df",
+            "advisor_id": "adv_6fdec22e",
+            "task_key_target": "分析最小人数的下界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T14:36:09.282344",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2537,
+                "hire_cost": 9252,
+                "advise_cost": 2206,
+                "whole_cost": 28319,
+                "execution_cost": 26177
+              },
+              "advisor": {
+                "system_prompt_size": 15190,
+                "whole_cost": 2337
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d18224df",
+              "agents": [
+                {
+                  "agent_id": "emp_ccb468f3",
+                  "advisor_id": "adv_ae751c87",
+                  "task_key_target": "分析兄弟关系的最小化结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T14:37:52.028238",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 638,
+                      "hire_cost": 0,
+                      "advise_cost": 720,
+                      "whole_cost": 10036,
+                      "execution_cost": 9316
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10897,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_396c697d",
+            "advisor_id": "adv_445639c0",
+            "task_key_target": "独立验证50是否是最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T14:44:52.720972",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2550,
+                "hire_cost": 0,
+                "advise_cost": 2480,
+                "whole_cost": 8558,
+                "execution_cost": 6078
+              },
+              "advisor": {
+                "system_prompt_size": 39672,
+                "whole_cost": 2654
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_396c697d",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

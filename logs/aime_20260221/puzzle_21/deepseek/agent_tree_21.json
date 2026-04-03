@@ -1,0 +1,270 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T19:24:31.099405",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 32025,
+          "advise_cost": 0,
+          "whole_cost": 67080,
+          "execution_cost": 277422
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_3a89035c",
+            "advisor_id": "adv_6a502602",
+            "task_key_target": "分析圆与抛物线相切条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:24:41.939944",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2583,
+                "hire_cost": 0,
+                "advise_cost": 2038,
+                "whole_cost": 12830,
+                "execution_cost": 10792
+              },
+              "advisor": {
+                "system_prompt_size": 11845,
+                "whole_cost": 2258
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3a89035c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b70404b2",
+            "advisor_id": "adv_03107091",
+            "task_key_target": "数值验证相切条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:24:57.691035",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2538,
+                "hire_cost": 0,
+                "advise_cost": 2338,
+                "whole_cost": 24608,
+                "execution_cost": 22270
+              },
+              "advisor": {
+                "system_prompt_size": 11792,
+                "whole_cost": 2516
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b70404b2",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_bff4d20f",
+            "advisor_id": "adv_e77caac3",
+            "task_key_target": "验证相切解的正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:25:15.846194",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2557,
+                "hire_cost": 5681,
+                "advise_cost": 2248,
+                "whole_cost": 42445,
+                "execution_cost": 68837
+              },
+              "advisor": {
+                "system_prompt_size": 13912,
+                "whole_cost": 2445
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bff4d20f",
+              "agents": [
+                {
+                  "agent_id": "emp_a62bd0aa",
+                  "advisor_id": "adv_5d267974",
+                  "task_key_target": "数值搜索验证所有相切解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:26:47.329605",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 681,
+                      "hire_cost": 0,
+                      "advise_cost": 3076,
+                      "whole_cost": 37397,
+                      "execution_cost": 34321
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20638,
+                      "whole_cost": 3411
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_97c7966e",
+            "advisor_id": "adv_0d72c22a",
+            "task_key_target": "几何分析相切条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:29:04.564439",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2554,
+                "hire_cost": 0,
+                "advise_cost": 2767,
+                "whole_cost": 13457,
+                "execution_cost": 10690
+              },
+              "advisor": {
+                "system_prompt_size": 34697,
+                "whole_cost": 2961
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_97c7966e",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_03c94ec6",
+            "advisor_id": "adv_b4399ecf",
+            "task_key_target": "验证最终结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:30:31.526701",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2556,
+                "hire_cost": 7834,
+                "advise_cost": 3496,
+                "whole_cost": 37628,
+                "execution_cost": 129778
+              },
+              "advisor": {
+                "system_prompt_size": 45701,
+                "whole_cost": 3712
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_03c94ec6",
+              "agents": [
+                {
+                  "agent_id": "emp_83ea9f58",
+                  "advisor_id": "adv_cd97ef99",
+                  "task_key_target": "代数推导完备性验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:32:44.378639",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 810,
+                      "hire_cost": 0,
+                      "advise_cost": 673,
+                      "whole_cost": 34075,
+                      "execution_cost": 33402
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25560,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_11e84512",
+                  "advisor_id": "adv_4955a83d",
+                  "task_key_target": "特殊r值验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:32:51.235672",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 684,
+                      "hire_cost": 0,
+                      "advise_cost": 2764,
+                      "whole_cost": 29327,
+                      "execution_cost": 26563
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23049,
+                      "whole_cost": 3098
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fe321f1d",
+                  "advisor_id": "adv_0e940db1",
+                  "task_key_target": "结果正确性验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:32:58.431625",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 700,
+                      "hire_cost": 0,
+                      "advise_cost": 690,
+                      "whole_cost": 44205,
+                      "execution_cost": 43515
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23683,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T22:04:38.671927",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 25737,
+          "advise_cost": 0,
+          "whole_cost": 69346,
+          "execution_cost": 349770
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_eda9d0b4",
+            "advisor_id": "adv_11b33a76",
+            "task_key_target": "数值探索与下界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:04:57.714756",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2667,
+                "hire_cost": 0,
+                "advise_cost": 2459,
+                "whole_cost": 62254,
+                "execution_cost": 59795
+              },
+              "advisor": {
+                "system_prompt_size": 14453,
+                "whole_cost": 2765
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eda9d0b4",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_6058e145",
+            "advisor_id": "adv_81469987",
+            "task_key_target": "理论分析与下界证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:05:22.396821",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2655,
+                "hire_cost": 11811,
+                "advise_cost": 2686,
+                "whole_cost": 45910,
+                "execution_cost": 94653
+              },
+              "advisor": {
+                "system_prompt_size": 16174,
+                "whole_cost": 2979
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6058e145",
+              "agents": [
+                {
+                  "agent_id": "emp_ea0cda60",
+                  "advisor_id": "adv_748a6b96",
+                  "task_key_target": "数值探索与下界验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:07:27.673478",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 599,
+                      "hire_cost": 0,
+                      "advise_cost": 658,
+                      "whole_cost": 63898,
+                      "execution_cost": 63240
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22980,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_90e1849e",
+            "advisor_id": "adv_dc88e079",
+            "task_key_target": "系统搜索与优化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:06:37.413424",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2612,
+                "hire_cost": 3446,
+                "advise_cost": 2604,
+                "whole_cost": 82586,
+                "execution_cost": 112786
+              },
+              "advisor": {
+                "system_prompt_size": 27890,
+                "whole_cost": 2858
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_90e1849e",
+              "agents": [
+                {
+                  "agent_id": "emp_deb85bd2",
+                  "advisor_id": "adv_fd862882",
+                  "task_key_target": "序列优化深度搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:10:18.219704",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 708,
+                      "hire_cost": 0,
+                      "advise_cost": 1194,
+                      "whole_cost": 37444,
+                      "execution_cost": 36250
+                    },
+                    "advisor": {
+                      "system_prompt_size": 51327,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_bdd49dc4",
+            "advisor_id": "adv_0184160a",
+            "task_key_target": "严格证明S的最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:11:02.363578",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2576,
+                "hire_cost": 0,
+                "advise_cost": 3723,
+                "whole_cost": 42650,
+                "execution_cost": 38927
+              },
+              "advisor": {
+                "system_prompt_size": 51796,
+                "whole_cost": 3939
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bdd49dc4",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T01:37:32.334216",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 45464,
+          "advise_cost": 0,
+          "whole_cost": 147709,
+          "execution_cost": 488809
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_484ff6f2",
+            "advisor_id": "adv_ce35d6f1",
+            "task_key_target": "分析游戏的Grundy值模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:37:52.371838",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2736,
+                "hire_cost": 5460,
+                "advise_cost": 2063,
+                "whole_cost": 107423,
+                "execution_cost": 134608
+              },
+              "advisor": {
+                "system_prompt_size": 13559,
+                "whole_cost": 2440
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_484ff6f2",
+              "agents": [
+                {
+                  "agent_id": "emp_154247dc",
+                  "advisor_id": "adv_19f45d33",
+                  "task_key_target": "验证Grundy值计算和公式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:41:35.882155",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1373,
+                      "hire_cost": 0,
+                      "advise_cost": 3304,
+                      "whole_cost": 38012,
+                      "execution_cost": 34708
+                    },
+                    "advisor": {
+                      "system_prompt_size": 55852,
+                      "whole_cost": 4335
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_29b2fb25",
+            "advisor_id": "adv_fc20bdf5",
+            "task_key_target": "计算小范围Grundy值验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:38:08.354753",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 838,
+                "hire_cost": 0,
+                "advise_cost": 1889,
+                "whole_cost": 22526,
+                "execution_cost": 20637
+              },
+              "advisor": {
+                "system_prompt_size": 14413,
+                "whole_cost": 2407
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_0366441b",
+            "advisor_id": "adv_89682738",
+            "task_key_target": "分析Grundy值模式与5进制关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:40:03.152109",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 740,
+                "hire_cost": 0,
+                "advise_cost": 20646,
+                "whole_cost": 138589,
+                "execution_cost": 117943
+              },
+              "advisor": {
+                "system_prompt_size": 19391,
+                "whole_cost": 116556
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_01368f97",
+            "advisor_id": "adv_950b4244",
+            "task_key_target": "深入分析5进制模式与递归关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:41:46.589176",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 771,
+                "hire_cost": 0,
+                "advise_cost": 2872,
+                "whole_cost": 116248,
+                "execution_cost": 113376
+              },
+              "advisor": {
+                "system_prompt_size": 39702,
+                "whole_cost": 3330
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

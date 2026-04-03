@@ -1,0 +1,256 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T21:05:32.316504",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 34049,
+          "advise_cost": 0,
+          "whole_cost": 160827,
+          "execution_cost": 573610
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_f1890788",
+            "advisor_id": "adv_8514dbbd",
+            "task_key_target": "分析曲线与矩形的关系及距离计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:06:27.672001",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2626,
+                "hire_cost": 7001,
+                "advise_cost": 1913,
+                "whole_cost": 40749,
+                "execution_cost": 74927
+              },
+              "advisor": {
+                "system_prompt_size": 26222,
+                "whole_cost": 2171
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f1890788",
+              "agents": [
+                {
+                  "agent_id": "emp_9b99989c",
+                  "advisor_id": "adv_c43f4dcc",
+                  "task_key_target": "分析点到矩形边的距离计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T21:08:00.219483",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 725,
+                      "hire_cost": 0,
+                      "advise_cost": 961,
+                      "whole_cost": 44053,
+                      "execution_cost": 43092
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23670,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5c648e54",
+            "advisor_id": "adv_73183ec9",
+            "task_key_target": "验证曲线完全在矩形内部",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:06:32.939472",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2593,
+                "hire_cost": 0,
+                "advise_cost": 3721,
+                "whole_cost": 38395,
+                "execution_cost": 34674
+              },
+              "advisor": {
+                "system_prompt_size": 25264,
+                "whole_cost": 3954
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5c648e54",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_821772ea",
+            "advisor_id": "adv_846b3a06",
+            "task_key_target": "计算最大可能d_i值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:09:56.466707",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2669,
+                "hire_cost": 0,
+                "advise_cost": 2159,
+                "whole_cost": 43457,
+                "execution_cost": 41298
+              },
+              "advisor": {
+                "system_prompt_size": 43602,
+                "whole_cost": 2470
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_821772ea",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_dfcc56e0",
+            "advisor_id": "adv_25197d75",
+            "task_key_target": "数值求解优化问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:11:19.203525",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2734,
+                "hire_cost": 11775,
+                "advise_cost": 10768,
+                "whole_cost": 104000,
+                "execution_cost": 295933
+              },
+              "advisor": {
+                "system_prompt_size": 60596,
+                "whole_cost": 72352
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dfcc56e0",
+              "agents": [
+                {
+                  "agent_id": "emp_6d567670",
+                  "advisor_id": "adv_f1080883",
+                  "task_key_target": "精确计算 d_max 值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T21:12:14.516921",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2771,
+                      "hire_cost": 8292,
+                      "advise_cost": 759,
+                      "whole_cost": 76389,
+                      "execution_cost": 214476
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13197,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_6d567670",
+                    "agents": [
+                      {
+                        "agent_id": "emp_c658265f",
+                        "advisor_id": "adv_d125ae88",
+                        "task_key_target": "数值优化求解 d_max",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-21T21:13:19.483502",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2812,
+                            "hire_cost": 7865,
+                            "advise_cost": 2498,
+                            "whole_cost": 77188,
+                            "execution_cost": 147138
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11438,
+                            "whole_cost": 2935
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_c658265f",
+                          "agents": [
+                            {
+                              "agent_id": "emp_b682376f",
+                              "advisor_id": "adv_e1abdc86",
+                              "task_key_target": "数值优化算法实现",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-21T21:15:35.120292",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 3108,
+                                  "hire_cost": 1102,
+                                  "advise_cost": 696,
+                                  "whole_cost": 82111,
+                                  "execution_cost": 80313
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 26221,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_b682376f",
+                                "agents": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

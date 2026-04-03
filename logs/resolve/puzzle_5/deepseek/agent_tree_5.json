@@ -1,0 +1,141 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T18:18:03.935428",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 20182,
+          "advise_cost": 0,
+          "whole_cost": 79712,
+          "execution_cost": 224938
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b8a4e7ed",
+            "advisor_id": "adv_852585f3",
+            "task_key_target": "探索数列精确形式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:18:53.571383",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2688,
+                "hire_cost": 4993,
+                "advise_cost": 1889,
+                "whole_cost": 52211,
+                "execution_cost": 81154
+              },
+              "advisor": {
+                "system_prompt_size": 20426,
+                "whole_cost": 2216
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b8a4e7ed",
+              "agents": [
+                {
+                  "agent_id": "emp_79a5cbac",
+                  "advisor_id": "adv_9502d60d",
+                  "task_key_target": "非线性递推符号分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T18:20:26.328021",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 764,
+                      "hire_cost": 0,
+                      "advise_cost": 774,
+                      "whole_cost": 36599,
+                      "execution_cost": 35825
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25005,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_046e83ba",
+            "advisor_id": "adv_23886c97",
+            "task_key_target": "验证候选解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:19:23.404310",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2573,
+                "hire_cost": 0,
+                "advise_cost": 1326,
+                "whole_cost": 47111,
+                "execution_cost": 45785
+              },
+              "advisor": {
+                "system_prompt_size": 24063,
+                "whole_cost": 1541
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_046e83ba",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_793383f3",
+            "advisor_id": "adv_8583d9a4",
+            "task_key_target": "探索嵌套根号形式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:24:24.415244",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2652,
+                "hire_cost": 0,
+                "advise_cost": 2273,
+                "whole_cost": 40742,
+                "execution_cost": 38469
+              },
+              "advisor": {
+                "system_prompt_size": 58483,
+                "whole_cost": 2568
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_793383f3",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

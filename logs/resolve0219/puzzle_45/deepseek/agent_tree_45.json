@@ -1,0 +1,396 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-03T17:51:37.525102",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 51395,
+          "advise_cost": 0,
+          "whole_cost": 133383,
+          "execution_cost": 806273
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_14fa4bea",
+            "advisor_id": "adv_599ac457",
+            "task_key_target": "分析序列条件与奇偶性约束",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:52:07.516486",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2682,
+                "hire_cost": 20580,
+                "advise_cost": 3886,
+                "whole_cost": 79029,
+                "execution_cost": 268582
+              },
+              "advisor": {
+                "system_prompt_size": 13634,
+                "whole_cost": 4191
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_14fa4bea",
+              "agents": [
+                {
+                  "agent_id": "emp_5eb1a9db",
+                  "advisor_id": "adv_e44d4ecd",
+                  "task_key_target": "证明序列条件的等价性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:54:16.490118",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 721,
+                      "hire_cost": 0,
+                      "advise_cost": 726,
+                      "whole_cost": 41971,
+                      "execution_cost": 41245
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14176,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_880f01ec",
+                  "advisor_id": "adv_13ea7332",
+                  "task_key_target": "推导序列长度的上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:54:27.770589",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 715,
+                      "hire_cost": 0,
+                      "advise_cost": 10209,
+                      "whole_cost": 24661,
+                      "execution_cost": 14452
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11282,
+                      "whole_cost": 22860
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c99ddae9",
+                  "advisor_id": "adv_a322bba3",
+                  "task_key_target": "构造满足条件的序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:54:38.489650",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 684,
+                      "hire_cost": 0,
+                      "advise_cost": 508,
+                      "whole_cost": 158830,
+                      "execution_cost": 158322
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12178,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4537785f",
+            "advisor_id": "adv_b070cef5",
+            "task_key_target": "分析奇偶性约束与序列模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:53:11.727815",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2604,
+                "hire_cost": 0,
+                "advise_cost": 2186,
+                "whole_cost": 18133,
+                "execution_cost": 15947
+              },
+              "advisor": {
+                "system_prompt_size": 20648,
+                "whole_cost": 2409
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4537785f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_10020fb6",
+            "advisor_id": "adv_7d91d58d",
+            "task_key_target": "研究无等和划分序列的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:55:08.966169",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 15397,
+                "advise_cost": 2061,
+                "whole_cost": 75361,
+                "execution_cost": 152530
+              },
+              "advisor": {
+                "system_prompt_size": 22209,
+                "whole_cost": 2368
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_10020fb6",
+              "agents": [
+                {
+                  "agent_id": "emp_0f961ec3",
+                  "advisor_id": "adv_04d23f85",
+                  "task_key_target": "分析无等和划分序列的长度上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:56:33.416569",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 626,
+                      "hire_cost": 0,
+                      "advise_cost": 4311,
+                      "whole_cost": 34636,
+                      "execution_cost": 30325
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13031,
+                      "whole_cost": 13026
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_efcc14b3",
+                  "advisor_id": "adv_3a1ec460",
+                  "task_key_target": "构造无等和划分序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:56:43.758676",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 662,
+                      "hire_cost": 0,
+                      "advise_cost": 2302,
+                      "whole_cost": 66604,
+                      "execution_cost": 64302
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9763,
+                      "whole_cost": 2667
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_abfb404f",
+            "advisor_id": "adv_bea04f0f",
+            "task_key_target": "推导序列长度的上界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:58:13.955089",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 0,
+                "advise_cost": 2513,
+                "whole_cost": 15520,
+                "execution_cost": 13007
+              },
+              "advisor": {
+                "system_prompt_size": 38719,
+                "whole_cost": 2809
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_abfb404f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_e8a6611a",
+            "advisor_id": "adv_1ca0d2fc",
+            "task_key_target": "验证答案 n=2026 的正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T18:03:25.267942",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 18211,
+                "advise_cost": 2002,
+                "whole_cost": 126612,
+                "execution_cost": 274219
+              },
+              "advisor": {
+                "system_prompt_size": 58906,
+                "whole_cost": 2364
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e8a6611a",
+              "agents": [
+                {
+                  "agent_id": "emp_e20ef58d",
+                  "advisor_id": "adv_bc6b1675",
+                  "task_key_target": "严格证明n≤2026的上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T18:05:20.979723",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2812,
+                      "hire_cost": 22770,
+                      "advise_cost": 2010,
+                      "whole_cost": 55888,
+                      "execution_cost": 167820
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17671,
+                      "whole_cost": 2442
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_e20ef58d",
+                    "agents": [
+                      {
+                        "agent_id": "emp_bc916577",
+                        "advisor_id": "adv_9884a9e1",
+                        "task_key_target": "线性代数引理证明",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-03T18:07:55.864782",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 683,
+                            "hire_cost": 0,
+                            "advise_cost": 650,
+                            "whole_cost": 33000,
+                            "execution_cost": 32350
+                          },
+                          "advisor": {
+                            "system_prompt_size": 21243,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_cd22e7b2",
+                        "advisor_id": "adv_bec4aef8",
+                        "task_key_target": "从线性相关性到连续子序列的矛盾",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-03T18:08:54.371909",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 925,
+                            "hire_cost": 0,
+                            "advise_cost": 881,
+                            "whole_cost": 43222,
+                            "execution_cost": 42341
+                          },
+                          "advisor": {
+                            "system_prompt_size": 20637,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_e344befc",
+                        "advisor_id": "adv_18d64c8d",
+                        "task_key_target": "符号和为零引理",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-03T18:13:59.059145",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 695,
+                            "hire_cost": 0,
+                            "advise_cost": 2303,
+                            "whole_cost": 64324,
+                            "execution_cost": 62021
+                          },
+                          "advisor": {
+                            "system_prompt_size": 37384,
+                            "whole_cost": 2655
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

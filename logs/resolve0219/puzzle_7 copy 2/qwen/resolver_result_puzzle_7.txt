@@ -1,0 +1,18 @@
+最终结果:
+\{0, 2, 4, 6, 12, 16, 20, 26\}
+
+推导过程:
+The expression is equivalent to floor(n!/(n+1)(n+2)) mod 32. Calculating for small values of n:
+n=1-4: 0
+n=5: 2
+n=6: 12
+n=7: 6
+n=8: 0
+n=9-10: 2
+n=11-12: 4
+n=13-14: 0
+n=15-16: 16
+n=17: 20
+n=18: 26
+n=19+: mostly 0 due to high powers of 2 in n!
+All remainders are even, and only these values appear.

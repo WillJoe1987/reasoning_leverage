@@ -1,0 +1,643 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-29T10:28:34.196004",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3353,
+          "hire_cost": 28742,
+          "advise_cost": 0,
+          "whole_cost": 161075,
+          "execution_cost": 878030
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d2294742",
+            "advisor_id": "adv_bc83a7ca",
+            "task_key_target": "分析f(n)函数的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T10:28:53.117198",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2573,
+                "hire_cost": 30455,
+                "advise_cost": 3336,
+                "whole_cost": 112154,
+                "execution_cost": 252914
+              },
+              "advisor": {
+                "system_prompt_size": 10234,
+                "whole_cost": 3532
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d2294742",
+              "agents": [
+                {
+                  "agent_id": "emp_af3e8313",
+                  "advisor_id": "adv_a7d8ed5f",
+                  "task_key_target": "代数视角分析：多项式P(x)与f(n)的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:31:07.496884",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2720,
+                      "hire_cost": 8277,
+                      "advise_cost": 701,
+                      "whole_cost": 55974,
+                      "execution_cost": 74881
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12821,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_af3e8313",
+                    "agents": [
+                      {
+                        "agent_id": "emp_e2fc99b2",
+                        "advisor_id": "adv_61906f85",
+                        "task_key_target": "分析无穷多个质数p满足P(p)=p的约束条件",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:33:04.900515",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 576,
+                            "hire_cost": 0,
+                            "advise_cost": 730,
+                            "whole_cost": 16032,
+                            "execution_cost": 15302
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8584,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_e1e5d93e",
+                        "advisor_id": "adv_7763187c",
+                        "task_key_target": "分析存在质数p和无穷多个指数a满足P(p^a)=p的约束",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:33:17.083096",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 606,
+                            "hire_cost": 0,
+                            "advise_cost": 2483,
+                            "whole_cost": 9260,
+                            "execution_cost": 6777
+                          },
+                          "advisor": {
+                            "system_prompt_size": 5188,
+                            "whole_cost": 2720
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_ac1cfd67",
+                        "advisor_id": "adv_a7cf928b",
+                        "task_key_target": "分析多项式在无穷多个点取相同值的代数含义",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:33:27.368797",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 594,
+                            "hire_cost": 0,
+                            "advise_cost": 1808,
+                            "whole_cost": 7614,
+                            "execution_cost": 5806
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6323,
+                            "whole_cost": 2050
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_df82c4cc",
+                  "advisor_id": "adv_fcc0297a",
+                  "task_key_target": "数论视角分析：f(n)的值分布特性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:31:18.677994",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2734,
+                      "hire_cost": 16780,
+                      "advise_cost": 682,
+                      "whole_cost": 31272,
+                      "execution_cost": 87577
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13762,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_df82c4cc",
+                    "agents": [
+                      {
+                        "agent_id": "emp_10f48def",
+                        "advisor_id": "adv_d42fcd7b",
+                        "task_key_target": "f(n)的值域分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:08.187792",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 515,
+                            "hire_cost": 0,
+                            "advise_cost": 547,
+                            "whole_cost": 20916,
+                            "execution_cost": 20369
+                          },
+                          "advisor": {
+                            "system_prompt_size": 4426,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_c23e14a1",
+                        "advisor_id": "adv_74e799b5",
+                        "task_key_target": "f(n)的分布密度分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:16.635402",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 522,
+                            "hire_cost": 0,
+                            "advise_cost": 3633,
+                            "whole_cost": 16860,
+                            "execution_cost": 13227
+                          },
+                          "advisor": {
+                            "system_prompt_size": 5678,
+                            "whole_cost": 3801
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_e59f6f9b",
+                        "advisor_id": "adv_5b422382",
+                        "task_key_target": "f(n)的特殊值分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:24.679722",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 492,
+                            "hire_cost": 0,
+                            "advise_cost": 588,
+                            "whole_cost": 27081,
+                            "execution_cost": 26493
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6529,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_dfe984f9",
+                        "advisor_id": "adv_a96b32f1",
+                        "task_key_target": "f(n)的增长特性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:32.971185",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 503,
+                            "hire_cost": 0,
+                            "advise_cost": 321,
+                            "whole_cost": 13999,
+                            "execution_cost": 13678
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6799,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_fdfd7796",
+                  "advisor_id": "adv_0b23b074",
+                  "task_key_target": "验证分析：P(x)=x/27是否满足所有条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:38:59.659404",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 793,
+                      "hire_cost": 0,
+                      "advise_cost": 847,
+                      "whole_cost": 12940,
+                      "execution_cost": 12093
+                    },
+                    "advisor": {
+                      "system_prompt_size": 40759,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_117983c6",
+            "advisor_id": "adv_837e88bd",
+            "task_key_target": "分析多项式与f(n)相等的无穷性条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T10:30:01.672811",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2679,
+                "hire_cost": 23325,
+                "advise_cost": 2810,
+                "whole_cost": 81398,
+                "execution_cost": 345236
+              },
+              "advisor": {
+                "system_prompt_size": 14434,
+                "whole_cost": 3107
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_117983c6",
+              "agents": [
+                {
+                  "agent_id": "emp_f32386aa",
+                  "advisor_id": "adv_8f052806",
+                  "task_key_target": "分析多项式在质数和质数幂集上的相等条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:31:57.853594",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2742,
+                      "hire_cost": 33808,
+                      "advise_cost": 6138,
+                      "whole_cost": 58850,
+                      "execution_cost": 230160
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11012,
+                      "whole_cost": 6464
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f32386aa",
+                    "agents": [
+                      {
+                        "agent_id": "emp_d291314c",
+                        "advisor_id": "adv_777f08a3",
+                        "task_key_target": "有理系数多项式在质数集上的性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:38:40.731444",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 576,
+                            "hire_cost": 0,
+                            "advise_cost": 1153,
+                            "whole_cost": 62262,
+                            "execution_cost": 61109
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11864,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_5f3d0492",
+                        "advisor_id": "adv_f4555bd3",
+                        "task_key_target": "有理系数多项式在质数幂集上的性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:38:50.650383",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 595,
+                            "hire_cost": 0,
+                            "advise_cost": 1203,
+                            "whole_cost": 65243,
+                            "execution_cost": 64040
+                          },
+                          "advisor": {
+                            "system_prompt_size": 12803,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_3ad0f126",
+                        "advisor_id": "adv_abb296ce",
+                        "task_key_target": "多项式与f(n)相等的一般情况分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:39:02.574583",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 645,
+                            "hire_cost": 0,
+                            "advise_cost": 2414,
+                            "whole_cost": 88521,
+                            "execution_cost": 86107
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14077,
+                            "whole_cost": 2757
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_f8e435e7",
+                  "advisor_id": "adv_a2dc7ba5",
+                  "task_key_target": "分析多项式在无穷点集上等于函数的唯一性理论",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:32:10.433871",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2737,
+                      "hire_cost": 10785,
+                      "advise_cost": 708,
+                      "whole_cost": 24873,
+                      "execution_cost": 59813
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12386,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f8e435e7",
+                    "agents": [
+                      {
+                        "agent_id": "emp_a66c8ccc",
+                        "advisor_id": "adv_5fc3d9e8",
+                        "task_key_target": "有理系数多项式在无穷整数点取整数值的约束分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:33:57.588152",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 552,
+                            "hire_cost": 0,
+                            "advise_cost": 786,
+                            "whole_cost": 25070,
+                            "execution_cost": 24284
+                          },
+                          "advisor": {
+                            "system_prompt_size": 4569,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_8ef0bf3b",
+                        "advisor_id": "adv_8d009b41",
+                        "task_key_target": "多项式与数论函数相等的唯一性定理分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:06.784254",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 539,
+                            "hire_cost": 0,
+                            "advise_cost": 1871,
+                            "whole_cost": 10031,
+                            "execution_cost": 8160
+                          },
+                          "advisor": {
+                            "system_prompt_size": 5580,
+                            "whole_cost": 1989
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_4293809e",
+                        "advisor_id": "adv_72a84c2a",
+                        "task_key_target": "数论函数f(n)=radical函数的性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-29T10:34:16.748751",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 561,
+                            "hire_cost": 0,
+                            "advise_cost": 2021,
+                            "whole_cost": 16010,
+                            "execution_cost": 13989
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6313,
+                            "whole_cost": 2264
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1163422b",
+            "advisor_id": "adv_531dce7f",
+            "task_key_target": "分析多项式满足P(n)|n无穷多次的条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T10:32:46.140390",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2602,
+                "hire_cost": 12460,
+                "advise_cost": 2321,
+                "whole_cost": 64516,
+                "execution_cost": 85174
+              },
+              "advisor": {
+                "system_prompt_size": 22931,
+                "whole_cost": 2537
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1163422b",
+              "agents": [
+                {
+                  "agent_id": "emp_4a7a1c03",
+                  "advisor_id": "adv_02d630b7",
+                  "task_key_target": "理论分析：多项式P(x)满足P(n)|n无穷多次的通用条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:34:11.489237",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 674,
+                      "hire_cost": 0,
+                      "advise_cost": 545,
+                      "whole_cost": 21884,
+                      "execution_cost": 21339
+                    },
+                    "advisor": {
+                      "system_prompt_size": 5782,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2d044eab",
+                  "advisor_id": "adv_945b5dbb",
+                  "task_key_target": "低次案例分析：一次和二次多项式满足P(n)|n的条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T10:34:24.567230",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 715,
+                      "hire_cost": 0,
+                      "advise_cost": 2238,
+                      "whole_cost": 16338,
+                      "execution_cost": 14100
+                    },
+                    "advisor": {
+                      "system_prompt_size": 6853,
+                      "whole_cost": 2595
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8466134e",
+            "advisor_id": "adv_fc438d55",
+            "task_key_target": "找出45到81之间的无平方因子数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T10:33:16.395958",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 465,
+                "hire_cost": 0,
+                "advise_cost": 1276,
+                "whole_cost": 63649,
+                "execution_cost": 62373
+              },
+              "advisor": {
+                "system_prompt_size": 22325,
+                "whole_cost": 1432
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

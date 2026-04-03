@@ -1,0 +1,291 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-04T14:10:29.600040",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 34904,
+          "advise_cost": 0,
+          "whole_cost": 159003,
+          "execution_cost": 645987
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e6e77a37",
+            "advisor_id": "adv_c50771c0",
+            "task_key_target": "分析10×10网格最小安全岗亭覆盖问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T14:10:43.111635",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2609,
+                "hire_cost": 11629,
+                "advise_cost": 3267,
+                "whole_cost": 49972,
+                "execution_cost": 167726
+              },
+              "advisor": {
+                "system_prompt_size": 12081,
+                "whole_cost": 3468
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e6e77a37",
+              "agents": [
+                {
+                  "agent_id": "emp_ae77fc26",
+                  "advisor_id": "adv_23c57355",
+                  "task_key_target": "严格证明下界21",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:19:45.114651",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 455,
+                      "hire_cost": 0,
+                      "advise_cost": 623,
+                      "whole_cost": 39539,
+                      "execution_cost": 38916
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12804,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_63ff9b9d",
+                  "advisor_id": "adv_1a2e3a74",
+                  "task_key_target": "验证构造方案的正确性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:19:51.515727",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 434,
+                      "hire_cost": 0,
+                      "advise_cost": 7430,
+                      "whole_cost": 45543,
+                      "execution_cost": 38113
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9259,
+                      "whole_cost": 23228
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_ffe10b6f",
+                  "advisor_id": "adv_26c1c907",
+                  "task_key_target": "寻找其他可行方案",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:19:57.274369",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 409,
+                      "hire_cost": 0,
+                      "advise_cost": 4278,
+                      "whole_cost": 59899,
+                      "execution_cost": 55621
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9831,
+                      "whole_cost": 15072
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_07bfda60",
+            "advisor_id": "adv_3cc4cae2",
+            "task_key_target": "推导最小岗亭数量的下界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T14:11:10.028332",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2572,
+                "hire_cost": 0,
+                "advise_cost": 3225,
+                "whole_cost": 24838,
+                "execution_cost": 21613
+              },
+              "advisor": {
+                "system_prompt_size": 12916,
+                "whole_cost": 3417
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_07bfda60",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3fff2d6e",
+            "advisor_id": "adv_06c16f3e",
+            "task_key_target": "构造更优的岗亭放置方案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T14:13:02.748354",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2579,
+                "hire_cost": 13365,
+                "advise_cost": 2110,
+                "whole_cost": 131908,
+                "execution_cost": 265949
+              },
+              "advisor": {
+                "system_prompt_size": 23880,
+                "whole_cost": 2278
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3fff2d6e",
+              "agents": [
+                {
+                  "agent_id": "emp_96e165f7",
+                  "advisor_id": "adv_b6a69ec5",
+                  "task_key_target": "探索周期性模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:14:51.047073",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 577,
+                      "hire_cost": 0,
+                      "advise_cost": 731,
+                      "whole_cost": 89183,
+                      "execution_cost": 88452
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17874,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c9b3b93e",
+                  "advisor_id": "adv_944a12cd",
+                  "task_key_target": "启发式搜索和边界优化",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:15:01.487264",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 572,
+                      "hire_cost": 0,
+                      "advise_cost": 690,
+                      "whole_cost": 61754,
+                      "execution_cost": 61064
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14728,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e8311e31",
+            "advisor_id": "adv_fc3cf05c",
+            "task_key_target": "验证50是最小岗亭数量",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T14:17:01.151191",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2566,
+                "hire_cost": 9783,
+                "advise_cost": 2415,
+                "whole_cost": 45955,
+                "execution_cost": 66600
+              },
+              "advisor": {
+                "system_prompt_size": 36545,
+                "whole_cost": 2580
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e8311e31",
+              "agents": [
+                {
+                  "agent_id": "emp_db1f48e9",
+                  "advisor_id": "adv_0fa613a3",
+                  "task_key_target": "图论支配集分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T14:20:31.748928",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 671,
+                      "hire_cost": 0,
+                      "advise_cost": 2366,
+                      "whole_cost": 35209,
+                      "execution_cost": 32843
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19523,
+                      "whole_cost": 2696
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

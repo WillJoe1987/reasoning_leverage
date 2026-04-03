@@ -1,0 +1,169 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T19:37:26.458904",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 30340,
+          "advise_cost": 0,
+          "whole_cost": 98414,
+          "execution_cost": 426777
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8e0cdf7e",
+            "advisor_id": "adv_42c8d9bc",
+            "task_key_target": "不等式分析 - 方法1：柯西-施瓦茨不等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:37:41.656832",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2757,
+                "hire_cost": 6578,
+                "advise_cost": 3035,
+                "whole_cost": 62774,
+                "execution_cost": 142813
+              },
+              "advisor": {
+                "system_prompt_size": 14023,
+                "whole_cost": 3412
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8e0cdf7e",
+              "agents": [
+                {
+                  "agent_id": "emp_a6097ed7",
+                  "advisor_id": "adv_3ec17c61",
+                  "task_key_target": "数值验证不等式对于小n的情况",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:39:58.253083",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 677,
+                      "hire_cost": 0,
+                      "advise_cost": 2434,
+                      "whole_cost": 92086,
+                      "execution_cost": 89652
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13922,
+                      "whole_cost": 2765
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5d743b49",
+            "advisor_id": "adv_095b4441",
+            "task_key_target": "不等式分析 - 方法2：均值不等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:37:47.187327",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2704,
+                "hire_cost": 0,
+                "advise_cost": 2001,
+                "whole_cost": 117205,
+                "execution_cost": 115204
+              },
+              "advisor": {
+                "system_prompt_size": 13159,
+                "whole_cost": 2340
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5d743b49",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_18f801d9",
+            "advisor_id": "adv_e3e586f4",
+            "task_key_target": "不等式分析 - 方法3：拉格朗日乘数法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:37:54.098397",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2796,
+                "hire_cost": 0,
+                "advise_cost": 1901,
+                "whole_cost": 61774,
+                "execution_cost": 59873
+              },
+              "advisor": {
+                "system_prompt_size": 13874,
+                "whole_cost": 2313
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_18f801d9",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_29f2da40",
+            "advisor_id": "adv_d0687623",
+            "task_key_target": "寻找反例和边界情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:40:26.135204",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2707,
+                "hire_cost": 0,
+                "advise_cost": 2310,
+                "whole_cost": 43123,
+                "execution_cost": 40813
+              },
+              "advisor": {
+                "system_prompt_size": 32428,
+                "whole_cost": 2623
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_29f2da40",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

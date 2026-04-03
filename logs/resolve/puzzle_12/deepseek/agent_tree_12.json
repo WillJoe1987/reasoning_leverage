@@ -1,0 +1,218 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T19:49:25.470532",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 33914,
+          "advise_cost": 0,
+          "whole_cost": 97819,
+          "execution_cost": 325065
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9557424b",
+            "advisor_id": "adv_18e171ca",
+            "task_key_target": "分析向量约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:50:01.396859",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2899,
+                "hire_cost": 4290,
+                "advise_cost": 3724,
+                "whole_cost": 47301,
+                "execution_cost": 94935
+              },
+              "advisor": {
+                "system_prompt_size": 17283,
+                "whole_cost": 4255
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9557424b",
+              "agents": [
+                {
+                  "agent_id": "emp_7a2d6b76",
+                  "advisor_id": "adv_30b7e248",
+                  "task_key_target": "数值分析与约束验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:51:26.869542",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 754,
+                      "hire_cost": 0,
+                      "advise_cost": 689,
+                      "whole_cost": 56337,
+                      "execution_cost": 55648
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19849,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d9fd1111",
+            "advisor_id": "adv_792d3bb0",
+            "task_key_target": "数值分析与验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:50:09.045931",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2851,
+                "hire_cost": 11705,
+                "advise_cost": 1846,
+                "whole_cost": 44482,
+                "execution_cost": 116203
+              },
+              "advisor": {
+                "system_prompt_size": 16962,
+                "whole_cost": 2338
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d9fd1111",
+              "agents": [
+                {
+                  "agent_id": "emp_3df5ee65",
+                  "advisor_id": "adv_8da0846b",
+                  "task_key_target": "最大化向量模长比值分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:51:40.486700",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 715,
+                      "hire_cost": 0,
+                      "advise_cost": 739,
+                      "whole_cost": 54029,
+                      "execution_cost": 53290
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19764,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_27812cf5",
+                  "advisor_id": "adv_e788de8b",
+                  "task_key_target": "x,y,z取值分布分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:51:46.734533",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 621,
+                      "hire_cost": 0,
+                      "advise_cost": 2633,
+                      "whole_cost": 34615,
+                      "execution_cost": 31982
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20661,
+                      "whole_cost": 2909
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_709f0e88",
+            "advisor_id": "adv_0a7f26a5",
+            "task_key_target": "验证2052解可行性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:58:05.843167",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2936,
+                "hire_cost": 0,
+                "advise_cost": 2257,
+                "whole_cost": 51207,
+                "execution_cost": 48950
+              },
+              "advisor": {
+                "system_prompt_size": 61389,
+                "whole_cost": 2829
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_709f0e88",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d23bdc39",
+            "advisor_id": "adv_738e0ea8",
+            "task_key_target": "重新分析分母最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:03:16.384585",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2836,
+                "hire_cost": 0,
+                "advise_cost": 2145,
+                "whole_cost": 3217,
+                "execution_cost": 1072
+              },
+              "advisor": {
+                "system_prompt_size": 113679,
+                "whole_cost": 2622
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d23bdc39",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

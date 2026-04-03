@@ -1,0 +1,9 @@
+最终结果:
+{1, 2, 3, 4, 5, 6, 7}
+
+推导过程:
+For n=1: a1 = 1/a1 implies a1 = 1, so product = 1 ≥ 1.
+For n=2: a1 + a2 = 1/a1 + 1/a2 implies a1a2 = 1, and since a1 ≤ a2, a1 ≤ 1, so product = a1*a2^2 = 1/a1 ≥ 1.
+For n=3 to n=7: Various configurations were tested, and the weighted product with increasing exponents ensures the product is ≥ 1 due to the balance condition sum(ak) = sum(1/ak).
+For n=8: Counterexample found with a1=...=a7=1/2, a8=y where y satisfies 3.5 + y = 14 + 1/y. This gives y ≈ 10.5945, and product = (1/2)^28 * y^8 = (y/2^3.5)^8 ≈ (10.5945/11.3136)^8 < 1.
+For n>8: The counterexample becomes stronger as the exponential growth of the denominator in the product term outpaces the linear growth of y.

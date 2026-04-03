@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:09:38.430299",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 20842,
+          "advise_cost": 0,
+          "whole_cost": 56972,
+          "execution_cost": 146659
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0e49f8dc",
+            "advisor_id": "adv_6fae9f58",
+            "task_key_target": "随机过程建模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:09:58.386180",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2715,
+                "hire_cost": 8353,
+                "advise_cost": 3254,
+                "whole_cost": 31732,
+                "execution_cost": 59056
+              },
+              "advisor": {
+                "system_prompt_size": 14035,
+                "whole_cost": 3603
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0e49f8dc",
+              "agents": [
+                {
+                  "agent_id": "emp_c9206767",
+                  "advisor_id": "adv_ef203584",
+                  "task_key_target": "动态规划递推分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:11:06.257406",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 760,
+                      "hire_cost": 0,
+                      "advise_cost": 2562,
+                      "whole_cost": 24255,
+                      "execution_cost": 21693
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9770,
+                      "whole_cost": 3007
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_47db3360",
+                  "advisor_id": "adv_07e5b559",
+                  "task_key_target": "组合计数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:11:13.279795",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 689,
+                      "hire_cost": 0,
+                      "advise_cost": 3818,
+                      "whole_cost": 21056,
+                      "execution_cost": 17238
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11625,
+                      "whole_cost": 4159
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c4bed98c",
+            "advisor_id": "adv_4a207a88",
+            "task_key_target": "组合计数与概率计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:10:05.365946",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2749,
+                "hire_cost": 9835,
+                "advise_cost": 2516,
+                "whole_cost": 31534,
+                "execution_cost": 50586
+              },
+              "advisor": {
+                "system_prompt_size": 13237,
+                "whole_cost": 2922
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c4bed98c",
+              "agents": [
+                {
+                  "agent_id": "emp_82afe6e0",
+                  "advisor_id": "adv_518f08be",
+                  "task_key_target": "枚举验证概率计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:10:57.000221",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 768,
+                      "hire_cost": 0,
+                      "advise_cost": 3261,
+                      "whole_cost": 34664,
+                      "execution_cost": 31403
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13273,
+                      "whole_cost": 3690
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2072a276",
+            "advisor_id": "adv_e6e14b98",
+            "task_key_target": "验证与数值模拟",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:10:11.386166",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2669,
+                "hire_cost": 0,
+                "advise_cost": 1636,
+                "whole_cost": 2523,
+                "execution_cost": 887
+              },
+              "advisor": {
+                "system_prompt_size": 14221,
+                "whole_cost": 1942
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2072a276",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

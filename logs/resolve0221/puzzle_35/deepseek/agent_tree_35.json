@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T23:36:16.097715",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 10581,
+          "advise_cost": 0,
+          "whole_cost": 81362,
+          "execution_cost": 389219
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b8c752a5",
+            "advisor_id": "adv_abe1ea1b",
+            "task_key_target": "游戏胜负状态分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:37:00.945922",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2777,
+                "hire_cost": 5863,
+                "advise_cost": 2700,
+                "whole_cost": 81645,
+                "execution_cost": 109269
+              },
+              "advisor": {
+                "system_prompt_size": 22415,
+                "whole_cost": 3115
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b8c752a5",
+              "agents": [
+                {
+                  "agent_id": "emp_b1b01bd5",
+                  "advisor_id": "adv_1354cc72",
+                  "task_key_target": "验证游戏胜负状态算法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T23:38:58.514133",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1021,
+                      "hire_cost": 0,
+                      "advise_cost": 839,
+                      "whole_cost": 37026,
+                      "execution_cost": 36187
+                    },
+                    "advisor": {
+                      "system_prompt_size": 31650,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_7372f05a",
+            "advisor_id": "adv_19eeabd0",
+            "task_key_target": "数学归纳法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:37:06.299859",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2576,
+                "hire_cost": 0,
+                "advise_cost": 2056,
+                "whole_cost": 67435,
+                "execution_cost": 65379
+              },
+              "advisor": {
+                "system_prompt_size": 21704,
+                "whole_cost": 2265
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7372f05a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_93cde9ea",
+            "advisor_id": "adv_495c3fac",
+            "task_key_target": "验证与模式识别",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:37:11.352128",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2525,
+                "hire_cost": 11165,
+                "advise_cost": 2416,
+                "whole_cost": 50797,
+                "execution_cost": 99028
+              },
+              "advisor": {
+                "system_prompt_size": 22026,
+                "whole_cost": 2583
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_93cde9ea",
+              "agents": [
+                {
+                  "agent_id": "emp_8aba6fde",
+                  "advisor_id": "adv_f9cc6006",
+                  "task_key_target": "组合博弈分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T23:39:23.460291",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 955,
+                      "hire_cost": 0,
+                      "advise_cost": 939,
+                      "whole_cost": 62751,
+                      "execution_cost": 61812
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25672,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8a62d9a6",
+            "advisor_id": "adv_1006a8d5",
+            "task_key_target": "计算1-10000的胜负状态",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:40:55.160086",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 669,
+                "hire_cost": 0,
+                "advise_cost": 572,
+                "whole_cost": 45334,
+                "execution_cost": 44762
+              },
+              "advisor": {
+                "system_prompt_size": 53408,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

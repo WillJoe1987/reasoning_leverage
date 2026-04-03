@@ -1,0 +1,219 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-03T16:01:29.413851",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 29373,
+          "advise_cost": 0,
+          "whole_cost": 114192,
+          "execution_cost": 681147
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c0c2125b",
+            "advisor_id": "adv_77b8708c",
+            "task_key_target": "分析f(x)函数的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:01:49.367769",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2603,
+                "hire_cost": 0,
+                "advise_cost": 1862,
+                "whole_cost": 23281,
+                "execution_cost": 21419
+              },
+              "advisor": {
+                "system_prompt_size": 13056,
+                "whole_cost": 2085
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c0c2125b",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b0f95044",
+            "advisor_id": "adv_3829591e",
+            "task_key_target": "分析g(y)和h(z)函数的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:02:00.377667",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2704,
+                "hire_cost": 13318,
+                "advise_cost": 2070,
+                "whole_cost": 36392,
+                "execution_cost": 46308
+              },
+              "advisor": {
+                "system_prompt_size": 12787,
+                "whole_cost": 2365
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b0f95044",
+              "agents": [
+                {
+                  "agent_id": "emp_6e716b67",
+                  "advisor_id": "adv_f6ca771a",
+                  "task_key_target": "分析 h(p^α) 的性质和计算方法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T16:04:53.675913",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 617,
+                      "hire_cost": 0,
+                      "advise_cost": 779,
+                      "whole_cost": 26083,
+                      "execution_cost": 25304
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20567,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3d8532ee",
+            "advisor_id": "adv_9c0f5225",
+            "task_key_target": "分析f(b)与φ(b)的关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:06:05.199782",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2634,
+                "hire_cost": 3122,
+                "advise_cost": 1523,
+                "whole_cost": 103103,
+                "execution_cost": 152658
+              },
+              "advisor": {
+                "system_prompt_size": 31294,
+                "whole_cost": 1799
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3d8532ee",
+              "agents": [
+                {
+                  "agent_id": "emp_c336da9b",
+                  "advisor_id": "adv_0f949234",
+                  "task_key_target": "验证φ(b)=2f(b)对于b≥3",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T16:23:04.805623",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 467,
+                      "hire_cost": 0,
+                      "advise_cost": 1472,
+                      "whole_cost": 55672,
+                      "execution_cost": 54200
+                    },
+                    "advisor": {
+                      "system_prompt_size": 37865,
+                      "whole_cost": 1616
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e05dacd3",
+            "advisor_id": "adv_d308d521",
+            "task_key_target": "验证解的唯一性",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:25:02.383356",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2717,
+                "hire_cost": 1951,
+                "advise_cost": 3767,
+                "whole_cost": 339361,
+                "execution_cost": 375943
+              },
+              "advisor": {
+                "system_prompt_size": 76129,
+                "whole_cost": 3983
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e05dacd3",
+              "agents": [
+                {
+                  "agent_id": "emp_229bfd8b",
+                  "advisor_id": "adv_8ebba7d3",
+                  "task_key_target": "验证 φ(b) = 2f(b) 对于 b=3 到 10000",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T16:28:50.839576",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 579,
+                      "hire_cost": 0,
+                      "advise_cost": 2709,
+                      "whole_cost": 45009,
+                      "execution_cost": 42300
+                    },
+                    "advisor": {
+                      "system_prompt_size": 339397,
+                      "whole_cost": 2922
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

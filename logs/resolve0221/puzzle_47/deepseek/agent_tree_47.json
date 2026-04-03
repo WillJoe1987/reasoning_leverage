@@ -1,0 +1,239 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T02:34:14.058159",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 23662,
+          "advise_cost": 0,
+          "whole_cost": 66869,
+          "execution_cost": 266974
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2fd8214c",
+            "advisor_id": "adv_7e2adb1e",
+            "task_key_target": "图G的结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:34:23.060920",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2595,
+                "hire_cost": 4813,
+                "advise_cost": 3225,
+                "whole_cost": 23492,
+                "execution_cost": 36797
+              },
+              "advisor": {
+                "system_prompt_size": 13343,
+                "whole_cost": 2940
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2fd8214c",
+              "agents": [
+                {
+                  "agent_id": "emp_aabfcba7",
+                  "advisor_id": "adv_5e35c873",
+                  "task_key_target": "多项式方程数值求解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:40:04.841710",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 565,
+                      "hire_cost": 0,
+                      "advise_cost": 742,
+                      "whole_cost": 22085,
+                      "execution_cost": 21343
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13102,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3a9f26af",
+            "advisor_id": "adv_6c3f1b51",
+            "task_key_target": "强正则图分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:34:36.998348",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2682,
+                "hire_cost": 10324,
+                "advise_cost": 2569,
+                "whole_cost": 28027,
+                "execution_cost": 33353
+              },
+              "advisor": {
+                "system_prompt_size": 13153,
+                "whole_cost": 2897
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3a9f26af",
+              "agents": [
+                {
+                  "agent_id": "emp_fe78b0db",
+                  "advisor_id": "adv_c5e59972",
+                  "task_key_target": "图论参数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:36:13.797600",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 663,
+                      "hire_cost": 0,
+                      "advise_cost": 717,
+                      "whole_cost": 18936,
+                      "execution_cost": 18219
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20837,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_fa96b4cf",
+            "advisor_id": "adv_5c707ad6",
+            "task_key_target": "数值验证与参数计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:34:59.882359",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2594,
+                "hire_cost": 12412,
+                "advise_cost": 2237,
+                "whole_cost": 52567,
+                "execution_cost": 132430
+              },
+              "advisor": {
+                "system_prompt_size": 15596,
+                "whole_cost": 2462
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fa96b4cf",
+              "agents": [
+                {
+                  "agent_id": "emp_c2df5a00",
+                  "advisor_id": "adv_fa7f19dc",
+                  "task_key_target": "图约束系统分析与数值验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:36:40.188860",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 709,
+                      "hire_cost": 0,
+                      "advise_cost": 727,
+                      "whole_cost": 57209,
+                      "execution_cost": 56482
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16347,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_81f98fb3",
+                  "advisor_id": "adv_4c1bea6a",
+                  "task_key_target": "图存在性矛盾证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:40:13.991859",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 695,
+                      "hire_cost": 0,
+                      "advise_cost": 639,
+                      "whole_cost": 38669,
+                      "execution_cost": 38030
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38536,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d69657af",
+            "advisor_id": "adv_7d018377",
+            "task_key_target": "验证M=0的论证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:41:13.402084",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 837,
+                "hire_cost": 0,
+                "advise_cost": 3023,
+                "whole_cost": 24210,
+                "execution_cost": 21187
+              },
+              "advisor": {
+                "system_prompt_size": 56255,
+                "whole_cost": 3154
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T18:50:57.667382",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 29928,
+          "advise_cost": 0,
+          "whole_cost": 133753,
+          "execution_cost": 481352
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_08c88110",
+            "advisor_id": "adv_809d23d7",
+            "task_key_target": "分析约束条件并寻找简化方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:51:10.030508",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2633,
+                "hire_cost": 4971,
+                "advise_cost": 2670,
+                "whole_cost": 44952,
+                "execution_cost": 107502
+              },
+              "advisor": {
+                "system_prompt_size": 13112,
+                "whole_cost": 2922
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_08c88110",
+              "agents": [
+                {
+                  "agent_id": "emp_d703213d",
+                  "advisor_id": "adv_5026649a",
+                  "task_key_target": "数值搜索约束条件的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T18:53:37.037275",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 671,
+                      "hire_cost": 0,
+                      "advise_cost": 802,
+                      "whole_cost": 70993,
+                      "execution_cost": 70191
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27838,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9ffcb670",
+            "advisor_id": "adv_7f4b2a7b",
+            "task_key_target": "分析目标函数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:51:17.744502",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2780,
+                "hire_cost": 16005,
+                "advise_cost": 1252,
+                "whole_cost": 55794,
+                "execution_cost": 117532
+              },
+              "advisor": {
+                "system_prompt_size": 12397,
+                "whole_cost": 1669
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9ffcb670",
+              "agents": [
+                {
+                  "agent_id": "emp_baed874b",
+                  "advisor_id": "adv_c2fd8bb8",
+                  "task_key_target": "数值搜索约束条件的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T18:54:50.311758",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 610,
+                      "hire_cost": 0,
+                      "advise_cost": 3376,
+                      "whole_cost": 54593,
+                      "execution_cost": 51217
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34401,
+                      "whole_cost": 3634
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2280b5e3",
+                  "advisor_id": "adv_38dd936f",
+                  "task_key_target": "分析约束条件的代数结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T18:57:11.655432",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 595,
+                      "hire_cost": 0,
+                      "advise_cost": 738,
+                      "whole_cost": 28516,
+                      "execution_cost": 27778
+                    },
+                    "advisor": {
+                      "system_prompt_size": 49607,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_f7000d59",
+            "advisor_id": "adv_b6007f05",
+            "task_key_target": "使用不等式方法证明最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:55:30.660799",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3010,
+                "hire_cost": 14205,
+                "advise_cost": 2205,
+                "whole_cost": 76552,
+                "execution_cost": 122349
+              },
+              "advisor": {
+                "system_prompt_size": 38885,
+                "whole_cost": 2857
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f7000d59",
+              "agents": [
+                {
+                  "agent_id": "emp_a2e5bc28",
+                  "advisor_id": "adv_d695f554",
+                  "task_key_target": "不等式证明专家",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:00:43.015129",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 809,
+                      "hire_cost": 0,
+                      "advise_cost": 706,
+                      "whole_cost": 62913,
+                      "execution_cost": 62207
+                    },
+                    "advisor": {
+                      "system_prompt_size": 44839,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_dd0e4e29",
+            "advisor_id": "adv_5a403f41",
+            "task_key_target": "独立验证最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:07:33.739675",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 962,
+                "hire_cost": 0,
+                "advise_cost": 2323,
+                "whole_cost": 32467,
+                "execution_cost": 30144
+              },
+              "advisor": {
+                "system_prompt_size": 135332,
+                "whole_cost": 2982
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

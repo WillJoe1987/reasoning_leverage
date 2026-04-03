@@ -1,0 +1,193 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T18:47:16.079925",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 36544,
+          "advise_cost": 0,
+          "whole_cost": 78907,
+          "execution_cost": 372636
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_061df15a",
+            "advisor_id": "adv_89205281",
+            "task_key_target": "分析x=n!/((n+1)(n+2))的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:47:25.438972",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2594,
+                "hire_cost": 11568,
+                "advise_cost": 2067,
+                "whole_cost": 56313,
+                "execution_cost": 191796
+              },
+              "advisor": {
+                "system_prompt_size": 13401,
+                "whole_cost": 2287
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_061df15a",
+              "agents": [
+                {
+                  "agent_id": "emp_f31fa411",
+                  "advisor_id": "adv_1d4188bd",
+                  "task_key_target": "理论分析：x=n!/((n+1)(n+2))的数学性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T18:48:18.817082",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 738,
+                      "hire_cost": 0,
+                      "advise_cost": 690,
+                      "whole_cost": 58624,
+                      "execution_cost": 57934
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12892,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_d8c2d6f8",
+                  "advisor_id": "adv_f848d2b6",
+                  "task_key_target": "数值计算：x=n!/((n+1)(n+2))的数值验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T18:48:26.949507",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 798,
+                      "hire_cost": 0,
+                      "advise_cost": 3464,
+                      "whole_cost": 94648,
+                      "execution_cost": 91184
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10053,
+                      "whole_cost": 3890
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_7d975194",
+            "advisor_id": "adv_dc4674b5",
+            "task_key_target": "分析(n+1)(n+2)整除n!的条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:48:53.590937",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2536,
+                "hire_cost": 0,
+                "advise_cost": 2158,
+                "whole_cost": 34638,
+                "execution_cost": 32480
+              },
+              "advisor": {
+                "system_prompt_size": 19683,
+                "whole_cost": 2323
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7d975194",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_041d2084",
+            "advisor_id": "adv_4016ed34",
+            "task_key_target": "分析n=1到31时E(n)的所有可能值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:50:40.034908",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2588,
+                "hire_cost": 0,
+                "advise_cost": 3860,
+                "whole_cost": 12610,
+                "execution_cost": 8750
+              },
+              "advisor": {
+                "system_prompt_size": 36255,
+                "whole_cost": 4080
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_041d2084",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_4682e481",
+            "advisor_id": "adv_518ee561",
+            "task_key_target": "验证E(n)的可能值并给出严格证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:52:29.503447",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2616,
+                "hire_cost": 0,
+                "advise_cost": 3033,
+                "whole_cost": 100280,
+                "execution_cost": 97247
+              },
+              "advisor": {
+                "system_prompt_size": 46696,
+                "whole_cost": 3280
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4682e481",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

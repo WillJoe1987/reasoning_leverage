@@ -1,0 +1,84 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:16:07.158664",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 5744,
+          "advise_cost": 0,
+          "whole_cost": 16314,
+          "execution_cost": 34418
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_27c2184d",
+            "advisor_id": "adv_94fd3bd3",
+            "task_key_target": "多角度求解运动方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:16:25.074578",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2609,
+                "hire_cost": 0,
+                "advise_cost": 2836,
+                "whole_cost": 11553,
+                "execution_cost": 8717
+              },
+              "advisor": {
+                "system_prompt_size": 13981,
+                "whole_cost": 3070
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_27c2184d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_54d55369",
+            "advisor_id": "adv_ce9f66b8",
+            "task_key_target": "验证解的正确性和完整性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:16:30.317682",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 579,
+                "hire_cost": 0,
+                "advise_cost": 1022,
+                "whole_cost": 16153,
+                "execution_cost": 15131
+              },
+              "advisor": {
+                "system_prompt_size": 12884,
+                "whole_cost": 1290
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

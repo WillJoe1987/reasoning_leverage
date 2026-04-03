@@ -1,0 +1,217 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T19:54:55.075897",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 50103,
+          "advise_cost": 0,
+          "whole_cost": 103832,
+          "execution_cost": 418332
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_20c9f4b1",
+            "advisor_id": "adv_a39af400",
+            "task_key_target": "分析序列分割问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:55:05.847852",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2678,
+                "hire_cost": 10631,
+                "advise_cost": 1859,
+                "whole_cost": 23850,
+                "execution_cost": 94109
+              },
+              "advisor": {
+                "system_prompt_size": 12924,
+                "whole_cost": 2178
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_20c9f4b1",
+              "agents": [
+                {
+                  "agent_id": "emp_e4537135",
+                  "advisor_id": "adv_c59bf728",
+                  "task_key_target": "验证下界推导",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:00:24.022882",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 820,
+                      "hire_cost": 0,
+                      "advise_cost": 665,
+                      "whole_cost": 34101,
+                      "execution_cost": 33436
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12585,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_5ff2b0f2",
+                  "advisor_id": "adv_b9760a41",
+                  "task_key_target": "验证构造序列的正确性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:00:31.963522",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 749,
+                      "hire_cost": 0,
+                      "advise_cost": 632,
+                      "whole_cost": 38805,
+                      "execution_cost": 38173
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9591,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_cbdde3f2",
+                  "advisor_id": "adv_2a6c5643",
+                  "task_key_target": "分析b_k的几何意义和S的性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:00:39.105868",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 691,
+                      "hire_cost": 0,
+                      "advise_cost": 2169,
+                      "whole_cost": 13309,
+                      "execution_cost": 11140
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10356,
+                      "whole_cost": 2513
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e569596d",
+            "advisor_id": "adv_c427a557",
+            "task_key_target": "数值探索S的最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:55:27.884415",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 0,
+                "advise_cost": 1987,
+                "whole_cost": 105997,
+                "execution_cost": 104010
+              },
+              "advisor": {
+                "system_prompt_size": 14100,
+                "whole_cost": 2230
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e569596d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b0d5389c",
+            "advisor_id": "adv_d40841c8",
+            "task_key_target": "理论分析S的下界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:57:51.253299",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 0,
+                "advise_cost": 2199,
+                "whole_cost": 109892,
+                "execution_cost": 107693
+              },
+              "advisor": {
+                "system_prompt_size": 25037,
+                "whole_cost": 2561
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b0d5389c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9bcdd529",
+            "advisor_id": "adv_7af68d3e",
+            "task_key_target": "严格证明S≥703",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:59:56.198800",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2840,
+                "hire_cost": 0,
+                "advise_cost": 1288,
+                "whole_cost": 60079,
+                "execution_cost": 58791
+              },
+              "advisor": {
+                "system_prompt_size": 44017,
+                "whole_cost": 1765
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9bcdd529",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

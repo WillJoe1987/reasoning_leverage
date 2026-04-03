@@ -1,0 +1,402 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-10T15:52:43.914888",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 44949,
+          "advise_cost": 0,
+          "whole_cost": 199766,
+          "execution_cost": 1099066
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_831d78df",
+            "advisor_id": "adv_3835a0f0",
+            "task_key_target": "分析19×19棋盘操作问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T15:53:00.028999",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2703,
+                "hire_cost": 36729,
+                "advise_cost": 3944,
+                "whole_cost": 131693,
+                "execution_cost": 581769
+              },
+              "advisor": {
+                "system_prompt_size": 13113,
+                "whole_cost": 4267
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_831d78df",
+              "agents": [
+                {
+                  "agent_id": "emp_320ada22",
+                  "advisor_id": "adv_c33f62dd",
+                  "task_key_target": "线性代数证明：19×19棋盘问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:03:43.783186",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2888,
+                      "hire_cost": 13661,
+                      "advise_cost": 621,
+                      "whole_cost": 66327,
+                      "execution_cost": 132824
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15707,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_320ada22",
+                    "agents": [
+                      {
+                        "agent_id": "emp_23313e7c",
+                        "advisor_id": "adv_ed2fb1c9",
+                        "task_key_target": "分析操作空间W的维数结构",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-10T16:06:42.211412",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 563,
+                            "hire_cost": 0,
+                            "advise_cost": 786,
+                            "whole_cost": 81565,
+                            "execution_cost": 80779
+                          },
+                          "advisor": {
+                            "system_prompt_size": 13304,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_9fdeede2",
+                  "advisor_id": "adv_e27733fe",
+                  "task_key_target": "组合构造证明：19×19棋盘问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:03:54.367776",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2732,
+                      "hire_cost": 22478,
+                      "advise_cost": 2717,
+                      "whole_cost": 93883,
+                      "execution_cost": 249684
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17242,
+                      "whole_cost": 3053
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9fdeede2",
+                    "agents": [
+                      {
+                        "agent_id": "emp_68e272ff",
+                        "advisor_id": "adv_8174d74a",
+                        "task_key_target": "验证棋盘算法在小规模情况",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-10T16:07:19.457146",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 580,
+                            "hire_cost": 0,
+                            "advise_cost": 3967,
+                            "whole_cost": 184963,
+                            "execution_cost": 180996
+                          },
+                          "advisor": {
+                            "system_prompt_size": 18190,
+                            "whole_cost": 3227
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_42176557",
+                  "advisor_id": "adv_456db4bf",
+                  "task_key_target": "对偶性/博弈论证明：19×19棋盘问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:04:04.540167",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2719,
+                      "hire_cost": 14798,
+                      "advise_cost": 4619,
+                      "whole_cost": 69711,
+                      "execution_cost": 108241
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17834,
+                      "whole_cost": 4544
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_42176557",
+                    "agents": [
+                      {
+                        "agent_id": "emp_00d5950b",
+                        "advisor_id": "adv_9174ec66",
+                        "task_key_target": "验证19×19棋盘问题的数值计算",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-10T16:11:38.079020",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 664,
+                            "hire_cost": 0,
+                            "advise_cost": 707,
+                            "whole_cost": 58654,
+                            "execution_cost": 57947
+                          },
+                          "advisor": {
+                            "system_prompt_size": 30715,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1f418233",
+            "advisor_id": "adv_7f749336",
+            "task_key_target": "分析奇偶性约束和线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T16:00:05.036143",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2758,
+                "hire_cost": 33695,
+                "advise_cost": 2531,
+                "whole_cost": 60575,
+                "execution_cost": 124942
+              },
+              "advisor": {
+                "system_prompt_size": 44300,
+                "whole_cost": 2895
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1f418233",
+              "agents": [
+                {
+                  "agent_id": "emp_4b4e80ae",
+                  "advisor_id": "adv_6c4136d0",
+                  "task_key_target": "理论证明与线性代数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:01:34.258517",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 666,
+                      "hire_cost": 0,
+                      "advise_cost": 6890,
+                      "whole_cost": 45163,
+                      "execution_cost": 38273
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13078,
+                      "whole_cost": 7203
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c2ba013b",
+                  "advisor_id": "adv_37fbc86b",
+                  "task_key_target": "数值探索与最坏情况构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:01:45.591991",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 762,
+                      "hire_cost": 0,
+                      "advise_cost": 688,
+                      "whole_cost": 63008,
+                      "execution_cost": 62320
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9776,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_20c7a865",
+            "advisor_id": "adv_1e168653",
+            "task_key_target": "搜索最坏情况矩阵",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T16:03:42.863025",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2648,
+                "hire_cost": 10904,
+                "advise_cost": 2774,
+                "whole_cost": 69625,
+                "execution_cost": 170331
+              },
+              "advisor": {
+                "system_prompt_size": 55112,
+                "whole_cost": 3039
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_20c7a865",
+              "agents": [
+                {
+                  "agent_id": "emp_bd26901a",
+                  "advisor_id": "adv_3caf83fb",
+                  "task_key_target": "小规模棋盘系统分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:08:58.672620",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 724,
+                      "hire_cost": 0,
+                      "advise_cost": 734,
+                      "whole_cost": 70212,
+                      "execution_cost": 69478
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38135,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a3b5f84b",
+                  "advisor_id": "adv_e1f69fcf",
+                  "task_key_target": "数学结构分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T16:09:21.921736",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 782,
+                      "hire_cost": 0,
+                      "advise_cost": 715,
+                      "whole_cost": 45621,
+                      "execution_cost": 44906
+                    },
+                    "advisor": {
+                      "system_prompt_size": 35415,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1f16af6e",
+            "advisor_id": "adv_3bdf8149",
+            "task_key_target": "分析小规模棋盘模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T16:07:28.103175",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2631,
+                "hire_cost": 0,
+                "advise_cost": 2930,
+                "whole_cost": 70137,
+                "execution_cost": 67207
+              },
+              "advisor": {
+                "system_prompt_size": 71482,
+                "whole_cost": 3179
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1f16af6e",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

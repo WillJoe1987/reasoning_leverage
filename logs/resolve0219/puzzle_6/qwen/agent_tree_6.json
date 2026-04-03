@@ -1,0 +1,50 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T22:55:11.416907",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 21876,
+          "advise_cost": 0,
+          "whole_cost": 27095
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_90d6c679",
+            "advisor_id": "adv_129e5016",
+            "task_key_target": "Alternative proof verification",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T22:58:32.536486",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 575,
+                "hire_cost": 0,
+                "advise_cost": 1231,
+                "whole_cost": 1986
+              },
+              "advisor": {
+                "system_prompt_size": 7573,
+                "whole_cost": 1607
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

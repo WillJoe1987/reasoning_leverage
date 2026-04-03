@@ -1,0 +1,50 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T23:13:35.767762",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 3089,
+          "advise_cost": 0,
+          "whole_cost": 22191
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9efa6a74",
+            "advisor_id": "adv_28af72f5",
+            "task_key_target": "Analyze cubic equation for real roots",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T23:13:49.670931",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 662,
+                "hire_cost": 0,
+                "advise_cost": 1233,
+                "whole_cost": 5658
+              },
+              "advisor": {
+                "system_prompt_size": 8342,
+                "whole_cost": 1689
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

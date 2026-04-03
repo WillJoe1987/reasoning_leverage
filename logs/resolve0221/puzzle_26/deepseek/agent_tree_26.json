@@ -1,0 +1,165 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T21:29:21.505954",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 45378,
+          "advise_cost": 0,
+          "whole_cost": 74063,
+          "execution_cost": 270203
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_f51544af",
+            "advisor_id": "adv_bf4f670f",
+            "task_key_target": "数论分析-费马大定理角度",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:29:39.223696",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2557,
+                "hire_cost": 4470,
+                "advise_cost": 3675,
+                "whole_cost": 57565,
+                "execution_cost": 105262
+              },
+              "advisor": {
+                "system_prompt_size": 14267,
+                "whole_cost": 3870
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f51544af",
+              "agents": [
+                {
+                  "agent_id": "emp_cf3b2e11",
+                  "advisor_id": "adv_5e54c32b",
+                  "task_key_target": "数值验证-模高素数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T21:37:50.642640",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 726,
+                      "hire_cost": 0,
+                      "advise_cost": 562,
+                      "whole_cost": 56404,
+                      "execution_cost": 55842
+                    },
+                    "advisor": {
+                      "system_prompt_size": 43619,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4b5e4040",
+            "advisor_id": "adv_232a24aa",
+            "task_key_target": "代数分析-因式分解角度",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:29:43.941157",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2548,
+                "hire_cost": 0,
+                "advise_cost": 2456,
+                "whole_cost": 36234,
+                "execution_cost": 33778
+              },
+              "advisor": {
+                "system_prompt_size": 12828,
+                "whole_cost": 2612
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4b5e4040",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_a733effb",
+            "advisor_id": "adv_275d19fd",
+            "task_key_target": "模运算分析-同余角度",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:29:48.215238",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2526,
+                "hire_cost": 0,
+                "advise_cost": 2313,
+                "whole_cost": 61628,
+                "execution_cost": 59315
+              },
+              "advisor": {
+                "system_prompt_size": 13460,
+                "whole_cost": 2486
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a733effb",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_22da37c0",
+            "advisor_id": "adv_2ad58b63",
+            "task_key_target": "验证结论-严格证明检查",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:34:18.456557",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 485,
+                "hire_cost": 0,
+                "advise_cost": 2830,
+                "whole_cost": 45993,
+                "execution_cost": 43163
+              },
+              "advisor": {
+                "system_prompt_size": 39902,
+                "whole_cost": 3000
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

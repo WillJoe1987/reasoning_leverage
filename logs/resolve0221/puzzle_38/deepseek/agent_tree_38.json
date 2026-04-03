@@ -1,0 +1,291 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T00:21:25.843609",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 34037,
+          "advise_cost": 0,
+          "whole_cost": 81261,
+          "execution_cost": 467001
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_26642abf",
+            "advisor_id": "adv_b56a0358",
+            "task_key_target": "几何分析封装点特性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:21:43.149074",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2529,
+                "hire_cost": 10176,
+                "advise_cost": 5654,
+                "whole_cost": 73825,
+                "execution_cost": 140652
+              },
+              "advisor": {
+                "system_prompt_size": 15305,
+                "whole_cost": 24087
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_26642abf",
+              "agents": [
+                {
+                  "agent_id": "emp_c8e59ea1",
+                  "advisor_id": "adv_a0fbcd98",
+                  "task_key_target": "低维空间封装点位置分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:23:40.104056",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 561,
+                      "hire_cost": 0,
+                      "advise_cost": 3098,
+                      "whole_cost": 43780,
+                      "execution_cost": 40682
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21600,
+                      "whole_cost": 3317
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_7df57d51",
+                  "advisor_id": "adv_3e824945",
+                  "task_key_target": "非内点封装点最大化构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:26:32.299025",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 557,
+                      "hire_cost": 0,
+                      "advise_cost": 821,
+                      "whole_cost": 42796,
+                      "execution_cost": 41975
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34768,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c9d10d11",
+            "advisor_id": "adv_dbdf938d",
+            "task_key_target": "组合几何分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:22:28.389926",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2537,
+                "hire_cost": 22817,
+                "advise_cost": 2682,
+                "whole_cost": 55631,
+                "execution_cost": 140204
+              },
+              "advisor": {
+                "system_prompt_size": 22014,
+                "whole_cost": 2869
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c9d10d11",
+              "agents": [
+                {
+                  "agent_id": "emp_61dcd6fe",
+                  "advisor_id": "adv_9326c3b5",
+                  "task_key_target": "一维封装点最大值分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:23:54.255923",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 587,
+                      "hire_cost": 0,
+                      "advise_cost": 766,
+                      "whole_cost": 79105,
+                      "execution_cost": 78339
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16813,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_491b17ba",
+                  "advisor_id": "adv_4c66de9b",
+                  "task_key_target": "球面覆盖模式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:24:08.332759",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 589,
+                      "hire_cost": 0,
+                      "advise_cost": 3297,
+                      "whole_cost": 35030,
+                      "execution_cost": 31733
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13666,
+                      "whole_cost": 3543
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9216d701",
+            "advisor_id": "adv_f022ad63",
+            "task_key_target": "组合几何文献分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:23:40.727585",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2579,
+                "hire_cost": 3402,
+                "advise_cost": 2741,
+                "whole_cost": 36596,
+                "execution_cost": 66106
+              },
+              "advisor": {
+                "system_prompt_size": 29928,
+                "whole_cost": 2955
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9216d701",
+              "agents": [
+                {
+                  "agent_id": "emp_eb116209",
+                  "advisor_id": "adv_6860f6c7",
+                  "task_key_target": "支撑函数与封装点分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:29:00.471427",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 629,
+                      "hire_cost": 0,
+                      "advise_cost": 795,
+                      "whole_cost": 36448,
+                      "execution_cost": 35653
+                    },
+                    "advisor": {
+                      "system_prompt_size": 39324,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_dee8fbf2",
+            "advisor_id": "adv_165d3efd",
+            "task_key_target": "支撑超平面分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:26:33.324546",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2606,
+                "hire_cost": 0,
+                "advise_cost": 2356,
+                "whole_cost": 23766,
+                "execution_cost": 21410
+              },
+              "advisor": {
+                "system_prompt_size": 45443,
+                "whole_cost": 2604
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dee8fbf2",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_33fa70ea",
+            "advisor_id": "adv_e651e80b",
+            "task_key_target": "结果验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:31:23.967380",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 474,
+                "hire_cost": 0,
+                "advise_cost": 2599,
+                "whole_cost": 54004,
+                "execution_cost": 51405
+              },
+              "advisor": {
+                "system_prompt_size": 74903,
+                "whole_cost": 2765
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

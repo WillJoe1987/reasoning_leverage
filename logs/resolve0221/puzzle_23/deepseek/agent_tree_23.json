@@ -1,0 +1,138 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T20:45:36.766653",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 24110,
+          "advise_cost": 0,
+          "whole_cost": 61327,
+          "execution_cost": 230050
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a8cfd511",
+            "advisor_id": "adv_63b291c3",
+            "task_key_target": "分析复杂表达式并寻找简化形式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:45:50.062037",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2581,
+                "hire_cost": 6617,
+                "advise_cost": 3737,
+                "whole_cost": 60785,
+                "execution_cost": 128719
+              },
+              "advisor": {
+                "system_prompt_size": 13439,
+                "whole_cost": 3971
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a8cfd511",
+              "agents": [
+                {
+                  "agent_id": "emp_c77494a4",
+                  "advisor_id": "adv_7412b682",
+                  "task_key_target": "搜索丢番图方程的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:49:20.783964",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 594,
+                      "hire_cost": 0,
+                      "advise_cost": 761,
+                      "whole_cost": 79049,
+                      "execution_cost": 78288
+                    },
+                    "advisor": {
+                      "system_prompt_size": 40737,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d415df6d",
+            "advisor_id": "adv_6e4d98ad",
+            "task_key_target": "分析丢番图方程 x³ = 2py² - 1",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:47:32.170748",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2571,
+                "hire_cost": 7518,
+                "advise_cost": 2501,
+                "whole_cost": 45864,
+                "execution_cost": 64114
+              },
+              "advisor": {
+                "system_prompt_size": 23043,
+                "whole_cost": 2693
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d415df6d",
+              "agents": [
+                {
+                  "agent_id": "emp_95596d2c",
+                  "advisor_id": "adv_1519a270",
+                  "task_key_target": "系统搜索丢番图方程 x³ = 2py² - 1 的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:49:21.476459",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 723,
+                      "hire_cost": 0,
+                      "advise_cost": 2801,
+                      "whole_cost": 31070,
+                      "execution_cost": 28269
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17350,
+                      "whole_cost": 3157
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

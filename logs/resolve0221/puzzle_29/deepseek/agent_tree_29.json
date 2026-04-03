@@ -1,0 +1,271 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T22:14:13.350316",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 49420,
+          "advise_cost": 0,
+          "whole_cost": 103538,
+          "execution_cost": 442614
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d58d6ef0",
+            "advisor_id": "adv_a19206bf",
+            "task_key_target": "分析质数a的条件和可能的取值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:14:20.147798",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2480,
+                "hire_cost": 8457,
+                "advise_cost": 14975,
+                "whole_cost": 86931,
+                "execution_cost": 133630
+              },
+              "advisor": {
+                "system_prompt_size": 13727,
+                "whole_cost": 85907
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d58d6ef0",
+              "agents": [
+                {
+                  "agent_id": "emp_27d1e4f7",
+                  "advisor_id": "adv_7b31e9f0",
+                  "task_key_target": "探索d_i的可能取值模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:17:25.252744",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 784,
+                      "hire_cost": 0,
+                      "advise_cost": 1314,
+                      "whole_cost": 71445,
+                      "execution_cost": 70131
+                    },
+                    "advisor": {
+                      "system_prompt_size": 46357,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d36ad8ac",
+            "advisor_id": "adv_c3f7536e",
+            "task_key_target": "分析给定的复杂方程结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:14:25.560212",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2622,
+                "hire_cost": 0,
+                "advise_cost": 834,
+                "whole_cost": 36911,
+                "execution_cost": 36077
+              },
+              "advisor": {
+                "system_prompt_size": 12249,
+                "whole_cost": 1094
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d36ad8ac",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_004018ce",
+            "advisor_id": "adv_6dedd783",
+            "task_key_target": "分析距离d_n的定义和性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:14:29.633949",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2523,
+                "hire_cost": 0,
+                "advise_cost": 2383,
+                "whole_cost": 10900,
+                "execution_cost": 8517
+              },
+              "advisor": {
+                "system_prompt_size": 13255,
+                "whole_cost": 2539
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_004018ce",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_f68d01bc",
+            "advisor_id": "adv_196e125a",
+            "task_key_target": "寻找满足三个求和条件的集合S",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:19:16.312726",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2642,
+                "hire_cost": 9600,
+                "advise_cost": 2356,
+                "whole_cost": 61363,
+                "execution_cost": 121457
+              },
+              "advisor": {
+                "system_prompt_size": 31388,
+                "whole_cost": 2635
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f68d01bc",
+              "agents": [
+                {
+                  "agent_id": "emp_12d661aa",
+                  "advisor_id": "adv_f08da521",
+                  "task_key_target": "深入分析d_i和S的关系及条件矛盾",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:21:35.137075",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 789,
+                      "hire_cost": 0,
+                      "advise_cost": 725,
+                      "whole_cost": 28832,
+                      "execution_cost": 28107
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26789,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c9a01f0a",
+                  "advisor_id": "adv_d5361d06",
+                  "task_key_target": "分析常数d解的可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:24:22.626315",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 648,
+                      "hire_cost": 0,
+                      "advise_cost": 1656,
+                      "whole_cost": 45599,
+                      "execution_cost": 43943
+                    },
+                    "advisor": {
+                      "system_prompt_size": 45830,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2ea4f0f0",
+            "advisor_id": "adv_91661b85",
+            "task_key_target": "分析最大化p的策略",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:23:53.237544",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2724,
+                "hire_cost": 7820,
+                "advise_cost": 3270,
+                "whole_cost": 47730,
+                "execution_cost": 88815
+              },
+              "advisor": {
+                "system_prompt_size": 60351,
+                "whole_cost": 3646
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2ea4f0f0",
+              "agents": [
+                {
+                  "agent_id": "emp_ac7b52af",
+                  "advisor_id": "adv_d5a538c7",
+                  "task_key_target": "分析d_i的整数解可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:27:05.994691",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 793,
+                      "hire_cost": 0,
+                      "advise_cost": 4407,
+                      "whole_cost": 56582,
+                      "execution_cost": 52175
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30162,
+                      "whole_cost": 4858
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

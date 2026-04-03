@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-05T13:20:45.092543",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3491,
+          "hire_cost": 16259,
+          "advise_cost": 0,
+          "whole_cost": 73010,
+          "execution_cost": 339774
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_168dc21a",
+            "advisor_id": "adv_353f6b43",
+            "task_key_target": "分析游戏的组合博弈论性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T13:21:10.753023",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2734,
+                "hire_cost": 9734,
+                "advise_cost": 1728,
+                "whole_cost": 54116,
+                "execution_cost": 156327
+              },
+              "advisor": {
+                "system_prompt_size": 12951,
+                "whole_cost": 2080
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_168dc21a",
+              "agents": [
+                {
+                  "agent_id": "emp_953d10ae",
+                  "advisor_id": "adv_ee2f2dc5",
+                  "task_key_target": "计算游戏Grundy值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T13:27:00.261020",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 848,
+                      "hire_cost": 0,
+                      "advise_cost": 1839,
+                      "whole_cost": 67614,
+                      "execution_cost": 65775
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11939,
+                      "whole_cost": 2390
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_9270044c",
+                  "advisor_id": "adv_ea531d5b",
+                  "task_key_target": "验证游戏数学性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T13:27:14.170913",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 869,
+                      "hire_cost": 0,
+                      "advise_cost": 839,
+                      "whole_cost": 48737,
+                      "execution_cost": 47898
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9452,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_96542e0d",
+            "advisor_id": "adv_96eba4df",
+            "task_key_target": "计算Grundy值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T13:21:36.609500",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2724,
+                "hire_cost": 0,
+                "advise_cost": 3269,
+                "whole_cost": 45409,
+                "execution_cost": 42140
+              },
+              "advisor": {
+                "system_prompt_size": 14323,
+                "whole_cost": 3608
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_96542e0d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_6a288424",
+            "advisor_id": "adv_c26677ec",
+            "task_key_target": "验证计算结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T13:29:52.738437",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2779,
+                "hire_cost": 4260,
+                "advise_cost": 3118,
+                "whole_cost": 39400,
+                "execution_cost": 84556
+              },
+              "advisor": {
+                "system_prompt_size": 58371,
+                "whole_cost": 3518
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6a288424",
+              "agents": [
+                {
+                  "agent_id": "emp_9fcf7870",
+                  "advisor_id": "adv_cc03df72",
+                  "task_key_target": "深入验证递归公式和计算结果",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T13:32:31.422714",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 608,
+                      "hire_cost": 0,
+                      "advise_cost": 461,
+                      "whole_cost": 52995,
+                      "execution_cost": 52534
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29139,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

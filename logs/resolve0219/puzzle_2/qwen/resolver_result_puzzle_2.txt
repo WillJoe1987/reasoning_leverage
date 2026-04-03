@@ -1,0 +1,21 @@
+最终结果:
+All ordered triples $(p, a, b)$ are given by:
+
+1. $(2, a, a)$ where $a \geq 1$ is an integer;
+
+2. $(2, 2t, 2t + 3)$ and $(2, 2t + 3, 2t)$ where $t \geq 0$ is an integer;
+
+3. $(2^m - 1, mt, mt + 1)$ and $(2^m - 1, mt + 1, mt)$ where $m \geq 2$ is an integer such that $2^m - 1$ is prime (i.e., a Mersenne prime), and $t \geq 0$ is an integer.
+
+推导过程:
+I solved the problem by considering $p^a + p^b$ where $p$ is prime and $a, b$ are non-negative integers. Assuming $a \leq b$, I wrote this as $p^a(1 + p^{b-a})$. Since $\gcd(p^a, 1 + p^{b-a}) = 1$, both factors must be perfect powers of the same degree for their product to be a perfect power.
+
+Case 1: $a = b$. Then $p^a + p^b = 2p^a$. This is a perfect power only when $p = 2$ and $a \geq 1$ (giving $2^{a+1}$ with $a+1 \geq 2$).
+
+Case 2: $a < b$. Let $k = b - a \geq 1$, so we need $1 + p^k$ to be a perfect power.
+
+- For $p = 2$: $1 + 2^k$ is a perfect power only when $k = 3$ (giving $1 + 8 = 9 = 3^2$). Then $2^a + 2^{a+3} = 9 \cdot 2^a$, which is a perfect square when $a$ is even, i.e., $a = 2t$.
+
+- For odd prime $p$: $1 + p^k$ is a perfect power. By Mihăilescu's theorem and direct analysis, the only possibility is $k = 1$ and $1 + p = 2^m$ for some $m \geq 2$, so $p = 2^m - 1$ (a Mersenne prime). Then $p^a + p^{a+1} = p^a \cdot 2^m$, which is a perfect $m$-th power when $a = mt$.
+
+These cases cover all solutions, verified through systematic analysis and number theory results.

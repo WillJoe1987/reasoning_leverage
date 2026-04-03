@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T04:12:11.863327",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 13168,
+          "advise_cost": 0,
+          "whole_cost": 37745,
+          "execution_cost": 100079
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0bf70684",
+            "advisor_id": "adv_2dfc5a16",
+            "task_key_target": "分析组合求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:12:20.324272",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2607,
+                "hire_cost": 9065,
+                "advise_cost": 3125,
+                "whole_cost": 20336,
+                "execution_cost": 66325
+              },
+              "advisor": {
+                "system_prompt_size": 12584,
+                "whole_cost": 3371
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0bf70684",
+              "agents": [
+                {
+                  "agent_id": "emp_7688e465",
+                  "advisor_id": "adv_51d5ae9e",
+                  "task_key_target": "高精度数值计算验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:13:13.390183",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 685,
+                      "hire_cost": 0,
+                      "advise_cost": 2580,
+                      "whole_cost": 34757,
+                      "execution_cost": 32177
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13168,
+                      "whole_cost": 2914
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_b874e22d",
+                  "advisor_id": "adv_dcb2d3ff",
+                  "task_key_target": "组合求和理论推导",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:13:20.427414",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 723,
+                      "hire_cost": 0,
+                      "advise_cost": 699,
+                      "whole_cost": 26701,
+                      "execution_cost": 26002
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10365,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_78f385a8",
+            "advisor_id": "adv_d2b8fcd0",
+            "task_key_target": "分解大数并求质因数之和",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:14:56.041242",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2565,
+                "hire_cost": 0,
+                "advise_cost": 1977,
+                "whole_cost": 11154,
+                "execution_cost": 9177
+              },
+              "advisor": {
+                "system_prompt_size": 25869,
+                "whole_cost": 2189
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_78f385a8",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

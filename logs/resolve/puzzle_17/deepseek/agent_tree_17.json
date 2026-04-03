@@ -1,0 +1,219 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T21:30:12.434953",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 25065,
+          "advise_cost": 0,
+          "whole_cost": 90638,
+          "execution_cost": 519423
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_38a7b402",
+            "advisor_id": "adv_4d7de712",
+            "task_key_target": "分析S的上界和下界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:30:29.871228",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2612,
+                "hire_cost": 11799,
+                "advise_cost": 2825,
+                "whole_cost": 66717,
+                "execution_cost": 128409
+              },
+              "advisor": {
+                "system_prompt_size": 13660,
+                "whole_cost": 3080
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_38a7b402",
+              "agents": [
+                {
+                  "agent_id": "emp_a9a62104",
+                  "advisor_id": "adv_9b044f75",
+                  "task_key_target": "探索S的极值排列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T21:32:27.758049",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 712,
+                      "hire_cost": 0,
+                      "advise_cost": 762,
+                      "whole_cost": 77078,
+                      "execution_cost": 76316
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25518,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_75361b5f",
+            "advisor_id": "adv_28001b5c",
+            "task_key_target": "构造最大化S的排列",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:30:35.924530",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2629,
+                "hire_cost": 0,
+                "advise_cost": 2198,
+                "whole_cost": 107986,
+                "execution_cost": 105788
+              },
+              "advisor": {
+                "system_prompt_size": 12633,
+                "whole_cost": 2472
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_75361b5f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_cfebdd59",
+            "advisor_id": "adv_f1b5f522",
+            "task_key_target": "数值验证和精确计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:30:40.964465",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2555,
+                "hire_cost": 4955,
+                "advise_cost": 1719,
+                "whole_cost": 72580,
+                "execution_cost": 127309
+              },
+              "advisor": {
+                "system_prompt_size": 13399,
+                "whole_cost": 1925
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_cfebdd59",
+              "agents": [
+                {
+                  "agent_id": "emp_dd3a3692",
+                  "advisor_id": "adv_bdfdd330",
+                  "task_key_target": "排列模式分析和算法设计",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T21:33:29.144242",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 657,
+                      "hire_cost": 0,
+                      "advise_cost": 2942,
+                      "whole_cost": 64345,
+                      "execution_cost": 61403
+                    },
+                    "advisor": {
+                      "system_prompt_size": 37678,
+                      "whole_cost": 3255
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6668f98e",
+            "advisor_id": "adv_dc53d7ef",
+            "task_key_target": "验证S的最大值和整数界限",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T21:38:09.780901",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2634,
+                "hire_cost": 5742,
+                "advise_cost": 2144,
+                "whole_cost": 58900,
+                "execution_cost": 92344
+              },
+              "advisor": {
+                "system_prompt_size": 60313,
+                "whole_cost": 2419
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6668f98e",
+              "agents": [
+                {
+                  "agent_id": "emp_be28bb96",
+                  "advisor_id": "adv_74c3b6fe",
+                  "task_key_target": "分析S理论上界和最优性验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T21:39:45.039631",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 757,
+                      "hire_cost": 0,
+                      "advise_cost": 814,
+                      "whole_cost": 42144,
+                      "execution_cost": 41330
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24139,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

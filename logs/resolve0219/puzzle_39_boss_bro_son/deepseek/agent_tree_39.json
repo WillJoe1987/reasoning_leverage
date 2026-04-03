@@ -1,0 +1,230 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-16T10:12:50.321757",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2694,
+          "hire_cost": 12151,
+          "advise_cost": 0,
+          "whole_cost": 21644
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2c95a8c3",
+            "advisor_id": "adv_be5e1f64",
+            "task_key_target": "证明overpartition函数模同余性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-16T10:13:13.619536",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2747,
+                "hire_cost": 9932,
+                "advise_cost": 3474,
+                "whole_cost": 27959
+              },
+              "advisor": {
+                "system_prompt_size": 15116,
+                "whole_cost": 4054
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2c95a8c3",
+              "agents": [
+                {
+                  "agent_id": "emp_03beb169",
+                  "advisor_id": "adv_8707946a",
+                  "task_key_target": "基础情形k=0的模同余分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-16T10:15:20.420325",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2714,
+                      "hire_cost": 10127,
+                      "advise_cost": 3454,
+                      "whole_cost": 28574
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13688,
+                      "whole_cost": 3976
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_03beb169",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b7cfc0ba",
+                        "advisor_id": "adv_d644f850",
+                        "task_key_target": "eta商恒等式重写与模性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-16T10:19:29.867476",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 827,
+                            "hire_cost": 0,
+                            "advise_cost": 3335,
+                            "whole_cost": 17626
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8202,
+                            "whole_cost": 4001
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_a0bd0a5d",
+                  "advisor_id": "adv_eabb91a4",
+                  "task_key_target": "归纳步骤和模幂提升分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-16T10:15:38.081700",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2763,
+                      "hire_cost": 8072,
+                      "advise_cost": 854,
+                      "whole_cost": 23733
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14757,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_a0bd0a5d",
+                    "agents": [
+                      {
+                        "agent_id": "emp_2b2b21e1",
+                        "advisor_id": "adv_d564a382",
+                        "task_key_target": "模幂提升性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-16T10:19:09.704900",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 569,
+                            "hire_cost": 0,
+                            "advise_cost": 861,
+                            "whole_cost": 10045
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8533,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_015aaffc",
+            "advisor_id": "adv_0f170fbd",
+            "task_key_target": "分析模同余的模数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-16T10:17:03.065029",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 551,
+                "hire_cost": 0,
+                "advise_cost": 2994,
+                "whole_cost": 18186
+              },
+              "advisor": {
+                "system_prompt_size": 30508,
+                "whole_cost": 3226
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_49d4671d",
+            "advisor_id": "adv_b1097554",
+            "task_key_target": "验证模同余答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-16T10:21:59.019025",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 617,
+                "hire_cost": 0,
+                "advise_cost": 435,
+                "whole_cost": 10100
+              },
+              "advisor": {
+                "system_prompt_size": 44533,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_b5b20d2a",
+            "advisor_id": "adv_23f20ee8",
+            "task_key_target": "确定最终模数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-16T10:27:28.176104",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 731,
+                "hire_cost": 0,
+                "advise_cost": 599,
+                "whole_cost": 19245
+              },
+              "advisor": {
+                "system_prompt_size": 74495,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

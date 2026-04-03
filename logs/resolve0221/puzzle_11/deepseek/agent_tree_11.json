@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T17:48:47.654493",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 27437,
+          "advise_cost": 0,
+          "whole_cost": 112532,
+          "execution_cost": 415577
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8a1392e0",
+            "advisor_id": "adv_cf9a94a4",
+            "task_key_target": "不等式分析：寻找最大n使得不等式恒成立",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:48:58.215601",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2835,
+                "hire_cost": 7278,
+                "advise_cost": 2893,
+                "whole_cost": 63733,
+                "execution_cost": 95192
+              },
+              "advisor": {
+                "system_prompt_size": 12895,
+                "whole_cost": 3366
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8a1392e0",
+              "agents": [
+                {
+                  "agent_id": "emp_7f03fb0e",
+                  "advisor_id": "adv_742b83fa",
+                  "task_key_target": "数值优化搜索不等式反例",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T17:51:49.556519",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 665,
+                      "hire_cost": 0,
+                      "advise_cost": 5779,
+                      "whole_cost": 47409,
+                      "execution_cost": 41630
+                    },
+                    "advisor": {
+                      "system_prompt_size": 43401,
+                      "whole_cost": 6085
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e200948e",
+            "advisor_id": "adv_4a7fece3",
+            "task_key_target": "数值验证与反例搜索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:49:15.141941",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2691,
+                "hire_cost": 4286,
+                "advise_cost": 1532,
+                "whole_cost": 75323,
+                "execution_cost": 117504
+              },
+              "advisor": {
+                "system_prompt_size": 13599,
+                "whole_cost": 1850
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e200948e",
+              "agents": [
+                {
+                  "agent_id": "emp_ec1c6c76",
+                  "advisor_id": "adv_d39348cf",
+                  "task_key_target": "不等式数学分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T17:52:08.318344",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 532,
+                      "hire_cost": 0,
+                      "advise_cost": 720,
+                      "whole_cost": 48719,
+                      "execution_cost": 47999
+                    },
+                    "advisor": {
+                      "system_prompt_size": 47551,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c7afe57e",
+            "advisor_id": "adv_48320b58",
+            "task_key_target": "不等式理论分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:49:20.871364",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2623,
+                "hire_cost": 0,
+                "advise_cost": 2202,
+                "whole_cost": 67396,
+                "execution_cost": 65194
+              },
+              "advisor": {
+                "system_prompt_size": 14342,
+                "whole_cost": 2468
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c7afe57e",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_47268379",
+            "advisor_id": "adv_1b4ac7d4",
+            "task_key_target": "系统数值搜索反例",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:51:48.289207",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 535,
+                "hire_cost": 0,
+                "advise_cost": 1948,
+                "whole_cost": 54540,
+                "execution_cost": 52592
+              },
+              "advisor": {
+                "system_prompt_size": 33857,
+                "whole_cost": 2167
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

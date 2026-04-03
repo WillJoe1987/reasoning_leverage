@@ -1,0 +1,141 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-25T18:05:37.566093",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 38889,
+          "advise_cost": 0,
+          "whole_cost": 121540,
+          "execution_cost": 332208
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_95f6bba6",
+            "advisor_id": "adv_9e236492",
+            "task_key_target": "分析棋盘操作的性质和不变性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T18:05:48.682290",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2704,
+                "hire_cost": 0,
+                "advise_cost": 1679,
+                "whole_cost": 44104,
+                "execution_cost": 42425
+              },
+              "advisor": {
+                "system_prompt_size": 13173,
+                "whole_cost": 1960
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_95f6bba6",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_6cd88ec5",
+            "advisor_id": "adv_f17da818",
+            "task_key_target": "分析GF(2)上操作向量的生成空间",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T18:08:03.209281",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2791,
+                "hire_cost": 0,
+                "advise_cost": 4462,
+                "whole_cost": 106943,
+                "execution_cost": 102481
+              },
+              "advisor": {
+                "system_prompt_size": 23940,
+                "whole_cost": 52804
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6cd88ec5",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d3cb2668",
+            "advisor_id": "adv_f25ec4ed",
+            "task_key_target": "研究操作向量的线性组合和生成的空间",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T18:09:47.039603",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2690,
+                "hire_cost": 11651,
+                "advise_cost": 6119,
+                "whole_cost": 93021,
+                "execution_cost": 104651
+              },
+              "advisor": {
+                "system_prompt_size": 41346,
+                "whole_cost": 48878
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d3cb2668",
+              "agents": [
+                {
+                  "agent_id": "emp_5ed736d0",
+                  "advisor_id": "adv_3c708a9b",
+                  "task_key_target": "分析不同大小棋盘的操作向量空间性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-25T18:11:14.659757",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 773,
+                      "hire_cost": 0,
+                      "advise_cost": 4811,
+                      "whole_cost": 34211,
+                      "execution_cost": 29400
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20189,
+                      "whole_cost": 26565
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T19:08:22.918838",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 17221,
+          "advise_cost": 0,
+          "whole_cost": 39026,
+          "execution_cost": 84313
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_11da55f8",
+            "advisor_id": "adv_76a63c93",
+            "task_key_target": "解三次方程求实根",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:08:40.392018",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2686,
+                "hire_cost": 0,
+                "advise_cost": 2691,
+                "whole_cost": 15849,
+                "execution_cost": 13158
+              },
+              "advisor": {
+                "system_prompt_size": 14563,
+                "whole_cost": 3026
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_11da55f8",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_62d4b690",
+            "advisor_id": "adv_cd184e2d",
+            "task_key_target": "分析函数最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:10:55.036413",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2574,
+                "hire_cost": 0,
+                "advise_cost": 2288,
+                "whole_cost": 34026,
+                "execution_cost": 31738
+              },
+              "advisor": {
+                "system_prompt_size": 28227,
+                "whole_cost": 2509
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_62d4b690",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_ac07119b",
+            "advisor_id": "adv_4fe37fdd",
+            "task_key_target": "验证最终答案和证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:12:57.456731",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 751,
+                "hire_cost": 0,
+                "advise_cost": 3472,
+                "whole_cost": 21084,
+                "execution_cost": 17612
+              },
+              "advisor": {
+                "system_prompt_size": 42475,
+                "whole_cost": 3910
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

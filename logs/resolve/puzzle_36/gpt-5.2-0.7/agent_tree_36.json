@@ -1,0 +1,80 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-26T17:54:40.984746",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 9907,
+          "advise_cost": 0,
+          "whole_cost": 16944,
+          "execution_cost": 13554
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_42191b07",
+            "advisor_id": "adv_d19b4d70",
+            "task_key_target": "checker1",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T17:55:43.667381",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 499,
+                "hire_cost": 0,
+                "advise_cost": 2564,
+                "whole_cost": 3038,
+                "execution_cost": 474
+              },
+              "advisor": {
+                "system_prompt_size": 13067,
+                "whole_cost": 2674
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_f6315989",
+            "advisor_id": "adv_5460cb17",
+            "task_key_target": "checker2",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T17:55:43.673335",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 520,
+                "hire_cost": 0,
+                "advise_cost": 1630,
+                "whole_cost": 7673,
+                "execution_cost": 6043
+              },
+              "advisor": {
+                "system_prompt_size": 13900,
+                "whole_cost": 1761
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

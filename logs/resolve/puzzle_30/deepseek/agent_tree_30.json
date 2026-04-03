@@ -1,0 +1,191 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T00:27:26.393186",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22417,
+          "advise_cost": 0,
+          "whole_cost": 187122,
+          "execution_cost": 502131
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a8f73e5e",
+            "advisor_id": "adv_713eae90",
+            "task_key_target": "寻找满足同余条件的p和q",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:27:40.090498",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2657,
+                "hire_cost": 4785,
+                "advise_cost": 1920,
+                "whole_cost": 44824,
+                "execution_cost": 206291
+              },
+              "advisor": {
+                "system_prompt_size": 13734,
+                "whole_cost": 2232
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a8f73e5e",
+              "agents": [
+                {
+                  "agent_id": "emp_e8d064e0",
+                  "advisor_id": "adv_7319c923",
+                  "task_key_target": "寻找同余方程的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:29:41.436470",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 771,
+                      "hire_cost": 0,
+                      "advise_cost": 4343,
+                      "whole_cost": 172515,
+                      "execution_cost": 168172
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8251,
+                      "whole_cost": 4758
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0816eba3",
+            "advisor_id": "adv_55ca868d",
+            "task_key_target": "分析序列约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:27:59.957912",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2768,
+                "hire_cost": 8401,
+                "advise_cost": 2010,
+                "whole_cost": 33794,
+                "execution_cost": 59927
+              },
+              "advisor": {
+                "system_prompt_size": 13170,
+                "whole_cost": 2418
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0816eba3",
+              "agents": [
+                {
+                  "agent_id": "emp_3a3816f3",
+                  "advisor_id": "adv_df695f13",
+                  "task_key_target": "搜索满足约束的周期序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:29:13.909231",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 596,
+                      "hire_cost": 0,
+                      "advise_cost": 2803,
+                      "whole_cost": 39347,
+                      "execution_cost": 36544
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15989,
+                      "whole_cost": 3083
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ecd50f25",
+            "advisor_id": "adv_ec889443",
+            "task_key_target": "寻找满足约束的序列结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:30:26.721804",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2727,
+                "hire_cost": 8814,
+                "advise_cost": 2121,
+                "whole_cost": 52774,
+                "execution_cost": 71208
+              },
+              "advisor": {
+                "system_prompt_size": 135558,
+                "whole_cost": 2488
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ecd50f25",
+              "agents": [
+                {
+                  "agent_id": "emp_af83984e",
+                  "advisor_id": "adv_74f1e162",
+                  "task_key_target": "搜索满足约束的周期序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:32:57.251413",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 668,
+                      "hire_cost": 0,
+                      "advise_cost": 3224,
+                      "whole_cost": 32593,
+                      "execution_cost": 29369
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28537,
+                      "whole_cost": 3549
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

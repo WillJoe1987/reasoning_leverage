@@ -1,0 +1,267 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-29T12:01:15.501338",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3353,
+          "hire_cost": 56938,
+          "advise_cost": 0,
+          "whole_cost": 139180,
+          "execution_cost": 249806
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c35c6f04",
+            "advisor_id": "adv_06bbdf10",
+            "task_key_target": "分析整数约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T12:01:32.292440",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2576,
+                "hire_cost": 0,
+                "advise_cost": 2383,
+                "whole_cost": 19160,
+                "execution_cost": 16777
+              },
+              "advisor": {
+                "system_prompt_size": 10932,
+                "whole_cost": 2591
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c35c6f04",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_108e709e",
+            "advisor_id": "adv_99a40912",
+            "task_key_target": "分析序列约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T12:01:41.931461",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2712,
+                "hire_cost": 8875,
+                "advise_cost": 895,
+                "whole_cost": 22541,
+                "execution_cost": 24535
+              },
+              "advisor": {
+                "system_prompt_size": 10777,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_108e709e",
+              "agents": [
+                {
+                  "agent_id": "emp_ed6c3479",
+                  "advisor_id": "adv_7a9b0b7c",
+                  "task_key_target": "分析周期性约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T12:02:25.477302",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 669,
+                      "hire_cost": 0,
+                      "advise_cost": 698,
+                      "whole_cost": 12462,
+                      "execution_cost": 11764
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10624,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2cd94705",
+            "advisor_id": "adv_3ea4e7a2",
+            "task_key_target": "构造满足约束的周期序列",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T12:08:39.312374",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2745,
+                "hire_cost": 12062,
+                "advise_cost": 1676,
+                "whole_cost": 36193,
+                "execution_cost": 66169
+              },
+              "advisor": {
+                "system_prompt_size": 25381,
+                "whole_cost": 2044
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2cd94705",
+              "agents": [
+                {
+                  "agent_id": "emp_8c131055",
+                  "advisor_id": "adv_96ba5046",
+                  "task_key_target": "分析周期序列的数学约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T12:11:42.993632",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 745,
+                      "hire_cost": 0,
+                      "advise_cost": 445,
+                      "whole_cost": 15001,
+                      "execution_cost": 14556
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23478,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6989321d",
+                  "advisor_id": "adv_9acda652",
+                  "task_key_target": "探索周期T=6的序列构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T12:15:01.211289",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 659,
+                      "hire_cost": 0,
+                      "advise_cost": 720,
+                      "whole_cost": 29878,
+                      "execution_cost": 29158
+                    },
+                    "advisor": {
+                      "system_prompt_size": 35775,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a9b721ca",
+            "advisor_id": "adv_500ee9c9",
+            "task_key_target": "验证解的正确性和完整性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-29T12:12:42.147594",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3134,
+                "hire_cost": 13851,
+                "advise_cost": 3891,
+                "whole_cost": 31155,
+                "execution_cost": 60083
+              },
+              "advisor": {
+                "system_prompt_size": 51370,
+                "whole_cost": 4649
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a9b721ca",
+              "agents": [
+                {
+                  "agent_id": "emp_63a7af4d",
+                  "advisor_id": "adv_b94b5869",
+                  "task_key_target": "搜索更小的(p,q)对",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T12:15:37.189599",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 795,
+                      "hire_cost": 0,
+                      "advise_cost": 1028,
+                      "whole_cost": 26074,
+                      "execution_cost": 25046
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16979,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_ada6301c",
+                  "advisor_id": "adv_009d0bb7",
+                  "task_key_target": "验证最小性理论证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-29T12:24:42.661163",
+                  "hirable": false,
+                  "force_order": true,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1336,
+                      "hire_cost": 0,
+                      "advise_cost": 1182,
+                      "whole_cost": 22806,
+                      "execution_cost": 21624
+                    },
+                    "advisor": {
+                      "system_prompt_size": 36163,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

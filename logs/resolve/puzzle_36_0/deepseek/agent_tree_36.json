@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-25T16:08:33.877915",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 26093,
+          "advise_cost": 0,
+          "whole_cost": 87929,
+          "execution_cost": 371960
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_eaba1c3b",
+            "advisor_id": "adv_c7f53fe0",
+            "task_key_target": "数学模型建立",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T16:08:57.374979",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2697,
+                "hire_cost": 8131,
+                "advise_cost": 1976,
+                "whole_cost": 52117,
+                "execution_cost": 67747
+              },
+              "advisor": {
+                "system_prompt_size": 14245,
+                "whole_cost": 2249
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eaba1c3b",
+              "agents": [
+                {
+                  "agent_id": "emp_bd4c402a",
+                  "advisor_id": "adv_ed74c12d",
+                  "task_key_target": "GF(2)线性代数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-25T16:10:50.959487",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 625,
+                      "hire_cost": 0,
+                      "advise_cost": 2714,
+                      "whole_cost": 28451,
+                      "execution_cost": 25737
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22417,
+                      "whole_cost": 2930
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_87823a9c",
+            "advisor_id": "adv_df26cac1",
+            "task_key_target": "组合与奇偶性分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T16:09:03.283736",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2612,
+                "hire_cost": 20928,
+                "advise_cost": 1714,
+                "whole_cost": 76718,
+                "execution_cost": 177946
+              },
+              "advisor": {
+                "system_prompt_size": 15287,
+                "whole_cost": 1919
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_87823a9c",
+              "agents": [
+                {
+                  "agent_id": "emp_62dc22ee",
+                  "advisor_id": "adv_f6322d09",
+                  "task_key_target": "GF(2)线性代数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-25T16:10:01.414085",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 599,
+                      "hire_cost": 0,
+                      "advise_cost": 1760,
+                      "whole_cost": 68344,
+                      "execution_cost": 66584
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15434,
+                      "whole_cost": 1972
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_4841125d",
+                  "advisor_id": "adv_d0f8ae5b",
+                  "task_key_target": "可达范围与构造性证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-25T16:12:36.206506",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 629,
+                      "hire_cost": 0,
+                      "advise_cost": 1809,
+                      "whole_cost": 59095,
+                      "execution_cost": 57286
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32351,
+                      "whole_cost": 2061
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8c876409",
+            "advisor_id": "adv_32acac16",
+            "task_key_target": "数值实验与验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-25T16:09:09.871002",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2619,
+                "hire_cost": 0,
+                "advise_cost": 1958,
+                "whole_cost": 66389,
+                "execution_cost": 64431
+              },
+              "advisor": {
+                "system_prompt_size": 15987,
+                "whole_cost": 2148
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8c876409",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

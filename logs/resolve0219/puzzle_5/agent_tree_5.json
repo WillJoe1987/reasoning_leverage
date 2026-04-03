@@ -1,0 +1,126 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-04T15:42:28.787088",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2529,
+          "hire_cost": 21930,
+          "advise_cost": 0,
+          "whole_cost": 27250
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8780ce65",
+            "advisor_id": "adv_3f5f98c6",
+            "task_key_target": "分析递推序列通项公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T15:42:40.980573",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3313,
+                "hire_cost": 11456,
+                "advise_cost": 386,
+                "whole_cost": 16841
+              },
+              "advisor": {
+                "system_prompt_size": 4386,
+                "whole_cost": 1773
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8780ce65",
+              "agents": [
+                {
+                  "agent_id": "emp_4d6be553",
+                  "advisor_id": "adv_f2bd518e",
+                  "task_key_target": "计算递推序列更多项并寻找模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-04T15:45:21.240597",
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1458,
+                      "hire_cost": 0,
+                      "advise_cost": 0,
+                      "whole_cost": 10656
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9423,
+                      "whole_cost": 2074
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_14988996",
+            "advisor_id": "adv_1556ee3e",
+            "task_key_target": "寻找递推序列的精确通项公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T15:45:23.104955",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3442,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 3686
+              },
+              "advisor": {
+                "system_prompt_size": 10839,
+                "whole_cost": 1886
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_14988996",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_aeca4986",
+            "advisor_id": "adv_de98d26d",
+            "task_key_target": "验证猜想解并寻找精确通项",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T15:48:59.302399",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3434,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 11062
+              },
+              "advisor": {
+                "system_prompt_size": 21108,
+                "whole_cost": 2332
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_aeca4986",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

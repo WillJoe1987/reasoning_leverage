@@ -1,0 +1,437 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-05T15:29:44.496891",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3490,
+          "hire_cost": 30269,
+          "advise_cost": 0,
+          "whole_cost": 124112,
+          "execution_cost": 693311
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_7ff5b169",
+            "advisor_id": "adv_b6aeb5f4",
+            "task_key_target": "分析封装点的数学特征",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T15:30:11.664285",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2614,
+                "hire_cost": 20321,
+                "advise_cost": 815,
+                "whole_cost": 43542,
+                "execution_cost": 109058
+              },
+              "advisor": {
+                "system_prompt_size": 14831,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7ff5b169",
+              "agents": [
+                {
+                  "agent_id": "emp_b0bed43f",
+                  "advisor_id": "adv_bc8e8f70",
+                  "task_key_target": "分析封装点的位置特征",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T15:30:49.889000",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 604,
+                      "hire_cost": 0,
+                      "advise_cost": 2460,
+                      "whole_cost": 28844,
+                      "execution_cost": 26384
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11660,
+                      "whole_cost": 2722
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fb9ddb88",
+                  "advisor_id": "adv_0b760975",
+                  "task_key_target": "分析封装点与接触点的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T15:30:59.264493",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 596,
+                      "hire_cost": 0,
+                      "advise_cost": 522,
+                      "whole_cost": 13866,
+                      "execution_cost": 13344
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8483,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_68187ba2",
+                  "advisor_id": "adv_8199d691",
+                  "task_key_target": "分析封装点的类型分类",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T15:31:08.333705",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 568,
+                      "hire_cost": 0,
+                      "advise_cost": 1860,
+                      "whole_cost": 21342,
+                      "execution_cost": 19482
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9311,
+                      "whole_cost": 2085
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_e59db404",
+                  "advisor_id": "adv_e33918db",
+                  "task_key_target": "分析三个凸集的封装点位置",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T15:31:18.367192",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 615,
+                      "hire_cost": 0,
+                      "advise_cost": 402,
+                      "whole_cost": 27844,
+                      "execution_cost": 27442
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10068,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a77348cb",
+            "advisor_id": "adv_dc96c27f",
+            "task_key_target": "研究三个凸集的几何结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T15:30:20.175977",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2569,
+                "hire_cost": 19379,
+                "advise_cost": 2426,
+                "whole_cost": 78298,
+                "execution_cost": 444385
+              },
+              "advisor": {
+                "system_prompt_size": 13825,
+                "whole_cost": 2617
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a77348cb",
+              "agents": [
+                {
+                  "agent_id": "emp_9afaed16",
+                  "advisor_id": "adv_6bbfcc67",
+                  "task_key_target": "凸集几何构造与低维分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T15:31:58.911530",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2815,
+                      "hire_cost": 16650,
+                      "advise_cost": 3147,
+                      "whole_cost": 89044,
+                      "execution_cost": 387892
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8125,
+                      "whole_cost": 3558
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9afaed16",
+                    "agents": [
+                      {
+                        "agent_id": "emp_c74e6611",
+                        "advisor_id": "adv_c9bdc1ba",
+                        "task_key_target": "二维平面凸集配置与封装点分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T15:33:43.371504",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2762,
+                            "hire_cost": 6328,
+                            "advise_cost": 1296,
+                            "whole_cost": 60374,
+                            "execution_cost": 94641
+                          },
+                          "advisor": {
+                            "system_prompt_size": 13339,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_c74e6611",
+                          "agents": [
+                            {
+                              "agent_id": "emp_a9cd3668",
+                              "advisor_id": "adv_7edb1346",
+                              "task_key_target": "极端配置分析与最大化封装点",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-05T15:38:41.851396",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 672,
+                                  "hire_cost": 0,
+                                  "advise_cost": 720,
+                                  "whole_cost": 42611,
+                                  "execution_cost": 41891
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 25319,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "agent_id": "emp_84726b83",
+                        "advisor_id": "adv_a7591323",
+                        "task_key_target": "三维空间凸集配置与维度影响分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T15:33:53.967919",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2768,
+                            "hire_cost": 27170,
+                            "advise_cost": 687,
+                            "whole_cost": 61068,
+                            "execution_cost": 224004
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14746,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_84726b83",
+                          "agents": [
+                            {
+                              "agent_id": "emp_98709bf0",
+                              "advisor_id": "adv_bfb65dd0",
+                              "task_key_target": "三维空间凸集配置构造",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-05T15:36:09.382978",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2758,
+                                  "hire_cost": 496,
+                                  "advise_cost": 700,
+                                  "whole_cost": 63989,
+                                  "execution_cost": 62793
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 22384,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_98709bf0",
+                                "agents": []
+                              }
+                            },
+                            {
+                              "agent_id": "emp_70dae8e1",
+                              "advisor_id": "adv_59414468",
+                              "task_key_target": "维度影响与二维三维比较",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-05T15:36:19.668900",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2717,
+                                  "hire_cost": 799,
+                                  "advise_cost": 2271,
+                                  "whole_cost": 27371,
+                                  "execution_cost": 24301
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 23553,
+                                  "whole_cost": 2620
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_70dae8e1",
+                                "agents": []
+                              }
+                            },
+                            {
+                              "agent_id": "emp_8856b5a8",
+                              "advisor_id": "adv_3c8be389",
+                              "task_key_target": "维度d与f(d,3)关系猜想",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-05T15:36:30.416413",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2691,
+                                  "hire_cost": 750,
+                                  "advise_cost": 619,
+                                  "whole_cost": 21329,
+                                  "execution_cost": 19960
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 24369,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_8856b5a8",
+                                "agents": []
+                              }
+                            },
+                            {
+                              "agent_id": "emp_5cb0623c",
+                              "advisor_id": "adv_f0be77e6",
+                              "task_key_target": "三维极端配置构造",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-05T15:36:41.267986",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2741,
+                                  "hire_cost": 1221,
+                                  "advise_cost": 771,
+                                  "whole_cost": 85731,
+                                  "execution_cost": 83739
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 25207,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_5cb0623c",
+                                "agents": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ca9175cc",
+            "advisor_id": "adv_8e1d0463",
+            "task_key_target": "分析半空间配置的封装点",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T15:33:24.126724",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2580,
+                "hire_cost": 0,
+                "advise_cost": 2275,
+                "whole_cost": 48300,
+                "execution_cost": 46025
+              },
+              "advisor": {
+                "system_prompt_size": 26187,
+                "whole_cost": 2493
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ca9175cc",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

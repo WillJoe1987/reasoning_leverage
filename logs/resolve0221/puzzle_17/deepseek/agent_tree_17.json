@@ -1,0 +1,166 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T19:26:03.218982",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 42410,
+          "advise_cost": 0,
+          "whole_cost": 99705,
+          "execution_cost": 262799
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2b523e04",
+            "advisor_id": "adv_9f92c3c9",
+            "task_key_target": "探索最大化策略",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:26:17.097622",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2651,
+                "hire_cost": 5892,
+                "advise_cost": 1812,
+                "whole_cost": 52392,
+                "execution_cost": 73585
+              },
+              "advisor": {
+                "system_prompt_size": 13576,
+                "whole_cost": 2110
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2b523e04",
+              "agents": [
+                {
+                  "agent_id": "emp_e2d2d4a9",
+                  "advisor_id": "adv_dea0d2b1",
+                  "task_key_target": "计算n=2025的最大和近似值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:31:25.106690",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 727,
+                      "hire_cost": 0,
+                      "advise_cost": 776,
+                      "whole_cost": 29673,
+                      "execution_cost": 28897
+                    },
+                    "advisor": {
+                      "system_prompt_size": 47713,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_55cbe10c",
+            "advisor_id": "adv_bcfcd4fe",
+            "task_key_target": "推导一般公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:26:47.733676",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2759,
+                "hire_cost": 0,
+                "advise_cost": 2851,
+                "whole_cost": 52110,
+                "execution_cost": 49259
+              },
+              "advisor": {
+                "system_prompt_size": 17273,
+                "whole_cost": 3251
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_55cbe10c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9150519e",
+            "advisor_id": "adv_70249120",
+            "task_key_target": "计算n=2025的最大值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T19:32:23.553892",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2730,
+                "hire_cost": 13596,
+                "advise_cost": 2990,
+                "whole_cost": 43225,
+                "execution_cost": 82660
+              },
+              "advisor": {
+                "system_prompt_size": 55231,
+                "whole_cost": 3356
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9150519e",
+              "agents": [
+                {
+                  "agent_id": "emp_bd82c676",
+                  "advisor_id": "adv_6616ce1d",
+                  "task_key_target": "分析S_max(n)的上下界和误差估计",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T19:34:42.116671",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 869,
+                      "hire_cost": 0,
+                      "advise_cost": 729,
+                      "whole_cost": 56750,
+                      "execution_cost": 56021
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22300,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

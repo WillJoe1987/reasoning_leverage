@@ -1,0 +1,80 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-26T12:08:28.104152",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 9997,
+          "advise_cost": 0,
+          "whole_cost": 17597,
+          "execution_cost": 171275
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c443b984",
+            "advisor_id": "adv_0d6b8b40",
+            "task_key_target": "Verify the answer 199 for the 19×19 board problem",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T12:13:09.640683",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 1274,
+                "hire_cost": 0,
+                "advise_cost": 2662,
+                "whole_cost": 109725,
+                "execution_cost": 107063
+              },
+              "advisor": {
+                "system_prompt_size": 17285,
+                "whole_cost": 3491
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_53a7aceb",
+            "advisor_id": "adv_b5fb6d5e",
+            "task_key_target": "Independent verification of the tightness argument for n=199",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T12:18:39.925204",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 1336,
+                "hire_cost": 0,
+                "advise_cost": 864,
+                "whole_cost": 57476,
+                "execution_cost": 56612
+              },
+              "advisor": {
+                "system_prompt_size": 28882,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

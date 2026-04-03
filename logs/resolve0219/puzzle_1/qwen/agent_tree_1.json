@@ -1,0 +1,50 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T19:58:50.687929",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 2988,
+          "advise_cost": 0,
+          "whole_cost": 15230
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_4e65602a",
+            "advisor_id": "adv_6b18156f",
+            "task_key_target": "Geometric Analysis of Triangular Lattice",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T19:59:01.642059",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 643,
+                "hire_cost": 0,
+                "advise_cost": 2234,
+                "whole_cost": 3531
+              },
+              "advisor": {
+                "system_prompt_size": 7984,
+                "whole_cost": 2668
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

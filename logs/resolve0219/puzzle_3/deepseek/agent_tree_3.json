@@ -1,0 +1,311 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T12:29:02.000682",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 37403,
+          "advise_cost": 0,
+          "whole_cost": 179382,
+          "execution_cost": 519108
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1610bcbb",
+            "advisor_id": "adv_f771042d",
+            "task_key_target": "分析序列条件和不等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T12:29:17.027450",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2538,
+                "hire_cost": 31370,
+                "advise_cost": 1591,
+                "whole_cost": 48298,
+                "execution_cost": 133833
+              },
+              "advisor": {
+                "system_prompt_size": 9278,
+                "whole_cost": 1958
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1610bcbb",
+              "agents": [
+                {
+                  "agent_id": "emp_d8ec6e2b",
+                  "advisor_id": "adv_0f6d7d49",
+                  "task_key_target": "分析序列条件的数学性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:06.312675",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 810,
+                      "hire_cost": 0,
+                      "advise_cost": 629,
+                      "whole_cost": 15288,
+                      "execution_cost": 14659
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9561,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_91c5555e",
+                  "advisor_id": "adv_5b868549",
+                  "task_key_target": "分析不等式 ∏ a_k^k ≥ 1 的性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:20.512983",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 854,
+                      "hire_cost": 0,
+                      "advise_cost": 2218,
+                      "whole_cost": 48795,
+                      "execution_cost": 46577
+                    },
+                    "advisor": {
+                      "system_prompt_size": 7311,
+                      "whole_cost": 2742
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_52727122",
+                  "advisor_id": "adv_31492cbb",
+                  "task_key_target": "研究n的取值范围和一般性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:33.789761",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 814,
+                      "hire_cost": 0,
+                      "advise_cost": 642,
+                      "whole_cost": 32834,
+                      "execution_cost": 32192
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8429,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0e39660d",
+                  "advisor_id": "adv_f6a0eeb9",
+                  "task_key_target": "研究小n的情况和数值实验",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:48.741644",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 783,
+                      "hire_cost": 0,
+                      "advise_cost": 2620,
+                      "whole_cost": 27688,
+                      "execution_cost": 25068
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10813,
+                      "whole_cost": 3057
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a806cfd4",
+            "advisor_id": "adv_f82b874f",
+            "task_key_target": "从不等式角度分析n的取值范围",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T12:29:25.387224",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2441,
+                "hire_cost": 12542,
+                "advise_cost": 4696,
+                "whole_cost": 42498,
+                "execution_cost": 64271
+              },
+              "advisor": {
+                "system_prompt_size": 10299,
+                "whole_cost": 4916
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a806cfd4",
+              "agents": [
+                {
+                  "agent_id": "emp_7fb031ac",
+                  "advisor_id": "adv_15076d0f",
+                  "task_key_target": "数值实验寻找反例",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:30.207490",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 808,
+                      "hire_cost": 0,
+                      "advise_cost": 2049,
+                      "whole_cost": 19977,
+                      "execution_cost": 17928
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10458,
+                      "whole_cost": 2501
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_336420fe",
+                  "advisor_id": "adv_82d7a5ca",
+                  "task_key_target": "不等式理论分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:32:43.949720",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 833,
+                      "hire_cost": 0,
+                      "advise_cost": 719,
+                      "whole_cost": 21802,
+                      "execution_cost": 21083
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11399,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_7e816529",
+            "advisor_id": "adv_e152161e",
+            "task_key_target": "寻找n=3和n=4的反例",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T12:39:56.326186",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2445,
+                "hire_cost": 14684,
+                "advise_cost": 3791,
+                "whole_cost": 79149,
+                "execution_cost": 179025
+              },
+              "advisor": {
+                "system_prompt_size": 49573,
+                "whole_cost": 4045
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7e816529",
+              "agents": [
+                {
+                  "agent_id": "emp_ca06ee77",
+                  "advisor_id": "adv_39480920",
+                  "task_key_target": "n=3数值搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:42:38.780331",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 865,
+                      "hire_cost": 0,
+                      "advise_cost": 1009,
+                      "whole_cost": 96857,
+                      "execution_cost": 95848
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15774,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_31faa5b7",
+                  "advisor_id": "adv_07c3783b",
+                  "task_key_target": "n=4对称情况分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:42:53.195941",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 654,
+                      "hire_cost": 0,
+                      "advise_cost": 3251,
+                      "whole_cost": 25754,
+                      "execution_cost": 22503
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13935,
+                      "whole_cost": 3612
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

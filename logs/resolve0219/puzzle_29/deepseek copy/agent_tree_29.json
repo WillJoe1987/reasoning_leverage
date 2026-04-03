@@ -1,0 +1,263 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-27T12:00:45.986711",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 48677,
+          "advise_cost": 0,
+          "whole_cost": 150755,
+          "execution_cost": 353444
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8835c445",
+            "advisor_id": "adv_8fd90e3c",
+            "task_key_target": "分析方程条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T12:01:09.374824",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2958,
+                "hire_cost": 10080,
+                "advise_cost": 3481,
+                "whole_cost": 37160,
+                "execution_cost": 43640
+              },
+              "advisor": {
+                "system_prompt_size": 10255,
+                "whole_cost": 4072
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8835c445",
+              "agents": [
+                {
+                  "agent_id": "emp_0edc0775",
+                  "advisor_id": "adv_af77d9ac",
+                  "task_key_target": "寻找符合条件的素数并进行数值分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T12:05:52.802799",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 659,
+                      "hire_cost": 0,
+                      "advise_cost": 790,
+                      "whole_cost": 20831,
+                      "execution_cost": 20041
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12868,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0a788ba5",
+            "advisor_id": "adv_445cf005",
+            "task_key_target": "分析距离约束和模长条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T12:04:00.518840",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3001,
+                "hire_cost": 26780,
+                "advise_cost": 5225,
+                "whole_cost": 71932,
+                "execution_cost": 112346
+              },
+              "advisor": {
+                "system_prompt_size": 16217,
+                "whole_cost": 5828
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0a788ba5",
+              "agents": [
+                {
+                  "agent_id": "emp_d583190e",
+                  "advisor_id": "adv_95c6f393",
+                  "task_key_target": "寻找候选素数和分析方程",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T12:10:31.993588",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1258,
+                      "hire_cost": 0,
+                      "advise_cost": 831,
+                      "whole_cost": 35247,
+                      "execution_cost": 34416
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11477,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_035eaa15",
+                  "advisor_id": "adv_566fd00f",
+                  "task_key_target": "分析d_i的可能取值和约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T12:16:32.916322",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1970,
+                      "hire_cost": 0,
+                      "advise_cost": 3166,
+                      "whole_cost": 41169,
+                      "execution_cost": 38003
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38718,
+                      "whole_cost": 4817
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6fc0dcbe",
+            "advisor_id": "adv_eafb669a",
+            "task_key_target": "验证方程化简",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T12:04:12.655032",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 804,
+                "hire_cost": 0,
+                "advise_cost": 1305,
+                "whole_cost": 6988,
+                "execution_cost": 5683
+              },
+              "advisor": {
+                "system_prompt_size": 20574,
+                "whole_cost": 1799
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_fe644b05",
+            "advisor_id": "adv_1ed4de05",
+            "task_key_target": "寻找特殊解和模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T12:12:50.702755",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2940,
+                "hire_cost": 19260,
+                "advise_cost": 1742,
+                "whole_cost": 53857,
+                "execution_cost": 89697
+              },
+              "advisor": {
+                "system_prompt_size": 42975,
+                "whole_cost": 2275
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fe644b05",
+              "agents": [
+                {
+                  "agent_id": "emp_b9de1a17",
+                  "advisor_id": "adv_107c7800",
+                  "task_key_target": "分析d_i模式和a值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T12:14:55.353704",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 923,
+                      "hire_cost": 0,
+                      "advise_cost": 2315,
+                      "whole_cost": 37568,
+                      "execution_cost": 35253
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14706,
+                      "whole_cost": 2923
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_4b709575",
+                  "advisor_id": "adv_32a7c429",
+                  "task_key_target": "数值计算和分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T12:18:55.232088",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 773,
+                      "hire_cost": 0,
+                      "advise_cost": 794,
+                      "whole_cost": 22383,
+                      "execution_cost": 21589
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30174,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-05T12:03:11.992044",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3491,
+          "hire_cost": 63856,
+          "advise_cost": 0,
+          "whole_cost": 127833,
+          "execution_cost": 1080698
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_83ff2072",
+            "advisor_id": "adv_90c0d11d",
+            "task_key_target": "方程分析与化简",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T12:03:39.229772",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2894,
+                "hire_cost": 9987,
+                "advise_cost": 3670,
+                "whole_cost": 57484,
+                "execution_cost": 157031
+              },
+              "advisor": {
+                "system_prompt_size": 14754,
+                "whole_cost": 4167
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_83ff2072",
+              "agents": [
+                {
+                  "agent_id": "emp_1a3d4326",
+                  "advisor_id": "adv_b71cd1b2",
+                  "task_key_target": "分析d_i的整数解可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:08:01.097090",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2794,
+                      "hire_cost": 9648,
+                      "advise_cost": 594,
+                      "whole_cost": 31502,
+                      "execution_cost": 113204
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19775,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_1a3d4326",
+                    "agents": [
+                      {
+                        "agent_id": "emp_13fa060a",
+                        "advisor_id": "adv_b19741f2",
+                        "task_key_target": "分析d_i∈{0,1}时的可能性",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T12:10:03.040966",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 818,
+                            "hire_cost": 0,
+                            "advise_cost": 734,
+                            "whole_cost": 68213,
+                            "execution_cost": 67479
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14461,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_9fa19f48",
+                        "advisor_id": "adv_983ce007",
+                        "task_key_target": "分析d_i∈{0,1,2}时的可能性",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T12:10:13.053529",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 706,
+                            "hire_cost": 0,
+                            "advise_cost": 695,
+                            "whole_cost": 25160,
+                            "execution_cost": 24465
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11167,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ea1f8f91",
+            "advisor_id": "adv_eeafde53",
+            "task_key_target": "分析d_i的可能取值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T12:04:44.987129",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2742,
+                "hire_cost": 18252,
+                "advise_cost": 2538,
+                "whole_cost": 78690,
+                "execution_cost": 181768
+              },
+              "advisor": {
+                "system_prompt_size": 17094,
+                "whole_cost": 2923
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ea1f8f91",
+              "agents": [
+                {
+                  "agent_id": "emp_821a8c61",
+                  "advisor_id": "adv_f7dbd586",
+                  "task_key_target": "测试常数d_i的可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:06:11.631263",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 537,
+                      "hire_cost": 0,
+                      "advise_cost": 2590,
+                      "whole_cost": 46852,
+                      "execution_cost": 44262
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21643,
+                      "whole_cost": 2793
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a0259024",
+                  "advisor_id": "adv_1c126fc2",
+                  "task_key_target": "寻找d_i=0/1组合的具体解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:06:50.942246",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 507,
+                      "hire_cost": 0,
+                      "advise_cost": 2850,
+                      "whole_cost": 28612,
+                      "execution_cost": 25762
+                    },
+                    "advisor": {
+                      "system_prompt_size": 31133,
+                      "whole_cost": 3055
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6315f3bd",
+                  "advisor_id": "adv_a419f13c",
+                  "task_key_target": "数值搜索d_i的可能取值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:10:05.463152",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 576,
+                      "hire_cost": 0,
+                      "advise_cost": 2603,
+                      "whole_cost": 56447,
+                      "execution_cost": 53844
+                    },
+                    "advisor": {
+                      "system_prompt_size": 46124,
+                      "whole_cost": 2880
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0f828d21",
+            "advisor_id": "adv_d3a035e8",
+            "task_key_target": "数值测试与探索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T12:06:58.568671",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2784,
+                "hire_cost": 0,
+                "advise_cost": 3630,
+                "whole_cost": 16169,
+                "execution_cost": 12539
+              },
+              "advisor": {
+                "system_prompt_size": 22641,
+                "whole_cost": 14771
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0f828d21",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_e0e85822",
+            "advisor_id": "adv_12fbb7cd",
+            "task_key_target": "数值求解d_i系统",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T12:13:25.807817",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2796,
+                "hire_cost": 20286,
+                "advise_cost": 1494,
+                "whole_cost": 162696,
+                "execution_cost": 629574
+              },
+              "advisor": {
+                "system_prompt_size": 51484,
+                "whole_cost": 1917
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e0e85822",
+              "agents": [
+                {
+                  "agent_id": "emp_70f757d3",
+                  "advisor_id": "adv_24225c69",
+                  "task_key_target": "数值搜索m和D组合",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:14:37.693236",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2862,
+                      "hire_cost": 0,
+                      "advise_cost": 1622,
+                      "whole_cost": 242232,
+                      "execution_cost": 240610
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14227,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_70f757d3",
+                    "agents": []
+                  }
+                },
+                {
+                  "agent_id": "emp_02cacab8",
+                  "advisor_id": "adv_b83b5f50",
+                  "task_key_target": "搜索三值系统{d_i ∈ {0,1,2}}的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T12:19:00.657065",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2968,
+                      "hire_cost": 20027,
+                      "advise_cost": 733,
+                      "whole_cost": 78654,
+                      "execution_cost": 248048
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48193,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_02cacab8",
+                    "agents": [
+                      {
+                        "agent_id": "emp_784e18c5",
+                        "advisor_id": "adv_bc9e48f5",
+                        "task_key_target": "三值系统解搜索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T12:20:50.860742",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 942,
+                            "hire_cost": 0,
+                            "advise_cost": 2201,
+                            "whole_cost": 104475,
+                            "execution_cost": 102274
+                          },
+                          "advisor": {
+                            "system_prompt_size": 15400,
+                            "whole_cost": 2799
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_c0c22b71",
+                        "advisor_id": "adv_e8ad0a42",
+                        "task_key_target": "三值系统深度搜索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-05T12:24:15.837196",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 832,
+                            "hire_cost": 0,
+                            "advise_cost": 770,
+                            "whole_cost": 88650,
+                            "execution_cost": 87880
+                          },
+                          "advisor": {
+                            "system_prompt_size": 32278,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_87a8b755",
+            "advisor_id": "adv_9f911471",
+            "task_key_target": "验证p的最大值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T12:33:33.634655",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 676,
+                "hire_cost": 0,
+                "advise_cost": 2379,
+                "whole_cost": 38188,
+                "execution_cost": 35809
+              },
+              "advisor": {
+                "system_prompt_size": 147508,
+                "whole_cost": 2748
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

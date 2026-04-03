@@ -1,0 +1,56 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "working",
+      "depth": 0,
+      "hired_at": "2026-02-26T15:10:34.172525",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 1045,
+          "advise_cost": 0,
+          "whole_cost": 54281,
+          "execution_cost": 53236
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2a5d8ee7",
+            "advisor_id": "adv_09104aa5",
+            "task_key_target": "stone_flipping_problem_19x19",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-02-26T15:10:44.534731",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 844,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0,
+                "execution_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 13378,
+                "whole_cost": 2454
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

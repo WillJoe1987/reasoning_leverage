@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:02:36.584815",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 19888,
+          "advise_cost": 0,
+          "whole_cost": 38739,
+          "execution_cost": 92849
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_f031340d",
+            "advisor_id": "adv_806f4c0a",
+            "task_key_target": "思路1：模12同余条件分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:02:58.350751",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2696,
+                "hire_cost": 0,
+                "advise_cost": 2347,
+                "whole_cost": 10805,
+                "execution_cost": 8458
+              },
+              "advisor": {
+                "system_prompt_size": 14450,
+                "whole_cost": 2667
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f031340d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3c96e157",
+            "advisor_id": "adv_66dc4931",
+            "task_key_target": "思路2：中国剩余定理方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:03:03.230742",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 3305,
+                "advise_cost": 2471,
+                "whole_cost": 17167,
+                "execution_cost": 13621
+              },
+              "advisor": {
+                "system_prompt_size": 13373,
+                "whole_cost": 2710
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3c96e157",
+              "agents": [
+                {
+                  "agent_id": "emp_429af6ce",
+                  "advisor_id": "adv_a1ec7865",
+                  "task_key_target": "计算满足模3和模4条件的指数组个数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:04:33.263711",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 576,
+                      "hire_cost": 0,
+                      "advise_cost": 2188,
+                      "whole_cost": 4418,
+                      "execution_cost": 2230
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15310,
+                      "whole_cost": 2441
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5570fdb9",
+            "advisor_id": "adv_7a69a5bf",
+            "task_key_target": "思路3：生成函数与计数方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:03:08.077018",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2583,
+                "hire_cost": 5522,
+                "advise_cost": 1847,
+                "whole_cost": 34160,
+                "execution_cost": 39764
+              },
+              "advisor": {
+                "system_prompt_size": 13893,
+                "whole_cost": 2066
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5570fdb9",
+              "agents": [
+                {
+                  "agent_id": "emp_3f040d76",
+                  "advisor_id": "adv_1c2be551",
+                  "task_key_target": "分析质因数幂次模12的周期性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:03:56.289595",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 602,
+                      "hire_cost": 0,
+                      "advise_cost": 2279,
+                      "whole_cost": 15252,
+                      "execution_cost": 12973
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13450,
+                      "whole_cost": 2542
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8ab3b8b7",
+            "advisor_id": "adv_27ccbdaf",
+            "task_key_target": "验证结果正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:04:19.573867",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 795,
+                "hire_cost": 0,
+                "advise_cost": 2160,
+                "whole_cost": 14315,
+                "execution_cost": 12155
+              },
+              "advisor": {
+                "system_prompt_size": 22129,
+                "whole_cost": 2648
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

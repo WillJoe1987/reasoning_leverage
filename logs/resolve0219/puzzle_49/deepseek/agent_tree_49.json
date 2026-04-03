@@ -1,0 +1,359 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-15T12:33:33.825508",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 30496,
+          "advise_cost": 0,
+          "whole_cost": 155837,
+          "execution_cost": 524223
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_90a742e8",
+            "advisor_id": "adv_29f929ee",
+            "task_key_target": "分析灯板操作的线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-15T12:34:20.750695",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2610,
+                "hire_cost": 13885,
+                "advise_cost": 2898,
+                "whole_cost": 42908,
+                "execution_cost": 53632
+              },
+              "advisor": {
+                "system_prompt_size": 19924,
+                "whole_cost": 3137
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_90a742e8",
+              "agents": [
+                {
+                  "agent_id": "emp_5827b4fe",
+                  "advisor_id": "adv_cbe556d5",
+                  "task_key_target": "验证17×17灯板操作矩阵的秩",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-15T12:36:03.079167",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 601,
+                      "hire_cost": 0,
+                      "advise_cost": 3124,
+                      "whole_cost": 30631,
+                      "execution_cost": 27507
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22501,
+                      "whole_cost": 3364
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3ad51fe7",
+            "advisor_id": "adv_b977f290",
+            "task_key_target": "验证方程根和计算a2+a3",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-15T12:34:25.488315",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2554,
+                "hire_cost": 0,
+                "advise_cost": 1757,
+                "whole_cost": 20732,
+                "execution_cost": 18975
+              },
+              "advisor": {
+                "system_prompt_size": 19647,
+                "whole_cost": 1949
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3ad51fe7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_18a5b3f8",
+            "advisor_id": "adv_17bce866",
+            "task_key_target": "计算覆盖半径的下界和上界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-15T12:46:54.869733",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2662,
+                "hire_cost": 22280,
+                "advise_cost": 859,
+                "whole_cost": 68078,
+                "execution_cost": 326275
+              },
+              "advisor": {
+                "system_prompt_size": 128860,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_18a5b3f8",
+              "agents": [
+                {
+                  "agent_id": "emp_9a67c1fb",
+                  "advisor_id": "adv_52d8d1d1",
+                  "task_key_target": "分析灯板问题的数学结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-15T12:47:13.016153",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2659,
+                      "hire_cost": 4620,
+                      "advise_cost": 628,
+                      "whole_cost": 38899,
+                      "execution_cost": 92913
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11422,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9a67c1fb",
+                    "agents": [
+                      {
+                        "agent_id": "emp_e2a29448",
+                        "advisor_id": "adv_ae767988",
+                        "task_key_target": "分析n=3,5,7灯板问题的具体结果",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-15T12:48:35.750051",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 619,
+                            "hire_cost": 0,
+                            "advise_cost": 498,
+                            "whole_cost": 59760,
+                            "execution_cost": 59262
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10917,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_f6ad8ba4",
+                  "advisor_id": "adv_65060836",
+                  "task_key_target": "构造覆盖半径的下界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-15T12:47:18.933000",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2637,
+                      "hire_cost": 11179,
+                      "advise_cost": 727,
+                      "whole_cost": 56899,
+                      "execution_cost": 134198
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12418,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f6ad8ba4",
+                    "agents": [
+                      {
+                        "agent_id": "emp_8b4d8a36",
+                        "advisor_id": "adv_a5d5e059",
+                        "task_key_target": "分析n=3,5,7的下界构造方法",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-15T12:48:40.524494",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2583,
+                            "hire_cost": 5314,
+                            "advise_cost": 681,
+                            "whole_cost": 42717,
+                            "execution_cost": 89205
+                          },
+                          "advisor": {
+                            "system_prompt_size": 21418,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_8b4d8a36",
+                          "agents": [
+                            {
+                              "agent_id": "emp_c57fd1c2",
+                              "advisor_id": "adv_6599d973",
+                              "task_key_target": "分析n=3,5,7灯板问题的具体数学结构",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-15T12:48:57.753492",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 624,
+                                  "hire_cost": 0,
+                                  "advise_cost": 487,
+                                  "whole_cost": 52970,
+                                  "execution_cost": 52483
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 20855,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_d764eb9a",
+                  "advisor_id": "adv_10d80faf",
+                  "task_key_target": "构造覆盖半径的上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-15T12:47:24.449128",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2629,
+                      "hire_cost": 7670,
+                      "advise_cost": 671,
+                      "whole_cost": 28464,
+                      "execution_cost": 54225
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13166,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_d764eb9a",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b25c0b32",
+                        "advisor_id": "adv_8f4e5800",
+                        "task_key_target": "覆盖半径上界算法设计与分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-15T12:48:31.340528",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2729,
+                            "hire_cost": 12108,
+                            "advise_cost": 2864,
+                            "whole_cost": 24539,
+                            "execution_cost": 34102
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10782,
+                            "whole_cost": 3222
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_b25c0b32",
+                          "agents": [
+                            {
+                              "agent_id": "emp_09268051",
+                              "advisor_id": "adv_aac4b3eb",
+                              "task_key_target": "线性码覆盖半径算法设计与证明",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-15T12:50:00.177921",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 877,
+                                  "hire_cost": 0,
+                                  "advise_cost": 805,
+                                  "whole_cost": 25340,
+                                  "execution_cost": 24535
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 9222,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

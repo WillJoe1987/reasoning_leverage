@@ -1,0 +1,166 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T00:40:56.963816",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 37771,
+          "advise_cost": 0,
+          "whole_cost": 70282,
+          "execution_cost": 219007
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_4a629261",
+            "advisor_id": "adv_bab9977d",
+            "task_key_target": "分析曲线方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:41:07.385875",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2630,
+                "hire_cost": 0,
+                "advise_cost": 2272,
+                "whole_cost": 25412,
+                "execution_cost": 23140
+              },
+              "advisor": {
+                "system_prompt_size": 13635,
+                "whole_cost": 2177
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4a629261",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_4d847b8d",
+            "advisor_id": "adv_e518753f",
+            "task_key_target": "分析r_i函数性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:41:24.376603",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2875,
+                "hire_cost": 4219,
+                "advise_cost": 2031,
+                "whole_cost": 60277,
+                "execution_cost": 98667
+              },
+              "advisor": {
+                "system_prompt_size": 13999,
+                "whole_cost": 2543
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4d847b8d",
+              "agents": [
+                {
+                  "agent_id": "emp_9382d548",
+                  "advisor_id": "adv_8751e638",
+                  "task_key_target": "分析曲线点到直线距离范围",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:45:06.918521",
+                  "hirable": false,
+                  "force_order": true,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 588,
+                      "hire_cost": 0,
+                      "advise_cost": 2415,
+                      "whole_cost": 47055,
+                      "execution_cost": 44640
+                    },
+                    "advisor": {
+                      "system_prompt_size": 50944,
+                      "whole_cost": 2689
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_496c4caf",
+            "advisor_id": "adv_f8483c30",
+            "task_key_target": "解决线性规划问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T00:44:18.041533",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2791,
+                "hire_cost": 8687,
+                "advise_cost": 1996,
+                "whole_cost": 40469,
+                "execution_cost": 64689
+              },
+              "advisor": {
+                "system_prompt_size": 31784,
+                "whole_cost": 2429
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_496c4caf",
+              "agents": [
+                {
+                  "agent_id": "emp_7f3b7562",
+                  "advisor_id": "adv_0a05b25b",
+                  "task_key_target": "搜索最优整数解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:45:39.240186",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 679,
+                      "hire_cost": 0,
+                      "advise_cost": 2607,
+                      "whole_cost": 37510,
+                      "execution_cost": 34903
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13164,
+                      "whole_cost": 3629
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

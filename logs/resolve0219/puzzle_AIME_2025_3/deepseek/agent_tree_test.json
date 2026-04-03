@@ -1,0 +1,123 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-08T16:41:59.502991",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 15300,
+          "advise_cost": 0,
+          "whole_cost": 21405
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1af3fb1d",
+            "advisor_id": "adv_8db25150",
+            "task_key_target": "分析2×2网格染色问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:42:14.679574",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 414,
+                "hire_cost": 0,
+                "advise_cost": 1688,
+                "whole_cost": 5121
+              },
+              "advisor": {
+                "system_prompt_size": 7498,
+                "whole_cost": 1879
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_3f10a4ac",
+            "advisor_id": "adv_c305b7fc",
+            "task_key_target": "计算满足条件的染色方案数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:44:20.302741",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 409,
+                "hire_cost": 0,
+                "advise_cost": 2416,
+                "whole_cost": 9920
+              },
+              "advisor": {
+                "system_prompt_size": 8298,
+                "whole_cost": 2609
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_e4a4f9e5",
+            "advisor_id": "adv_944b7516",
+            "task_key_target": "枚举计算所有内部边配置的方案数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:46:32.809044",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 617,
+                "hire_cost": 0,
+                "advise_cost": 1175,
+                "whole_cost": 4799
+              },
+              "advisor": {
+                "system_prompt_size": 13904,
+                "whole_cost": 1580
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_e72faf3d",
+            "advisor_id": "adv_6eb333b4",
+            "task_key_target": "验证染色方案数计算结果",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:49:09.615079",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 409,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 23674,
+                "whole_cost": 1883
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

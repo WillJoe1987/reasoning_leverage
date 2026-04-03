@@ -1,0 +1,141 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:50:12.250486",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 18350,
+          "advise_cost": 0,
+          "whole_cost": 41156,
+          "execution_cost": 131167
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_46cf4614",
+            "advisor_id": "adv_989bdd4a",
+            "task_key_target": "方程求解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:50:26.146590",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2515,
+                "hire_cost": 235,
+                "advise_cost": 2739,
+                "whole_cost": 34038,
+                "execution_cost": 31064
+              },
+              "advisor": {
+                "system_prompt_size": 12868,
+                "whole_cost": 2902
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_46cf4614",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b3e83cfb",
+            "advisor_id": "adv_a92389c3",
+            "task_key_target": "方程验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:50:30.726498",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2542,
+                "hire_cost": 3501,
+                "advise_cost": 1717,
+                "whole_cost": 37344,
+                "execution_cost": 57514
+              },
+              "advisor": {
+                "system_prompt_size": 11408,
+                "whole_cost": 1903
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b3e83cfb",
+              "agents": [
+                {
+                  "agent_id": "emp_ccad6896",
+                  "advisor_id": "adv_436a6027",
+                  "task_key_target": "数值验证方程解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:52:14.091236",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 589,
+                      "hire_cost": 0,
+                      "advise_cost": 772,
+                      "whole_cost": 26160,
+                      "execution_cost": 25388
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24929,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ba1c6b62",
+            "advisor_id": "adv_55679d7f",
+            "task_key_target": "最终答案验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:52:56.981534",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2622,
+                "hire_cost": 0,
+                "advise_cost": 2484,
+                "whole_cost": 22267,
+                "execution_cost": 19783
+              },
+              "advisor": {
+                "system_prompt_size": 27196,
+                "whole_cost": 2773
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ba1c6b62",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

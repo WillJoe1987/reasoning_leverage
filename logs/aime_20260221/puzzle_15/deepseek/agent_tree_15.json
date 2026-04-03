@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T18:22:27.769111",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 27019,
+          "advise_cost": 0,
+          "whole_cost": 73482,
+          "execution_cost": 523709
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9cc7770a",
+            "advisor_id": "adv_6bbfee54",
+            "task_key_target": "矩形环数学性质分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:22:42.234391",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2621,
+                "hire_cost": 10766,
+                "advise_cost": 2478,
+                "whole_cost": 55557,
+                "execution_cost": 148751
+              },
+              "advisor": {
+                "system_prompt_size": 14072,
+                "whole_cost": 2738
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9cc7770a",
+              "agents": [
+                {
+                  "agent_id": "emp_04f8f1f7",
+                  "advisor_id": "adv_a386b6a8",
+                  "task_key_target": "矩形环尺寸组合分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:23:55.517163",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 638,
+                      "hire_cost": 0,
+                      "advise_cost": 773,
+                      "whole_cost": 74204,
+                      "execution_cost": 73431
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17488,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_525a9a6d",
+                  "advisor_id": "adv_954cc7e1",
+                  "task_key_target": "矩形环排列可行性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:25:08.183782",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 680,
+                      "hire_cost": 0,
+                      "advise_cost": 749,
+                      "whole_cost": 33756,
+                      "execution_cost": 33007
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19554,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_05677684",
+            "advisor_id": "adv_96c0e31f",
+            "task_key_target": "划分方案探索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:22:47.113652",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2561,
+                "hire_cost": 8379,
+                "advise_cost": 2072,
+                "whole_cost": 129903,
+                "execution_cost": 187791
+              },
+              "advisor": {
+                "system_prompt_size": 12738,
+                "whole_cost": 2275
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_05677684",
+              "agents": [
+                {
+                  "agent_id": "emp_feedfb0b",
+                  "advisor_id": "adv_e1d468c8",
+                  "task_key_target": "几何排列枚举",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:25:55.349143",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 777,
+                      "hire_cost": 0,
+                      "advise_cost": 704,
+                      "whole_cost": 69043,
+                      "execution_cost": 68339
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48042,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8e236f29",
+            "advisor_id": "adv_80b371ea",
+            "task_key_target": "结果验证与检查",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:22:51.557545",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2526,
+                "hire_cost": 1351,
+                "advise_cost": 9989,
+                "whole_cost": 152044,
+                "execution_cost": 140704
+              },
+              "advisor": {
+                "system_prompt_size": 13334,
+                "whole_cost": 101418
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8e236f29",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

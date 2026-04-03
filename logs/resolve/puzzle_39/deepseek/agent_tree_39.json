@@ -1,0 +1,316 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T02:54:16.681792",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 39453,
+          "advise_cost": 0,
+          "whole_cost": 76250,
+          "execution_cost": 482579
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_84a94341",
+            "advisor_id": "adv_b02a4bb4",
+            "task_key_target": "分析overpartition生成函数和同余关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:54:27.674048",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2799,
+                "hire_cost": 10518,
+                "advise_cost": 4530,
+                "whole_cost": 33179,
+                "execution_cost": 59210
+              },
+              "advisor": {
+                "system_prompt_size": 19253,
+                "whole_cost": 14898
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_84a94341",
+              "agents": [
+                {
+                  "agent_id": "emp_9e3d71a7",
+                  "advisor_id": "adv_414c276e",
+                  "task_key_target": "推导overpartition生成函数的同余关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:55:11.245868",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1182,
+                      "hire_cost": 0,
+                      "advise_cost": 789,
+                      "whole_cost": 41868,
+                      "execution_cost": 41079
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12904,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_86e92023",
+            "advisor_id": "adv_febdb4fa",
+            "task_key_target": "分析模形式恒等式在生成函数中的应用",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:54:43.453996",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2847,
+                "hire_cost": 13727,
+                "advise_cost": 3134,
+                "whole_cost": 32862,
+                "execution_cost": 109548
+              },
+              "advisor": {
+                "system_prompt_size": 20088,
+                "whole_cost": 3602
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_86e92023",
+              "agents": [
+                {
+                  "agent_id": "emp_83bed25c",
+                  "advisor_id": "adv_3869e1e4",
+                  "task_key_target": "分析条件1.5中的模形式恒等式(7)-(12)",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:55:52.920306",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 618,
+                      "hire_cost": 0,
+                      "advise_cost": 773,
+                      "whole_cost": 33368,
+                      "execution_cost": 32595
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10743,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_8fbae3d7",
+                  "advisor_id": "adv_302880e4",
+                  "task_key_target": "分析条件1.6的模同余提升工具及其应用",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:55:58.797002",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 607,
+                      "hire_cost": 0,
+                      "advise_cost": 1225,
+                      "whole_cost": 31288,
+                      "execution_cost": 30063
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10680,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_47750046",
+                  "advisor_id": "adv_13775b04",
+                  "task_key_target": "分析Jacobi恒等式及其应用",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:56:04.668295",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 603,
+                      "hire_cost": 0,
+                      "advise_cost": 771,
+                      "whole_cost": 31660,
+                      "execution_cost": 30889
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11486,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_906db28b",
+            "advisor_id": "adv_c97387ef",
+            "task_key_target": "数值验证overpartition同余关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:56:31.046501",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2704,
+                "hire_cost": 4368,
+                "advise_cost": 2098,
+                "whole_cost": 65802,
+                "execution_cost": 124304
+              },
+              "advisor": {
+                "system_prompt_size": 21031,
+                "whole_cost": 2421
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_906db28b",
+              "agents": [
+                {
+                  "agent_id": "emp_99ebe289",
+                  "advisor_id": "adv_75b86a0e",
+                  "task_key_target": "计算大n值的overpartition计数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:58:04.418162",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 689,
+                      "hire_cost": 0,
+                      "advise_cost": 1003,
+                      "whole_cost": 65971,
+                      "execution_cost": 64968
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26228,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_f60b9af0",
+            "advisor_id": "adv_23be0439",
+            "task_key_target": "验证同余关系猜测",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T02:57:53.023318",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2874,
+                "hire_cost": 20728,
+                "advise_cost": 2708,
+                "whole_cost": 49901,
+                "execution_cost": 152720
+              },
+              "advisor": {
+                "system_prompt_size": 36883,
+                "whole_cost": 3224
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f60b9af0",
+              "agents": [
+                {
+                  "agent_id": "emp_23a4c344",
+                  "advisor_id": "adv_030b7fec",
+                  "task_key_target": "数值验证同余关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T02:59:09.051212",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 722,
+                      "hire_cost": 0,
+                      "advise_cost": 973,
+                      "whole_cost": 63955,
+                      "execution_cost": 62982
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11530,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_984ad85d",
+                  "advisor_id": "adv_66187c5f",
+                  "task_key_target": "符号分析生成函数模性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:01:30.304445",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 897,
+                      "hire_cost": 0,
+                      "advise_cost": 1026,
+                      "whole_cost": 64299,
+                      "execution_cost": 63273
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23716,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

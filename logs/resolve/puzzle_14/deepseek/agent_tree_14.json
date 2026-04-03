@@ -1,0 +1,169 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T20:18:29.416451",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 33029,
+          "advise_cost": 0,
+          "whole_cost": 167591,
+          "execution_cost": 386383
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_be928641",
+            "advisor_id": "adv_05dd8064",
+            "task_key_target": "分析第一个方程的结构和性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:18:41.478169",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2742,
+                "hire_cost": 0,
+                "advise_cost": 1690,
+                "whole_cost": 22363,
+                "execution_cost": 20673
+              },
+              "advisor": {
+                "system_prompt_size": 13774,
+                "whole_cost": 2072
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_be928641",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_1106f251",
+            "advisor_id": "adv_6b544c50",
+            "task_key_target": "分析第二个方程的结构和性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:18:48.283660",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2743,
+                "hire_cost": 0,
+                "advise_cost": 3730,
+                "whole_cost": 34818,
+                "execution_cost": 31088
+              },
+              "advisor": {
+                "system_prompt_size": 13412,
+                "whole_cost": 4101
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1106f251",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_6ba96a12",
+            "advisor_id": "adv_9cfab068",
+            "task_key_target": "分析方程组整体解的结构和a_n的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:18:53.758399",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2662,
+                "hire_cost": 0,
+                "advise_cost": 1742,
+                "whole_cost": 28768,
+                "execution_cost": 27026
+              },
+              "advisor": {
+                "system_prompt_size": 14276,
+                "whole_cost": 2023
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6ba96a12",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_55078edb",
+            "advisor_id": "adv_ff5a4729",
+            "task_key_target": "验证a_n计算和素数三元组",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:28:45.857252",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2635,
+                "hire_cost": 11425,
+                "advise_cost": 1566,
+                "whole_cost": 99002,
+                "execution_cost": 173034
+              },
+              "advisor": {
+                "system_prompt_size": 131779,
+                "whole_cost": 1841
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_55078edb",
+              "agents": [
+                {
+                  "agent_id": "emp_61a313e7",
+                  "advisor_id": "adv_96172ad0",
+                  "task_key_target": "验证a_n计算算法和素数三元组",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T20:31:32.997482",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 860,
+                      "hire_cost": 0,
+                      "advise_cost": 818,
+                      "whole_cost": 87841,
+                      "execution_cost": 87023
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48238,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

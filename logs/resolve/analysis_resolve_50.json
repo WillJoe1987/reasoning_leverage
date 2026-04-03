@@ -1,0 +1,1698 @@
+[
+  {
+    "question_id": 1,
+    "total_agents": 3,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 16770,
+        "execution_cost": 173798,
+        "leverage": 10.363625521765057
+      },
+      {
+        "depth": 1,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 111009,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 16770,
+    "execution_cost": 173798,
+    "leverage": 10.363625521765057,
+    "mails_length": 6328,
+    "shared_length": 3624
+  },
+  {
+    "question_id": 2,
+    "total_agents": 5,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 19290,
+        "execution_cost": 216350,
+        "leverage": 11.215655780196993
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 173762,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 19290,
+    "execution_cost": 216350,
+    "leverage": 11.215655780196993,
+    "mails_length": 3692,
+    "shared_length": 8283
+  },
+  {
+    "question_id": 3,
+    "total_agents": 5,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 15073,
+        "execution_cost": 127361,
+        "leverage": 8.449611888807802
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 83340,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 15073,
+    "execution_cost": 127361,
+    "leverage": 8.449611888807802,
+    "mails_length": 92,
+    "shared_length": 2900
+  },
+  {
+    "question_id": 4,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 40961,
+        "execution_cost": 407812,
+        "leverage": 9.95610458729035
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 20975,
+        "execution_cost": 376466,
+        "leverage": 17.948319427890347
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 174509,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 40961,
+    "execution_cost": 407812,
+    "leverage": 9.95610458729035,
+    "mails_length": 152,
+    "shared_length": 6004
+  },
+  {
+    "question_id": 5,
+    "total_agents": 5,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 20182,
+        "execution_cost": 224938,
+        "leverage": 11.14547616688138
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 4993,
+        "execution_cost": 165408,
+        "leverage": 33.127979170839176
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 35825,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 20182,
+    "execution_cost": 224938,
+    "leverage": 11.14547616688138,
+    "mails_length": 1051,
+    "shared_length": 4582
+  },
+  {
+    "question_id": 6,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 22100,
+        "execution_cost": 284296,
+        "leverage": 12.864072398190045
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 6231,
+        "execution_cost": 216538,
+        "leverage": 34.75172524474402
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 40003,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 22100,
+    "execution_cost": 284296,
+    "leverage": 12.864072398190045,
+    "mails_length": 3428,
+    "shared_length": 5542
+  },
+  {
+    "question_id": 7,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 36544,
+        "execution_cost": 372636,
+        "leverage": 10.196913309982486
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 11568,
+        "execution_cost": 330273,
+        "leverage": 28.550570539419088
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 149118,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 36544,
+    "execution_cost": 372636,
+    "leverage": 10.196913309982486,
+    "mails_length": 132,
+    "shared_length": 5067
+  },
+  {
+    "question_id": 8,
+    "total_agents": 4,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 11238,
+        "execution_cost": 119023,
+        "leverage": 10.59111941626624
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 86395,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 11238,
+    "execution_cost": 119023,
+    "leverage": 10.59111941626624,
+    "mails_length": 72,
+    "shared_length": 4255
+  },
+  {
+    "question_id": 9,
+    "total_agents": 4,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 17221,
+        "execution_cost": 84313,
+        "leverage": 4.895941002264677
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 62508,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 17221,
+    "execution_cost": 84313,
+    "leverage": 4.895941002264677,
+    "mails_length": 72,
+    "shared_length": 3460
+  },
+  {
+    "question_id": 10,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 32740,
+        "execution_cost": 521703,
+        "leverage": 15.934728161270616
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 28080,
+        "execution_cost": 422142,
+        "leverage": 15.033547008547009
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 196408,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 32740,
+    "execution_cost": 521703,
+    "leverage": 15.934728161270616,
+    "mails_length": 4636,
+    "shared_length": 6566
+  },
+  {
+    "question_id": 11,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 30340,
+        "execution_cost": 426777,
+        "leverage": 14.066479894528674
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 6578,
+        "execution_cost": 358703,
+        "leverage": 54.53070842201277
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 89652,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 30340,
+    "execution_cost": 426777,
+    "leverage": 14.066479894528674,
+    "mails_length": 11744,
+    "shared_length": 10740
+  },
+  {
+    "question_id": 12,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 33914,
+        "execution_cost": 325065,
+        "leverage": 9.584979654420003
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 15995,
+        "execution_cost": 261160,
+        "leverage": 16.32760237574242
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 140920,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 33914,
+    "execution_cost": 325065,
+    "leverage": 9.584979654420003,
+    "mails_length": 4878,
+    "shared_length": 6917
+  },
+  {
+    "question_id": 13,
+    "total_agents": 3,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 13773,
+        "execution_cost": 148385,
+        "leverage": 10.773615043926522
+      },
+      {
+        "depth": 1,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 93256,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 13773,
+    "execution_cost": 148385,
+    "leverage": 10.773615043926522,
+    "mails_length": 52,
+    "shared_length": 3111
+  },
+  {
+    "question_id": 14,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 33029,
+        "execution_cost": 386383,
+        "leverage": 11.69829543734294
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 11425,
+        "execution_cost": 251821,
+        "leverage": 22.041225382932165
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 87023,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 33029,
+    "execution_cost": 386383,
+    "leverage": 11.69829543734294,
+    "mails_length": 5501,
+    "shared_length": 5507
+  },
+  {
+    "question_id": 15,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 42949,
+        "execution_cost": 377020,
+        "leverage": 8.778318470744372
+      },
+      {
+        "depth": 1,
+        "agent_count": 5,
+        "hire_cost": 27532,
+        "execution_cost": 298423,
+        "leverage": 10.8391326456487
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 74455,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 42949,
+    "execution_cost": 377020,
+    "leverage": 8.778318470744372,
+    "mails_length": 2440,
+    "shared_length": 6687
+  },
+  {
+    "question_id": 16,
+    "total_agents": 9,
+    "max_depth": 4,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 34049,
+        "execution_cost": 573610,
+        "leverage": 16.84660342447649
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 18776,
+        "execution_cost": 446832,
+        "leverage": 23.7980400511291
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 8292,
+        "execution_cost": 257568,
+        "leverage": 31.062228654124457
+      },
+      {
+        "depth": 3,
+        "agent_count": 1,
+        "hire_cost": 7865,
+        "execution_cost": 147138,
+        "leverage": 18.70794659885569
+      },
+      {
+        "depth": 4,
+        "agent_count": 1,
+        "hire_cost": 1102,
+        "execution_cost": 80313,
+        "leverage": 72.87931034482759
+      }
+    ],
+    "hire_cost": 34049,
+    "execution_cost": 573610,
+    "leverage": 16.84660342447649,
+    "mails_length": 2874,
+    "shared_length": 7375
+  },
+  {
+    "question_id": 17,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 25065,
+        "execution_cost": 519423,
+        "leverage": 20.72304009575105
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 22496,
+        "execution_cost": 453850,
+        "leverage": 20.17469772403983
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 179049,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 25065,
+    "execution_cost": 519423,
+    "leverage": 20.72304009575105,
+    "mails_length": 16695,
+    "shared_length": 12473
+  },
+  {
+    "question_id": 18,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 41796,
+        "execution_cost": 319833,
+        "leverage": 7.652239448751077
+      },
+      {
+        "depth": 1,
+        "agent_count": 5,
+        "hire_cost": 15475,
+        "execution_cost": 274547,
+        "leverage": 17.741324717285945
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 131173,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 41796,
+    "execution_cost": 319833,
+    "leverage": 7.652239448751077,
+    "mails_length": 2518,
+    "shared_length": 3496
+  },
+  {
+    "question_id": 19,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 25737,
+        "execution_cost": 349770,
+        "leverage": 13.590162023545869
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 15257,
+        "execution_cost": 306161,
+        "leverage": 20.066920102248147
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 99490,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 25737,
+    "execution_cost": 349770,
+    "leverage": 13.590162023545869,
+    "mails_length": 1466,
+    "shared_length": 4825
+  },
+  {
+    "question_id": 20,
+    "total_agents": 9,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 22467,
+        "execution_cost": 267522,
+        "leverage": 11.907330751769262
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 16901,
+        "execution_cost": 243065,
+        "leverage": 14.381693390923614
+      },
+      {
+        "depth": 2,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 108443,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 22467,
+    "execution_cost": 267522,
+    "leverage": 11.907330751769262,
+    "mails_length": 1881,
+    "shared_length": 12337
+  },
+  {
+    "question_id": 21,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 12956,
+        "execution_cost": 320436,
+        "leverage": 24.732633528866934
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 10385,
+        "execution_cost": 210187,
+        "leverage": 20.239480019258547
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 90953,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 12956,
+    "execution_cost": 320436,
+    "leverage": 24.732633528866934,
+    "mails_length": 2452,
+    "shared_length": 5992
+  },
+  {
+    "question_id": 22,
+    "total_agents": 9,
+    "max_depth": 3,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 18159,
+        "execution_cost": 419015,
+        "leverage": 23.074783853736438
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 17910,
+        "execution_cost": 379133,
+        "leverage": 21.168788386376328
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 12166,
+        "execution_cost": 231229,
+        "leverage": 19.006164721354594
+      },
+      {
+        "depth": 3,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 62324,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 18159,
+    "execution_cost": 419015,
+    "leverage": 23.074783853736438,
+    "mails_length": 3407,
+    "shared_length": 5451
+  },
+  {
+    "question_id": 23,
+    "total_agents": 5,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 30195,
+        "execution_cost": 169479,
+        "leverage": 5.612816691505216
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 4983,
+        "execution_cost": 98946,
+        "leverage": 19.85671282360024
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 0,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 30195,
+    "execution_cost": 169479,
+    "leverage": 5.612816691505216,
+    "mails_length": 2576,
+    "shared_length": 2342
+  },
+  {
+    "question_id": 24,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 28437,
+        "execution_cost": 416769,
+        "leverage": 14.6558708724549
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 25630,
+        "execution_cost": 350748,
+        "leverage": 13.68505657432696
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 160842,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 28437,
+    "execution_cost": 416769,
+    "leverage": 14.6558708724549,
+    "mails_length": 5467,
+    "shared_length": 8600
+  },
+  {
+    "question_id": 25,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 32448,
+        "execution_cost": 254357,
+        "leverage": 7.838911489151874
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 18598,
+        "execution_cost": 224488,
+        "leverage": 12.07054521991612
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 148070,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 32448,
+    "execution_cost": 254357,
+    "leverage": 7.838911489151874,
+    "mails_length": 112,
+    "shared_length": 2330
+  },
+  {
+    "question_id": 26,
+    "total_agents": 9,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 22296,
+        "execution_cost": 277545,
+        "leverage": 12.448196986006458
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 23312,
+        "execution_cost": 245464,
+        "leverage": 10.529512697323266
+      },
+      {
+        "depth": 2,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 138514,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 22296,
+    "execution_cost": 277545,
+    "leverage": 12.448196986006458,
+    "mails_length": 5239,
+    "shared_length": 10686
+  },
+  {
+    "question_id": 27,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 36173,
+        "execution_cost": 260503,
+        "leverage": 7.201586818898073
+      },
+      {
+        "depth": 1,
+        "agent_count": 5,
+        "hire_cost": 11693,
+        "execution_cost": 211964,
+        "leverage": 18.127426665526382
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 43959,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 36173,
+    "execution_cost": 260503,
+    "leverage": 7.201586818898073,
+    "mails_length": 2231,
+    "shared_length": 3181
+  },
+  {
+    "question_id": 28,
+    "total_agents": 11,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 31705,
+        "execution_cost": 502767,
+        "leverage": 15.857656521053462
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 38262,
+        "execution_cost": 436336,
+        "leverage": 11.403899430244106
+      },
+      {
+        "depth": 2,
+        "agent_count": 6,
+        "hire_cost": 0,
+        "execution_cost": 273419,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 31705,
+    "execution_cost": 502767,
+    "leverage": 15.857656521053462,
+    "mails_length": 4011,
+    "shared_length": 17547
+  },
+  {
+    "question_id": 29,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 25212,
+        "execution_cost": 297586,
+        "leverage": 11.803347612248135
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 20180,
+        "execution_cost": 229488,
+        "leverage": 11.37205153617443
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 112162,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 25212,
+    "execution_cost": 297586,
+    "leverage": 11.803347612248135,
+    "mails_length": 10042,
+    "shared_length": 6260
+  },
+  {
+    "question_id": 30,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 22417,
+        "execution_cost": 502131,
+        "leverage": 22.399562831779452
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 22000,
+        "execution_cost": 337426,
+        "leverage": 15.337545454545454
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 234085,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 22417,
+    "execution_cost": 502131,
+    "leverage": 22.399562831779452,
+    "mails_length": 1094,
+    "shared_length": 2604
+  },
+  {
+    "question_id": 31,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 37771,
+        "execution_cost": 219007,
+        "leverage": 5.798284398083186
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 12906,
+        "execution_cost": 186496,
+        "leverage": 14.450333178366652
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 79543,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 37771,
+    "execution_cost": 219007,
+    "leverage": 5.798284398083186,
+    "mails_length": 3865,
+    "shared_length": 2413
+  },
+  {
+    "question_id": 32,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 54668,
+        "execution_cost": 389303,
+        "leverage": 7.121222653106022
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 11235,
+        "execution_cost": 330555,
+        "leverage": 29.421895861148197
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 63072,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 54668,
+    "execution_cost": 389303,
+    "leverage": 7.121222653106022,
+    "mails_length": 4251,
+    "shared_length": 6048
+  },
+  {
+    "question_id": 33,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 20616,
+        "execution_cost": 140937,
+        "leverage": 6.836292200232829
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 9970,
+        "execution_cost": 127037,
+        "leverage": 12.741925777331996
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 64249,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 20616,
+    "execution_cost": 140937,
+    "leverage": 6.836292200232829,
+    "mails_length": 132,
+    "shared_length": 2620
+  },
+  {
+    "question_id": 34,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 22689,
+        "execution_cost": 467442,
+        "leverage": 20.602142007140024
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 41235,
+        "execution_cost": 410752,
+        "leverage": 9.961246513883836
+      },
+      {
+        "depth": 2,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 263841,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 22689,
+    "execution_cost": 467442,
+    "leverage": 20.602142007140024,
+    "mails_length": 7797,
+    "shared_length": 9002
+  },
+  {
+    "question_id": 35,
+    "total_agents": 6,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 45464,
+        "execution_cost": 488809,
+        "leverage": 10.751561675171564
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 5460,
+        "execution_cost": 386564,
+        "leverage": 70.79926739926739
+      },
+      {
+        "depth": 2,
+        "agent_count": 1,
+        "hire_cost": 0,
+        "execution_cost": 34708,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 45464,
+    "execution_cost": 488809,
+    "leverage": 10.751561675171564,
+    "mails_length": 3157,
+    "shared_length": 6110
+  },
+  {
+    "question_id": 36,
+    "total_agents": 14,
+    "max_depth": 4,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 31138,
+        "execution_cost": 686702,
+        "leverage": 22.05350375746676
+      },
+      {
+        "depth": 1,
+        "agent_count": 2,
+        "hire_cost": 44683,
+        "execution_cost": 522928,
+        "leverage": 11.70306380502652
+      },
+      {
+        "depth": 2,
+        "agent_count": 4,
+        "hire_cost": 51948,
+        "execution_cost": 366900,
+        "leverage": 7.062832062832062
+      },
+      {
+        "depth": 3,
+        "agent_count": 5,
+        "hire_cost": 8399,
+        "execution_cost": 127645,
+        "leverage": 15.197642576497202
+      },
+      {
+        "depth": 4,
+        "agent_count": 2,
+        "hire_cost": 845,
+        "execution_cost": 27697,
+        "leverage": 32.77751479289941
+      }
+    ],
+    "hire_cost": 31138,
+    "execution_cost": 686702,
+    "leverage": 22.05350375746676,
+    "mails_length": 5226,
+    "shared_length": 16982
+  },
+  {
+    "question_id": 37,
+    "total_agents": 16,
+    "max_depth": 3,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 38587,
+        "execution_cost": 795621,
+        "leverage": 20.618887189986264
+      },
+      {
+        "depth": 1,
+        "agent_count": 7,
+        "hire_cost": 57995,
+        "execution_cost": 734303,
+        "leverage": 12.661488059315458
+      },
+      {
+        "depth": 2,
+        "agent_count": 6,
+        "hire_cost": 18430,
+        "execution_cost": 426252,
+        "leverage": 23.128160607704828
+      },
+      {
+        "depth": 3,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 99074,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 38587,
+    "execution_cost": 795621,
+    "leverage": 20.618887189986264,
+    "mails_length": 12353,
+    "shared_length": 12173
+  },
+  {
+    "question_id": 38,
+    "total_agents": 9,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 52241,
+        "execution_cost": 478466,
+        "leverage": 9.158821615206447
+      },
+      {
+        "depth": 1,
+        "agent_count": 6,
+        "hire_cost": 17148,
+        "execution_cost": 415374,
+        "leverage": 24.222883135059483
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 185409,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 52241,
+    "execution_cost": 478466,
+    "leverage": 9.158821615206447,
+    "mails_length": 9853,
+    "shared_length": 13732
+  },
+  {
+    "question_id": 39,
+    "total_agents": 12,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 39453,
+        "execution_cost": 482579,
+        "leverage": 12.231744100575368
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 49341,
+        "execution_cost": 445782,
+        "leverage": 9.03471757767374
+      },
+      {
+        "depth": 2,
+        "agent_count": 7,
+        "hire_cost": 0,
+        "execution_cost": 325849,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 39453,
+    "execution_cost": 482579,
+    "leverage": 12.231744100575368,
+    "mails_length": 12644,
+    "shared_length": 12852
+  },
+  {
+    "question_id": 40,
+    "total_agents": 10,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 32486,
+        "execution_cost": 477131,
+        "leverage": 14.6872806747522
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 44439,
+        "execution_cost": 424929,
+        "leverage": 9.56207385404712
+      },
+      {
+        "depth": 2,
+        "agent_count": 5,
+        "hire_cost": 0,
+        "execution_cost": 234101,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 32486,
+    "execution_cost": 477131,
+    "leverage": 14.6872806747522,
+    "mails_length": 192,
+    "shared_length": 6628
+  },
+  {
+    "question_id": 41,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 37140,
+        "execution_cost": 586666,
+        "leverage": 15.796068928379107
+      },
+      {
+        "depth": 1,
+        "agent_count": 2,
+        "hire_cost": 41876,
+        "execution_cost": 524837,
+        "leverage": 12.533121597096189
+      },
+      {
+        "depth": 2,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 349199,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 37140,
+    "execution_cost": 586666,
+    "leverage": 15.796068928379107,
+    "mails_length": 17604,
+    "shared_length": 5328
+  },
+  {
+    "question_id": 42,
+    "total_agents": 4,
+    "max_depth": 1,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 16744,
+        "execution_cost": 251105,
+        "leverage": 14.996715241280459
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 180093,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 16744,
+    "execution_cost": 251105,
+    "leverage": 14.996715241280459,
+    "mails_length": 72,
+    "shared_length": 3038
+  },
+  {
+    "question_id": 43,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 23755,
+        "execution_cost": 379725,
+        "leverage": 15.985055777731004
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 14935,
+        "execution_cost": 321759,
+        "leverage": 21.543957147639773
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 99943,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 23755,
+    "execution_cost": 379725,
+    "leverage": 15.985055777731004,
+    "mails_length": 1821,
+    "shared_length": 8681
+  },
+  {
+    "question_id": 44,
+    "total_agents": 5,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 13168,
+        "execution_cost": 100079,
+        "leverage": 7.600167071688943
+      },
+      {
+        "depth": 1,
+        "agent_count": 2,
+        "hire_cost": 9065,
+        "execution_cost": 75502,
+        "leverage": 8.32895752895753
+      },
+      {
+        "depth": 2,
+        "agent_count": 2,
+        "hire_cost": 0,
+        "execution_cost": 58179,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 13168,
+    "execution_cost": 100079,
+    "leverage": 7.600167071688943,
+    "mails_length": 2862,
+    "shared_length": 3764
+  },
+  {
+    "question_id": 45,
+    "total_agents": 12,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 31850,
+        "execution_cost": 581250,
+        "leverage": 18.24960753532182
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 70047,
+        "execution_cost": 534498,
+        "leverage": 7.630562336716776
+      },
+      {
+        "depth": 2,
+        "agent_count": 7,
+        "hire_cost": 0,
+        "execution_cost": 353286,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 31850,
+    "execution_cost": 581250,
+    "leverage": 18.24960753532182,
+    "mails_length": 9119,
+    "shared_length": 8838
+  },
+  {
+    "question_id": 46,
+    "total_agents": 11,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 31595,
+        "execution_cost": 596827,
+        "leverage": 18.889919291027063
+      },
+      {
+        "depth": 1,
+        "agent_count": 5,
+        "hire_cost": 36737,
+        "execution_cost": 539675,
+        "leverage": 14.690230557748318
+      },
+      {
+        "depth": 2,
+        "agent_count": 5,
+        "hire_cost": 0,
+        "execution_cost": 312001,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 31595,
+    "execution_cost": 596827,
+    "leverage": 18.889919291027063,
+    "mails_length": 7916,
+    "shared_length": 10141
+  },
+  {
+    "question_id": 47,
+    "total_agents": 7,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 14899,
+        "execution_cost": 211479,
+        "leverage": 14.194174105644674
+      },
+      {
+        "depth": 1,
+        "agent_count": 3,
+        "hire_cost": 15056,
+        "execution_cost": 175291,
+        "leverage": 11.64260095642933
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 96976,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 14899,
+    "execution_cost": 211479,
+    "leverage": 14.194174105644674,
+    "mails_length": 2155,
+    "shared_length": 5232
+  },
+  {
+    "question_id": 48,
+    "total_agents": 12,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 25709,
+        "execution_cost": 793349,
+        "leverage": 30.858804309774786
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 41303,
+        "execution_cost": 698352,
+        "leverage": 16.90802120911314
+      },
+      {
+        "depth": 2,
+        "agent_count": 7,
+        "hire_cost": 0,
+        "execution_cost": 446324,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 25709,
+    "execution_cost": 793349,
+    "leverage": 30.858804309774786,
+    "mails_length": 16098,
+    "shared_length": 15001
+  },
+  {
+    "question_id": 49,
+    "total_agents": 15,
+    "max_depth": 3,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 52919,
+        "execution_cost": 1018637,
+        "leverage": 19.24898429675542
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 72233,
+        "execution_cost": 878024,
+        "leverage": 12.155441418742127
+      },
+      {
+        "depth": 2,
+        "agent_count": 6,
+        "hire_cost": 43079,
+        "execution_cost": 602167,
+        "leverage": 13.978202836648947
+      },
+      {
+        "depth": 3,
+        "agent_count": 4,
+        "hire_cost": 0,
+        "execution_cost": 192399,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 52919,
+    "execution_cost": 1018637,
+    "leverage": 19.24898429675542,
+    "mails_length": 34147,
+    "shared_length": 16570
+  },
+  {
+    "question_id": 50,
+    "total_agents": 8,
+    "max_depth": 2,
+    "per_depth": [
+      {
+        "depth": 0,
+        "agent_count": 1,
+        "hire_cost": 13281,
+        "execution_cost": 200389,
+        "leverage": 15.088396958060388
+      },
+      {
+        "depth": 1,
+        "agent_count": 4,
+        "hire_cost": 14882,
+        "execution_cost": 139575,
+        "leverage": 9.378779733906732
+      },
+      {
+        "depth": 2,
+        "agent_count": 3,
+        "hire_cost": 0,
+        "execution_cost": 74180,
+        "leverage": "N/A"
+      }
+    ],
+    "hire_cost": 13281,
+    "execution_cost": 200389,
+    "leverage": 15.088396958060388,
+    "mails_length": 1717,
+    "shared_length": 5575
+  },
+  {
+    "average_per_depth": [
+      {
+        "depth": 0,
+        "average_agent_count": 1.0,
+        "average_hire_cost": 28628.18,
+        "average_execution_cost": 379842.18,
+        "average_leverage": 13.268121829609846
+      },
+      {
+        "depth": 1,
+        "average_agent_count": 3.74,
+        "average_hire_cost": 20515.62,
+        "average_execution_cost": 315843.3,
+        "average_leverage": 14.624761035737647
+      },
+      {
+        "depth": 2,
+        "average_agent_count": 2.9767441860465116,
+        "average_hire_cost": 3114.3023255813955,
+        "average_execution_cost": 177512.7441860465,
+        "average_leverage": 14.069491841839973
+      },
+      {
+        "depth": 3,
+        "average_agent_count": 2.6,
+        "average_hire_cost": 3252.8,
+        "average_execution_cost": 125716.0,
+        "average_leverage": 16.895167240531233
+      },
+      {
+        "depth": 4,
+        "average_agent_count": 1.5,
+        "average_hire_cost": 973.5,
+        "average_execution_cost": 54005.0,
+        "average_leverage": 55.47508988186954
+      }
+    ],
+    "average_max_depth": 2.0,
+    "average_agent_count": 7.62,
+    "average_hire_cost": 28628.18,
+    "average_execution_cost": 379842.18,
+    "average_leverage": 13.268121829609846,
+    "average_mails_length": 5186.32,
+    "average_shared_length": 7189.44
+  }
+]

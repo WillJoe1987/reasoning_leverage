@@ -1,0 +1,301 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-26T10:14:57.419662",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 35942,
+          "advise_cost": 0,
+          "whole_cost": 76028,
+          "execution_cost": 617566
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_3a06af52",
+            "advisor_id": "adv_5b2ca86a",
+            "task_key_target": "分析棋盘操作问题的数学结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T10:15:07.023435",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2686,
+                "hire_cost": 15640,
+                "advise_cost": 4089,
+                "whole_cost": 66517,
+                "execution_cost": 143337
+              },
+              "advisor": {
+                "system_prompt_size": 13250,
+                "whole_cost": 4369
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3a06af52",
+              "agents": [
+                {
+                  "agent_id": "emp_6f0d3be6",
+                  "advisor_id": "adv_8f29a488",
+                  "task_key_target": "分析棋盘操作的线性代数结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-26T10:16:16.152335",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 580,
+                      "hire_cost": 0,
+                      "advise_cost": 1590,
+                      "whole_cost": 48762,
+                      "execution_cost": 47172
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17031,
+                      "whole_cost": 1787
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_db855ede",
+                  "advisor_id": "adv_691a0a34",
+                  "task_key_target": "分析可达黑色棋子数的下界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-26T10:16:22.176785",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 598,
+                      "hire_cost": 0,
+                      "advise_cost": 7692,
+                      "whole_cost": 57069,
+                      "execution_cost": 49377
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17801,
+                      "whole_cost": 56994
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_49a46d47",
+            "advisor_id": "adv_d61d5112",
+            "task_key_target": "分析操作的线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T10:15:47.297402",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2636,
+                "hire_cost": 13391,
+                "advise_cost": 3508,
+                "whole_cost": 89697,
+                "execution_cost": 255705
+              },
+              "advisor": {
+                "system_prompt_size": 19278,
+                "whole_cost": 53837
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_49a46d47",
+              "agents": [
+                {
+                  "agent_id": "emp_af400177",
+                  "advisor_id": "adv_b468b23d",
+                  "task_key_target": "计算19×19棋盘操作矩阵的秩和零空间",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-26T10:16:23.669488",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2862,
+                      "hire_cost": 7526,
+                      "advise_cost": 2157,
+                      "whole_cost": 83249,
+                      "execution_cost": 182907
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11638,
+                      "whole_cost": 2546
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_af400177",
+                    "agents": [
+                      {
+                        "agent_id": "emp_ee4e230f",
+                        "advisor_id": "adv_4c3f2744",
+                        "task_key_target": "计算19×19棋盘操作矩阵在GF(2)上的秩和零空间",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-26T10:17:22.297038",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2863,
+                            "hire_cost": 11119,
+                            "advise_cost": 1478,
+                            "whole_cost": 63176,
+                            "execution_cost": 109341
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14954,
+                            "whole_cost": 6687
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_ee4e230f",
+                          "agents": [
+                            {
+                              "agent_id": "emp_63745cf9",
+                              "advisor_id": "adv_4beebb6b",
+                              "task_key_target": "计算19×19棋盘操作矩阵在GF(2)上的秩和零空间",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-26T10:18:50.312939",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 3219,
+                                  "hire_cost": 1186,
+                                  "advise_cost": 1861,
+                                  "whole_cost": 61809,
+                                  "execution_cost": 58762
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 12431,
+                                  "whole_cost": 5115
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_63745cf9",
+                                "agents": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_190a4e8a",
+            "advisor_id": "adv_74b9b012",
+            "task_key_target": "计算操作矩阵的秩",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T10:17:27.499113",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2637,
+                "hire_cost": 2257,
+                "advise_cost": 3465,
+                "whole_cost": 82466,
+                "execution_cost": 117400
+              },
+              "advisor": {
+                "system_prompt_size": 26881,
+                "whole_cost": 71190
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_190a4e8a",
+              "agents": [
+                {
+                  "agent_id": "emp_42e51396",
+                  "advisor_id": "adv_30ed62d1",
+                  "task_key_target": "分析棋盘操作矩阵的秩公式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-26T10:20:11.008855",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 832,
+                      "hire_cost": 0,
+                      "advise_cost": 467,
+                      "whole_cost": 41123,
+                      "execution_cost": 40656
+                    },
+                    "advisor": {
+                      "system_prompt_size": 41442,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1151acab",
+            "advisor_id": "adv_95bd0b7c",
+            "task_key_target": "验证棋盘问题答案n=352",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T10:24:52.928517",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 893,
+                "hire_cost": 0,
+                "advise_cost": 6911,
+                "whole_cost": 67949,
+                "execution_cost": 61038
+              },
+              "advisor": {
+                "system_prompt_size": 68637,
+                "whole_cost": 64325
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

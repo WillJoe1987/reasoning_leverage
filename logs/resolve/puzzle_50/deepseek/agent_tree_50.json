@@ -1,0 +1,217 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T05:29:21.951591",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 13281,
+          "advise_cost": 0,
+          "whole_cost": 74095,
+          "execution_cost": 200389
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e4d6206c",
+            "advisor_id": "adv_4bf3ff7c",
+            "task_key_target": "多项式根分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T05:29:31.298037",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2629,
+                "hire_cost": 0,
+                "advise_cost": 2561,
+                "whole_cost": 25905,
+                "execution_cost": 23344
+              },
+              "advisor": {
+                "system_prompt_size": 15417,
+                "whole_cost": 2779
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e4d6206c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_4802a202",
+            "advisor_id": "adv_322ef085",
+            "task_key_target": "模剩余分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T05:29:37.698122",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2773,
+                "hire_cost": 0,
+                "advise_cost": 1161,
+                "whole_cost": 1876,
+                "execution_cost": 715
+              },
+              "advisor": {
+                "system_prompt_size": 14529,
+                "whole_cost": 1581
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4802a202",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_adbeac50",
+            "advisor_id": "adv_8a95f65c",
+            "task_key_target": "模剩余理论分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T05:30:11.450074",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 0,
+                "advise_cost": 1739,
+                "whole_cost": 7029,
+                "execution_cost": 5290
+              },
+              "advisor": {
+                "system_prompt_size": 18146,
+                "whole_cost": 2097
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_adbeac50",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7f438ee3",
+            "advisor_id": "adv_5d4d410c",
+            "task_key_target": "完整解决方案验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T05:33:27.557189",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2909,
+                "hire_cost": 14882,
+                "advise_cost": 1805,
+                "whole_cost": 52733,
+                "execution_cost": 110226
+              },
+              "advisor": {
+                "system_prompt_size": 41619,
+                "whole_cost": 2354
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7f438ee3",
+              "agents": [
+                {
+                  "agent_id": "emp_711fb83a",
+                  "advisor_id": "adv_39ffd764",
+                  "task_key_target": "多项式根与N的验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:34:36.497619",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 625,
+                      "hire_cost": 0,
+                      "advise_cost": 2721,
+                      "whole_cost": 32061,
+                      "execution_cost": 29340
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18579,
+                      "whole_cost": 2994
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0af3af16",
+                  "advisor_id": "adv_021b9e7f",
+                  "task_key_target": "模剩余集合的交叉验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:34:41.571212",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 535,
+                      "hire_cost": 0,
+                      "advise_cost": 2090,
+                      "whole_cost": 25396,
+                      "execution_cost": 23306
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14815,
+                      "whole_cost": 2284
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_eba41881",
+                  "advisor_id": "adv_cb8b2e5c",
+                  "task_key_target": "合格序列号计数的独立验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:34:47.916091",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 660,
+                      "hire_cost": 0,
+                      "advise_cost": 654,
+                      "whole_cost": 22188,
+                      "execution_cost": 21534
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15321,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

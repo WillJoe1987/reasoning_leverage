@@ -1,0 +1,357 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T20:48:40.332002",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 46753,
+          "advise_cost": 0,
+          "whole_cost": 110262,
+          "execution_cost": 856388
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_6811dff8",
+            "advisor_id": "adv_910a13f3",
+            "task_key_target": "分析cousins集合的数学结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:48:49.750933",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2698,
+                "hire_cost": 23124,
+                "advise_cost": 2986,
+                "whole_cost": 84007,
+                "execution_cost": 326779
+              },
+              "advisor": {
+                "system_prompt_size": 12293,
+                "whole_cost": 3320
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6811dff8",
+              "agents": [
+                {
+                  "agent_id": "emp_123c7ea9",
+                  "advisor_id": "adv_769f5c06",
+                  "task_key_target": "搜索具有4040个cousins的最小集合S",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:54:12.598345",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3035,
+                      "hire_cost": 9013,
+                      "advise_cost": 5983,
+                      "whole_cost": 108514,
+                      "execution_cost": 163866
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23185,
+                      "whole_cost": 50431
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_123c7ea9",
+                    "agents": [
+                      {
+                        "agent_id": "emp_83953987",
+                        "advisor_id": "adv_9edfe427",
+                        "task_key_target": "实现搜索具有4040个cousins的最小集合S的程序",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-18T20:55:16.242985",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 928,
+                            "hire_cost": 0,
+                            "advise_cost": 4193,
+                            "whole_cost": 74541,
+                            "execution_cost": 70348
+                          },
+                          "advisor": {
+                            "system_prompt_size": 15116,
+                            "whole_cost": 4738
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_a2a60da7",
+                  "advisor_id": "adv_0eecd8b4",
+                  "task_key_target": "验证cousins计数与证明辅助",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:54:21.181472",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2918,
+                      "hire_cost": 7446,
+                      "advise_cost": 669,
+                      "whole_cost": 62933,
+                      "execution_cost": 105016
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24558,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_a2a60da7",
+                    "agents": [
+                      {
+                        "agent_id": "emp_954f65dc",
+                        "advisor_id": "adv_3e39b668",
+                        "task_key_target": "分析小规模cousins数量模式",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-18T20:55:37.054375",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 733,
+                            "hire_cost": 0,
+                            "advise_cost": 602,
+                            "whole_cost": 50800,
+                            "execution_cost": 50198
+                          },
+                          "advisor": {
+                            "system_prompt_size": 18411,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_69de9415",
+            "advisor_id": "adv_2ca22817",
+            "task_key_target": "探索小规模例子和模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:49:03.737619",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2674,
+                "hire_cost": 0,
+                "advise_cost": 3035,
+                "whole_cost": 54984,
+                "execution_cost": 51949
+              },
+              "advisor": {
+                "system_prompt_size": 12448,
+                "whole_cost": 3306
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_69de9415",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8c9adc60",
+            "advisor_id": "adv_b7704f58",
+            "task_key_target": "分析集合分解与cousins数量的关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:51:43.076047",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2746,
+                "hire_cost": 0,
+                "advise_cost": 3271,
+                "whole_cost": 99230,
+                "execution_cost": 95959
+              },
+              "advisor": {
+                "system_prompt_size": 24923,
+                "whole_cost": 3642
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8c9adc60",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7646b559",
+            "advisor_id": "adv_25ea76ea",
+            "task_key_target": "分析约束满足问题的解计数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:54:12.754772",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2757,
+                "hire_cost": 0,
+                "advise_cost": 2181,
+                "whole_cost": 60670,
+                "execution_cost": 58489
+              },
+              "advisor": {
+                "system_prompt_size": 41183,
+                "whole_cost": 2572
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7646b559",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_ec1cec3f",
+            "advisor_id": "adv_7b85d65e",
+            "task_key_target": "搜索用最少元素达到给定cousins数量的结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:55:07.492249",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2657,
+                "hire_cost": 8849,
+                "advise_cost": 3042,
+                "whole_cost": 71796,
+                "execution_cost": 145915
+              },
+              "advisor": {
+                "system_prompt_size": 46913,
+                "whole_cost": 3349
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ec1cec3f",
+              "agents": [
+                {
+                  "agent_id": "emp_02a3cf2e",
+                  "advisor_id": "adv_2a963107",
+                  "task_key_target": "系统搜索cousins数量与最小元素数的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:56:36.356542",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 596,
+                      "hire_cost": 0,
+                      "advise_cost": 743,
+                      "whole_cost": 86753,
+                      "execution_cost": 86010
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16567,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_f7382c3f",
+            "advisor_id": "adv_cfa739ef",
+            "task_key_target": "验证最小元素数106的证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T21:00:17.612356",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2861,
+                "hire_cost": 2996,
+                "advise_cost": 3724,
+                "whole_cost": 80264,
+                "execution_cost": 113788
+              },
+              "advisor": {
+                "system_prompt_size": 72016,
+                "whole_cost": 4229
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f7382c3f",
+              "agents": [
+                {
+                  "agent_id": "emp_440cc2d3",
+                  "advisor_id": "adv_eccc6631",
+                  "task_key_target": "搜索达到cousins数为5的最小集合",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T21:03:54.190831",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 546,
+                      "hire_cost": 0,
+                      "advise_cost": 2521,
+                      "whole_cost": 42765,
+                      "execution_cost": 40244
+                    },
+                    "advisor": {
+                      "system_prompt_size": 50715,
+                      "whole_cost": 42311
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

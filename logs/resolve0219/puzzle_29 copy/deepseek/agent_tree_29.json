@@ -1,0 +1,214 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-27T11:15:08.223181",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 39827,
+          "advise_cost": 0,
+          "whole_cost": 93398,
+          "execution_cost": 236318
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a4639d9a",
+            "advisor_id": "adv_6046ef16",
+            "task_key_target": "计算求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T11:15:29.924269",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2599,
+                "hire_cost": 0,
+                "advise_cost": 2911,
+                "whole_cost": 79000,
+                "execution_cost": 76089
+              },
+              "advisor": {
+                "system_prompt_size": 10255,
+                "whole_cost": 3129
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a4639d9a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_65cb95ac",
+            "advisor_id": "adv_6d1bac01",
+            "task_key_target": "分析d_i的取值约束",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T11:17:29.060966",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2713,
+                "hire_cost": 26754,
+                "advise_cost": 2207,
+                "whole_cost": 52287,
+                "execution_cost": 58050
+              },
+              "advisor": {
+                "system_prompt_size": 14467,
+                "whole_cost": 2545
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_65cb95ac",
+              "agents": [
+                {
+                  "agent_id": "emp_a53fef92",
+                  "advisor_id": "adv_b0a111fd",
+                  "task_key_target": "数值分析d_i的可能取值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T11:22:52.646926",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 723,
+                      "hire_cost": 0,
+                      "advise_cost": 3240,
+                      "whole_cost": 20267,
+                      "execution_cost": 17027
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26495,
+                      "whole_cost": 3618
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2209cfb0",
+                  "advisor_id": "adv_d7250496",
+                  "task_key_target": "理论分析d_i的数学约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T11:30:59.431840",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 694,
+                      "hire_cost": 0,
+                      "advise_cost": 759,
+                      "whole_cost": 18456,
+                      "execution_cost": 17697
+                    },
+                    "advisor": {
+                      "system_prompt_size": 53050,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_efff1866",
+            "advisor_id": "adv_343303ac",
+            "task_key_target": "验证方程分析和寻找解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T11:22:26.077707",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2770,
+                "hire_cost": 16382,
+                "advise_cost": 3109,
+                "whole_cost": 31812,
+                "execution_cost": 48608
+              },
+              "advisor": {
+                "system_prompt_size": 32840,
+                "whole_cost": 3504
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_efff1866",
+              "agents": [
+                {
+                  "agent_id": "emp_113a2058",
+                  "advisor_id": "adv_baf0ed05",
+                  "task_key_target": "分析d_i的整数解可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T11:25:00.924178",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 730,
+                      "hire_cost": 0,
+                      "advise_cost": 691,
+                      "whole_cost": 24412,
+                      "execution_cost": 23721
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10526,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_f5842d1e",
+                  "advisor_id": "adv_353de55a",
+                  "task_key_target": "分析求和上限矛盾",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T11:25:15.754247",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 814,
+                      "hire_cost": 0,
+                      "advise_cost": 3043,
+                      "whole_cost": 15609,
+                      "execution_cost": 12566
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12808,
+                      "whole_cost": 3505
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

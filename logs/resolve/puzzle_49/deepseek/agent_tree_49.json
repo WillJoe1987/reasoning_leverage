@@ -1,0 +1,397 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-03-02T11:47:01.332493",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 52919,
+          "advise_cost": 0,
+          "whole_cost": 193532,
+          "execution_cost": 1018637
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_4623a013",
+            "advisor_id": "adv_47e33d09",
+            "task_key_target": "解方程 f(f(x)) = g(x)",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T11:47:25.628404",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2674,
+                "hire_cost": 0,
+                "advise_cost": 5156,
+                "whole_cost": 36428,
+                "execution_cost": 31272
+              },
+              "advisor": {
+                "system_prompt_size": 13874,
+                "whole_cost": 35570
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4623a013",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_428537df",
+            "advisor_id": "adv_c23d1ea3",
+            "task_key_target": "分析灯开关系统的线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T11:48:39.096934",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2763,
+                "hire_cost": 34683,
+                "advise_cost": 3879,
+                "whole_cost": 111643,
+                "execution_cost": 303679
+              },
+              "advisor": {
+                "system_prompt_size": 17321,
+                "whole_cost": 5926
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_428537df",
+              "agents": [
+                {
+                  "agent_id": "emp_4d993b74",
+                  "advisor_id": "adv_9246fd92",
+                  "task_key_target": "分析17×17灯开关系统的线性代数结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T11:53:40.439751",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 720,
+                      "hire_cost": 0,
+                      "advise_cost": 1942,
+                      "whole_cost": 47246,
+                      "execution_cost": 45304
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29222,
+                      "whole_cost": 2274
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_d9b4403c",
+                  "advisor_id": "adv_77e91a60",
+                  "task_key_target": "计算17×17灯开关系统的覆盖半径和最小保证亮灯数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T11:53:58.010986",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 790,
+                      "hire_cost": 0,
+                      "advise_cost": 7343,
+                      "whole_cost": 115071,
+                      "execution_cost": 107728
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30265,
+                      "whole_cost": 114934
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fad5fa40",
+                  "advisor_id": "adv_b2a75bd6",
+                  "task_key_target": "验证17×17灯开关系统操作矩阵的秩",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T11:59:38.756852",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 786,
+                      "hire_cost": 0,
+                      "advise_cost": 2324,
+                      "whole_cost": 39982,
+                      "execution_cost": 37658
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48847,
+                      "whole_cost": 2728
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_8b224695",
+                  "advisor_id": "adv_f240415b",
+                  "task_key_target": "重新分析覆盖半径和最小保证亮灯数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T12:13:03.801204",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 792,
+                      "hire_cost": 0,
+                      "advise_cost": 4336,
+                      "whole_cost": 44244,
+                      "execution_cost": 39908
+                    },
+                    "advisor": {
+                      "system_prompt_size": 92084,
+                      "whole_cost": 43300
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_10db8481",
+            "advisor_id": "adv_0304ae17",
+            "task_key_target": "计算操作矩阵的秩和覆盖半径",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T11:52:06.282729",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2668,
+                "hire_cost": 18781,
+                "advise_cost": 2282,
+                "whole_cost": 96031,
+                "execution_cost": 280473
+              },
+              "advisor": {
+                "system_prompt_size": 32010,
+                "whole_cost": 2527
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_10db8481",
+              "agents": [
+                {
+                  "agent_id": "emp_08997e33",
+                  "advisor_id": "adv_ff64dfb8",
+                  "task_key_target": "计算17×17灯开关系统的秩和覆盖半径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T11:53:35.157245",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2799,
+                      "hire_cost": 19706,
+                      "advise_cost": 2596,
+                      "whole_cost": 114873,
+                      "execution_cost": 205505
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13592,
+                      "whole_cost": 2953
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_08997e33",
+                    "agents": [
+                      {
+                        "agent_id": "emp_ba97fb2e",
+                        "advisor_id": "adv_d16ae34a",
+                        "task_key_target": "计算17×17灯开关系统的秩和覆盖半径",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T12:00:22.997906",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 998,
+                            "hire_cost": 0,
+                            "advise_cost": 12329,
+                            "whole_cost": 74357,
+                            "execution_cost": 62028
+                          },
+                          "advisor": {
+                            "system_prompt_size": 40893,
+                            "whole_cost": 68369
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_a4d139bc",
+                        "advisor_id": "adv_28e1c0c4",
+                        "task_key_target": "分析17×17灯开关系统的覆盖半径",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T12:05:19.979396",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 758,
+                            "hire_cost": 0,
+                            "advise_cost": 331,
+                            "whole_cost": 51237,
+                            "execution_cost": 50906
+                          },
+                          "advisor": {
+                            "system_prompt_size": 57664,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_67cb5703",
+            "advisor_id": "adv_0f8c3161",
+            "task_key_target": "数值探索小规模网格的覆盖半径",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T11:54:19.369179",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2718,
+                "hire_cost": 18769,
+                "advise_cost": 2049,
+                "whole_cost": 117354,
+                "execution_cost": 262600
+              },
+              "advisor": {
+                "system_prompt_size": 35198,
+                "whole_cost": 2352
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_67cb5703",
+              "agents": [
+                {
+                  "agent_id": "emp_8eec174e",
+                  "advisor_id": "adv_fc8dd2e9",
+                  "task_key_target": "网格覆盖半径数值计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T11:55:53.172855",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2966,
+                      "hire_cost": 23373,
+                      "advise_cost": 1084,
+                      "whole_cost": 111056,
+                      "execution_cost": 166064
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12748,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_8eec174e",
+                    "agents": [
+                      {
+                        "agent_id": "emp_2ad379ff",
+                        "advisor_id": "adv_99aa7549",
+                        "task_key_target": "计算4×4网格覆盖半径的完整搜索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T11:59:22.851405",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 823,
+                            "hire_cost": 0,
+                            "advise_cost": 2009,
+                            "whole_cost": 41329,
+                            "execution_cost": 39320
+                          },
+                          "advisor": {
+                            "system_prompt_size": 32543,
+                            "whole_cost": 2439
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_972fb3df",
+                        "advisor_id": "adv_4ff4ab40",
+                        "task_key_target": "计算5×5网格覆盖半径的高效算法",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T11:59:41.790128",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 853,
+                            "hire_cost": 0,
+                            "advise_cost": 3058,
+                            "whole_cost": 43203,
+                            "execution_cost": 40145
+                          },
+                          "advisor": {
+                            "system_prompt_size": 33577,
+                            "whole_cost": 42654
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

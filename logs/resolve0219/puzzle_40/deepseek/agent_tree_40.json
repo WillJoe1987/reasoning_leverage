@@ -1,0 +1,349 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-02T17:30:14.632470",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 46130,
+          "advise_cost": 0,
+          "whole_cost": 158918,
+          "execution_cost": 803562
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1ed83241",
+            "advisor_id": "adv_f4b64375",
+            "task_key_target": "分析杯子翻转问题的数学模型",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T17:30:29.755732",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2680,
+                "hire_cost": 5141,
+                "advise_cost": 2284,
+                "whole_cost": 21400,
+                "execution_cost": 35616
+              },
+              "advisor": {
+                "system_prompt_size": 11641,
+                "whole_cost": 2581
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1ed83241",
+              "agents": [
+                {
+                  "agent_id": "emp_68519ae3",
+                  "advisor_id": "adv_25b29af0",
+                  "task_key_target": "杯子翻转问题的构造性证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T17:32:56.304622",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 681,
+                      "hire_cost": 0,
+                      "advise_cost": 779,
+                      "whole_cost": 22420,
+                      "execution_cost": 21641
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20392,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2f8a1c97",
+            "advisor_id": "adv_50798715",
+            "task_key_target": "从组合设计角度分析杯子问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T17:31:05.690242",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2717,
+                "hire_cost": 14645,
+                "advise_cost": 1458,
+                "whole_cost": 128927,
+                "execution_cost": 326794
+              },
+              "advisor": {
+                "system_prompt_size": 12629,
+                "whole_cost": 1773
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2f8a1c97",
+              "agents": [
+                {
+                  "agent_id": "emp_b3fb8077",
+                  "advisor_id": "adv_95518cc2",
+                  "task_key_target": "组合设计角度分析杯子翻转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T17:32:15.990131",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3162,
+                      "hire_cost": 11075,
+                      "advise_cost": 676,
+                      "whole_cost": 97988,
+                      "execution_cost": 213970
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11698,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_b3fb8077",
+                    "agents": [
+                      {
+                        "agent_id": "emp_ecea18fa",
+                        "advisor_id": "adv_b57ba009",
+                        "task_key_target": "杯子翻转问题的下界分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-02T17:34:50.335046",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 604,
+                            "hire_cost": 0,
+                            "advise_cost": 700,
+                            "whole_cost": 25130,
+                            "execution_cost": 24430
+                          },
+                          "advisor": {
+                            "system_prompt_size": 16020,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_0fa71f31",
+                        "advisor_id": "adv_4b9d98ef",
+                        "task_key_target": "杯子翻转问题的构造性上界",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-02T17:35:00.268229",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 620,
+                            "hire_cost": 0,
+                            "advise_cost": 774,
+                            "whole_cost": 41006,
+                            "execution_cost": 40232
+                          },
+                          "advisor": {
+                            "system_prompt_size": 12611,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_aa7004ee",
+                        "advisor_id": "adv_a8eac5f5",
+                        "task_key_target": "杯子翻转问题的数值枚举和模式发现",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-02T17:35:09.456504",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 586,
+                            "hire_cost": 0,
+                            "advise_cost": 3195,
+                            "whole_cost": 66266,
+                            "execution_cost": 63071
+                          },
+                          "advisor": {
+                            "system_prompt_size": 13509,
+                            "whole_cost": 3194
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6087920a",
+            "advisor_id": "adv_cf877513",
+            "task_key_target": "构造性证明：达到下界的方案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T17:33:58.852018",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2689,
+                "hire_cost": 0,
+                "advise_cost": 2375,
+                "whole_cost": 25814,
+                "execution_cost": 23439
+              },
+              "advisor": {
+                "system_prompt_size": 21249,
+                "whole_cost": 2677
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6087920a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9b7ff898",
+            "advisor_id": "adv_0d694a50",
+            "task_key_target": "验证杯子问题的最小m公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T17:35:54.492561",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2774,
+                "hire_cost": 9855,
+                "advise_cost": 1919,
+                "whole_cost": 171775,
+                "execution_cost": 189540
+              },
+              "advisor": {
+                "system_prompt_size": 28003,
+                "whole_cost": 2303
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9b7ff898",
+              "agents": [
+                {
+                  "agent_id": "emp_2ca043ea",
+                  "advisor_id": "adv_cc72f7bb",
+                  "task_key_target": "验证杯子问题可达性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T17:40:50.652966",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 642,
+                      "hire_cost": 0,
+                      "advise_cost": 4032,
+                      "whole_cost": 33571,
+                      "execution_cost": 29539
+                    },
+                    "advisor": {
+                      "system_prompt_size": 37313,
+                      "whole_cost": 4301
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a053c1c8",
+            "advisor_id": "adv_f1574558",
+            "task_key_target": "系统验证杯子问题的最小m",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T17:37:11.574176",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2746,
+                "hire_cost": 6334,
+                "advise_cost": 2561,
+                "whole_cost": 55921,
+                "execution_cost": 115385
+              },
+              "advisor": {
+                "system_prompt_size": 35363,
+                "whole_cost": 2930
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a053c1c8",
+              "agents": [
+                {
+                  "agent_id": "emp_b7b2fdad",
+                  "advisor_id": "adv_97316b12",
+                  "task_key_target": "枚举验证杯子问题的最小m",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T17:41:49.254724",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 745,
+                      "hire_cost": 0,
+                      "advise_cost": 3150,
+                      "whole_cost": 71509,
+                      "execution_cost": 68359
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34473,
+                      "whole_cost": 3592
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

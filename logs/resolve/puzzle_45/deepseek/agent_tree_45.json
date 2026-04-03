@@ -1,0 +1,316 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T04:19:15.550957",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 31850,
+          "advise_cost": 0,
+          "whole_cost": 78602,
+          "execution_cost": 581250
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b535b3bb",
+            "advisor_id": "adv_1371970c",
+            "task_key_target": "组合数论分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:19:33.446027",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2571,
+                "hire_cost": 36844,
+                "advise_cost": 2480,
+                "whole_cost": 77946,
+                "execution_cost": 161024
+              },
+              "advisor": {
+                "system_prompt_size": 14508,
+                "whole_cost": 2692
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b535b3bb",
+              "agents": [
+                {
+                  "agent_id": "emp_163f8dd0",
+                  "advisor_id": "adv_f102e39c",
+                  "task_key_target": "无等和划分序列的上界分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:21:57.668681",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 611,
+                      "hire_cost": 0,
+                      "advise_cost": 989,
+                      "whole_cost": 49997,
+                      "execution_cost": 49008
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22081,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_3f6a8af5",
+                  "advisor_id": "adv_54779097",
+                  "task_key_target": "无等和划分序列的构造方法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:22:03.839387",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 626,
+                      "hire_cost": 0,
+                      "advise_cost": 4014,
+                      "whole_cost": 77408,
+                      "execution_cost": 73394
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23054,
+                      "whole_cost": 4299
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4b7c4da3",
+            "advisor_id": "adv_9b063cb0",
+            "task_key_target": "动态规划与构造方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:19:37.646759",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2539,
+                "hire_cost": 21406,
+                "advise_cost": 3395,
+                "whole_cost": 55257,
+                "execution_cost": 228208
+              },
+              "advisor": {
+                "system_prompt_size": 13357,
+                "whole_cost": 3582
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4b7c4da3",
+              "agents": [
+                {
+                  "agent_id": "emp_affea209",
+                  "advisor_id": "adv_67197e35",
+                  "task_key_target": "贪心算法数值实验",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:21:54.079047",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 641,
+                      "hire_cost": 0,
+                      "advise_cost": 4186,
+                      "whole_cost": 67141,
+                      "execution_cost": 62955
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9635,
+                      "whole_cost": 4482
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_86bee863",
+                  "advisor_id": "adv_52b54ad8",
+                  "task_key_target": "序列上下界理论分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:22:00.338453",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 627,
+                      "hire_cost": 0,
+                      "advise_cost": 393,
+                      "whole_cost": 60807,
+                      "execution_cost": 60414
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10732,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_eb82f80e",
+                  "advisor_id": "adv_8a73e454",
+                  "task_key_target": "动态规划与约束关系分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:22:05.888849",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 612,
+                      "hire_cost": 0,
+                      "advise_cost": 1015,
+                      "whole_cost": 75398,
+                      "execution_cost": 74383
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11601,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1bcbefc4",
+            "advisor_id": "adv_c92640a2",
+            "task_key_target": "验证与边界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:19:41.963555",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2541,
+                "hire_cost": 7536,
+                "advise_cost": 1772,
+                "whole_cost": 83078,
+                "execution_cost": 106902
+              },
+              "advisor": {
+                "system_prompt_size": 13933,
+                "whole_cost": 1969
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1bcbefc4",
+              "agents": [
+                {
+                  "agent_id": "emp_7c4e7a40",
+                  "advisor_id": "adv_8a408364",
+                  "task_key_target": "严格证明2的幂次序列满足条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:21:36.166959",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 568,
+                      "hire_cost": 0,
+                      "advise_cost": 700,
+                      "whole_cost": 33832,
+                      "execution_cost": 33132
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28985,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5761017a",
+            "advisor_id": "adv_683cac55",
+            "task_key_target": "超递增必要性证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:23:01.875037",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2586,
+                "hire_cost": 4261,
+                "advise_cost": 2256,
+                "whole_cost": 44881,
+                "execution_cost": 38364
+              },
+              "advisor": {
+                "system_prompt_size": 32895,
+                "whole_cost": 2464
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5761017a",
+              "agents": [
+                {
+                  "agent_id": "emp_27c0d07c",
+                  "advisor_id": "adv_8b2c5332",
+                  "task_key_target": "搜索非超递增但满足条件(1)的序列",
+                  "status": "failed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:24:50.091557",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 661,
+                      "hire_cost": 0,
+                      "advise_cost": 0,
+                      "whole_cost": 0,
+                      "execution_cost": 0
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25573,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

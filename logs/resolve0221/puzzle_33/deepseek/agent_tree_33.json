@@ -1,0 +1,165 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T23:15:20.789465",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 24571,
+          "advise_cost": 0,
+          "whole_cost": 43015,
+          "execution_cost": 106753
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_891530c8",
+            "advisor_id": "adv_59110844",
+            "task_key_target": "图论建模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:15:34.162723",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2598,
+                "hire_cost": 0,
+                "advise_cost": 1514,
+                "whole_cost": 15510,
+                "execution_cost": 13996
+              },
+              "advisor": {
+                "system_prompt_size": 14173,
+                "whole_cost": 1754
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_891530c8",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b24e714c",
+            "advisor_id": "adv_1eeb9d5d",
+            "task_key_target": "组合数学分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:15:40.672490",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2642,
+                "hire_cost": 0,
+                "advise_cost": 3662,
+                "whole_cost": 9764,
+                "execution_cost": 6102
+              },
+              "advisor": {
+                "system_prompt_size": 12791,
+                "whole_cost": 3946
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b24e714c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_4fab7ac9",
+            "advisor_id": "adv_ec8bea74",
+            "task_key_target": "家庭结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:15:46.322571",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2593,
+                "hire_cost": 11618,
+                "advise_cost": 2240,
+                "whole_cost": 27640,
+                "execution_cost": 36429
+              },
+              "advisor": {
+                "system_prompt_size": 13679,
+                "whole_cost": 2477
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4fab7ac9",
+              "agents": [
+                {
+                  "agent_id": "emp_e7da8b5c",
+                  "advisor_id": "adv_a3a1af8e",
+                  "task_key_target": "家庭结构数学建模",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T23:17:51.124221",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 651,
+                      "hire_cost": 0,
+                      "advise_cost": 796,
+                      "whole_cost": 23443,
+                      "execution_cost": 22647
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22510,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b9075190",
+            "advisor_id": "adv_cdc3f0ea",
+            "task_key_target": "严格验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T23:20:13.812519",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 578,
+                "hire_cost": 0,
+                "advise_cost": 2477,
+                "whole_cost": 34259,
+                "execution_cost": 31782
+              },
+              "advisor": {
+                "system_prompt_size": 30918,
+                "whole_cost": 2749
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

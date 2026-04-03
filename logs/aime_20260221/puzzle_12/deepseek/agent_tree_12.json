@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:49:15.363074",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 7288,
+          "advise_cost": 0,
+          "whole_cost": 29685,
+          "execution_cost": 109097
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_af24771f",
+            "advisor_id": "adv_803087c4",
+            "task_key_target": "球体几何关系分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:49:58.014371",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2708,
+                "hire_cost": 9085,
+                "advise_cost": 2491,
+                "whole_cost": 32061,
+                "execution_cost": 45552
+              },
+              "advisor": {
+                "system_prompt_size": 15900,
+                "whole_cost": 2828
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_af24771f",
+              "agents": [
+                {
+                  "agent_id": "emp_54448e22",
+                  "advisor_id": "adv_3ec678c6",
+                  "task_key_target": "平面T参数与半径r方程求解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:51:15.205187",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 928,
+                      "hire_cost": 0,
+                      "advise_cost": 676,
+                      "whole_cost": 25743,
+                      "execution_cost": 25067
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17637,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_96181589",
+            "advisor_id": "adv_c03408ea",
+            "task_key_target": "代数方程组求解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:50:05.097833",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2767,
+                "hire_cost": 0,
+                "advise_cost": 2627,
+                "whole_cost": 35643,
+                "execution_cost": 33016
+              },
+              "advisor": {
+                "system_prompt_size": 16268,
+                "whole_cost": 3033
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_96181589",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_a7dd7484",
+            "advisor_id": "adv_4038b3ac",
+            "task_key_target": "向量法验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:53:38.603776",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 704,
+                "hire_cost": 0,
+                "advise_cost": 1611,
+                "whole_cost": 9743,
+                "execution_cost": 8132
+              },
+              "advisor": {
+                "system_prompt_size": 32495,
+                "whole_cost": 2011
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T03:26:12.627746",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 37140,
+          "advise_cost": 0,
+          "whole_cost": 98969,
+          "execution_cost": 586666
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_04803863",
+            "advisor_id": "adv_ca9b9be5",
+            "task_key_target": "数论结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:26:34.937478",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2874,
+                "hire_cost": 25144,
+                "advise_cost": 12923,
+                "whole_cost": 137289,
+                "execution_cost": 279291
+              },
+              "advisor": {
+                "system_prompt_size": 14789,
+                "whole_cost": 121331
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_04803863",
+              "agents": [
+                {
+                  "agent_id": "emp_67403c41",
+                  "advisor_id": "adv_2c4eafb4",
+                  "task_key_target": "模方程解分布分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:29:43.109131",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 719,
+                      "hire_cost": 0,
+                      "advise_cost": 714,
+                      "whole_cost": 95829,
+                      "execution_cost": 95115
+                    },
+                    "advisor": {
+                      "system_prompt_size": 37773,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_dc7cbc97",
+                  "advisor_id": "adv_ab43d3ca",
+                  "task_key_target": "构造方案验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:40:05.810888",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 868,
+                      "hire_cost": 0,
+                      "advise_cost": 596,
+                      "whole_cost": 85550,
+                      "execution_cost": 84954
+                    },
+                    "advisor": {
+                      "system_prompt_size": 118035,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_eaee8323",
+            "advisor_id": "adv_9c44fa52",
+            "task_key_target": "数值构造探索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:26:43.251375",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2921,
+                "hire_cost": 16732,
+                "advise_cost": 3130,
+                "whole_cost": 96278,
+                "execution_cost": 245546
+              },
+              "advisor": {
+                "system_prompt_size": 14332,
+                "whole_cost": 3666
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eaee8323",
+              "agents": [
+                {
+                  "agent_id": "emp_2797481b",
+                  "advisor_id": "adv_be008e63",
+                  "task_key_target": "数值搜索与模式发现",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:28:41.897271",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 749,
+                      "hire_cost": 0,
+                      "advise_cost": 4562,
+                      "whole_cost": 98656,
+                      "execution_cost": 94094
+                    },
+                    "advisor": {
+                      "system_prompt_size": 35051,
+                      "whole_cost": 3900
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_4708d734",
+                  "advisor_id": "adv_4771a2b8",
+                  "task_key_target": "理论分析与构造设计",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:31:30.475315",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 698,
+                      "hire_cost": 0,
+                      "advise_cost": 8614,
+                      "whole_cost": 83650,
+                      "execution_cost": 75036
+                    },
+                    "advisor": {
+                      "system_prompt_size": 49067,
+                      "whole_cost": 37258
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

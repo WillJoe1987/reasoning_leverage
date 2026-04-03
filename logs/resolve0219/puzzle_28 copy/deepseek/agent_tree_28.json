@@ -1,0 +1,422 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-28T11:30:01.048503",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3081,
+          "hire_cost": 35905,
+          "advise_cost": 0,
+          "whole_cost": 57749,
+          "execution_cost": 296431
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_478fe36e",
+            "advisor_id": "adv_9f6944e1",
+            "task_key_target": "分析f(n)函数的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-28T11:30:18.114850",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2536,
+                "hire_cost": 27773,
+                "advise_cost": 2144,
+                "whole_cost": 62942,
+                "execution_cost": 138723
+              },
+              "advisor": {
+                "system_prompt_size": 9685,
+                "whole_cost": 2299
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_478fe36e",
+              "agents": [
+                {
+                  "agent_id": "emp_87c27fec",
+                  "advisor_id": "adv_50cb817b",
+                  "task_key_target": "f(n)的数论性质分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-28T11:31:43.297962",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2651,
+                      "hire_cost": 19822,
+                      "advise_cost": 2549,
+                      "whole_cost": 29135,
+                      "execution_cost": 55095
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9701,
+                      "whole_cost": 2792
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_87c27fec",
+                    "agents": [
+                      {
+                        "agent_id": "emp_10b86cb7",
+                        "advisor_id": "adv_00122413",
+                        "task_key_target": "f(n)取值集合性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:34:36.217095",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 791,
+                            "hire_cost": 0,
+                            "advise_cost": 644,
+                            "whole_cost": 15763,
+                            "execution_cost": 15119
+                          },
+                          "advisor": {
+                            "system_prompt_size": 7494,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_fbe296c0",
+                        "advisor_id": "adv_7f885c20",
+                        "task_key_target": "f(n)增长特性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:34:48.453718",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 766,
+                            "hire_cost": 0,
+                            "advise_cost": 2712,
+                            "whole_cost": 23017,
+                            "execution_cost": 20305
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9009,
+                            "whole_cost": 5974
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_0967ebce",
+                        "advisor_id": "adv_e67671a9",
+                        "task_key_target": "f(n)=C方程解集分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:35:02.205563",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 830,
+                            "hire_cost": 0,
+                            "advise_cost": 657,
+                            "whole_cost": 13564,
+                            "execution_cost": 12907
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9930,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_f47bdbe8",
+                  "advisor_id": "adv_101a10c2",
+                  "task_key_target": "多项式与算术函数相等性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-28T11:31:53.333225",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2663,
+                      "hire_cost": 11969,
+                      "advise_cost": 559,
+                      "whole_cost": 22620,
+                      "execution_cost": 30321
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11319,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f47bdbe8",
+                    "agents": [
+                      {
+                        "agent_id": "emp_6d33c321",
+                        "advisor_id": "adv_44801a2d",
+                        "task_key_target": "多项式理论与无穷点相等性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:34:11.944081",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 495,
+                            "hire_cost": 0,
+                            "advise_cost": 2541,
+                            "whole_cost": 12960,
+                            "execution_cost": 10419
+                          },
+                          "advisor": {
+                            "system_prompt_size": 3965,
+                            "whole_cost": 2736
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_71035e6a",
+                        "advisor_id": "adv_bddc9b3c",
+                        "task_key_target": "多项式增长阶与矛盾论证分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:34:19.667513",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 536,
+                            "hire_cost": 0,
+                            "advise_cost": 589,
+                            "whole_cost": 10399,
+                            "execution_cost": 9810
+                          },
+                          "advisor": {
+                            "system_prompt_size": 5496,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_0dd802d5",
+                  "advisor_id": "adv_d0382e42",
+                  "task_key_target": "常数多项式约束求解与验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-28T11:32:01.617996",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2634,
+                      "hire_cost": 8449,
+                      "advise_cost": 2765,
+                      "whole_cost": 19185,
+                      "execution_cost": 20282
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12124,
+                      "whole_cost": 3129
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_0dd802d5",
+                    "agents": [
+                      {
+                        "agent_id": "emp_cb59572c",
+                        "advisor_id": "adv_752f9f63",
+                        "task_key_target": "平方自由数分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-28T11:34:02.674356",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 443,
+                            "hire_cost": 0,
+                            "advise_cost": 2372,
+                            "whole_cost": 14683,
+                            "execution_cost": 12311
+                          },
+                          "advisor": {
+                            "system_prompt_size": 13542,
+                            "whole_cost": 2473
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5a71d9e1",
+            "advisor_id": "adv_eba62e67",
+            "task_key_target": "分析多项式与数论函数相等的无穷点集",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-28T11:30:48.243127",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2557,
+                "hire_cost": 14717,
+                "advise_cost": 2809,
+                "whole_cost": 46550,
+                "execution_cost": 78682
+              },
+              "advisor": {
+                "system_prompt_size": 11257,
+                "whole_cost": 2981
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5a71d9e1",
+              "agents": [
+                {
+                  "agent_id": "emp_282fb492",
+                  "advisor_id": "adv_84d5d971",
+                  "task_key_target": "分析多项式与数论函数无穷交点定理",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-28T11:34:13.216180",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 670,
+                      "hire_cost": 0,
+                      "advise_cost": 734,
+                      "whole_cost": 50392,
+                      "execution_cost": 49658
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12867,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_56b78aaf",
+            "advisor_id": "adv_d841731a",
+            "task_key_target": "分析线性多项式情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-28T11:33:36.055722",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2615,
+                "hire_cost": 6175,
+                "advise_cost": 3486,
+                "whole_cost": 52509,
+                "execution_cost": 51794
+              },
+              "advisor": {
+                "system_prompt_size": 15534,
+                "whole_cost": 3678
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_56b78aaf",
+              "agents": [
+                {
+                  "agent_id": "emp_e20bcd5c",
+                  "advisor_id": "adv_f90d9921",
+                  "task_key_target": "验证所有可能的b值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-28T11:39:38.376995",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 674,
+                      "hire_cost": 0,
+                      "advise_cost": 860,
+                      "whole_cost": 9806,
+                      "execution_cost": 8946
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21234,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e4ef7d37",
+            "advisor_id": "adv_383cfbfc",
+            "task_key_target": "验证45到81之间的无平方因子数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-28T11:43:23.055170",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 560,
+                "hire_cost": 0,
+                "advise_cost": 1460,
+                "whole_cost": 6848,
+                "execution_cost": 5388
+              },
+              "advisor": {
+                "system_prompt_size": 51843,
+                "whole_cost": 1702
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

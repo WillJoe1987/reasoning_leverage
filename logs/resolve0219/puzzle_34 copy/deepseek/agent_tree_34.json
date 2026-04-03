@@ -1,0 +1,297 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-30T15:09:20.751462",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3350,
+          "hire_cost": 26565,
+          "advise_cost": 0,
+          "whole_cost": 145127,
+          "execution_cost": 454476
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_14c4a74d",
+            "advisor_id": "adv_45dcab91",
+            "task_key_target": "寻找最优常数C_max",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T15:09:41.494111",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2760,
+                "hire_cost": 27751,
+                "advise_cost": 1748,
+                "whole_cost": 78515,
+                "execution_cost": 309342
+              },
+              "advisor": {
+                "system_prompt_size": 9728,
+                "whole_cost": 2127
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_14c4a74d",
+              "agents": [
+                {
+                  "agent_id": "emp_99ac61db",
+                  "advisor_id": "adv_32d8e437",
+                  "task_key_target": "证明不等式在C=1时成立",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T15:24:13.015089",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2672,
+                      "hire_cost": 8461,
+                      "advise_cost": 1561,
+                      "whole_cost": 46862,
+                      "execution_cost": 55018
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8144,
+                      "whole_cost": 1830
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_99ac61db",
+                    "agents": [
+                      {
+                        "agent_id": "emp_2bcafc52",
+                        "advisor_id": "adv_4b3d7f7a",
+                        "task_key_target": "系统生成测试用例验证不等式",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-30T15:29:08.344659",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 644,
+                            "hire_cost": 0,
+                            "advise_cost": 3891,
+                            "whole_cost": 22069,
+                            "execution_cost": 18178
+                          },
+                          "advisor": {
+                            "system_prompt_size": 35101,
+                            "whole_cost": 4189
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_bdbd5b47",
+                  "advisor_id": "adv_93514537",
+                  "task_key_target": "验证必要性和特殊情形",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T15:24:23.485009",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2681,
+                      "hire_cost": 15224,
+                      "advise_cost": 699,
+                      "whole_cost": 126245,
+                      "execution_cost": 205308
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13130,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_bdbd5b47",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b6fc91f2",
+                        "advisor_id": "adv_4200e360",
+                        "task_key_target": "分析特殊情形和等号成立条件",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-30T15:26:37.111212",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2638,
+                            "hire_cost": 21631,
+                            "advise_cost": 695,
+                            "whole_cost": 58572,
+                            "execution_cost": 75171
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11609,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_b6fc91f2",
+                          "agents": [
+                            {
+                              "agent_id": "emp_02c3926c",
+                              "advisor_id": "adv_cd99adc5",
+                              "task_key_target": "数值搜索等号成立点",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-30T15:31:02.353711",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 672,
+                                  "hire_cost": 0,
+                                  "advise_cost": 2719,
+                                  "whole_cost": 20384,
+                                  "execution_cost": 17665
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 14188,
+                                  "whole_cost": 3051
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_62a6a120",
+                              "advisor_id": "adv_088ffbfd",
+                              "task_key_target": "搜索F的最小值",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-30T15:34:38.763999",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 690,
+                                  "hire_cost": 0,
+                                  "advise_cost": 723,
+                                  "whole_cost": 21983,
+                                  "execution_cost": 21260
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 26422,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "agent_id": "emp_ab27aaaa",
+                        "advisor_id": "adv_05427da1",
+                        "task_key_target": "数值验证和等号成立点搜索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-30T15:29:33.646395",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 614,
+                            "hire_cost": 0,
+                            "advise_cost": 2756,
+                            "whole_cost": 22571,
+                            "execution_cost": 19815
+                          },
+                          "advisor": {
+                            "system_prompt_size": 20741,
+                            "whole_cost": 3011
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8ff673e9",
+            "advisor_id": "adv_1bdcc846",
+            "task_key_target": "验证最优常数C_max",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T15:09:52.090869",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2705,
+                "hire_cost": 10534,
+                "advise_cost": 1232,
+                "whole_cost": 21918,
+                "execution_cost": 26572
+              },
+              "advisor": {
+                "system_prompt_size": 9983,
+                "whole_cost": 1554
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8ff673e9",
+              "agents": [
+                {
+                  "agent_id": "emp_75f05cc2",
+                  "advisor_id": "adv_ac61df81",
+                  "task_key_target": "数值验证不等式C=1",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T15:11:22.016000",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 621,
+                      "hire_cost": 0,
+                      "advise_cost": 2169,
+                      "whole_cost": 18589,
+                      "execution_cost": 16420
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10445,
+                      "whole_cost": 2493
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

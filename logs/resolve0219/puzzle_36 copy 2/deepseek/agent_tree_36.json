@@ -1,0 +1,518 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-31T14:12:47.609189",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3385,
+          "hire_cost": 44285,
+          "advise_cost": 0,
+          "whole_cost": 152633,
+          "execution_cost": 961727
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_dcba7732",
+            "advisor_id": "adv_e18ab203",
+            "task_key_target": "分析棋盘操作问题的数学模型",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-01-31T14:13:00.095305",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2691,
+                "hire_cost": 16791,
+                "advise_cost": 913,
+                "whole_cost": 204084,
+                "execution_cost": 608689
+              },
+              "advisor": {
+                "system_prompt_size": 11048,
+                "whole_cost": 1221
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dcba7732",
+              "agents": [
+                {
+                  "agent_id": "emp_5c21d0a6",
+                  "advisor_id": "adv_766d50ff",
+                  "task_key_target": "分析GF(2)上的线性代数结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:27:48.708746",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2775,
+                      "hire_cost": 21086,
+                      "advise_cost": 700,
+                      "whole_cost": 117146,
+                      "execution_cost": 422309
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11295,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_5c21d0a6",
+                    "agents": [
+                      {
+                        "agent_id": "emp_a0de9781",
+                        "advisor_id": "adv_289b282f",
+                        "task_key_target": "分析操作矩阵的线性代数结构",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-31T14:29:29.512837",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2718,
+                            "hire_cost": 53902,
+                            "advise_cost": 640,
+                            "whole_cost": 72847,
+                            "execution_cost": 140597
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9831,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_a0de9781",
+                          "agents": [
+                            {
+                              "agent_id": "emp_d1cd0a10",
+                              "advisor_id": "adv_10614c5d",
+                              "task_key_target": "分析M_{ij}矩阵结构",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:31:09.254047",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 633,
+                                  "hire_cost": 0,
+                                  "advise_cost": 1742,
+                                  "whole_cost": 24745,
+                                  "execution_cost": 23003
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 6100,
+                                  "whole_cost": 2054
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_41732522",
+                              "advisor_id": "adv_7034ae50",
+                              "task_key_target": "分析子空间维度和基",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:31:17.824473",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 598,
+                                  "hire_cost": 0,
+                                  "advise_cost": 352,
+                                  "whole_cost": 52227,
+                                  "execution_cost": 51875
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 7003,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_7f36c880",
+                              "advisor_id": "adv_3c5b3a21",
+                              "task_key_target": "分析最大保证值n=181",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:31:27.157716",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 625,
+                                  "hire_cost": 0,
+                                  "advise_cost": 2314,
+                                  "whole_cost": 49728,
+                                  "execution_cost": 47414
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 7785,
+                                  "whole_cost": 2603
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "agent_id": "emp_3888f71c",
+                        "advisor_id": "adv_0676fea9",
+                        "task_key_target": "分析可达状态和陪集结构",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-31T14:29:38.684078",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2704,
+                            "hire_cost": 31539,
+                            "advise_cost": 2438,
+                            "whole_cost": 58513,
+                            "execution_cost": 186352
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10856,
+                            "whole_cost": 2757
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_3888f71c",
+                          "agents": [
+                            {
+                              "agent_id": "emp_fb74a62a",
+                              "advisor_id": "adv_64b6d5ca",
+                              "task_key_target": "分析操作矩阵的代数结构",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:31:43.473038",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 655,
+                                  "hire_cost": 0,
+                                  "advise_cost": 712,
+                                  "whole_cost": 52224,
+                                  "execution_cost": 51512
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 8160,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_5d81a6d9",
+                              "advisor_id": "adv_b317c6b4",
+                              "task_key_target": "验证全局反转可达性",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:32:25.507041",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 633,
+                                  "hire_cost": 0,
+                                  "advise_cost": 787,
+                                  "whole_cost": 40472,
+                                  "execution_cost": 39685
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 10575,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_f7e45fc2",
+                              "advisor_id": "adv_1539238d",
+                              "task_key_target": "分析小规模棋盘",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-31T14:35:11.617995",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 591,
+                                  "hire_cost": 0,
+                                  "advise_cost": 763,
+                                  "whole_cost": 71382,
+                                  "execution_cost": 70619
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 22423,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ad9ab6b6",
+            "advisor_id": "adv_b11294ae",
+            "task_key_target": "分析操作的不变量和可达状态",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-31T14:15:24.614176",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2669,
+                "hire_cost": 14481,
+                "advise_cost": 2708,
+                "whole_cost": 35685,
+                "execution_cost": 36390
+              },
+              "advisor": {
+                "system_prompt_size": 15430,
+                "whole_cost": 2997
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ad9ab6b6",
+              "agents": [
+                {
+                  "agent_id": "emp_3d071f42",
+                  "advisor_id": "adv_f9a0aef3",
+                  "task_key_target": "分析小棋盘操作空间维数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:17:11.312945",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 592,
+                      "hire_cost": 0,
+                      "advise_cost": 1940,
+                      "whole_cost": 19834,
+                      "execution_cost": 17894
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12583,
+                      "whole_cost": 2231
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_42f1b326",
+            "advisor_id": "adv_06597457",
+            "task_key_target": "计算小规模棋盘寻找模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-31T14:19:50.816577",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2623,
+                "hire_cost": 31601,
+                "advise_cost": 2487,
+                "whole_cost": 54206,
+                "execution_cost": 201704
+              },
+              "advisor": {
+                "system_prompt_size": 25507,
+                "whole_cost": 2730
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_42f1b326",
+              "agents": [
+                {
+                  "agent_id": "emp_dc88ad88",
+                  "advisor_id": "adv_0e8d636a",
+                  "task_key_target": "计算m=2的秩和覆盖半径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:21:46.385620",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 651,
+                      "hire_cost": 0,
+                      "advise_cost": 704,
+                      "whole_cost": 13208,
+                      "execution_cost": 12504
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12569,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_1129c4d9",
+                  "advisor_id": "adv_14dff163",
+                  "task_key_target": "计算m=3的秩和覆盖半径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:23:55.783702",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 698,
+                      "hire_cost": 0,
+                      "advise_cost": 828,
+                      "whole_cost": 51058,
+                      "execution_cost": 50230
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15157,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c24a6999",
+                  "advisor_id": "adv_6ad4c886",
+                  "task_key_target": "计算m=4的秩和覆盖半径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:27:34.665124",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 822,
+                      "hire_cost": 0,
+                      "advise_cost": 402,
+                      "whole_cost": 22900,
+                      "execution_cost": 22498
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24497,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_e517be50",
+                  "advisor_id": "adv_7aad0032",
+                  "task_key_target": "分析覆盖半径模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:31:04.896572",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 607,
+                      "hire_cost": 0,
+                      "advise_cost": 672,
+                      "whole_cost": 42483,
+                      "execution_cost": 41811
+                    },
+                    "advisor": {
+                      "system_prompt_size": 44808,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_9d6260d6",
+                  "advisor_id": "adv_8298a21b",
+                  "task_key_target": "计算m=5的秩和覆盖半径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-31T14:33:07.809358",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 602,
+                      "hire_cost": 0,
+                      "advise_cost": 403,
+                      "whole_cost": 54946,
+                      "execution_cost": 54543
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48987,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b6b404b3",
+            "advisor_id": "adv_9f8b8bac",
+            "task_key_target": "快速验证小规模棋盘模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-31T14:39:32.058359",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 541,
+                "hire_cost": 0,
+                "advise_cost": 1611,
+                "whole_cost": 8207,
+                "execution_cost": 6596
+              },
+              "advisor": {
+                "system_prompt_size": 79154,
+                "whole_cost": 1844
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T16:29:21.399472",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 35616,
+          "advise_cost": 0,
+          "whole_cost": 100579,
+          "execution_cost": 275097
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_fa3a5521",
+            "advisor_id": "adv_2e26cf66",
+            "task_key_target": "分析问题条件和基本性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:29:34.101117",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2709,
+                "hire_cost": 11898,
+                "advise_cost": 4726,
+                "whole_cost": 73322,
+                "execution_cost": 103325
+              },
+              "advisor": {
+                "system_prompt_size": 13481,
+                "whole_cost": 5081
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fa3a5521",
+              "agents": [
+                {
+                  "agent_id": "emp_d1527060",
+                  "advisor_id": "adv_2b9d44f9",
+                  "task_key_target": "证明n=3的情况",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T16:34:21.756971",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 591,
+                      "hire_cost": 0,
+                      "advise_cost": 669,
+                      "whole_cost": 47296,
+                      "execution_cost": 46627
+                    },
+                    "advisor": {
+                      "system_prompt_size": 49243,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_36bd403e",
+            "advisor_id": "adv_dda4222a",
+            "task_key_target": "探索小n的情况和反例",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:29:41.721136",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2690,
+                "hire_cost": 0,
+                "advise_cost": 3063,
+                "whole_cost": 35423,
+                "execution_cost": 32360
+              },
+              "advisor": {
+                "system_prompt_size": 12930,
+                "whole_cost": 3389
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_36bd403e",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_a3dd3b32",
+            "advisor_id": "adv_86be850c",
+            "task_key_target": "不等式分析和优化方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:29:50.381658",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2806,
+                "hire_cost": 0,
+                "advise_cost": 1286,
+                "whole_cost": 24296,
+                "execution_cost": 23010
+              },
+              "advisor": {
+                "system_prompt_size": 13730,
+                "whole_cost": 1719
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a3dd3b32",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_02760462",
+            "advisor_id": "adv_a8f71af1",
+            "task_key_target": "严格证明n=2和n=3的情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:34:54.085336",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2623,
+                "hire_cost": 0,
+                "advise_cost": 1468,
+                "whole_cost": 29540,
+                "execution_cost": 28072
+              },
+              "advisor": {
+                "system_prompt_size": 57497,
+                "whole_cost": 1725
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_02760462",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_32f09c71",
+            "advisor_id": "adv_d6d99a01",
+            "task_key_target": "证明n≥4不成立并构造一般反例",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T16:35:00.097496",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2600,
+                "hire_cost": 0,
+                "advise_cost": 2185,
+                "whole_cost": 25552,
+                "execution_cost": 23367
+              },
+              "advisor": {
+                "system_prompt_size": 62513,
+                "whole_cost": 2407
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_32f09c71",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "failed",
+      "depth": 0,
+      "hired_at": "2026-01-08T16:28:56.405906",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 0,
+          "advise_cost": 0,
+          "whole_cost": 0
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_588b7f33",
+            "advisor_id": "adv_46f57b34",
+            "task_key_target": "分析2×2网格结构和约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:29:06.725052",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 387,
+                "hire_cost": 0,
+                "advise_cost": 790,
+                "whole_cost": 3392
+              },
+              "advisor": {
+                "system_prompt_size": 7498,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_89a05709",
+            "advisor_id": "adv_584a93e9",
+            "task_key_target": "建立染色问题的数学模型",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:30:25.439345",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 433,
+                "hire_cost": 0,
+                "advise_cost": 1840,
+                "whole_cost": 7034
+              },
+              "advisor": {
+                "system_prompt_size": 8940,
+                "whole_cost": 2058
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_4443581d",
+            "advisor_id": "adv_c5397257",
+            "task_key_target": "解染色约束方程组",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:32:41.205049",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 487,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 13812,
+                "whole_cost": 1509
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_c60b4e1f",
+            "advisor_id": "adv_8ea5035a",
+            "task_key_target": "使用Burnside引理计数",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:34:13.905206",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 477,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 17871,
+                "whole_cost": 2397
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_5016ca74",
+            "advisor_id": "adv_21bb227f",
+            "task_key_target": "枚举计算染色方案数",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-01-08T16:37:00.271736",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 480,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 31091,
+                "whole_cost": 2321
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

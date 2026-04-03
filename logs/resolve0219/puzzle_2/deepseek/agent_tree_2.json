@@ -1,0 +1,109 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T12:09:16.641998",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 11379,
+          "advise_cost": 0,
+          "whole_cost": 49375,
+          "execution_cost": 83845
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a7cb720c",
+            "advisor_id": "adv_399a81ce",
+            "task_key_target": "分析p^a + p^b是完全幂的条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T12:09:32.294265",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2454,
+                "hire_cost": 5942,
+                "advise_cost": 1911,
+                "whole_cost": 30577,
+                "execution_cost": 37645
+              },
+              "advisor": {
+                "system_prompt_size": 8338,
+                "whole_cost": 2177
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a7cb720c",
+              "agents": [
+                {
+                  "agent_id": "emp_3b5bb01e",
+                  "advisor_id": "adv_95aa19ea",
+                  "task_key_target": "搜索b=0时的所有解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T12:12:05.399289",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 586,
+                      "hire_cost": 0,
+                      "advise_cost": 1875,
+                      "whole_cost": 16796,
+                      "execution_cost": 14921
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17470,
+                      "whole_cost": 2120
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c9a2c449",
+            "advisor_id": "adv_2ddb6b3f",
+            "task_key_target": "验证p^a+p^b是完全幂的解的分类",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T12:13:34.437277",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 794,
+                "hire_cost": 0,
+                "advise_cost": 3538,
+                "whole_cost": 11742,
+                "execution_cost": 8204
+              },
+              "advisor": {
+                "system_prompt_size": 19210,
+                "whole_cost": 3975
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

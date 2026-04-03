@@ -1,5 +1,4 @@
 CLAUDE.md
-logs/
 data/**/*.json
 data/**/*.jsonl
 data/**/*.csv
@@ -69,10 +68,6 @@ env/
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Logs
-logs/
-*.log
 
 # Runtime files
 .runtime_env.json

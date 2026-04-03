@@ -1,0 +1,165 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T01:33:04.418419",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 27210,
+          "advise_cost": 0,
+          "whole_cost": 88874,
+          "execution_cost": 305940
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8f16fe2a",
+            "advisor_id": "adv_5250788e",
+            "task_key_target": "分析函数f(x)的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:33:15.702124",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2575,
+                "hire_cost": 0,
+                "advise_cost": 1652,
+                "whole_cost": 34769,
+                "execution_cost": 33117
+              },
+              "advisor": {
+                "system_prompt_size": 14289,
+                "whole_cost": 1862
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8f16fe2a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8ce22569",
+            "advisor_id": "adv_1b9be5d1",
+            "task_key_target": "分析函数g(y)和h(z)的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:33:21.798233",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2676,
+                "hire_cost": 0,
+                "advise_cost": 2425,
+                "whole_cost": 56189,
+                "execution_cost": 53764
+              },
+              "advisor": {
+                "system_prompt_size": 13329,
+                "whole_cost": 2735
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8ce22569",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7e138166",
+            "advisor_id": "adv_c258c21e",
+            "task_key_target": "理论证明解的唯一性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:37:49.771369",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2570,
+                "hire_cost": 3713,
+                "advise_cost": 2984,
+                "whole_cost": 63480,
+                "execution_cost": 111698
+              },
+              "advisor": {
+                "system_prompt_size": 51308,
+                "whole_cost": 3188
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7e138166",
+              "agents": [
+                {
+                  "agent_id": "emp_5a3f9676",
+                  "advisor_id": "adv_97deac9d",
+                  "task_key_target": "分析h(p^{2α})性质和方程约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T01:39:43.149728",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 705,
+                      "hire_cost": 0,
+                      "advise_cost": 692,
+                      "whole_cost": 55607,
+                      "execution_cost": 54915
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30016,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_88c710dd",
+            "advisor_id": "adv_13dbb555",
+            "task_key_target": "验证最终答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:44:16.000741",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 538,
+                "hire_cost": 0,
+                "advise_cost": 2924,
+                "whole_cost": 48621,
+                "execution_cost": 45697
+              },
+              "advisor": {
+                "system_prompt_size": 97502,
+                "whole_cost": 3154
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

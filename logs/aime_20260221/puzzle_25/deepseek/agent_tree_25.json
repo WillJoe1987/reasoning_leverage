@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T20:06:29.430312",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 15941,
+          "advise_cost": 0,
+          "whole_cost": 49962,
+          "execution_cost": 209474
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8120edda",
+            "advisor_id": "adv_4844ac23",
+            "task_key_target": "几何关系推导",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:06:42.141296",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2651,
+                "hire_cost": 10290,
+                "advise_cost": 2102,
+                "whole_cost": 30616,
+                "execution_cost": 51921
+              },
+              "advisor": {
+                "system_prompt_size": 13293,
+                "whole_cost": 2388
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8120edda",
+              "agents": [
+                {
+                  "agent_id": "emp_a329921f",
+                  "advisor_id": "adv_027502fb",
+                  "task_key_target": "几何关系系统推导",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:08:14.925323",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 713,
+                      "hire_cost": 0,
+                      "advise_cost": 707,
+                      "whole_cost": 34404,
+                      "execution_cost": 33697
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19711,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e7bea4cb",
+            "advisor_id": "adv_194308f9",
+            "task_key_target": "坐标法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:06:47.463290",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2581,
+                "hire_cost": 10451,
+                "advise_cost": 1729,
+                "whole_cost": 47281,
+                "execution_cost": 73813
+              },
+              "advisor": {
+                "system_prompt_size": 12054,
+                "whole_cost": 1952
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e7bea4cb",
+              "agents": [
+                {
+                  "agent_id": "emp_c3c16508",
+                  "advisor_id": "adv_a2f6e516",
+                  "task_key_target": "符号计算与方程组求解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:09:30.073327",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1112,
+                      "hire_cost": 0,
+                      "advise_cost": 674,
+                      "whole_cost": 39386,
+                      "execution_cost": 38712
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21611,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a857b0f3",
+            "advisor_id": "adv_43008364",
+            "task_key_target": "纯几何分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:06:52.725245",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2597,
+                "hire_cost": 0,
+                "advise_cost": 2053,
+                "whole_cost": 14498,
+                "execution_cost": 12445
+              },
+              "advisor": {
+                "system_prompt_size": 12647,
+                "whole_cost": 2292
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a857b0f3",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_c18d0857",
+            "advisor_id": "adv_36384c2d",
+            "task_key_target": "结果验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:11:56.628644",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 559,
+                "hire_cost": 0,
+                "advise_cost": 2870,
+                "whole_cost": 40144,
+                "execution_cost": 37274
+              },
+              "advisor": {
+                "system_prompt_size": 39158,
+                "whole_cost": 3111
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

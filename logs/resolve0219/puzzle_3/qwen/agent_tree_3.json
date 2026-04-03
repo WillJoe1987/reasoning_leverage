@@ -1,0 +1,50 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T20:06:50.237526",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 17279,
+          "advise_cost": 0,
+          "whole_cost": 20608
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_7e6a1d10",
+            "advisor_id": "adv_7aaaf41c",
+            "task_key_target": "Verification of solution for n=1 to n=8",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T20:12:35.690946",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 641,
+                "hire_cost": 0,
+                "advise_cost": 2374,
+                "whole_cost": 5468
+              },
+              "advisor": {
+                "system_prompt_size": 8320,
+                "whole_cost": 2807
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

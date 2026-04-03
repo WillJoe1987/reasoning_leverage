@@ -1,0 +1,268 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-24T12:02:33.077793",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 33843,
+          "advise_cost": 0,
+          "whole_cost": 122020,
+          "execution_cost": 503421
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_ed5cf566",
+            "advisor_id": "adv_22ab4998",
+            "task_key_target": "问题澄清与数学建模",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-24T12:02:44.670138",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2666,
+                "hire_cost": 27163,
+                "advise_cost": 3726,
+                "whole_cost": 51505,
+                "execution_cost": 94452
+              },
+              "advisor": {
+                "system_prompt_size": 13115,
+                "whole_cost": 33751
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ed5cf566",
+              "agents": [
+                {
+                  "agent_id": "emp_1bba82b5",
+                  "advisor_id": "adv_e0a586df",
+                  "task_key_target": "线性代数分析与建模",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-24T12:11:03.130045",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 686,
+                      "hire_cost": 0,
+                      "advise_cost": 818,
+                      "whole_cost": 27418,
+                      "execution_cost": 26600
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9019,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_426bfb63",
+                  "advisor_id": "adv_2f0a74a0",
+                  "task_key_target": "操作向量空间维度计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-24T12:12:14.284969",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 656,
+                      "hire_cost": 0,
+                      "advise_cost": 5695,
+                      "whole_cost": 52931,
+                      "execution_cost": 47236
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13495,
+                      "whole_cost": 3774
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0eca519a",
+            "advisor_id": "adv_0fb55b01",
+            "task_key_target": "线性代数分析与不变性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-24T12:02:51.675123",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2661,
+                "hire_cost": 6367,
+                "advise_cost": 2703,
+                "whole_cost": 83268,
+                "execution_cost": 149646
+              },
+              "advisor": {
+                "system_prompt_size": 12320,
+                "whole_cost": 2991
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0eca519a",
+              "agents": [
+                {
+                  "agent_id": "emp_0bfcc438",
+                  "advisor_id": "adv_da318fd3",
+                  "task_key_target": "计算操作向量的秩和线性关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-24T12:04:13.217105",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 594,
+                      "hire_cost": 0,
+                      "advise_cost": 836,
+                      "whole_cost": 76284,
+                      "execution_cost": 75448
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19735,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_09e056f1",
+            "advisor_id": "adv_871a4f1e",
+            "task_key_target": "组合分析与极值情况构造",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-24T12:02:57.833556",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2665,
+                "hire_cost": 8875,
+                "advise_cost": 2851,
+                "whole_cost": 76751,
+                "execution_cost": 90403
+              },
+              "advisor": {
+                "system_prompt_size": 13080,
+                "whole_cost": 3148
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_09e056f1",
+              "agents": [
+                {
+                  "agent_id": "emp_37b447bc",
+                  "advisor_id": "adv_f2d63e3e",
+                  "task_key_target": "线性代数分析与不变量寻找",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-24T12:07:19.847208",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 760,
+                      "hire_cost": 0,
+                      "advise_cost": 3610,
+                      "whole_cost": 28988,
+                      "execution_cost": 25378
+                    },
+                    "advisor": {
+                      "system_prompt_size": 48837,
+                      "whole_cost": 4042
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_365baf56",
+            "advisor_id": "adv_c4d451a7",
+            "task_key_target": "计算19×19棋盘操作空间的秩",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-24T12:06:26.830810",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2738,
+                "hire_cost": 25017,
+                "advise_cost": 3073,
+                "whole_cost": 68144,
+                "execution_cost": 80743
+              },
+              "advisor": {
+                "system_prompt_size": 27589,
+                "whole_cost": 3436
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_365baf56",
+              "agents": [
+                {
+                  "agent_id": "emp_6467a318",
+                  "advisor_id": "adv_9338647a",
+                  "task_key_target": "分析o_{ij}的线性相关性理论",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-24T12:08:39.414826",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 628,
+                      "hire_cost": 0,
+                      "advise_cost": 4510,
+                      "whole_cost": 45199,
+                      "execution_cost": 40689
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24232,
+                      "whole_cost": 4826
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

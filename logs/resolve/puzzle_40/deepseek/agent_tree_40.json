@@ -1,0 +1,266 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T03:09:39.704379",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 32486,
+          "advise_cost": 0,
+          "whole_cost": 84688,
+          "execution_cost": 477131
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_7e63d184",
+            "advisor_id": "adv_8e916e29",
+            "task_key_target": "杯子翻转问题建模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:09:48.674314",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2720,
+                "hire_cost": 37886,
+                "advise_cost": 4334,
+                "whole_cost": 76124,
+                "execution_cost": 202700
+              },
+              "advisor": {
+                "system_prompt_size": 12874,
+                "whole_cost": 4699
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7e63d184",
+              "agents": [
+                {
+                  "agent_id": "emp_2b066986",
+                  "advisor_id": "adv_cf2dd485",
+                  "task_key_target": "线性代数证明杯子翻转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:16:12.818003",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 724,
+                      "hire_cost": 0,
+                      "advise_cost": 635,
+                      "whole_cost": 32541,
+                      "execution_cost": 31906
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18982,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_cd8b52a8",
+                  "advisor_id": "adv_58e3eee7",
+                  "task_key_target": "整数规划推导杯子翻转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:16:21.503540",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 826,
+                      "hire_cost": 0,
+                      "advise_cost": 663,
+                      "whole_cost": 48948,
+                      "execution_cost": 48285
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19538,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fb80a8b5",
+                  "advisor_id": "adv_abbb4302",
+                  "task_key_target": "构造性证明杯子翻转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:16:29.006125",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 740,
+                      "hire_cost": 0,
+                      "advise_cost": 1531,
+                      "whole_cost": 54628,
+                      "execution_cost": 53097
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20787,
+                      "whole_cost": 1948
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_377b2873",
+                  "advisor_id": "adv_0b2013db",
+                  "task_key_target": "数值验证杯子翻转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:16:37.744510",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 877,
+                      "hire_cost": 0,
+                      "advise_cost": 3581,
+                      "whole_cost": 39089,
+                      "execution_cost": 35508
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21571,
+                      "whole_cost": 4092
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6f0ffeb2",
+            "advisor_id": "adv_588ba4f6",
+            "task_key_target": "组合优化与奇偶性分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:09:55.312207",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2712,
+                "hire_cost": 0,
+                "advise_cost": 2855,
+                "whole_cost": 51594,
+                "execution_cost": 48739
+              },
+              "advisor": {
+                "system_prompt_size": 12010,
+                "whole_cost": 3190
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6f0ffeb2",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_a69d5822",
+            "advisor_id": "adv_214e3948",
+            "task_key_target": "线性代数与模2运算分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:10:04.701343",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2924,
+                "hire_cost": 0,
+                "advise_cost": 2051,
+                "whole_cost": 58754,
+                "execution_cost": 56703
+              },
+              "advisor": {
+                "system_prompt_size": 12877,
+                "whole_cost": 2637
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a69d5822",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_dbcf84a6",
+            "advisor_id": "adv_d8e86d1d",
+            "task_key_target": "验证杯子翻转问题公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:12:57.490907",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2839,
+                "hire_cost": 6553,
+                "advise_cost": 2269,
+                "whole_cost": 60304,
+                "execution_cost": 116787
+              },
+              "advisor": {
+                "system_prompt_size": 33149,
+                "whole_cost": 2749
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dbcf84a6",
+              "agents": [
+                {
+                  "agent_id": "emp_25f1e234",
+                  "advisor_id": "adv_15c6d7cb",
+                  "task_key_target": "数值验证杯子翻转猜想",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T03:15:43.051638",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 931,
+                      "hire_cost": 0,
+                      "advise_cost": 872,
+                      "whole_cost": 66177,
+                      "execution_cost": 65305
+                    },
+                    "advisor": {
+                      "system_prompt_size": 42415,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

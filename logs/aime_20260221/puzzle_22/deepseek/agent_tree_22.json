@@ -1,0 +1,144 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T19:38:58.911442",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 18636,
+          "advise_cost": 0,
+          "whole_cost": 53515,
+          "execution_cost": 101172
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_6a0af2ab",
+            "advisor_id": "adv_9d20daa9",
+            "task_key_target": "方法一：状态转移马尔可夫链分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:39:14.895335",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2781,
+                "hire_cost": 0,
+                "advise_cost": 1691,
+                "whole_cost": 14384,
+                "execution_cost": 12693
+              },
+              "advisor": {
+                "system_prompt_size": 13319,
+                "whole_cost": 2105
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6a0af2ab",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d19976be",
+            "advisor_id": "adv_f0ac5400",
+            "task_key_target": "方法二：组合计数与几何分布分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:39:21.257802",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2741,
+                "hire_cost": 0,
+                "advise_cost": 2069,
+                "whole_cost": 19382,
+                "execution_cost": 17313
+              },
+              "advisor": {
+                "system_prompt_size": 12469,
+                "whole_cost": 2437
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d19976be",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_c3423b90",
+            "advisor_id": "adv_b701d863",
+            "task_key_target": "方法三：吸收马尔可夫链与首次通过时间分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:39:28.896155",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2776,
+                "hire_cost": 0,
+                "advise_cost": 1672,
+                "whole_cost": 32152,
+                "execution_cost": 30480
+              },
+              "advisor": {
+                "system_prompt_size": 13230,
+                "whole_cost": 2070
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c3423b90",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_09e83d0b",
+            "advisor_id": "adv_d5b419e8",
+            "task_key_target": "方法三：生成函数或递归树分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:43:59.838771",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2606,
+                "hire_cost": 0,
+                "advise_cost": 4319,
+                "whole_cost": 10126,
+                "execution_cost": 5807
+              },
+              "advisor": {
+                "system_prompt_size": 54529,
+                "whole_cost": 4502
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_09e83d0b",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

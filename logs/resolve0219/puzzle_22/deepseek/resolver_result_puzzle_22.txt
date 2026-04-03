@@ -1,0 +1,78 @@
+最终结果:
+最小值约为 13.0354，精确表达式为 $\frac{208(3+\sqrt{3})}{21\sqrt{4\sqrt{3}+6}}$
+
+推导过程:
+# 最小值推导过程
+
+## 1. 问题分析
+求函数 $f(x,y,c) = \frac{(2+x^2)(4+y^2)\big(49+6c^2+4c\sqrt{3+3c^2}\big)}{\big(7\sqrt{3}\,c+14\sqrt{1+c^2}\big)(x+y)}$ 在约束条件 $x+y+c > \sqrt{13}$，$x,y \ge 0$ 下的最小值。
+
+## 2. 函数分解
+将函数分解为两个独立部分：
+$$f(x,y,c) = h(x,y) \cdot g(c)$$
+其中：
+$$h(x,y) = \frac{(2+x^2)(4+y^2)}{x+y}$$
+$$g(c) = \frac{49+6c^2+4c\sqrt{3+3c^2}}{7\sqrt{3}c + 14\sqrt{1+c^2}}$$
+
+## 3. 分析 $g(c)$ 的最小值
+通过求导和分析：
+- $g'(c) = 0$ 的解为 $c = \sqrt{3}$
+- 当 $c \to \pm\infty$ 时，$g(c) \to +\infty$
+- 因此 $c = \sqrt{3}$ 是全局最小值点
+- $g(\sqrt{3}) = \frac{13}{7} \approx 1.85714285714$
+
+证明概要：
+当 $c = \sqrt{3}$ 时：
+- $c^2 = 3$
+- $\sqrt{3+3c^2} = \sqrt{3+9} = \sqrt{12} = 2\sqrt{3}$
+- $\sqrt{1+c^2} = \sqrt{1+3} = 2$
+- 分子：$49 + 6\times3 + 4\times\sqrt{3}\times2\sqrt{3} = 49 + 18 + 24 = 91$
+- 分母：$7\sqrt{3}\times\sqrt{3} + 14\times2 = 7\times3 + 28 = 21 + 28 = 49$
+- 所以 $g(\sqrt{3}) = 91/49 = 13/7$
+
+## 4. 分析 $h(x,y)$ 的最小值
+求解偏导数：
+$$\frac{\partial h}{\partial x} = \frac{(4+y^2)(x^2 + 2xy - 2)}{(x+y)^2}$$
+$$\frac{\partial h}{\partial y} = \frac{(2+x^2)(2xy + y^2 - 4)}{(x+y)^2}$$
+
+令偏导数为零得到方程组：
+$$\begin{cases}
+x^2 + 2xy = 2 \\
+2xy + y^2 = 4
+\end{cases}$$
+
+解得：
+- $y^2 = 2 + x^2$
+- 代入得：$x^2 + 2x\sqrt{2+x^2} = 2$
+
+令 $u = x^2$，解得：
+$$u = \frac{4\sqrt{3} - 6}{3}$$
+所以：
+$$x = \sqrt{\frac{4\sqrt{3} - 6}{3}} \approx 0.5562$$
+$$y = \sqrt{2 + x^2} = 2\cdot 3^{-1/4} \approx 1.5197$$
+
+计算 $h(x,y)$ 最小值：
+$$h_{\min} = \frac{16\sqrt{3}(3+\sqrt{3})}{9\left(\sqrt{\frac{4\sqrt{3} - 6}{3}} + 2\cdot 3^{-1/4}\right)} \approx 7.01906$$
+
+## 5. 验证约束条件
+在候选点：
+- $c = \sqrt{3} \approx 1.73205$
+- $x + y \approx 2.0759$
+- $x + y + c \approx 3.80795 > \sqrt{13} \approx 3.60555$
+
+满足约束条件。
+
+## 6. 边界情况检查
+1. $x = 0$：$f_{\min} = 8g(\sqrt{3}) = 104/7 \approx 14.857 > 13.035$
+2. $y = 0$：$f_{\min} = 8\sqrt{2}g(\sqrt{3}) \approx 21.02 > 13.035$
+
+边界情况不会给出更小的值。
+
+## 7. 最终最小值计算
+$$f_{\min} = h_{\min} \times g(\sqrt{3}) \approx 7.01906 \times \frac{13}{7} \approx 13.0354$$
+
+精确表达式：
+$$f_{\min} = \frac{208(3+\sqrt{3})}{21\sqrt{4\sqrt{3}+6}}$$
+
+## 8. 验证
+数值测试其他点均给出更大的函数值，确认该点为全局最小值点。

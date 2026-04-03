@@ -1,0 +1,141 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-25T16:18:10.305349",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 30375,
+          "advise_cost": 0,
+          "whole_cost": 55185,
+          "execution_cost": 82191
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8d38a9c7",
+            "advisor_id": "adv_3195c8b0",
+            "task_key_target": "分析求和表达式结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:18:25.234699",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2656,
+                "hire_cost": 0,
+                "advise_cost": 2096,
+                "whole_cost": 10684,
+                "execution_cost": 8588
+              },
+              "advisor": {
+                "system_prompt_size": 9597,
+                "whole_cost": 2382
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8d38a9c7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_be40a81c",
+            "advisor_id": "adv_1c5b5066",
+            "task_key_target": "分析丢番图方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:18:33.258944",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2586,
+                "hire_cost": 247,
+                "advise_cost": 1693,
+                "whole_cost": 17780,
+                "execution_cost": 15840
+              },
+              "advisor": {
+                "system_prompt_size": 10090,
+                "whole_cost": 1901
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_be40a81c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7018d431",
+            "advisor_id": "adv_548f8d21",
+            "task_key_target": "验证推导和结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:23:34.866930",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2842,
+                "hire_cost": 8970,
+                "advise_cost": 3202,
+                "whole_cost": 30524,
+                "execution_cost": 32953
+              },
+              "advisor": {
+                "system_prompt_size": 28166,
+                "whole_cost": 3669
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7018d431",
+              "agents": [
+                {
+                  "agent_id": "emp_cb092a0b",
+                  "advisor_id": "adv_98edb706",
+                  "task_key_target": "验证求和恒等式证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T16:27:14.916107",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1838,
+                      "hire_cost": 0,
+                      "advise_cost": 3068,
+                      "whole_cost": 17669,
+                      "execution_cost": 14601
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24377,
+                      "whole_cost": 4553
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

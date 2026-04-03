@@ -1,0 +1,345 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T11:34:20.578346",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 41979,
+          "advise_cost": 0,
+          "whole_cost": 114152,
+          "execution_cost": 494596
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_04b6605d",
+            "advisor_id": "adv_029acab4",
+            "task_key_target": "分析等边三角形内的格点结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T11:34:32.728723",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2385,
+                "hire_cost": 6995,
+                "advise_cost": 1651,
+                "whole_cost": 15639,
+                "execution_cost": 14199
+              },
+              "advisor": {
+                "system_prompt_size": 8942,
+                "whole_cost": 1844
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_04b6605d",
+              "agents": [
+                {
+                  "agent_id": "emp_e7f94567",
+                  "advisor_id": "adv_cd8c6d66",
+                  "task_key_target": "枚举等边三角形网格中的所有格点",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:37:10.968726",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 583,
+                      "hire_cost": 0,
+                      "advise_cost": 2255,
+                      "whole_cost": 9461,
+                      "execution_cost": 7206
+                    },
+                    "advisor": {
+                      "system_prompt_size": 7529,
+                      "whole_cost": 2534
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_7f3a87e0",
+            "advisor_id": "adv_d7aa8db8",
+            "task_key_target": "分析等腰三角形的组合条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T11:34:40.702428",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2394,
+                "hire_cost": 7648,
+                "advise_cost": 1751,
+                "whole_cost": 47203,
+                "execution_cost": 56830
+              },
+              "advisor": {
+                "system_prompt_size": 9327,
+                "whole_cost": 1952
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7f3a87e0",
+              "agents": [
+                {
+                  "agent_id": "emp_bbb28ad4",
+                  "advisor_id": "adv_604e3f60",
+                  "task_key_target": "计算等边三角形网格交点坐标",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:35:50.763790",
+                  "hirable": false,
+                  "force_order": true,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 669,
+                      "hire_cost": 0,
+                      "advise_cost": 910,
+                      "whole_cost": 19936,
+                      "execution_cost": 19026
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8989,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4bc8371a",
+            "advisor_id": "adv_72e303b6",
+            "task_key_target": "分析正三角形网格中的距离和等腰三角形",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T11:37:40.439942",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2437,
+                "hire_cost": 9922,
+                "advise_cost": 2157,
+                "whole_cost": 38065,
+                "execution_cost": 91969
+              },
+              "advisor": {
+                "system_prompt_size": 13281,
+                "whole_cost": 2395
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4bc8371a",
+              "agents": [
+                {
+                  "agent_id": "emp_97b793a0",
+                  "advisor_id": "adv_d6647b2b",
+                  "task_key_target": "系统枚举正三角形网格中的等腰三角形",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:40:37.467061",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 638,
+                      "hire_cost": 0,
+                      "advise_cost": 2743,
+                      "whole_cost": 68726,
+                      "execution_cost": 65983
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18583,
+                      "whole_cost": 3031
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_25e62ddd",
+            "advisor_id": "adv_4e4a2aa7",
+            "task_key_target": "系统搜索最大不包含等腰三角形的点集",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T11:40:00.457703",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2359,
+                "hire_cost": 6991,
+                "advise_cost": 2802,
+                "whole_cost": 54386,
+                "execution_cost": 84084
+              },
+              "advisor": {
+                "system_prompt_size": 24405,
+                "whole_cost": 2973
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_25e62ddd",
+              "agents": [
+                {
+                  "agent_id": "emp_6b253410",
+                  "advisor_id": "adv_61728f14",
+                  "task_key_target": "实现回溯算法搜索最大不包含等腰三角形的点集",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:41:50.629120",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 828,
+                      "hire_cost": 0,
+                      "advise_cost": 732,
+                      "whole_cost": 40223,
+                      "execution_cost": 39491
+                    },
+                    "advisor": {
+                      "system_prompt_size": 7477,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_00e8a9d8",
+            "advisor_id": "adv_092d1ea5",
+            "task_key_target": "基于欧几里得距离分析等腰三角形问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T11:50:45.574802",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2487,
+                "hire_cost": 15849,
+                "advise_cost": 2393,
+                "whole_cost": 39309,
+                "execution_cost": 175341
+              },
+              "advisor": {
+                "system_prompt_size": 70170,
+                "whole_cost": 2684
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_00e8a9d8",
+              "agents": [
+                {
+                  "agent_id": "emp_c7c87f0a",
+                  "advisor_id": "adv_02674c36",
+                  "task_key_target": "计算15个点之间的欧几里得距离矩阵",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:53:22.385156",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 836,
+                      "hire_cost": 0,
+                      "advise_cost": 295,
+                      "whole_cost": 61700,
+                      "execution_cost": 61405
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15205,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_24fb5961",
+                  "advisor_id": "adv_75adee56",
+                  "task_key_target": "尝试构造大小为6且不包含等腰三角形的点集",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:56:23.179579",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 904,
+                      "hire_cost": 0,
+                      "advise_cost": 832,
+                      "whole_cost": 51545,
+                      "execution_cost": 50713
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25866,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fafe1c7b",
+                  "advisor_id": "adv_6f8ae396",
+                  "task_key_target": "证明任何6个点都包含等腰三角形",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T11:59:23.772692",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 682,
+                      "hire_cost": 0,
+                      "advise_cost": 699,
+                      "whole_cost": 42855,
+                      "execution_cost": 42156
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38415,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

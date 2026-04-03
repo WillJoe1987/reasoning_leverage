@@ -1,0 +1,409 @@
+[
+  {
+    "question_id": 1,
+    "hire_cost": 41979,
+    "execution_cost": 494596,
+    "leverage": 11.781986231210844,
+    "mails_length": 0,
+    "shared_length": 46315
+  },
+  {
+    "question_id": 2,
+    "hire_cost": 11379,
+    "execution_cost": 83845,
+    "leverage": 7.368397926004042,
+    "mails_length": 0,
+    "shared_length": 9917
+  },
+  {
+    "question_id": 3,
+    "hire_cost": 37403,
+    "execution_cost": 519108,
+    "leverage": 13.878779777023233,
+    "mails_length": 0,
+    "shared_length": 36182
+  },
+  {
+    "question_id": 4,
+    "hire_cost": 26511,
+    "execution_cost": 187677,
+    "leverage": 7.079212402399004,
+    "mails_length": 0,
+    "shared_length": 15709
+  },
+  {
+    "question_id": 5,
+    "hire_cost": 50358,
+    "execution_cost": 260313,
+    "leverage": 5.169248183009651,
+    "mails_length": 0,
+    "shared_length": 21433
+  },
+  {
+    "question_id": 6,
+    "hire_cost": 56065,
+    "execution_cost": 211753,
+    "leverage": 3.776919646838491,
+    "mails_length": 0,
+    "shared_length": 25184
+  },
+  {
+    "question_id": 7,
+    "hire_cost": 25113,
+    "execution_cost": 217312,
+    "leverage": 8.653366782144706,
+    "mails_length": 0,
+    "shared_length": 422
+  },
+  {
+    "question_id": 8,
+    "hire_cost": 17164,
+    "execution_cost": 221534,
+    "leverage": 12.906898158937311,
+    "mails_length": 0,
+    "shared_length": 6765
+  },
+  {
+    "question_id": 9,
+    "hire_cost": 22123,
+    "execution_cost": 435535,
+    "leverage": 19.686977353885098,
+    "mails_length": 0,
+    "shared_length": 19283
+  },
+  {
+    "question_id": 10,
+    "hire_cost": 48288,
+    "execution_cost": 259434,
+    "leverage": 5.37263916500994,
+    "mails_length": 0,
+    "shared_length": 13587
+  },
+  {
+    "question_id": 11,
+    "hire_cost": 70018,
+    "execution_cost": 644843,
+    "leverage": 9.209674655088692,
+    "mails_length": 0,
+    "shared_length": 31049
+  },
+  {
+    "question_id": 12,
+    "hire_cost": 27198,
+    "execution_cost": 192502,
+    "leverage": 7.077799838223399,
+    "mails_length": 0,
+    "shared_length": 10166
+  },
+  {
+    "question_id": 13,
+    "hire_cost": 8423,
+    "execution_cost": 160384,
+    "leverage": 19.041196723257748,
+    "mails_length": 0,
+    "shared_length": 7225
+  },
+  {
+    "question_id": 14,
+    "hire_cost": 82483,
+    "execution_cost": 310588,
+    "leverage": 3.765478947176994,
+    "mails_length": 0,
+    "shared_length": 28670
+  },
+  {
+    "question_id": 15,
+    "hire_cost": 21445,
+    "execution_cost": 340887,
+    "leverage": 15.895873163907671,
+    "mails_length": 0,
+    "shared_length": 15480
+  },
+  {
+    "question_id": 16,
+    "hire_cost": 12278,
+    "execution_cost": 150057,
+    "leverage": 12.22161589835478,
+    "mails_length": 0,
+    "shared_length": 10916
+  },
+  {
+    "question_id": 17,
+    "hire_cost": 44759,
+    "execution_cost": 419875,
+    "leverage": 9.380794923925915,
+    "mails_length": 0,
+    "shared_length": 38186
+  },
+  {
+    "question_id": 18,
+    "hire_cost": 33041,
+    "execution_cost": 240436,
+    "leverage": 7.27689839895887,
+    "mails_length": 0,
+    "shared_length": 20218
+  },
+  {
+    "question_id": 19,
+    "hire_cost": 35697,
+    "execution_cost": 351542,
+    "leverage": 9.847942404123597,
+    "mails_length": 0,
+    "shared_length": 16098
+  },
+  {
+    "question_id": 20,
+    "hire_cost": 42309,
+    "execution_cost": 338227,
+    "leverage": 7.994209269895294,
+    "mails_length": 0,
+    "shared_length": 25729
+  },
+  {
+    "question_id": 21,
+    "hire_cost": 30375,
+    "execution_cost": 82191,
+    "leverage": 2.7058765432098766,
+    "mails_length": 0,
+    "shared_length": 6119
+  },
+  {
+    "question_id": 22,
+    "hire_cost": 15393,
+    "execution_cost": 197364,
+    "leverage": 12.821672188657182,
+    "mails_length": 0,
+    "shared_length": 12754
+  },
+  {
+    "question_id": 23,
+    "hire_cost": 71888,
+    "execution_cost": 335833,
+    "leverage": 4.671614177609615,
+    "mails_length": 0,
+    "shared_length": 19399
+  },
+  {
+    "question_id": 24,
+    "hire_cost": 45901,
+    "execution_cost": 363465,
+    "leverage": 7.918454935622318,
+    "mails_length": 0,
+    "shared_length": 29772
+  },
+  {
+    "question_id": 25,
+    "hire_cost": 46205,
+    "execution_cost": 157904,
+    "leverage": 3.41746564224651,
+    "mails_length": 0,
+    "shared_length": 18327
+  },
+  {
+    "question_id": 26,
+    "hire_cost": 34121,
+    "execution_cost": 303583,
+    "leverage": 8.897248029073005,
+    "mails_length": 0,
+    "shared_length": 23570
+  },
+  {
+    "question_id": 27,
+    "hire_cost": 39561,
+    "execution_cost": 139239,
+    "leverage": 3.5196026389626147,
+    "mails_length": 0,
+    "shared_length": 7083
+  },
+  {
+    "question_id": 28,
+    "hire_cost": 28742,
+    "execution_cost": 878030,
+    "leverage": 30.548674413749914,
+    "mails_length": 0,
+    "shared_length": 72894
+  },
+  {
+    "question_id": 29,
+    "hire_cost": 63856,
+    "execution_cost": 1080698,
+    "leverage": 16.92398521673766,
+    "mails_length": 0,
+    "shared_length": 19260
+  },
+  {
+    "question_id": 30,
+    "hire_cost": 56938,
+    "execution_cost": 249806,
+    "leverage": 4.38733359092346,
+    "mails_length": 0,
+    "shared_length": 15378
+  },
+  {
+    "question_id": 31,
+    "hire_cost": 40124,
+    "execution_cost": 158203,
+    "leverage": 3.9428521583092415,
+    "mails_length": 0,
+    "shared_length": 12201
+  },
+  {
+    "question_id": 32,
+    "hire_cost": 19523,
+    "execution_cost": 141469,
+    "leverage": 7.246273625979613,
+    "mails_length": 0,
+    "shared_length": 7684
+  },
+  {
+    "question_id": 33,
+    "hire_cost": 22483,
+    "execution_cost": 85530,
+    "leverage": 3.804207623537784,
+    "mails_length": 0,
+    "shared_length": 9451
+  },
+  {
+    "question_id": 34,
+    "hire_cost": 26545,
+    "execution_cost": 237000,
+    "leverage": 8.928235072518365,
+    "mails_length": 0,
+    "shared_length": 15282
+  },
+  {
+    "question_id": 35,
+    "hire_cost": 16259,
+    "execution_cost": 339774,
+    "leverage": 20.89759517805523,
+    "mails_length": 0,
+    "shared_length": 11056
+  },
+  {
+    "question_id": 36,
+    "hire_cost": 44949,
+    "execution_cost": 1099066,
+    "leverage": 24.45140047609513,
+    "mails_length": 14619,
+    "shared_length": 20842
+  },
+  {
+    "question_id": 37,
+    "hire_cost": 27864,
+    "execution_cost": 947269,
+    "leverage": 33.99615991960953,
+    "mails_length": 0,
+    "shared_length": 37839
+  },
+  {
+    "question_id": 38,
+    "hire_cost": 30269,
+    "execution_cost": 693311,
+    "leverage": 22.904985298490203,
+    "mails_length": 0,
+    "shared_length": 38996
+  },
+  {
+    "question_id": 39,
+    "hire_cost": 45814,
+    "execution_cost": 411363,
+    "leverage": 8.978980224385559,
+    "mails_length": 0,
+    "shared_length": 17656
+  },
+  {
+    "question_id": 40,
+    "hire_cost": 46130,
+    "execution_cost": 803562,
+    "leverage": 17.419510080208106,
+    "mails_length": 0,
+    "shared_length": 48063
+  },
+  {
+    "question_id": 41,
+    "hire_cost": 37359,
+    "execution_cost": 600704,
+    "leverage": 16.079231242806284,
+    "mails_length": 0,
+    "shared_length": 32931
+  },
+  {
+    "question_id": 42,
+    "hire_cost": 32228,
+    "execution_cost": 564509,
+    "leverage": 17.516104008936328,
+    "mails_length": 0,
+    "shared_length": 18299
+  },
+  {
+    "question_id": 43,
+    "hire_cost": 29373,
+    "execution_cost": 681147,
+    "leverage": 23.189561842508425,
+    "mails_length": 0,
+    "shared_length": 11216
+  },
+  {
+    "question_id": 44,
+    "hire_cost": 24255,
+    "execution_cost": 177731,
+    "leverage": 7.327602556173985,
+    "mails_length": 0,
+    "shared_length": 2486
+  },
+  {
+    "question_id": 45,
+    "hire_cost": 51395,
+    "execution_cost": 806273,
+    "leverage": 15.687771183967312,
+    "mails_length": 0,
+    "shared_length": 39987
+  },
+  {
+    "question_id": 46,
+    "hire_cost": 33625,
+    "execution_cost": 1092825,
+    "leverage": 32.500371747211894,
+    "mails_length": 0,
+    "shared_length": 42078
+  },
+  {
+    "question_id": 47,
+    "hire_cost": 35543,
+    "execution_cost": 356806,
+    "leverage": 10.03871367076499,
+    "mails_length": 0,
+    "shared_length": 12708
+  },
+  {
+    "question_id": 48,
+    "hire_cost": 34904,
+    "execution_cost": 645987,
+    "leverage": 18.50753495301398,
+    "mails_length": 0,
+    "shared_length": 26595
+  },
+  {
+    "question_id": 49,
+    "hire_cost": 30496,
+    "execution_cost": 524223,
+    "leverage": 17.189893756558238,
+    "mails_length": 9129,
+    "shared_length": 6064
+  },
+  {
+    "question_id": 50,
+    "hire_cost": 15569,
+    "execution_cost": 314650,
+    "leverage": 20.21003275740253,
+    "mails_length": 0,
+    "shared_length": 3576
+  },
+  {
+    "average_hire_cost": 35834.42,
+    "average_execution_cost": 410199.26,
+    "average_leverage": 11.447074070125874,
+    "average_mails_length": 474.96,
+    "average_shared_length": 20762.0
+  }
+]

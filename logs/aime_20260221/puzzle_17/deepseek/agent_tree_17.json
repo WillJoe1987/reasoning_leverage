@@ -1,0 +1,403 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T18:43:10.585391",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 26264,
+          "advise_cost": 0,
+          "whole_cost": 92328,
+          "execution_cost": 804925
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_7d5df0d6",
+            "advisor_id": "adv_27b2fee4",
+            "task_key_target": "状态转移动态规划分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:43:25.308530",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2562,
+                "hire_cost": 11132,
+                "advise_cost": 2002,
+                "whole_cost": 82466,
+                "execution_cost": 325179
+              },
+              "advisor": {
+                "system_prompt_size": 14377,
+                "whole_cost": 2197
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7d5df0d6",
+              "agents": [
+                {
+                  "agent_id": "emp_418f9f60",
+                  "advisor_id": "adv_69474b87",
+                  "task_key_target": "路径计数动态规划分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:44:18.330738",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2703,
+                      "hire_cost": 13907,
+                      "advise_cost": 639,
+                      "whole_cost": 76945,
+                      "execution_cost": 255847
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11956,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_418f9f60",
+                    "agents": [
+                      {
+                        "agent_id": "emp_ed57ef4c",
+                        "advisor_id": "adv_003525fa",
+                        "task_key_target": "路径计数DP状态设计与计算",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-18T18:45:21.499383",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2788,
+                            "hire_cost": 5610,
+                            "advise_cost": 737,
+                            "whole_cost": 54741,
+                            "execution_cost": 74055
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9584,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_ed57ef4c",
+                          "agents": [
+                            {
+                              "agent_id": "emp_dda6158b",
+                              "advisor_id": "adv_8743d41b",
+                              "task_key_target": "路径计数DP状态设计分析",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-18T18:46:30.629123",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 571,
+                                  "hire_cost": 0,
+                                  "advise_cost": 862,
+                                  "whole_cost": 26523,
+                                  "execution_cost": 25661
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 13158,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "agent_id": "emp_49f3ed9a",
+                        "advisor_id": "adv_e9ac4cb9",
+                        "task_key_target": "图论分析与路径计数验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-18T18:45:28.690372",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2719,
+                            "hire_cost": 15304,
+                            "advise_cost": 681,
+                            "whole_cost": 48638,
+                            "execution_cost": 119393
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14631,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_49f3ed9a",
+                          "agents": [
+                            {
+                              "agent_id": "emp_0d3b4067",
+                              "advisor_id": "adv_dd331398",
+                              "task_key_target": "路径计数算法实现与验证",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-18T18:46:52.053586",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 554,
+                                  "hire_cost": 0,
+                                  "advise_cost": 592,
+                                  "whole_cost": 52282,
+                                  "execution_cost": 51690
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 10153,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_ad8ec318",
+                              "advisor_id": "adv_1cabb734",
+                              "task_key_target": "图论特性分析与简化方法",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-18T18:46:56.798727",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 507,
+                                  "hire_cost": 0,
+                                  "advise_cost": 777,
+                                  "whole_cost": 35827,
+                                  "execution_cost": 35050
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 11757,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_083144be",
+            "advisor_id": "adv_34d1b1e5",
+            "task_key_target": "组合数学与生成函数分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:43:29.760711",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2576,
+                "hire_cost": 13022,
+                "advise_cost": 2856,
+                "whole_cost": 90089,
+                "execution_cost": 159941
+              },
+              "advisor": {
+                "system_prompt_size": 12869,
+                "whole_cost": 3083
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_083144be",
+              "agents": [
+                {
+                  "agent_id": "emp_9127b79b",
+                  "advisor_id": "adv_16bc31ca",
+                  "task_key_target": "路径计数递推关系分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:44:55.809442",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 778,
+                      "hire_cost": 0,
+                      "advise_cost": 773,
+                      "whole_cost": 52613,
+                      "execution_cost": 51840
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17577,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_acf80b4d",
+                  "advisor_id": "adv_63dbdcc9",
+                  "task_key_target": "验证n=2路径计数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:51:53.552950",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 734,
+                      "hire_cost": 0,
+                      "advise_cost": 4389,
+                      "whole_cost": 38279,
+                      "execution_cost": 33890
+                    },
+                    "advisor": {
+                      "system_prompt_size": 82518,
+                      "whole_cost": 4789
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ae641bdb",
+            "advisor_id": "adv_9f7c960e",
+            "task_key_target": "图论与路径枚举验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:43:34.522833",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2542,
+                "hire_cost": 3302,
+                "advise_cost": 2467,
+                "whole_cost": 78384,
+                "execution_cost": 112849
+              },
+              "advisor": {
+                "system_prompt_size": 13575,
+                "whole_cost": 2625
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ae641bdb",
+              "agents": [
+                {
+                  "agent_id": "emp_c22475f9",
+                  "advisor_id": "adv_ed0d9f5b",
+                  "task_key_target": "路径枚举算法实现",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:46:52.289123",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 771,
+                      "hire_cost": 0,
+                      "advise_cost": 827,
+                      "whole_cost": 41061,
+                      "execution_cost": 40234
+                    },
+                    "advisor": {
+                      "system_prompt_size": 50008,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_faf3d0c5",
+            "advisor_id": "adv_c49afd24",
+            "task_key_target": "小规模分析与递推关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:43:42.540628",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2580,
+                "hire_cost": 3621,
+                "advise_cost": 3286,
+                "whole_cost": 52505,
+                "execution_cost": 140892
+              },
+              "advisor": {
+                "system_prompt_size": 14149,
+                "whole_cost": 23107
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_faf3d0c5",
+              "agents": [
+                {
+                  "agent_id": "emp_c54cb55a",
+                  "advisor_id": "adv_e7480263",
+                  "task_key_target": "复杂路径枚举算法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:47:53.099478",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 593,
+                      "hire_cost": 0,
+                      "advise_cost": 839,
+                      "whole_cost": 96133,
+                      "execution_cost": 95294
+                    },
+                    "advisor": {
+                      "system_prompt_size": 40495,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

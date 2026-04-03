@@ -1,0 +1,426 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-22T10:35:13.602106",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2966,
+          "hire_cost": 22123,
+          "advise_cost": 0,
+          "whole_cost": 92134,
+          "execution_cost": 435535
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2f4540e3",
+            "advisor_id": "adv_57b26382",
+            "task_key_target": "分析w方程并确定实根数量",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T10:35:31.171719",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2611,
+                "hire_cost": 17509,
+                "advise_cost": 2387,
+                "whole_cost": 64208,
+                "execution_cost": 259499
+              },
+              "advisor": {
+                "system_prompt_size": 9915,
+                "whole_cost": 2616
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2f4540e3",
+              "agents": [
+                {
+                  "agent_id": "emp_5743350d",
+                  "advisor_id": "adv_44c6aed3",
+                  "task_key_target": "分析九次方程并计算实根和m值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:36:53.729042",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2754,
+                      "hire_cost": 19309,
+                      "advise_cost": 691,
+                      "whole_cost": 63135,
+                      "execution_cost": 209275
+                    },
+                    "advisor": {
+                      "system_prompt_size": 6093,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_5743350d",
+                    "agents": [
+                      {
+                        "agent_id": "emp_688109a4",
+                        "advisor_id": "adv_c6aa4075",
+                        "task_key_target": "高精度数值计算和方程求解",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-22T10:39:01.614378",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2732,
+                            "hire_cost": 8699,
+                            "advise_cost": 1021,
+                            "whole_cost": 33043,
+                            "execution_cost": 71867
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10389,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_688109a4",
+                          "agents": [
+                            {
+                              "agent_id": "emp_a5b0ba1b",
+                              "advisor_id": "adv_9c7abffe",
+                              "task_key_target": "高精度数值计算",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-22T10:41:02.502186",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2753,
+                                  "hire_cost": 686,
+                                  "advise_cost": 737,
+                                  "whole_cost": 34184,
+                                  "execution_cost": 32761
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 6288,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_a5b0ba1b",
+                                "agents": []
+                              }
+                            },
+                            {
+                              "agent_id": "emp_10e99a5e",
+                              "advisor_id": "adv_4b7e20f9",
+                              "task_key_target": "高精度数值求解三次方程",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-22T10:43:46.387899",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 639,
+                                  "hire_cost": 0,
+                                  "advise_cost": 1733,
+                                  "whole_cost": 17516,
+                                  "execution_cost": 15783
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 17336,
+                                  "whole_cost": 2049
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "agent_id": "emp_75d6e6b0",
+                        "advisor_id": "adv_425a68bc",
+                        "task_key_target": "直接解九次方程进行验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-22T10:39:10.797998",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2629,
+                            "hire_cost": 20864,
+                            "advise_cost": 4718,
+                            "whole_cost": 47367,
+                            "execution_cost": 94273
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11396,
+                            "whole_cost": 21436
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_75d6e6b0",
+                          "agents": [
+                            {
+                              "agent_id": "emp_dcc70094",
+                              "advisor_id": "adv_6019ac47",
+                              "task_key_target": "实现牛顿-二分混合算法求解九次方程",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-22T10:40:48.868494",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 835,
+                                  "hire_cost": 0,
+                                  "advise_cost": 4104,
+                                  "whole_cost": 38223,
+                                  "execution_cost": 34119
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 10478,
+                                  "whole_cost": 4576
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_89b22161",
+                              "advisor_id": "adv_3254c749",
+                              "task_key_target": "实现割线法验证九次方程求解",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-01-22T10:41:03.745229",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 858,
+                                  "hire_cost": 0,
+                                  "advise_cost": 736,
+                                  "whole_cost": 39105,
+                                  "execution_cost": 38369
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 11891,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_37c409de",
+                  "advisor_id": "adv_9aca77da",
+                  "task_key_target": "验证九次方程分析结果",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:50:59.982018",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 782,
+                      "hire_cost": 0,
+                      "advise_cost": 3192,
+                      "whole_cost": 9104,
+                      "execution_cost": 5912
+                    },
+                    "advisor": {
+                      "system_prompt_size": 85376,
+                      "whole_cost": 3626
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c2b8028f",
+            "advisor_id": "adv_26b5323b",
+            "task_key_target": "分析对称函数的最小值问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T10:35:44.493824",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2623,
+                "hire_cost": 19150,
+                "advise_cost": 3576,
+                "whole_cost": 39468,
+                "execution_cost": 53210
+              },
+              "advisor": {
+                "system_prompt_size": 10529,
+                "whole_cost": 21208
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c2b8028f",
+              "agents": [
+                {
+                  "agent_id": "emp_670250de",
+                  "advisor_id": "adv_11dfd8c4",
+                  "task_key_target": "求解方程确定常数m",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:36:43.291062",
+                  "hirable": false,
+                  "force_order": true,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 572,
+                      "hire_cost": 0,
+                      "advise_cost": 4529,
+                      "whole_cost": 19210,
+                      "execution_cost": 14681
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10156,
+                      "whole_cost": 18321
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c2562c6a",
+                  "advisor_id": "adv_94cc582c",
+                  "task_key_target": "数值优化验证函数最小值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:47:15.527866",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 634,
+                      "hire_cost": 0,
+                      "advise_cost": 864,
+                      "whole_cost": 22651,
+                      "execution_cost": 21787
+                    },
+                    "advisor": {
+                      "system_prompt_size": 46046,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4f75ce12",
+            "advisor_id": "adv_d2f20eb9",
+            "task_key_target": "验证最小值计算和m值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T10:50:06.536002",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2618,
+                "hire_cost": 6973,
+                "advise_cost": 2566,
+                "whole_cost": 28256,
+                "execution_cost": 52815
+              },
+              "advisor": {
+                "system_prompt_size": 70756,
+                "whole_cost": 2806
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4f75ce12",
+              "agents": [
+                {
+                  "agent_id": "emp_e50fe55a",
+                  "advisor_id": "adv_6f4356c0",
+                  "task_key_target": "数值求解三次方程并计算m值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:53:05.611874",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 583,
+                      "hire_cost": 0,
+                      "advise_cost": 2716,
+                      "whole_cost": 12106,
+                      "execution_cost": 9390
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17874,
+                      "whole_cost": 2957
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_cdd6b53a",
+                  "advisor_id": "adv_992a3c39",
+                  "task_key_target": "验证函数最小值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:53:14.896787",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 581,
+                      "hire_cost": 0,
+                      "advise_cost": 2410,
+                      "whole_cost": 27118,
+                      "execution_cost": 24708
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18287,
+                      "whole_cost": 2688
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

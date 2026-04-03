@@ -1,0 +1,214 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T02:46:56.206487",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 18998,
+          "advise_cost": 0,
+          "whole_cost": 106958,
+          "execution_cost": 593771
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2c30ff3c",
+            "advisor_id": "adv_8dfce4ab",
+            "task_key_target": "最小安全亭数量问题分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:47:04.465608",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2629,
+                "hire_cost": 34417,
+                "advise_cost": 2701,
+                "whole_cost": 99478,
+                "execution_cost": 321848
+              },
+              "advisor": {
+                "system_prompt_size": 13210,
+                "whole_cost": 2992
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2c30ff3c",
+              "agents": [
+                {
+                  "agent_id": "emp_ec01c2e8",
+                  "advisor_id": "adv_776c4501",
+                  "task_key_target": "全支配集下界理论证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:50:26.718771",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 537,
+                      "hire_cost": 0,
+                      "advise_cost": 2834,
+                      "whole_cost": 57511,
+                      "execution_cost": 54677
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11496,
+                      "whole_cost": 3018
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_59a646fa",
+                  "advisor_id": "adv_cc1d8f8b",
+                  "task_key_target": "安全亭放置方案构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:50:31.741741",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 547,
+                      "hire_cost": 0,
+                      "advise_cost": 4439,
+                      "whole_cost": 120520,
+                      "execution_cost": 116081
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12526,
+                      "whole_cost": 81368
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_b1c7b5fb",
+                  "advisor_id": "adv_601dc714",
+                  "task_key_target": "精确求解最小安全亭数量",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:50:37.439354",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 588,
+                      "hire_cost": 0,
+                      "advise_cost": 2802,
+                      "whole_cost": 91532,
+                      "execution_cost": 88730
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13280,
+                      "whole_cost": 3046
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_bc757eed",
+            "advisor_id": "adv_a1a21452",
+            "task_key_target": "构造具体放置方案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:47:09.821087",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 0,
+                "advise_cost": 1794,
+                "whole_cost": 46903,
+                "execution_cost": 45109
+              },
+              "advisor": {
+                "system_prompt_size": 12130,
+                "whole_cost": 2046
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bc757eed",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_c7a3c584",
+            "advisor_id": "adv_79ae9919",
+            "task_key_target": "图论分析与下界证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:47:16.830391",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2699,
+                "hire_cost": 6097,
+                "advise_cost": 2177,
+                "whole_cost": 60109,
+                "execution_cost": 138854
+              },
+              "advisor": {
+                "system_prompt_size": 12845,
+                "whole_cost": 2481
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c7a3c584",
+              "agents": [
+                {
+                  "agent_id": "emp_bf9219a2",
+                  "advisor_id": "adv_1d22d80e",
+                  "task_key_target": "网格安全亭放置模式搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:49:10.295930",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 561,
+                      "hire_cost": 0,
+                      "advise_cost": 2428,
+                      "whole_cost": 89447,
+                      "execution_cost": 87019
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21971,
+                      "whole_cost": 2647
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

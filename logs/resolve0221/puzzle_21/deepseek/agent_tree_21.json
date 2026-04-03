@@ -1,0 +1,162 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T20:18:53.903991",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 19963,
+          "advise_cost": 0,
+          "whole_cost": 43836,
+          "execution_cost": 291939
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d98ca7d3",
+            "advisor_id": "adv_84d47ca7",
+            "task_key_target": "分析分数等式结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:19:04.717699",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2758,
+                "hire_cost": 5161,
+                "advise_cost": 2954,
+                "whole_cost": 27494,
+                "execution_cost": 50981
+              },
+              "advisor": {
+                "system_prompt_size": 13069,
+                "whole_cost": 3358
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d98ca7d3",
+              "agents": [
+                {
+                  "agent_id": "emp_873c1b98",
+                  "advisor_id": "adv_76ee67e2",
+                  "task_key_target": "验证等式结构和z值猜想",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:20:54.676777",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 887,
+                      "hire_cost": 0,
+                      "advise_cost": 804,
+                      "whole_cost": 32406,
+                      "execution_cost": 31602
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18257,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e93858cf",
+            "advisor_id": "adv_235bb058",
+            "task_key_target": "分析丢番图方程约束",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:19:10.737876",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2567,
+                "hire_cost": 6161,
+                "advise_cost": 1319,
+                "whole_cost": 148864,
+                "execution_cost": 187964
+              },
+              "advisor": {
+                "system_prompt_size": 12554,
+                "whole_cost": 1516
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e93858cf",
+              "agents": [
+                {
+                  "agent_id": "emp_063d8f4a",
+                  "advisor_id": "adv_6665d5ea",
+                  "task_key_target": "系统分析丢番图方程 x² - 7y⁴ = z 的约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:20:32.051550",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 683,
+                      "hire_cost": 0,
+                      "advise_cost": 696,
+                      "whole_cost": 47276,
+                      "execution_cost": 46580
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27550,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_fac07d72",
+            "advisor_id": "adv_7428a355",
+            "task_key_target": "验证最终结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:22:23.227618",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 576,
+                "hire_cost": 0,
+                "advise_cost": 386,
+                "whole_cost": 29507,
+                "execution_cost": 29121
+              },
+              "advisor": {
+                "system_prompt_size": 37957,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

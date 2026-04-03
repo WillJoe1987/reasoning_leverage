@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T03:18:50.417983",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 11264,
+          "advise_cost": 0,
+          "whole_cost": 104295,
+          "execution_cost": 320980
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d7e679fc",
+            "advisor_id": "adv_a2bfc742",
+            "task_key_target": "精确找到多项式x^5 - 5x^4 - 2x^3 - 10x^2 - 3x - 5的正实根",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:19:50.489718",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2632,
+                "hire_cost": 0,
+                "advise_cost": 2288,
+                "whole_cost": 44640,
+                "execution_cost": 42352
+              },
+              "advisor": {
+                "system_prompt_size": 27867,
+                "whole_cost": 2529
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d7e679fc",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_011f500f",
+            "advisor_id": "adv_5ce22749",
+            "task_key_target": "高精度计算α^35和最接近整数的余数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:22:26.541050",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2717,
+                "hire_cost": 6695,
+                "advise_cost": 1556,
+                "whole_cost": 95006,
+                "execution_cost": 145856
+              },
+              "advisor": {
+                "system_prompt_size": 47219,
+                "whole_cost": 1909
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_011f500f",
+              "agents": [
+                {
+                  "agent_id": "emp_b989da00",
+                  "advisor_id": "adv_aeda2a07",
+                  "task_key_target": "验证α^35的最接近整数和余数N",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T03:26:04.288008",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 875,
+                      "hire_cost": 0,
+                      "advise_cost": 726,
+                      "whole_cost": 59827,
+                      "execution_cost": 59101
+                    },
+                    "advisor": {
+                      "system_prompt_size": 54490,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4686bdc3",
+            "advisor_id": "adv_9b4f3ecb",
+            "task_key_target": "验证α^35计算和合格序列号计数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:27:45.290720",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 732,
+                "hire_cost": 0,
+                "advise_cost": 1936,
+                "whole_cost": 41677,
+                "execution_cost": 39741
+              },
+              "advisor": {
+                "system_prompt_size": 85321,
+                "whole_cost": 2340
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

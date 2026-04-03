@@ -1,0 +1,347 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-26T10:13:55.116094",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 71888,
+          "advise_cost": 0,
+          "whole_cost": 148038,
+          "execution_cost": 335833
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_4616490d",
+            "advisor_id": "adv_896e2c3f",
+            "task_key_target": "分析方程结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:14:15.714886",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2561,
+                "hire_cost": 7083,
+                "advise_cost": 1891,
+                "whole_cost": 22195,
+                "execution_cost": 20883
+              },
+              "advisor": {
+                "system_prompt_size": 10979,
+                "whole_cost": 2101
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4616490d",
+              "agents": [
+                {
+                  "agent_id": "emp_fbc0536a",
+                  "advisor_id": "adv_7173b17e",
+                  "task_key_target": "代数表达式化简与分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:16:44.809899",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 634,
+                      "hire_cost": 0,
+                      "advise_cost": 615,
+                      "whole_cost": 8277,
+                      "execution_cost": 7662
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16278,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_98b2b8db",
+            "advisor_id": "adv_a441acd4",
+            "task_key_target": "分析已知方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:14:24.107068",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2569,
+                "hire_cost": 0,
+                "advise_cost": 1224,
+                "whole_cost": 17149,
+                "execution_cost": 15925
+              },
+              "advisor": {
+                "system_prompt_size": 10760,
+                "whole_cost": 1425
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_98b2b8db",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d4236829",
+            "advisor_id": "adv_485a3b8d",
+            "task_key_target": "求解丢番图方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:20:07.331123",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2656,
+                "hire_cost": 0,
+                "advise_cost": 2282,
+                "whole_cost": 21983,
+                "execution_cost": 19701
+              },
+              "advisor": {
+                "system_prompt_size": 19978,
+                "whole_cost": 2568
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d4236829",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_32cbaaf3",
+            "advisor_id": "adv_e497448d",
+            "task_key_target": "验证推导并寻找解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:25:54.045016",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2692,
+                "hire_cost": 13433,
+                "advise_cost": 1653,
+                "whole_cost": 23299,
+                "execution_cost": 62730
+              },
+              "advisor": {
+                "system_prompt_size": 49060,
+                "whole_cost": 1973
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_32cbaaf3",
+              "agents": [
+                {
+                  "agent_id": "emp_0df16c18",
+                  "advisor_id": "adv_cb3bcc4a",
+                  "task_key_target": "系统搜索方程 2py² = x³ + 1 的解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:27:47.906596",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 684,
+                      "hire_cost": 0,
+                      "advise_cost": 801,
+                      "whole_cost": 21874,
+                      "execution_cost": 21073
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14085,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_7be58fe4",
+                  "advisor_id": "adv_31c1c166",
+                  "task_key_target": "寻找 u² - 3v⁴ = 1 的整数解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:28:43.873983",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 608,
+                      "hire_cost": 0,
+                      "advise_cost": 2706,
+                      "whole_cost": 17407,
+                      "execution_cost": 14701
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15295,
+                      "whole_cost": 3008
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6c33fbbf",
+                  "advisor_id": "adv_ca491cd3",
+                  "task_key_target": "寻找 4λ² - 3ι² = 1 的整数解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:29:05.696363",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 557,
+                      "hire_cost": 0,
+                      "advise_cost": 715,
+                      "whole_cost": 19458,
+                      "execution_cost": 18743
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17749,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_711210a1",
+            "advisor_id": "adv_788892a7",
+            "task_key_target": "椭圆曲线分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:31:24.403432",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2642,
+                "hire_cost": 0,
+                "advise_cost": 2828,
+                "whole_cost": 28362,
+                "execution_cost": 25534
+              },
+              "advisor": {
+                "system_prompt_size": 65272,
+                "whole_cost": 3102
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_711210a1",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_61baf645",
+            "advisor_id": "adv_b67e7a8f",
+            "task_key_target": "验证最终答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-26T10:34:34.900381",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2554,
+                "hire_cost": 17903,
+                "advise_cost": 2255,
+                "whole_cost": 83608,
+                "execution_cost": 114910
+              },
+              "advisor": {
+                "system_prompt_size": 88336,
+                "whole_cost": 2459
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_61baf645",
+              "agents": [
+                {
+                  "agent_id": "emp_7dc42bdc",
+                  "advisor_id": "adv_b0cd7534",
+                  "task_key_target": "代数推导验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:35:47.746210",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 612,
+                      "hire_cost": 0,
+                      "advise_cost": 758,
+                      "whole_cost": 22374,
+                      "execution_cost": 21616
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10203,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_5641c8f8",
+                  "advisor_id": "adv_105ad643",
+                  "task_key_target": "方程解的分析与搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-26T10:35:59.084469",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 702,
+                      "hire_cost": 0,
+                      "advise_cost": 2618,
+                      "whole_cost": 32462,
+                      "execution_cost": 29844
+                    },
+                    "advisor": {
+                      "system_prompt_size": 7238,
+                      "whole_cost": 2974
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T18:37:29.925987",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 16756,
+          "advise_cost": 0,
+          "whole_cost": 99226,
+          "execution_cost": 493647
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d1ef6eb9",
+            "advisor_id": "adv_86be10e3",
+            "task_key_target": "分析第一个方程的结构和简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:37:41.783358",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2709,
+                "hire_cost": 0,
+                "advise_cost": 3359,
+                "whole_cost": 30450,
+                "execution_cost": 27091
+              },
+              "advisor": {
+                "system_prompt_size": 13774,
+                "whole_cost": 3686
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d1ef6eb9",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0ea5dafc",
+            "advisor_id": "adv_4d6a6977",
+            "task_key_target": "分析第二个方程的结构和简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:37:48.033409",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2713,
+                "hire_cost": 5919,
+                "advise_cost": 1797,
+                "whole_cost": 52974,
+                "execution_cost": 105679
+              },
+              "advisor": {
+                "system_prompt_size": 13325,
+                "whole_cost": 2109
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0ea5dafc",
+              "agents": [
+                {
+                  "agent_id": "emp_603b0686",
+                  "advisor_id": "adv_5ddaaeb5",
+                  "task_key_target": "分析多项式根的性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T18:38:34.241939",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 620,
+                      "hire_cost": 0,
+                      "advise_cost": 757,
+                      "whole_cost": 61178,
+                      "execution_cost": 60421
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12088,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_22fbbc66",
+            "advisor_id": "adv_5214ff49",
+            "task_key_target": "分析方程组整体结构和解的数量",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T18:37:52.846549",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2611,
+                "hire_cost": 14409,
+                "advise_cost": 2053,
+                "whole_cost": 116833,
+                "execution_cost": 278407
+              },
+              "advisor": {
+                "system_prompt_size": 14161,
+                "whole_cost": 2302
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_22fbbc66",
+              "agents": [
+                {
+                  "agent_id": "emp_a60d408b",
+                  "advisor_id": "adv_1c5296bd",
+                  "task_key_target": "分析方程组整体结构和解的数量",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T18:38:52.938144",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2890,
+                      "hire_cost": 3889,
+                      "advise_cost": 2395,
+                      "whole_cost": 99754,
+                      "execution_cost": 178036
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8099,
+                      "whole_cost": 2825
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_a60d408b",
+                    "agents": [
+                      {
+                        "agent_id": "emp_85dcc6de",
+                        "advisor_id": "adv_2365038e",
+                        "task_key_target": "分析a_n序列的数学规律",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-19T18:43:09.649948",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 740,
+                            "hire_cost": 0,
+                            "advise_cost": 713,
+                            "whole_cost": 85279,
+                            "execution_cost": 84566
+                          },
+                          "advisor": {
+                            "system_prompt_size": 75908,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

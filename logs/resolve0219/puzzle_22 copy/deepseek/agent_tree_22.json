@@ -1,0 +1,210 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-25T16:43:53.514730",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 25997,
+          "advise_cost": 0,
+          "whole_cost": 55830,
+          "execution_cost": 135673
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a0f032f3",
+            "advisor_id": "adv_79bcc83b",
+            "task_key_target": "表达式分析与简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:44:05.089316",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2644,
+                "hire_cost": 10555,
+                "advise_cost": 2240,
+                "whole_cost": 40360,
+                "execution_cost": 59060
+              },
+              "advisor": {
+                "system_prompt_size": 9273,
+                "whole_cost": 2521
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a0f032f3",
+              "agents": [
+                {
+                  "agent_id": "emp_058316d5",
+                  "advisor_id": "adv_ef68091d",
+                  "task_key_target": "c部分函数A(c)的最优化分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T16:47:49.164479",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 589,
+                      "hire_cost": 0,
+                      "advise_cost": 3175,
+                      "whole_cost": 18329,
+                      "execution_cost": 15154
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18368,
+                      "whole_cost": 3395
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_399cf89b",
+                  "advisor_id": "adv_6c40edca",
+                  "task_key_target": "x,y部分函数的最优化分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T16:47:57.855838",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 564,
+                      "hire_cost": 0,
+                      "advise_cost": 660,
+                      "whole_cost": 17001,
+                      "execution_cost": 16341
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19160,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8fc82b63",
+            "advisor_id": "adv_49d78341",
+            "task_key_target": "约束分析与优化策略",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:44:45.157944",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2625,
+                "hire_cost": 15468,
+                "advise_cost": 705,
+                "whole_cost": 26033,
+                "execution_cost": 30680
+              },
+              "advisor": {
+                "system_prompt_size": 12239,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8fc82b63",
+              "agents": [
+                {
+                  "agent_id": "emp_6f5a470b",
+                  "advisor_id": "adv_d74ea497",
+                  "task_key_target": "约束条件基本性质分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T16:45:09.376065",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 594,
+                      "hire_cost": 0,
+                      "advise_cost": 2167,
+                      "whole_cost": 19644,
+                      "execution_cost": 17477
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9281,
+                      "whole_cost": 2417
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2bb98d89",
+                  "advisor_id": "adv_24a35e4b",
+                  "task_key_target": "优化方法适用性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T16:45:24.617098",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 594,
+                      "hire_cost": 0,
+                      "advise_cost": 1841,
+                      "whole_cost": 5184,
+                      "execution_cost": 3343
+                    },
+                    "advisor": {
+                      "system_prompt_size": 6668,
+                      "whole_cost": 2107
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_05ef8560",
+            "advisor_id": "adv_aaaae9a3",
+            "task_key_target": "验证分析与数值测试",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T16:49:09.857792",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 820,
+                "hire_cost": 0,
+                "advise_cost": 735,
+                "whole_cost": 16835,
+                "execution_cost": 16100
+              },
+              "advisor": {
+                "system_prompt_size": 20709,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

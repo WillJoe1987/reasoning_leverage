@@ -1,0 +1,116 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T03:49:30.225241",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 16744,
+          "advise_cost": 0,
+          "whole_cost": 87756,
+          "execution_cost": 251105
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1e94feaf",
+            "advisor_id": "adv_1029fb44",
+            "task_key_target": "推导随机游走概率公式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:49:44.561017",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2573,
+                "hire_cost": 0,
+                "advise_cost": 1865,
+                "whole_cost": 17694,
+                "execution_cost": 15829
+              },
+              "advisor": {
+                "system_prompt_size": 14335,
+                "whole_cost": 2080
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1e94feaf",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d18e1ce4",
+            "advisor_id": "adv_3286460e",
+            "task_key_target": "分析组合数不等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:52:03.666480",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2624,
+                "hire_cost": 0,
+                "advise_cost": 2288,
+                "whole_cost": 57772,
+                "execution_cost": 55484
+              },
+              "advisor": {
+                "system_prompt_size": 30705,
+                "whole_cost": 2557
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d18e1ce4",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7e5d0a74",
+            "advisor_id": "adv_91937884",
+            "task_key_target": "系统搜索不等式成立条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T03:53:36.058068",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2618,
+                "hire_cost": 0,
+                "advise_cost": 1434,
+                "whole_cost": 110214,
+                "execution_cost": 108780
+              },
+              "advisor": {
+                "system_prompt_size": 54142,
+                "whole_cost": 1695
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7e5d0a74",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

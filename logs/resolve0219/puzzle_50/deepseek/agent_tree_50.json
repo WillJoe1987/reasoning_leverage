@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-06T17:33:54.429680",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3490,
+          "hire_cost": 15569,
+          "advise_cost": 0,
+          "whole_cost": 110022,
+          "execution_cost": 314650
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9b346075",
+            "advisor_id": "adv_50277ad3",
+            "task_key_target": "多项式根计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T17:34:09.110964",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2615,
+                "hire_cost": 16702,
+                "advise_cost": 2797,
+                "whole_cost": 100934,
+                "execution_cost": 171469
+              },
+              "advisor": {
+                "system_prompt_size": 14807,
+                "whole_cost": 3047
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9b346075",
+              "agents": [
+                {
+                  "agent_id": "emp_f526c588",
+                  "advisor_id": "adv_250fa3fa",
+                  "task_key_target": "高精度计算α^35和模运算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T17:39:07.743173",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 622,
+                      "hire_cost": 0,
+                      "advise_cost": 4084,
+                      "whole_cost": 51620,
+                      "execution_cost": 47536
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27021,
+                      "whole_cost": 4359
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a580c554",
+                  "advisor_id": "adv_f6c87214",
+                  "task_key_target": "超高精度验证α^35计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T17:48:16.146513",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 712,
+                      "hire_cost": 0,
+                      "advise_cost": 851,
+                      "whole_cost": 43349,
+                      "execution_cost": 42498
+                    },
+                    "advisor": {
+                      "system_prompt_size": 83120,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b37419ef",
+            "advisor_id": "adv_7773e253",
+            "task_key_target": "模剩余条件分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T17:34:19.151625",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2719,
+                "hire_cost": 0,
+                "advise_cost": 1673,
+                "whole_cost": 8824,
+                "execution_cost": 7151
+              },
+              "advisor": {
+                "system_prompt_size": 14148,
+                "whole_cost": 2014
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b37419ef",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_fea22b1d",
+            "advisor_id": "adv_72def3ff",
+            "task_key_target": "高精度α^35计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T17:49:06.269443",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2593,
+                "hire_cost": 2970,
+                "advise_cost": 2005,
+                "whole_cost": 45749,
+                "execution_cost": 41577
+              },
+              "advisor": {
+                "system_prompt_size": 102209,
+                "whole_cost": 2199
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fea22b1d",
+              "agents": [
+                {
+                  "agent_id": "emp_6ab7bcc3",
+                  "advisor_id": "adv_107207f9",
+                  "task_key_target": "高精度α计算和α^35幂计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T17:50:45.473950",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 677,
+                      "hire_cost": 0,
+                      "advise_cost": 2028,
+                      "whole_cost": 2831,
+                      "execution_cost": 803
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20498,
+                      "whole_cost": 2367
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

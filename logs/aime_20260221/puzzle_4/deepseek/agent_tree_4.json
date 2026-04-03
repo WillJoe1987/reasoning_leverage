@@ -1,0 +1,189 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:35:58.119825",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 20148,
+          "advise_cost": 0,
+          "whole_cost": 37538,
+          "execution_cost": 148956
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_ecd002ab",
+            "advisor_id": "adv_f295d705",
+            "task_key_target": "系统分析n+1的因子分解条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:36:24.683499",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2710,
+                "hire_cost": 8404,
+                "advise_cost": 1788,
+                "whole_cost": 16422,
+                "execution_cost": 63508
+              },
+              "advisor": {
+                "system_prompt_size": 13752,
+                "whole_cost": 2130
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ecd002ab",
+              "agents": [
+                {
+                  "agent_id": "emp_617f05a9",
+                  "advisor_id": "adv_3ece2203",
+                  "task_key_target": "分析满足条件的n值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:37:13.075827",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 703,
+                      "hire_cost": 0,
+                      "advise_cost": 727,
+                      "whole_cost": 26791,
+                      "execution_cost": 26064
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16035,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_47997ac9",
+                  "advisor_id": "adv_016072ef",
+                  "task_key_target": "验证满足条件的n值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:37:19.803197",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 712,
+                      "hire_cost": 0,
+                      "advise_cost": 2183,
+                      "whole_cost": 33397,
+                      "execution_cost": 31214
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12866,
+                      "whole_cost": 2570
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_81e467d5",
+            "advisor_id": "adv_424a4750",
+            "task_key_target": "直接枚举验证a,b组合",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:36:30.436617",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2647,
+                "hire_cost": 0,
+                "advise_cost": 1975,
+                "whole_cost": 23509,
+                "execution_cost": 21534
+              },
+              "advisor": {
+                "system_prompt_size": 13205,
+                "whole_cost": 2237
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_81e467d5",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_cac42de7",
+            "advisor_id": "adv_4ee2bc5d",
+            "task_key_target": "数论分析n+1的因子性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:36:37.447632",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2741,
+                "hire_cost": 0,
+                "advise_cost": 2315,
+                "whole_cost": 21685,
+                "execution_cost": 19370
+              },
+              "advisor": {
+                "system_prompt_size": 13889,
+                "whole_cost": 2685
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_cac42de7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3fe29090",
+            "advisor_id": "adv_b2bccfe6",
+            "task_key_target": "最终结果验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:39:32.268711",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 636,
+                "hire_cost": 0,
+                "advise_cost": 3753,
+                "whole_cost": 30907,
+                "execution_cost": 27154
+              },
+              "advisor": {
+                "system_prompt_size": 34376,
+                "whole_cost": 4083
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

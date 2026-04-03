@@ -1,0 +1,191 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T13:48:22.367456",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 26511,
+          "advise_cost": 0,
+          "whole_cost": 64731,
+          "execution_cost": 187677
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_27b96583",
+            "advisor_id": "adv_a8f55573",
+            "task_key_target": "分析函数优化问题结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T13:48:36.995627",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2502,
+                "hire_cost": 19397,
+                "advise_cost": 3122,
+                "whole_cost": 44334,
+                "execution_cost": 43007
+              },
+              "advisor": {
+                "system_prompt_size": 8687,
+                "whole_cost": 3434
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_27b96583",
+              "agents": [
+                {
+                  "agent_id": "emp_c11f20db",
+                  "advisor_id": "adv_9ba974e7",
+                  "task_key_target": "分析内层最大值点的结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T13:51:20.598726",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 708,
+                      "hire_cost": 0,
+                      "advise_cost": 716,
+                      "whole_cost": 21908,
+                      "execution_cost": 21192
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11144,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5b54b1e4",
+            "advisor_id": "adv_936d286b",
+            "task_key_target": "对称性和函数逼近分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T13:48:48.538264",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2609,
+                "hire_cost": 9920,
+                "advise_cost": 1927,
+                "whole_cost": 46371,
+                "execution_cost": 56060
+              },
+              "advisor": {
+                "system_prompt_size": 9522,
+                "whole_cost": 2346
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5b54b1e4",
+              "agents": [
+                {
+                  "agent_id": "emp_f5e7fa2e",
+                  "advisor_id": "adv_31143f41",
+                  "task_key_target": "二次函数参数优化分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T13:52:51.139798",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 657,
+                      "hire_cost": 0,
+                      "advise_cost": 6411,
+                      "whole_cost": 27947,
+                      "execution_cost": 21536
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20290,
+                      "whole_cost": 6770
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_caf7f4b7",
+            "advisor_id": "adv_395d00a4",
+            "task_key_target": "验证最优解和计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T13:57:33.476988",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2753,
+                "hire_cost": 10327,
+                "advise_cost": 2663,
+                "whole_cost": 39654,
+                "execution_cost": 50390
+              },
+              "advisor": {
+                "system_prompt_size": 35330,
+                "whole_cost": 3257
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_caf7f4b7",
+              "agents": [
+                {
+                  "agent_id": "emp_474756c0",
+                  "advisor_id": "adv_f9b589d4",
+                  "task_key_target": "验证最坏情况出现在0-1配置",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T13:59:44.907216",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 687,
+                      "hire_cost": 0,
+                      "advise_cost": 739,
+                      "whole_cost": 24465,
+                      "execution_cost": 23726
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16457,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T18:30:02.193572",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22100,
+          "advise_cost": 0,
+          "whole_cost": 89858,
+          "execution_cost": 284296
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_6e7fcd80",
+            "advisor_id": "adv_17994c20",
+            "task_key_target": "线性规划下界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:30:17.619044",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2605,
+                "hire_cost": 0,
+                "advise_cost": 3485,
+                "whole_cost": 36216,
+                "execution_cost": 32731
+              },
+              "advisor": {
+                "system_prompt_size": 13826,
+                "whole_cost": 3736
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6e7fcd80",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_989b097f",
+            "advisor_id": "adv_fee1acd7",
+            "task_key_target": "对称性与构造分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:30:23.732594",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2645,
+                "hire_cost": 0,
+                "advise_cost": 3512,
+                "whole_cost": 52968,
+                "execution_cost": 49456
+              },
+              "advisor": {
+                "system_prompt_size": 12664,
+                "whole_cost": 3807
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_989b097f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_aaed2243",
+            "advisor_id": "adv_32d716c2",
+            "task_key_target": "线性规划对偶分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:32:24.653463",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 6231,
+                "advise_cost": 1898,
+                "whole_cost": 55255,
+                "execution_cost": 87129
+              },
+              "advisor": {
+                "system_prompt_size": 28545,
+                "whole_cost": 2208
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_aaed2243",
+              "agents": [
+                {
+                  "agent_id": "emp_ea70eb38",
+                  "advisor_id": "adv_55c6d481",
+                  "task_key_target": "对偶最优性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T18:34:30.375807",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 672,
+                      "hire_cost": 0,
+                      "advise_cost": 3411,
+                      "whole_cost": 43414,
+                      "execution_cost": 40003
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28474,
+                      "whole_cost": 3734
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1150a337",
+            "advisor_id": "adv_0b050896",
+            "task_key_target": "验证最优解猜想",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T18:39:39.612102",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2673,
+                "hire_cost": 0,
+                "advise_cost": 3356,
+                "whole_cost": 50578,
+                "execution_cost": 47222
+              },
+              "advisor": {
+                "system_prompt_size": 76202,
+                "whole_cost": 3668
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1150a337",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

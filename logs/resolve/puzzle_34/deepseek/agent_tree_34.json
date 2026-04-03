@@ -1,0 +1,215 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T01:24:25.155794",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22689,
+          "advise_cost": 0,
+          "whole_cost": 79379,
+          "execution_cost": 467442
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_2ed548ca",
+            "advisor_id": "adv_4a41528c",
+            "task_key_target": "对称性分析和简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:24:37.761934",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2563,
+                "hire_cost": 17155,
+                "advise_cost": 2679,
+                "whole_cost": 59785,
+                "execution_cost": 133792
+              },
+              "advisor": {
+                "system_prompt_size": 13553,
+                "whole_cost": 2884
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2ed548ca",
+              "agents": [
+                {
+                  "agent_id": "emp_9d6481ee",
+                  "advisor_id": "adv_81bc34d8",
+                  "task_key_target": "不等式理论证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:27:46.053947",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 614,
+                      "hire_cost": 0,
+                      "advise_cost": 691,
+                      "whole_cost": 60338,
+                      "execution_cost": 59647
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32450,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_ee7727d0",
+                  "advisor_id": "adv_73904cb9",
+                  "task_key_target": "数值验证与反例搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:27:54.125644",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 771,
+                      "hire_cost": 0,
+                      "advise_cost": 3732,
+                      "whole_cost": 37926,
+                      "execution_cost": 34194
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34049,
+                      "whole_cost": 4151
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a41ee2c7",
+            "advisor_id": "adv_effce55c",
+            "task_key_target": "数值探索和边界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:24:42.239746",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2546,
+                "hire_cost": 10390,
+                "advise_cost": 1238,
+                "whole_cost": 83094,
+                "execution_cost": 172683
+              },
+              "advisor": {
+                "system_prompt_size": 12044,
+                "whole_cost": 1416
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a41ee2c7",
+              "agents": [
+                {
+                  "agent_id": "emp_66909211",
+                  "advisor_id": "adv_7ee3aba0",
+                  "task_key_target": "数值探索和边界分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:25:17.446708",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 849,
+                      "hire_cost": 0,
+                      "advise_cost": 866,
+                      "whole_cost": 102083,
+                      "execution_cost": 101217
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11551,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2d25f331",
+            "advisor_id": "adv_cedf7291",
+            "task_key_target": "理论分析和不等式证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:24:46.946171",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2508,
+                "hire_cost": 13690,
+                "advise_cost": 1345,
+                "whole_cost": 50529,
+                "execution_cost": 104277
+              },
+              "advisor": {
+                "system_prompt_size": 12657,
+                "whole_cost": 1473
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2d25f331",
+              "agents": [
+                {
+                  "agent_id": "emp_a2c17d95",
+                  "advisor_id": "adv_d41ae928",
+                  "task_key_target": "数值验证不等式 C=1",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:27:14.624930",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 621,
+                      "hire_cost": 0,
+                      "advise_cost": 2588,
+                      "whole_cost": 71371,
+                      "execution_cost": 68783
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26590,
+                      "whole_cost": 2865
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

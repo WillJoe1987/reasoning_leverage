@@ -1,0 +1,215 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-03-01T16:15:12.078207",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 27505,
+          "advise_cost": 0,
+          "whole_cost": 154555,
+          "execution_cost": 591098
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c1ad65c5",
+            "advisor_id": "adv_396e3647",
+            "task_key_target": "线性代数建模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-01T16:16:17.609346",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2823,
+                "hire_cost": 7554,
+                "advise_cost": 2810,
+                "whole_cost": 67970,
+                "execution_cost": 92640
+              },
+              "advisor": {
+                "system_prompt_size": 14374,
+                "whole_cost": 3215
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c1ad65c5",
+              "agents": [
+                {
+                  "agent_id": "emp_dcfe38f9",
+                  "advisor_id": "adv_c0f3c3a7",
+                  "task_key_target": "计算操作向量秩",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-01T16:21:42.331390",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 704,
+                      "hire_cost": 0,
+                      "advise_cost": 3362,
+                      "whole_cost": 38396,
+                      "execution_cost": 35034
+                    },
+                    "advisor": {
+                      "system_prompt_size": 46209,
+                      "whole_cost": 38090
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_754ca131",
+            "advisor_id": "adv_0f58bf79",
+            "task_key_target": "小规模案例研究",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-01T16:16:42.199202",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 10971,
+                "advise_cost": 2689,
+                "whole_cost": 107274,
+                "execution_cost": 170165
+              },
+              "advisor": {
+                "system_prompt_size": 17158,
+                "whole_cost": 2988
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_754ca131",
+              "agents": [
+                {
+                  "agent_id": "emp_b53f9bfb",
+                  "advisor_id": "adv_89088051",
+                  "task_key_target": "小规模棋盘计算分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-01T16:18:16.404422",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1189,
+                      "hire_cost": 0,
+                      "advise_cost": 9386,
+                      "whole_cost": 85937,
+                      "execution_cost": 76551
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14281,
+                      "whole_cost": 77423
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_dee84214",
+            "advisor_id": "adv_6afcb749",
+            "task_key_target": "理论分析与模式推导",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-01T16:30:27.852759",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2826,
+                "hire_cost": 24252,
+                "advise_cost": 2617,
+                "whole_cost": 107069,
+                "execution_cost": 201243
+              },
+              "advisor": {
+                "system_prompt_size": 90672,
+                "whole_cost": 3018
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dee84214",
+              "agents": [
+                {
+                  "agent_id": "emp_efa72aa5",
+                  "advisor_id": "adv_797f1610",
+                  "task_key_target": "线性代数分析：操作子空间S的维数和结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-01T16:32:19.983694",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 808,
+                      "hire_cost": 0,
+                      "advise_cost": 9496,
+                      "whole_cost": 42598,
+                      "execution_cost": 33102
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19146,
+                      "whole_cost": 23712
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_ad20114d",
+                  "advisor_id": "adv_548b2ab4",
+                  "task_key_target": "组合数学分析：可达状态中黑色数的极值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-01T16:32:35.937951",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 990,
+                      "hire_cost": 0,
+                      "advise_cost": 14238,
+                      "whole_cost": 102179,
+                      "execution_cost": 87941
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20125,
+                      "whole_cost": 88530
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T21:43:49.151235",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 42418,
+          "advise_cost": 0,
+          "whole_cost": 90232,
+          "execution_cost": 396784
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1d88b62f",
+            "advisor_id": "adv_b255264d",
+            "task_key_target": "数值搜索解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:45:00.662055",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2663,
+                "hire_cost": 0,
+                "advise_cost": 1861,
+                "whole_cost": 74474,
+                "execution_cost": 72613
+              },
+              "advisor": {
+                "system_prompt_size": 23343,
+                "whole_cost": 2173
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1d88b62f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_70fdfa5d",
+            "advisor_id": "adv_0983ea48",
+            "task_key_target": "代数变换分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:45:06.482838",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2639,
+                "hire_cost": 0,
+                "advise_cost": 2366,
+                "whole_cost": 52878,
+                "execution_cost": 50512
+              },
+              "advisor": {
+                "system_prompt_size": 22321,
+                "whole_cost": 2639
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_70fdfa5d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_338a0805",
+            "advisor_id": "adv_364546ef",
+            "task_key_target": "模分析和数论方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:45:12.203597",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2638,
+                "hire_cost": 0,
+                "advise_cost": 1761,
+                "whole_cost": 57802,
+                "execution_cost": 56041
+              },
+              "advisor": {
+                "system_prompt_size": 23017,
+                "whole_cost": 2039
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_338a0805",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8b478cb6",
+            "advisor_id": "adv_ad1bd78b",
+            "task_key_target": "验证和整合结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:50:03.539410",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2621,
+                "hire_cost": 18002,
+                "advise_cost": 1215,
+                "whole_cost": 48927,
+                "execution_cost": 169804
+              },
+              "advisor": {
+                "system_prompt_size": 57157,
+                "whole_cost": 1502
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8b478cb6",
+              "agents": [
+                {
+                  "agent_id": "emp_629fb1f8",
+                  "advisor_id": "adv_06870a40",
+                  "task_key_target": "数值搜索整数解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T21:50:40.221779",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 591,
+                      "hire_cost": 0,
+                      "advise_cost": 2150,
+                      "whole_cost": 42815,
+                      "execution_cost": 40665
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12158,
+                      "whole_cost": 2402
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_b41c2ea2",
+                  "advisor_id": "adv_e98bd3b6",
+                  "task_key_target": "代数变换分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T21:50:45.725883",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 559,
+                      "hire_cost": 0,
+                      "advise_cost": 2342,
+                      "whole_cost": 37551,
+                      "execution_cost": 35209
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8873,
+                      "whole_cost": 2551
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_35d42c79",
+                  "advisor_id": "adv_94ec04a7",
+                  "task_key_target": "模分析和数论方法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T21:50:51.451425",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 579,
+                      "hire_cost": 0,
+                      "advise_cost": 3498,
+                      "whole_cost": 67718,
+                      "execution_cost": 64220
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9569,
+                      "whole_cost": 3764
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

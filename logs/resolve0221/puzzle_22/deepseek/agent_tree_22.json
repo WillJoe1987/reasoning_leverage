@@ -1,0 +1,241 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T20:28:07.107422",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 43935,
+          "advise_cost": 0,
+          "whole_cost": 105858,
+          "execution_cost": 319132
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0efe56b9",
+            "advisor_id": "adv_bd64042b",
+            "task_key_target": "分析目标函数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:28:16.023571",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2662,
+                "hire_cost": 0,
+                "advise_cost": 2973,
+                "whole_cost": 32560,
+                "execution_cost": 29587
+              },
+              "advisor": {
+                "system_prompt_size": 12745,
+                "whole_cost": 3268
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0efe56b9",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_852171a1",
+            "advisor_id": "adv_c39f9cca",
+            "task_key_target": "分析c相关表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:28:30.665183",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2623,
+                "hire_cost": 261,
+                "advise_cost": 2313,
+                "whole_cost": 43783,
+                "execution_cost": 41209
+              },
+              "advisor": {
+                "system_prompt_size": 13517,
+                "whole_cost": 2601
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_852171a1",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_71a732f2",
+            "advisor_id": "adv_9f593a6a",
+            "task_key_target": "分析h(x,y)最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:30:23.145724",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2597,
+                "hire_cost": 0,
+                "advise_cost": 1136,
+                "whole_cost": 1898,
+                "execution_cost": 762
+              },
+              "advisor": {
+                "system_prompt_size": 27722,
+                "whole_cost": 1376
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_71a732f2",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8a82d7b2",
+            "advisor_id": "adv_abb7f55e",
+            "task_key_target": "证明不等式(2+x²)(4+y²) ≥ 7(x+y)",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:33:11.115503",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2594,
+                "hire_cost": 19748,
+                "advise_cost": 2702,
+                "whole_cost": 52101,
+                "execution_cost": 160972
+              },
+              "advisor": {
+                "system_prompt_size": 52960,
+                "whole_cost": 2921
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8a82d7b2",
+              "agents": [
+                {
+                  "agent_id": "emp_b2bae712",
+                  "advisor_id": "adv_a8d5129a",
+                  "task_key_target": "代数方法证明不等式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:34:55.948884",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 593,
+                      "hire_cost": 0,
+                      "advise_cost": 1061,
+                      "whole_cost": 53392,
+                      "execution_cost": 52331
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23356,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a8bd7b15",
+                  "advisor_id": "adv_7a6812d7",
+                  "task_key_target": "不等式技巧证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:35:01.454006",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 580,
+                      "hire_cost": 0,
+                      "advise_cost": 761,
+                      "whole_cost": 40726,
+                      "execution_cost": 39965
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20052,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_9edb79c4",
+                  "advisor_id": "adv_5bbb9f37",
+                  "task_key_target": "微积分方法证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:35:07.245269",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 574,
+                      "hire_cost": 0,
+                      "advise_cost": 408,
+                      "whole_cost": 39433,
+                      "execution_cost": 39025
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20811,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_557727ad",
+            "advisor_id": "adv_7033f2a8",
+            "task_key_target": "验证f无下界结论",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:41:54.277961",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 708,
+                "hire_cost": 0,
+                "advise_cost": 2360,
+                "whole_cost": 27039,
+                "execution_cost": 24679
+              },
+              "advisor": {
+                "system_prompt_size": 109663,
+                "whole_cost": 2750
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

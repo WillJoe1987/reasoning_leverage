@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T04:50:42.522556",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 14899,
+          "advise_cost": 0,
+          "whole_cost": 51087,
+          "execution_cost": 211479
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_de5e44e1",
+            "advisor_id": "adv_dfc341b8",
+            "task_key_target": "图G的存在性分析与M值确定",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:50:51.579386",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2603,
+                "hire_cost": 9489,
+                "advise_cost": 2164,
+                "whole_cost": 31806,
+                "execution_cost": 93068
+              },
+              "advisor": {
+                "system_prompt_size": 13343,
+                "whole_cost": 2366
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_de5e44e1",
+              "agents": [
+                {
+                  "agent_id": "emp_7ff19c7b",
+                  "advisor_id": "adv_34a3a2fc",
+                  "task_key_target": "数值求解方程并计算a^25",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:54:43.077897",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 652,
+                      "hire_cost": 0,
+                      "advise_cost": 811,
+                      "whole_cost": 31653,
+                      "execution_cost": 30842
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9305,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2bfa911f",
+                  "advisor_id": "adv_bc77a61f",
+                  "task_key_target": "验证数值计算结果",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:54:48.174948",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 550,
+                      "hire_cost": 0,
+                      "advise_cost": 714,
+                      "whole_cost": 42787,
+                      "execution_cost": 42073
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10032,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b1628fec",
+            "advisor_id": "adv_6230056d",
+            "task_key_target": "图参数组合分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:52:08.681942",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2609,
+                "hire_cost": 5567,
+                "advise_cost": 2108,
+                "whole_cost": 19353,
+                "execution_cost": 35739
+              },
+              "advisor": {
+                "system_prompt_size": 15350,
+                "whole_cost": 2375
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b1628fec",
+              "agents": [
+                {
+                  "agent_id": "emp_80a82fea",
+                  "advisor_id": "adv_ffead559",
+                  "task_key_target": "强正则图参数搜索与验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:53:22.544177",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 701,
+                      "hire_cost": 0,
+                      "advise_cost": 3761,
+                      "whole_cost": 27822,
+                      "execution_cost": 24061
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16845,
+                      "whole_cost": 4147
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2934a2e1",
+            "advisor_id": "adv_a36b91cd",
+            "task_key_target": "验证图G存在性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:52:33.377078",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2644,
+                "hire_cost": 0,
+                "advise_cost": 1344,
+                "whole_cost": 47828,
+                "execution_cost": 46484
+              },
+              "advisor": {
+                "system_prompt_size": 18712,
+                "whole_cost": 1627
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2934a2e1",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

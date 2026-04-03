@@ -1,0 +1,60 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T17:34:25.372326",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 3442,
+          "advise_cost": 0,
+          "whole_cost": 43373,
+          "execution_cost": 54266
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_802b34fa",
+            "advisor_id": "adv_15ac8b36",
+            "task_key_target": "对称函数最小值分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:37:00.218587",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2598,
+                "hire_cost": 0,
+                "advise_cost": 2104,
+                "whole_cost": 16439,
+                "execution_cost": 14335
+              },
+              "advisor": {
+                "system_prompt_size": 40906,
+                "whole_cost": 2347
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_802b34fa",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

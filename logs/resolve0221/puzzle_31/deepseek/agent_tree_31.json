@@ -1,0 +1,138 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T22:48:32.148610",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22924,
+          "advise_cost": 0,
+          "whole_cost": 55372,
+          "execution_cost": 201067
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_200a4c8a",
+            "advisor_id": "adv_984a6e64",
+            "task_key_target": "分析曲线方程和距离表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:48:52.837470",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2626,
+                "hire_cost": 6401,
+                "advise_cost": 2816,
+                "whole_cost": 55056,
+                "execution_cost": 102674
+              },
+              "advisor": {
+                "system_prompt_size": 13635,
+                "whole_cost": 3079
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_200a4c8a",
+              "agents": [
+                {
+                  "agent_id": "emp_42c6432d",
+                  "advisor_id": "adv_13a85382",
+                  "task_key_target": "分析r_i表达式与d的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:51:53.112394",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 650,
+                      "hire_cost": 0,
+                      "advise_cost": 705,
+                      "whole_cost": 57540,
+                      "execution_cost": 56835
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26530,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6147e1b3",
+            "advisor_id": "adv_ce1ea9be",
+            "task_key_target": "数值验证r_i表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:49:03.791611",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2654,
+                "hire_cost": 5293,
+                "advise_cost": 1558,
+                "whole_cost": 31599,
+                "execution_cost": 65945
+              },
+              "advisor": {
+                "system_prompt_size": 14003,
+                "whole_cost": 1850
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6147e1b3",
+              "agents": [
+                {
+                  "agent_id": "emp_7e0b45c2",
+                  "advisor_id": "adv_f0ee64e4",
+                  "task_key_target": "r_i表达式数值验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:49:51.975542",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 734,
+                      "hire_cost": 0,
+                      "advise_cost": 2301,
+                      "whole_cost": 43498,
+                      "execution_cost": 41197
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12734,
+                      "whole_cost": 2693
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

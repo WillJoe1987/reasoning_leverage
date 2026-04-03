@@ -1,0 +1,195 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-04T15:27:28.851304",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2529,
+          "hire_cost": 23474,
+          "advise_cost": 0,
+          "whole_cost": 31579
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0057f38d",
+            "advisor_id": "adv_0b1ab479",
+            "task_key_target": "分析函数逼近问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T15:27:43.928451",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3368,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 12995
+              },
+              "advisor": {
+                "system_prompt_size": 4337,
+                "whole_cost": 1952
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0057f38d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_dd1b8753",
+            "advisor_id": "adv_55cb6b0e",
+            "task_key_target": "分析固定和下的函数值范围",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T15:29:19.803279",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3367,
+                "hire_cost": 15165,
+                "advise_cost": 0,
+                "whole_cost": 21304
+              },
+              "advisor": {
+                "system_prompt_size": 9525,
+                "whole_cost": 1847
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dd1b8753",
+              "agents": [
+                {
+                  "agent_id": "emp_70b11f8e",
+                  "advisor_id": "adv_b93d4267",
+                  "task_key_target": "数学分析：凸函数和凹函数下的极值问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-04T15:30:29.583621",
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3434,
+                      "hire_cost": 8566,
+                      "advise_cost": 0,
+                      "whole_cost": 14575
+                    },
+                    "advisor": {
+                      "system_prompt_size": 6615,
+                      "whole_cost": 1880
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_70b11f8e",
+                    "agents": [
+                      {
+                        "agent_id": "emp_72539608",
+                        "advisor_id": "adv_6c5eb15a",
+                        "task_key_target": "数学分析：凸函数和凹函数极值问题",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-04T15:31:53.364127",
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 1590,
+                            "hire_cost": 0,
+                            "advise_cost": 0,
+                            "whole_cost": 9130
+                          },
+                          "advisor": {
+                            "system_prompt_size": 7601,
+                            "whole_cost": 2617
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_1769822c",
+                  "advisor_id": "adv_5824b58e",
+                  "task_key_target": "优化分析：最小化最大误差问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-04T15:31:35.928023",
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3358,
+                      "hire_cost": 26806,
+                      "advise_cost": 0,
+                      "whole_cost": 33521
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9917,
+                      "whole_cost": 3042
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_1769822c",
+                    "agents": [
+                      {
+                        "agent_id": "emp_e7088c3b",
+                        "advisor_id": "adv_08007cc7",
+                        "task_key_target": "渐近分析和最优函数形式推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-04T15:33:42.924843",
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 1458,
+                            "hire_cost": 0,
+                            "advise_cost": 0,
+                            "whole_cost": 12541
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6835,
+                            "whole_cost": 4363
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_85b35c3a",
+                        "advisor_id": "adv_a50d24ce",
+                        "task_key_target": "误差计算和极值配置分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-04T15:33:53.658492",
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 1469,
+                            "hire_cost": 0,
+                            "advise_cost": 0,
+                            "whole_cost": 11070
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8545,
+                            "whole_cost": 4436
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

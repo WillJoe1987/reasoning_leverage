@@ -1,0 +1,214 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:17:25.380938",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 15104,
+          "advise_cost": 0,
+          "whole_cost": 134716,
+          "execution_cost": 465498
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_1f9d508a",
+            "advisor_id": "adv_6c1d9a6e",
+            "task_key_target": "分析旋转几何结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:18:06.366804",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2731,
+                "hire_cost": 11332,
+                "advise_cost": 2386,
+                "whole_cost": 74444,
+                "execution_cost": 186508
+              },
+              "advisor": {
+                "system_prompt_size": 19379,
+                "whole_cost": 2723
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1f9d508a",
+              "agents": [
+                {
+                  "agent_id": "emp_d78eeeef",
+                  "advisor_id": "adv_ab140805",
+                  "task_key_target": "复数方法求解旋转角度",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:19:04.630575",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 765,
+                      "hire_cost": 0,
+                      "advise_cost": 899,
+                      "whole_cost": 63433,
+                      "execution_cost": 62534
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17223,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_4ba9d057",
+                  "advisor_id": "adv_380726ce",
+                  "task_key_target": "坐标几何方法求解旋转角度",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:19:14.654647",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 930,
+                      "hire_cost": 0,
+                      "advise_cost": 843,
+                      "whole_cost": 64091,
+                      "execution_cost": 63248
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14481,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_dd7e927b",
+            "advisor_id": "adv_7a98885b",
+            "task_key_target": "坐标几何分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:18:13.256471",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2711,
+                "hire_cost": 5294,
+                "advise_cost": 2054,
+                "whole_cost": 53367,
+                "execution_cost": 58730
+              },
+              "advisor": {
+                "system_prompt_size": 18437,
+                "whole_cost": 2395
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dd7e927b",
+              "agents": [
+                {
+                  "agent_id": "emp_fb499ef4",
+                  "advisor_id": "adv_10bd52bb",
+                  "task_key_target": "三角形顶点坐标确定",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:19:45.622794",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 846,
+                      "hire_cost": 0,
+                      "advise_cost": 2357,
+                      "whole_cost": 15068,
+                      "execution_cost": 12711
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17121,
+                      "whole_cost": 3017
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3c4304a6",
+            "advisor_id": "adv_0a0ea42f",
+            "task_key_target": "向量和复数分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:18:19.302654",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2651,
+                "hire_cost": 0,
+                "advise_cost": 4069,
+                "whole_cost": 69273,
+                "execution_cost": 65204
+              },
+              "advisor": {
+                "system_prompt_size": 19245,
+                "whole_cost": 4355
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3c4304a6",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b0464ccc",
+            "advisor_id": "adv_f75c943a",
+            "task_key_target": "验证最终结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:27:47.150969",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 613,
+                "hire_cost": 0,
+                "advise_cost": 2471,
+                "whole_cost": 37915,
+                "execution_cost": 35444
+              },
+              "advisor": {
+                "system_prompt_size": 95044,
+                "whole_cost": 2758
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

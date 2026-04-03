@@ -1,0 +1,377 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-25T15:50:58.319946",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 42309,
+          "advise_cost": 0,
+          "whole_cost": 129397,
+          "execution_cost": 338227
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_dea250bb",
+            "advisor_id": "adv_78f108f3",
+            "task_key_target": "分析学生认识关系的组合结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:51:13.640154",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2690,
+                "hire_cost": 28413,
+                "advise_cost": 1806,
+                "whole_cost": 87456,
+                "execution_cost": 189933
+              },
+              "advisor": {
+                "system_prompt_size": 9401,
+                "whole_cost": 2111
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dea250bb",
+              "agents": [
+                {
+                  "agent_id": "emp_25aa3124",
+                  "advisor_id": "adv_4c16460d",
+                  "task_key_target": "图论与组合数学分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:53:33.104296",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2936,
+                      "hire_cost": 18188,
+                      "advise_cost": 692,
+                      "whole_cost": 41322,
+                      "execution_cost": 80043
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10196,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_25aa3124",
+                    "agents": [
+                      {
+                        "agent_id": "emp_91750606",
+                        "advisor_id": "adv_72b04b6f",
+                        "task_key_target": "代数方程推导与求解",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T15:57:00.791843",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 810,
+                            "hire_cost": 0,
+                            "advise_cost": 750,
+                            "whole_cost": 18829,
+                            "execution_cost": 18079
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6151,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_88f8941f",
+                        "advisor_id": "adv_69a033fe",
+                        "task_key_target": "组合设计分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T16:01:18.418022",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 654,
+                            "hire_cost": 0,
+                            "advise_cost": 781,
+                            "whole_cost": 40303,
+                            "execution_cost": 39522
+                          },
+                          "advisor": {
+                            "system_prompt_size": 19667,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_f96fe07f",
+                  "advisor_id": "adv_d0d1a925",
+                  "task_key_target": "代数组合与方程求解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:53:44.390505",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2766,
+                      "hire_cost": 14160,
+                      "advise_cost": 700,
+                      "whole_cost": 40228,
+                      "execution_cost": 52653
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15563,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f96fe07f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_2f9621f9",
+                        "advisor_id": "adv_a01c7808",
+                        "task_key_target": "代数方程组建立与对称性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T15:56:27.015808",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 670,
+                            "hire_cost": 0,
+                            "advise_cost": 2473,
+                            "whole_cost": 17840,
+                            "execution_cost": 15367
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8971,
+                            "whole_cost": 2845
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_1dbfc247",
+                        "advisor_id": "adv_b4dc8e67",
+                        "task_key_target": "组合计数与恒等式推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T15:56:58.094501",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 650,
+                            "hire_cost": 0,
+                            "advise_cost": 2166,
+                            "whole_cost": 14084,
+                            "execution_cost": 11918
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8486,
+                            "whole_cost": 2493
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d1139871",
+            "advisor_id": "adv_96b787ea",
+            "task_key_target": "图论角度分析认识关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:51:27.250919",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 0,
+                "advise_cost": 4936,
+                "whole_cost": 16112,
+                "execution_cost": 11176
+              },
+              "advisor": {
+                "system_prompt_size": 9916,
+                "whole_cost": 5232
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d1139871",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_bebaffc0",
+            "advisor_id": "adv_bbb5d18e",
+            "task_key_target": "验证对称性分析并建立方程组",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:52:08.170565",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2791,
+                "hire_cost": 8328,
+                "advise_cost": 2705,
+                "whole_cost": 20654,
+                "execution_cost": 15398
+              },
+              "advisor": {
+                "system_prompt_size": 12427,
+                "whole_cost": 3121
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bebaffc0",
+              "agents": [
+                {
+                  "agent_id": "emp_e8f9258b",
+                  "advisor_id": "adv_b342248b",
+                  "task_key_target": "图论分析三部图共同邻居关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:54:15.436516",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 619,
+                      "hire_cost": 0,
+                      "advise_cost": 753,
+                      "whole_cost": 6530,
+                      "execution_cost": 5777
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13249,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_5c98f38b",
+            "advisor_id": "adv_4dd5c83d",
+            "task_key_target": "验证解的正确性和完整性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:56:04.620063",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 7979,
+                "advise_cost": 3536,
+                "whole_cost": 25651,
+                "execution_cost": 27321
+              },
+              "advisor": {
+                "system_prompt_size": 16020,
+                "whole_cost": 3882
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5c98f38b",
+              "agents": [
+                {
+                  "agent_id": "emp_4d9a3db0",
+                  "advisor_id": "adv_1fd37c4f",
+                  "task_key_target": "分析非对称解的可能性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:59:10.357934",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 800,
+                      "hire_cost": 0,
+                      "advise_cost": 3967,
+                      "whole_cost": 17152,
+                      "execution_cost": 13185
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13114,
+                      "whole_cost": 4443
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0e6eeef4",
+            "advisor_id": "adv_600a09ce",
+            "task_key_target": "从图论和组合设计角度验证解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:56:15.548514",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2725,
+                "hire_cost": 0,
+                "advise_cost": 3960,
+                "whole_cost": 11271,
+                "execution_cost": 7311
+              },
+              "advisor": {
+                "system_prompt_size": 25022,
+                "whole_cost": 4302
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0e6eeef4",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

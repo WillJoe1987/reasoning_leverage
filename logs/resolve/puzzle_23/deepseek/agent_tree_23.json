@@ -1,0 +1,133 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T22:45:35.328779",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 30195,
+          "advise_cost": 0,
+          "whole_cost": 100728,
+          "execution_cost": 169479
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_45ce353a",
+            "advisor_id": "adv_0b2052f9",
+            "task_key_target": "分析根号内表达式并简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:45:45.868428",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 457,
+                "hire_cost": 0,
+                "advise_cost": 1275,
+                "whole_cost": 19808,
+                "execution_cost": 18533
+              },
+              "advisor": {
+                "system_prompt_size": 13350,
+                "whole_cost": 1424
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_931d4158",
+            "advisor_id": "adv_c86c5d8c",
+            "task_key_target": "因式分解表达式 4x^6 + 27x^4 + 54x^2 + 27",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:45:59.850229",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 500,
+                "hire_cost": 0,
+                "advise_cost": 457,
+                "whole_cost": 26763,
+                "execution_cost": 26306
+              },
+              "advisor": {
+                "system_prompt_size": 10721,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_30b882ec",
+            "advisor_id": "adv_6d596577",
+            "task_key_target": "分析丢番图方程 x^3 = 2py^2 - 1",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:49:17.555997",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2673,
+                "hire_cost": 4983,
+                "advise_cost": 3482,
+                "whole_cost": 62572,
+                "execution_cost": 54107
+              },
+              "advisor": {
+                "system_prompt_size": 36966,
+                "whole_cost": 3797
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_30b882ec",
+              "agents": [
+                {
+                  "agent_id": "emp_2aff62e6",
+                  "advisor_id": "adv_c9c2329e",
+                  "task_key_target": "代数分析丢番图方程",
+                  "status": "failed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:51:07.468691",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 752,
+                      "hire_cost": 0,
+                      "advise_cost": 0,
+                      "whole_cost": 0,
+                      "execution_cost": 0
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26110,
+                      "whole_cost": 4342
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

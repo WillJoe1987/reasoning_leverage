@@ -1,0 +1,271 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-10T10:49:06.226313",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 34950,
+          "advise_cost": 0,
+          "whole_cost": 79368,
+          "execution_cost": 434943
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_42ebd937",
+            "advisor_id": "adv_2eb67f78",
+            "task_key_target": "问题建模与线性代数分析",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-02-10T10:49:19.914002",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2593,
+                "hire_cost": 0,
+                "advise_cost": 0,
+                "whole_cost": 0,
+                "execution_cost": 0
+              },
+              "advisor": {
+                "system_prompt_size": 13113,
+                "whole_cost": 1695
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_42ebd937",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0f91601f",
+            "advisor_id": "adv_f2d517ce",
+            "task_key_target": "组合分析与奇偶性研究",
+            "status": "failed",
+            "depth": 1,
+            "hired_at": "2026-02-10T10:49:26.372748",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2526,
+                "hire_cost": 6560,
+                "advise_cost": 1467,
+                "whole_cost": 56116,
+                "execution_cost": 81493
+              },
+              "advisor": {
+                "system_prompt_size": 12038,
+                "whole_cost": 1617
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0f91601f",
+              "agents": [
+                {
+                  "agent_id": "emp_a417c80a",
+                  "advisor_id": "adv_7815c5ad",
+                  "task_key_target": "可达黑色棋子数量分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T10:54:32.179813",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 544,
+                      "hire_cost": 0,
+                      "advise_cost": 581,
+                      "whole_cost": 33985,
+                      "execution_cost": 33404
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32534,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c3758d5f",
+            "advisor_id": "adv_62ebb999",
+            "task_key_target": "具体构造与下界证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T10:49:32.486933",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2520,
+                "hire_cost": 6088,
+                "advise_cost": 759,
+                "whole_cost": 69252,
+                "execution_cost": 158258
+              },
+              "advisor": {
+                "system_prompt_size": 12547,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c3758d5f",
+              "agents": [
+                {
+                  "agent_id": "emp_50c250a9",
+                  "advisor_id": "adv_b0232c1f",
+                  "task_key_target": "操作线性代数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T10:50:04.563326",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 518,
+                      "hire_cost": 0,
+                      "advise_cost": 427,
+                      "whole_cost": 52185,
+                      "execution_cost": 51758
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14465,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_ad9f40f3",
+                  "advisor_id": "adv_de2bd8a8",
+                  "task_key_target": "贪心算法构造",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T10:51:40.614359",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 481,
+                      "hire_cost": 0,
+                      "advise_cost": 389,
+                      "whole_cost": 44484,
+                      "execution_cost": 44095
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17512,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_76b6fb08",
+            "advisor_id": "adv_ae41c32f",
+            "task_key_target": "GF(2)线性代数详细分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T10:51:42.091630",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2642,
+                "hire_cost": 0,
+                "advise_cost": 2080,
+                "whole_cost": 40885,
+                "execution_cost": 38805
+              },
+              "advisor": {
+                "system_prompt_size": 17578,
+                "whole_cost": 2339
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_76b6fb08",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_1b58366f",
+            "advisor_id": "adv_3a1f3394",
+            "task_key_target": "验证最大黑色数猜想",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-10T10:56:24.166207",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2577,
+                "hire_cost": 16931,
+                "advise_cost": 3411,
+                "whole_cost": 62335,
+                "execution_cost": 111969
+              },
+              "advisor": {
+                "system_prompt_size": 42044,
+                "whole_cost": 3614
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1b58366f",
+              "agents": [
+                {
+                  "agent_id": "emp_2ac4374f",
+                  "advisor_id": "adv_84dc9bc4",
+                  "task_key_target": "严格验证最大黑色数猜想",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-10T10:58:07.303899",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 745,
+                      "hire_cost": 0,
+                      "advise_cost": 391,
+                      "whole_cost": 70367,
+                      "execution_cost": 69976
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13351,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

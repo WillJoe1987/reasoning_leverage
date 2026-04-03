@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:27:36.354417",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 15164,
+          "advise_cost": 0,
+          "whole_cost": 30209,
+          "execution_cost": 135915
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_14625df1",
+            "advisor_id": "adv_064487c4",
+            "task_key_target": "几何约束分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:27:51.116141",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2629,
+                "hire_cost": 0,
+                "advise_cost": 2553,
+                "whole_cost": 5469,
+                "execution_cost": 2916
+              },
+              "advisor": {
+                "system_prompt_size": 13384,
+                "whole_cost": 2822
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_14625df1",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_7d58eaf9",
+            "advisor_id": "adv_44f92173",
+            "task_key_target": "数值验证约束",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:28:20.844990",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2591,
+                "hire_cost": 5852,
+                "advise_cost": 1699,
+                "whole_cost": 49256,
+                "execution_cost": 90490
+              },
+              "advisor": {
+                "system_prompt_size": 14401,
+                "whole_cost": 1932
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7d58eaf9",
+              "agents": [
+                {
+                  "agent_id": "emp_47143e82",
+                  "advisor_id": "adv_c9c8b165",
+                  "task_key_target": "数值验证代码编写",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:29:02.805923",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 680,
+                      "hire_cost": 0,
+                      "advise_cost": 2427,
+                      "whole_cost": 51212,
+                      "execution_cost": 48785
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11634,
+                      "whole_cost": 2753
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1920c7d6",
+            "advisor_id": "adv_a3f0908e",
+            "task_key_target": "验证分析结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:32:10.486809",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 763,
+                "hire_cost": 0,
+                "advise_cost": 1919,
+                "whole_cost": 29383,
+                "execution_cost": 27464
+              },
+              "advisor": {
+                "system_prompt_size": 26610,
+                "whole_cost": 2370
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

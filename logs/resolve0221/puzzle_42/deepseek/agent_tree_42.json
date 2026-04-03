@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T01:19:41.514012",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 20927,
+          "advise_cost": 0,
+          "whole_cost": 96386,
+          "execution_cost": 266750
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_97416f02",
+            "advisor_id": "adv_d139d72a",
+            "task_key_target": "随机游走概率计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:19:51.107155",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2620,
+                "hire_cost": 0,
+                "advise_cost": 1945,
+                "whole_cost": 8620,
+                "execution_cost": 6675
+              },
+              "advisor": {
+                "system_prompt_size": 13178,
+                "whole_cost": 2203
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_97416f02",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9426d9cc",
+            "advisor_id": "adv_88ab6ad3",
+            "task_key_target": "组合数比分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:21:53.124585",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2616,
+                "hire_cost": 9611,
+                "advise_cost": 1595,
+                "whole_cost": 84021,
+                "execution_cost": 133101
+              },
+              "advisor": {
+                "system_prompt_size": 22807,
+                "whole_cost": 1863
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9426d9cc",
+              "agents": [
+                {
+                  "agent_id": "emp_b10a177b",
+                  "advisor_id": "adv_77438834",
+                  "task_key_target": "斯特林公式渐近分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T01:24:34.118915",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 651,
+                      "hire_cost": 0,
+                      "advise_cost": 2312,
+                      "whole_cost": 62598,
+                      "execution_cost": 60286
+                    },
+                    "advisor": {
+                      "system_prompt_size": 54116,
+                      "whole_cost": 2612
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3ba9d836",
+            "advisor_id": "adv_a3500fbf",
+            "task_key_target": "验证不等式结论",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:26:39.136111",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 652,
+                "hire_cost": 0,
+                "advise_cost": 3217,
+                "whole_cost": 54732,
+                "execution_cost": 51515
+              },
+              "advisor": {
+                "system_prompt_size": 72718,
+                "whole_cost": 3554
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

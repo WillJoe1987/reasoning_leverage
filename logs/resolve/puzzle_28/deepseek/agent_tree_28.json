@@ -1,0 +1,292 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T23:53:10.847819",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 31705,
+          "advise_cost": 0,
+          "whole_cost": 98136,
+          "execution_cost": 502767
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e7504bdc",
+            "advisor_id": "adv_aa614ad0",
+            "task_key_target": "分析f(k)函数性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T23:53:20.629164",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2518,
+                "hire_cost": 22233,
+                "advise_cost": 3314,
+                "whole_cost": 53995,
+                "execution_cost": 201941
+              },
+              "advisor": {
+                "system_prompt_size": 13036,
+                "whole_cost": 3473
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e7504bdc",
+              "agents": [
+                {
+                  "agent_id": "emp_12ebc7aa",
+                  "advisor_id": "adv_aa84a5bb",
+                  "task_key_target": "分析f(k)的基本数学性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T23:55:16.155388",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 695,
+                      "hire_cost": 0,
+                      "advise_cost": 622,
+                      "whole_cost": 40266,
+                      "execution_cost": 39644
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13345,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_580c9ec1",
+                  "advisor_id": "adv_ba1327c1",
+                  "task_key_target": "分析f(k)与多项式相等的含义",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T23:55:24.671680",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 758,
+                      "hire_cost": 0,
+                      "advise_cost": 3751,
+                      "whole_cost": 67150,
+                      "execution_cost": 63399
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10463,
+                      "whole_cost": 4192
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0a707be7",
+                  "advisor_id": "adv_56131028",
+                  "task_key_target": "分析f(k)取值范围和对P(x)限制",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T23:55:33.767494",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 785,
+                      "hire_cost": 0,
+                      "advise_cost": 2875,
+                      "whole_cost": 73325,
+                      "execution_cost": 70450
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11332,
+                      "whole_cost": 3312
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_19a13800",
+            "advisor_id": "adv_b5439ef5",
+            "task_key_target": "分析无穷点相等条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T23:53:31.470501",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2558,
+                "hire_cost": 5803,
+                "advise_cost": 2569,
+                "whole_cost": 51607,
+                "execution_cost": 64978
+              },
+              "advisor": {
+                "system_prompt_size": 12767,
+                "whole_cost": 2769
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_19a13800",
+              "agents": [
+                {
+                  "agent_id": "emp_38ee9468",
+                  "advisor_id": "adv_42031f7d",
+                  "task_key_target": "多项式插值理论与无穷点相等条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T23:56:13.999074",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 710,
+                      "hire_cost": 0,
+                      "advise_cost": 823,
+                      "whole_cost": 22566,
+                      "execution_cost": 21743
+                    },
+                    "advisor": {
+                      "system_prompt_size": 36855,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_fc24d724",
+            "advisor_id": "adv_9e9546be",
+            "task_key_target": "代数分析：多项式与数论函数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T23:54:03.342944",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2601,
+                "hire_cost": 3558,
+                "advise_cost": 2398,
+                "whole_cost": 39677,
+                "execution_cost": 58730
+              },
+              "advisor": {
+                "system_prompt_size": 18047,
+                "whole_cost": 2632
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fc24d724",
+              "agents": [
+                {
+                  "agent_id": "emp_2743605a",
+                  "advisor_id": "adv_752dea7d",
+                  "task_key_target": "多项式插值唯一性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T23:55:28.231641",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 639,
+                      "hire_cost": 0,
+                      "advise_cost": 778,
+                      "whole_cost": 25787,
+                      "execution_cost": 25009
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16614,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_64e4239b",
+            "advisor_id": "adv_f49de396",
+            "task_key_target": "验证主论证和计数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T23:59:15.564713",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2601,
+                "hire_cost": 6668,
+                "advise_cost": 2583,
+                "whole_cost": 66764,
+                "execution_cost": 110687
+              },
+              "advisor": {
+                "system_prompt_size": 46331,
+                "whole_cost": 2834
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_64e4239b",
+              "agents": [
+                {
+                  "agent_id": "emp_ef6527f8",
+                  "advisor_id": "adv_ec56ffe8",
+                  "task_key_target": "验证主论证的数学严谨性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T00:02:57.825828",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 998,
+                      "hire_cost": 0,
+                      "advise_cost": 753,
+                      "whole_cost": 53927,
+                      "execution_cost": 53174
+                    },
+                    "advisor": {
+                      "system_prompt_size": 52281,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

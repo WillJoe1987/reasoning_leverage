@@ -1,0 +1,80 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T20:06:11.821680",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 13773,
+          "advise_cost": 0,
+          "whole_cost": 68902,
+          "execution_cost": 148385
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_319aedf7",
+            "advisor_id": "adv_4a952c45",
+            "task_key_target": "分析求和公式的模式和关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:06:39.668099",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 833,
+                "hire_cost": 0,
+                "advise_cost": 2844,
+                "whole_cost": 37201,
+                "execution_cost": 34357
+              },
+              "advisor": {
+                "system_prompt_size": 18512,
+                "whole_cost": 3363
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_1e3876a1",
+            "advisor_id": "adv_995c6b19",
+            "task_key_target": "优化问题：在给定前三个幂和约束下求第四个幂和的最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:08:50.919336",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 814,
+                "hire_cost": 0,
+                "advise_cost": 2373,
+                "whole_cost": 61272,
+                "execution_cost": 58899
+              },
+              "advisor": {
+                "system_prompt_size": 29389,
+                "whole_cost": 2856
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

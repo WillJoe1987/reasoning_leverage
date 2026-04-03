@@ -1,0 +1,172 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T17:40:16.490417",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 25562,
+          "advise_cost": 0,
+          "whole_cost": 55212,
+          "execution_cost": 96833
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_96d1d722",
+            "advisor_id": "adv_95ba42d9",
+            "task_key_target": "条件2的代数简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:40:33.605526",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2641,
+                "hire_cost": 0,
+                "advise_cost": 2377,
+                "whole_cost": 18661,
+                "execution_cost": 16284
+              },
+              "advisor": {
+                "system_prompt_size": 14488,
+                "whole_cost": 2652
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_96d1d722",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b1b8df59",
+            "advisor_id": "adv_e4b0a786",
+            "task_key_target": "目标函数分析与优化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:40:38.888969",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2635,
+                "hire_cost": 0,
+                "advise_cost": 2058,
+                "whole_cost": 16457,
+                "execution_cost": 14399
+              },
+              "advisor": {
+                "system_prompt_size": 13217,
+                "whole_cost": 2328
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b1b8df59",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0749bb3d",
+            "advisor_id": "adv_e125c81d",
+            "task_key_target": "带约束的优化问题求解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:44:23.813230",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2742,
+                "hire_cost": 0,
+                "advise_cost": 1891,
+                "whole_cost": 25505,
+                "execution_cost": 23614
+              },
+              "advisor": {
+                "system_prompt_size": 46661,
+                "whole_cost": 2270
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0749bb3d",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_6e6f99b7",
+            "advisor_id": "adv_75b21f30",
+            "task_key_target": "拉格朗日乘数法证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:46:05.352333",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2687,
+                "hire_cost": 0,
+                "advise_cost": 1675,
+                "whole_cost": 8704,
+                "execution_cost": 7029
+              },
+              "advisor": {
+                "system_prompt_size": 59155,
+                "whole_cost": 2001
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6e6f99b7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_fd28ecb1",
+            "advisor_id": "adv_b3876825",
+            "task_key_target": "不等式方法证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:46:12.807560",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2688,
+                "hire_cost": 0,
+                "advise_cost": 3406,
+                "whole_cost": 9263,
+                "execution_cost": 5857
+              },
+              "advisor": {
+                "system_prompt_size": 60401,
+                "whole_cost": 3741
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fd28ecb1",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

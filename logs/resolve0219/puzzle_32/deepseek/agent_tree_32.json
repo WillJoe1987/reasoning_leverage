@@ -1,0 +1,221 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-30T10:33:12.316844",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3346,
+          "hire_cost": 19523,
+          "advise_cost": 0,
+          "whole_cost": 58796,
+          "execution_cost": 141469
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_18b6c4e9",
+            "advisor_id": "adv_17d32183",
+            "task_key_target": "分析方程结构并简化表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:33:31.717898",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2740,
+                "hire_cost": 9459,
+                "advise_cost": 2748,
+                "whole_cost": 39556,
+                "execution_cost": 57261
+              },
+              "advisor": {
+                "system_prompt_size": 10391,
+                "whole_cost": 3080
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_18b6c4e9",
+              "agents": [
+                {
+                  "agent_id": "emp_a1dd0425",
+                  "advisor_id": "adv_7238e7dd",
+                  "task_key_target": "简化分式项",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T10:35:04.755665",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 594,
+                      "hire_cost": 0,
+                      "advise_cost": 639,
+                      "whole_cost": 12765,
+                      "execution_cost": 12126
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11269,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_de130114",
+                  "advisor_id": "adv_21af68d7",
+                  "task_key_target": "简化立方根项",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T10:35:18.003890",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 775,
+                      "hire_cost": 0,
+                      "advise_cost": 362,
+                      "whole_cost": 18148,
+                      "execution_cost": 17786
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8384,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1537f814",
+            "advisor_id": "adv_ce3c4c02",
+            "task_key_target": "分析立方根项的代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:33:43.063594",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2672,
+                "hire_cost": 0,
+                "advise_cost": 1199,
+                "whole_cost": 6431,
+                "execution_cost": 5232
+              },
+              "advisor": {
+                "system_prompt_size": 10454,
+                "whole_cost": 1496
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1537f814",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_188a7688",
+            "advisor_id": "adv_ad12fa92",
+            "task_key_target": "分析分式项的简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:33:52.560088",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2625,
+                "hire_cost": 0,
+                "advise_cost": 1191,
+                "whole_cost": 4756,
+                "execution_cost": 3565
+              },
+              "advisor": {
+                "system_prompt_size": 11176,
+                "whole_cost": 1437
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_188a7688",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_86dba8c7",
+            "advisor_id": "adv_f17b0b68",
+            "task_key_target": "数值求解方程寻找有理数解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:38:07.042034",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2675,
+                "hire_cost": 0,
+                "advise_cost": 2282,
+                "whole_cost": 27222,
+                "execution_cost": 24940
+              },
+              "advisor": {
+                "system_prompt_size": 19879,
+                "whole_cost": 2580
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_86dba8c7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_facc58a8",
+            "advisor_id": "adv_533516ec",
+            "task_key_target": "验证解并计算最小k值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:45:10.158792",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2713,
+                "hire_cost": 0,
+                "advise_cost": 2908,
+                "whole_cost": 14106,
+                "execution_cost": 11198
+              },
+              "advisor": {
+                "system_prompt_size": 55155,
+                "whole_cost": 3254
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_facc58a8",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

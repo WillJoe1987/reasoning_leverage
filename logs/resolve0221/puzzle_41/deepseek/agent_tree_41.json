@@ -1,0 +1,247 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T01:03:46.311391",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 27483,
+          "advise_cost": 0,
+          "whole_cost": 102521,
+          "execution_cost": 529322
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_529ca06c",
+            "advisor_id": "adv_91f3d2f9",
+            "task_key_target": "模方程解结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:04:06.841594",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2617,
+                "hire_cost": 0,
+                "advise_cost": 2713,
+                "whole_cost": 61920,
+                "execution_cost": 59207
+              },
+              "advisor": {
+                "system_prompt_size": 14678,
+                "whole_cost": 2970
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_529ca06c",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_ee23e368",
+            "advisor_id": "adv_c290a14c",
+            "task_key_target": "中国剩余定理应用",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:04:12.916465",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2617,
+                "hire_cost": 17292,
+                "advise_cost": 5336,
+                "whole_cost": 54902,
+                "execution_cost": 299132
+              },
+              "advisor": {
+                "system_prompt_size": 13363,
+                "whole_cost": 5596
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ee23e368",
+              "agents": [
+                {
+                  "agent_id": "emp_4cca198f",
+                  "advisor_id": "adv_a4fa771e",
+                  "task_key_target": "模方程解结构分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T01:06:05.369568",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2613,
+                      "hire_cost": 11599,
+                      "advise_cost": 3189,
+                      "whole_cost": 52812,
+                      "execution_cost": 90323
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19812,
+                      "whole_cost": 3460
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_4cca198f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_fb5b347d",
+                        "advisor_id": "adv_5f59fc09",
+                        "task_key_target": "模方程解结构数值验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T01:07:41.070751",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 986,
+                            "hire_cost": 0,
+                            "advise_cost": 5211,
+                            "whole_cost": 57510,
+                            "execution_cost": 52299
+                          },
+                          "advisor": {
+                            "system_prompt_size": 20588,
+                            "whole_cost": 5855
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_263f2ae8",
+                  "advisor_id": "adv_10ef9758",
+                  "task_key_target": "等差数列中解分布分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T01:06:12.088251",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2663,
+                      "hire_cost": 10383,
+                      "advise_cost": 2316,
+                      "whole_cost": 65994,
+                      "execution_cost": 176535
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20619,
+                      "whole_cost": 2616
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_263f2ae8",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b3e6efae",
+                        "advisor_id": "adv_bd10d09b",
+                        "task_key_target": "区间中解的数量精确公式推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T01:07:59.412124",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 618,
+                            "hire_cost": 0,
+                            "advise_cost": 3095,
+                            "whole_cost": 44201,
+                            "execution_cost": 41106
+                          },
+                          "advisor": {
+                            "system_prompt_size": 24285,
+                            "whole_cost": 3357
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_6cd2cb21",
+                        "advisor_id": "adv_04e3485d",
+                        "task_key_target": "z序列解分布分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T01:08:05.863092",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 606,
+                            "hire_cost": 0,
+                            "advise_cost": 822,
+                            "whole_cost": 82956,
+                            "execution_cost": 82134
+                          },
+                          "advisor": {
+                            "system_prompt_size": 24582,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_fc5d65bc",
+            "advisor_id": "adv_7d0584f9",
+            "task_key_target": "基于因式分解的构造",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:08:08.130811",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2718,
+                "hire_cost": 0,
+                "advise_cost": 3145,
+                "whole_cost": 99090,
+                "execution_cost": 95945
+              },
+              "advisor": {
+                "system_prompt_size": 31752,
+                "whole_cost": 3503
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fc5d65bc",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

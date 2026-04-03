@@ -1,0 +1,243 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T00:54:54.091631",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 17607,
+          "advise_cost": 0,
+          "whole_cost": 40773,
+          "execution_cost": 381024
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_08aa3a4f",
+            "advisor_id": "adv_9d195915",
+            "task_key_target": "代数分析杯子翻转问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:55:12.547757",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2735,
+                "hire_cost": 6157,
+                "advise_cost": 1804,
+                "whole_cost": 46500,
+                "execution_cost": 67671
+              },
+              "advisor": {
+                "system_prompt_size": 13930,
+                "whole_cost": 2175
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_08aa3a4f",
+              "agents": [
+                {
+                  "agent_id": "emp_fe56cd0f",
+                  "advisor_id": "adv_ba812f43",
+                  "task_key_target": "杯子翻转问题的构造性证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:57:15.956507",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 836,
+                      "hire_cost": 0,
+                      "advise_cost": 779,
+                      "whole_cost": 29911,
+                      "execution_cost": 29132
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28115,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0ae4b6e2",
+            "advisor_id": "adv_0d770370",
+            "task_key_target": "组合构造分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:55:18.621522",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2616,
+                "hire_cost": 6007,
+                "advise_cost": 1514,
+                "whole_cost": 44223,
+                "execution_cost": 70727
+              },
+              "advisor": {
+                "system_prompt_size": 13312,
+                "whole_cost": 1772
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0ae4b6e2",
+              "agents": [
+                {
+                  "agent_id": "emp_d2ec921b",
+                  "advisor_id": "adv_d97c0092",
+                  "task_key_target": "数值验证与构造分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:56:17.416232",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 608,
+                      "hire_cost": 0,
+                      "advise_cost": 772,
+                      "whole_cost": 34797,
+                      "execution_cost": 34025
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15624,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_97649e5c",
+            "advisor_id": "adv_4d826830",
+            "task_key_target": "数值验证和模式发现",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:55:24.391393",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2580,
+                "hire_cost": 4141,
+                "advise_cost": 2335,
+                "whole_cost": 83598,
+                "execution_cost": 131243
+              },
+              "advisor": {
+                "system_prompt_size": 13839,
+                "whole_cost": 2548
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_97649e5c",
+              "agents": [
+                {
+                  "agent_id": "emp_0ff56264",
+                  "advisor_id": "adv_1698d0c3",
+                  "task_key_target": "系统数值验证和模式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:57:23.012548",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 846,
+                      "hire_cost": 0,
+                      "advise_cost": 869,
+                      "whole_cost": 54990,
+                      "execution_cost": 54121
+                    },
+                    "advisor": {
+                      "system_prompt_size": 26165,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_50350f69",
+            "advisor_id": "adv_4bd1d008",
+            "task_key_target": "构造性证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:57:12.275134",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2624,
+                "hire_cost": 0,
+                "advise_cost": 2352,
+                "whole_cost": 48406,
+                "execution_cost": 46054
+              },
+              "advisor": {
+                "system_prompt_size": 15060,
+                "whole_cost": 2619
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_50350f69",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0e84d59d",
+            "advisor_id": "adv_a1dba069",
+            "task_key_target": "验证最终答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:59:21.633388",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 561,
+                "hire_cost": 0,
+                "advise_cost": 2637,
+                "whole_cost": 44800,
+                "execution_cost": 42163
+              },
+              "advisor": {
+                "system_prompt_size": 31664,
+                "whole_cost": 2877
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

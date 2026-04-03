@@ -1,0 +1,238 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-23T15:56:42.522931",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2966,
+          "hire_cost": 8423,
+          "advise_cost": 0,
+          "whole_cost": 51228,
+          "execution_cost": 160384
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_22f9d848",
+            "advisor_id": "adv_56ecbda7",
+            "task_key_target": "计算条件1中的求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-23T15:56:56.079995",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2542,
+                "hire_cost": 24551,
+                "advise_cost": 1879,
+                "whole_cost": 40499,
+                "execution_cost": 36905
+              },
+              "advisor": {
+                "system_prompt_size": 10077,
+                "whole_cost": 2042
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_22f9d848",
+              "agents": [
+                {
+                  "agent_id": "emp_37240a1e",
+                  "advisor_id": "adv_d0fe013c",
+                  "task_key_target": "精确计算求和表达式B",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-23T15:58:40.363618",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 664,
+                      "hire_cost": 0,
+                      "advise_cost": 5903,
+                      "whole_cost": 21105,
+                      "execution_cost": 15202
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10645,
+                      "whole_cost": 17002
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_783b1de8",
+                  "advisor_id": "adv_d68253d0",
+                  "task_key_target": "精确计算求和表达式A",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-23T15:58:56.419595",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 929,
+                      "hire_cost": 0,
+                      "advise_cost": 1909,
+                      "whole_cost": 4166,
+                      "execution_cost": 2257
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8672,
+                      "whole_cost": 2507
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_3ca452b8",
+                  "advisor_id": "adv_c2c4eb62",
+                  "task_key_target": "验证B的推导和计算结果",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-23T16:07:43.412263",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 864,
+                      "hire_cost": 0,
+                      "advise_cost": 672,
+                      "whole_cost": 6049,
+                      "execution_cost": 5377
+                    },
+                    "advisor": {
+                      "system_prompt_size": 42788,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e530538d",
+            "advisor_id": "adv_fa239c8d",
+            "task_key_target": "计算条件2中的求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-23T15:57:02.901406",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2557,
+                "hire_cost": 21275,
+                "advise_cost": 1264,
+                "whole_cost": 52001,
+                "execution_cost": 73196
+              },
+              "advisor": {
+                "system_prompt_size": 10212,
+                "whole_cost": 1442
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e530538d",
+              "agents": [
+                {
+                  "agent_id": "emp_e201e07f",
+                  "advisor_id": "adv_679121ed",
+                  "task_key_target": "推导求和公式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-23T15:58:40.615020",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 635,
+                      "hire_cost": 0,
+                      "advise_cost": 761,
+                      "whole_cost": 17160,
+                      "execution_cost": 16399
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8330,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_cb2646d6",
+                  "advisor_id": "adv_c17b4ac8",
+                  "task_key_target": "计算小m值的C/D比值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-23T16:03:21.857300",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 530,
+                      "hire_cost": 0,
+                      "advise_cost": 2073,
+                      "whole_cost": 29408,
+                      "execution_cost": 27335
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27914,
+                      "whole_cost": 2267
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4cf79582",
+            "advisor_id": "adv_c533760f",
+            "task_key_target": "计算条件3中的求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-23T15:57:09.515250",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2570,
+                "hire_cost": 0,
+                "advise_cost": 1488,
+                "whole_cost": 8966,
+                "execution_cost": 7478
+              },
+              "advisor": {
+                "system_prompt_size": 10917,
+                "whole_cost": 1688
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4cf79582",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

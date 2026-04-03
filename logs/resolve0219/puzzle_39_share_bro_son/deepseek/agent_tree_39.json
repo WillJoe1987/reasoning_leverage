@@ -1,0 +1,207 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-15T18:37:09.611831",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2694,
+          "hire_cost": 5994,
+          "advise_cost": 0,
+          "whole_cost": 17015
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9a0c244b",
+            "advisor_id": "adv_d4a37d16",
+            "task_key_target": "分析overpartition函数模同余性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-15T18:37:26.821265",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2509,
+                "hire_cost": 12065,
+                "advise_cost": 7155,
+                "whole_cost": 29142
+              },
+              "advisor": {
+                "system_prompt_size": 15116,
+                "whole_cost": 19143
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9a0c244b",
+              "agents": [
+                {
+                  "agent_id": "emp_7fbb138f",
+                  "advisor_id": "adv_54746d7a",
+                  "task_key_target": "推导\\(\\bar{R_6^*}(n)\\)的模同余关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-15T18:39:30.824381",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2941,
+                      "hire_cost": 8685,
+                      "advise_cost": 2267,
+                      "whole_cost": 31129
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12966,
+                      "whole_cost": 2990
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_7fbb138f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_25eb8393",
+                        "advisor_id": "adv_04c73715",
+                        "task_key_target": "分析已知条件和标准q-级数恒等式",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-15T18:42:40.526369",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 762,
+                            "hire_cost": 0,
+                            "advise_cost": 716,
+                            "whole_cost": 7162
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9293,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_752b9dbc",
+                        "advisor_id": "adv_06cad76e",
+                        "task_key_target": "分析生成函数各项的3的幂次和模性质",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-15T18:49:46.156128",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 689,
+                            "hire_cost": 0,
+                            "advise_cost": 3450,
+                            "whole_cost": 21612
+                          },
+                          "advisor": {
+                            "system_prompt_size": 31488,
+                            "whole_cost": 4015
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_f33a353e",
+            "advisor_id": "adv_5ee5ac5d",
+            "task_key_target": "验证模同余结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-15T18:39:09.812439",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2472,
+                "hire_cost": 4979,
+                "advise_cost": 2936,
+                "whole_cost": 14520
+              },
+              "advisor": {
+                "system_prompt_size": 19519,
+                "whole_cost": 3231
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f33a353e",
+              "agents": [
+                {
+                  "agent_id": "emp_9add413f",
+                  "advisor_id": "adv_d5c67fce",
+                  "task_key_target": "分析生成函数的模3展开和指数模54的剩余",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-15T18:41:52.058993",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 675,
+                      "hire_cost": 0,
+                      "advise_cost": 4969,
+                      "whole_cost": 20907
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13258,
+                      "whole_cost": 5338
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_3bd44e60",
+            "advisor_id": "adv_32647058",
+            "task_key_target": "验证最终答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-15T18:46:56.624862",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 862,
+                "hire_cost": 0,
+                "advise_cost": 2867,
+                "whole_cost": 35771
+              },
+              "advisor": {
+                "system_prompt_size": 44723,
+                "whole_cost": 3457
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

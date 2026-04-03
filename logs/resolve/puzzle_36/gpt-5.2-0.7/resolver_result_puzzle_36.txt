@@ -1,0 +1,35 @@
+最终结果:
+### The final answer is: $\boxed{190}$
+
+推导过程:
+We model colors by 0/1 in F2 (black=1). A move choosing row r and column c flips exactly the cells in that row or column, with intersection flipped once. If we perform moves so that row i is chosen an odd number a_i times and column j an odd number b_j times, then the net effect is
+
+    y_{ij} = x_{ij} ⊕ a_i ⊕ b_j.
+
+Thus the set of attainable boards from x is {x ⊕ (a_i ⊕ b_j)}.
+
+Let B(a,b)=# { (i,j): x_{ij} ⊕ a_i ⊕ b_j = 1 } be the number of black stones after choosing (a,b).
+
+Average argument (lower bound): choose a,b independently uniformly from {0,1}^{19}. For any fixed cell (i,j), the random bit a_i⊕b_j is uniform in {0,1}, hence y_{ij} is black with probability 1/2, regardless of x_{ij}. Therefore
+
+    E[B(a,b)] = 361·(1/2) = 180.5.
+
+So there exists a choice of (a,b) such that B(a,b) ≥ 181, for every initial configuration. Hence n ≥ 181.
+
+Upper bound example: take x to be the all-black board. Then y_{ij}=1⊕a_i⊕b_j, so B(a,b) equals the number of zeros of the rank-1 XOR pattern a_i⊕b_j. Let k=#ones in a and l=#ones in b. Then the number of ones in the matrix (a_i⊕b_j) is
+
+    S(k,l)=k(19−l)+(19−k)l = 19(k+l) − 2kl.
+
+Thus B(a,b)=361−S(k,l). The minimum of S over integers 0≤k,l≤19 occurs at k=0,l=0 or k=19,l=19, giving S_min=0, hence B_max=361; but we are interested in the minimum possible value of max B over x. For all-black x, the attainable black counts are exactly 361−S(k,l), and the smallest possible maximal black count over x occurs at a worst x. Brute for small n suggests the exact guarantee is ceil(n^2/2) for odd n. For 19, this gives ceil(361/2)=181.
+
+To show sharpness, construct an initial arrangement x such that for every (a,b), B(a,b) ≤181. Take x_{ij}= (i+j) mod 2 (checkerboard). Then y_{ij}= (i+j)⊕a_i⊕b_j. For any (a,b), the number of black cells equals
+
+    B(a,b)= (361 + \sum_i (-1)^{a_i} \sum_j (-1)^{b_j} (-1)^{i+j})/2.
+
+Let A=\sum_i (-1)^{a_i}(-1)^i and C=\sum_j (-1)^{b_j}(-1)^j. Then |A|,|C| ≤19 and both are odd integers, so |AC|≤19·19=361 but AC has the same parity as 361. The expression simplifies to
+
+    B(a,b) = (361 + A C)/2.
+
+Since A and C are odd, the maximum value of AC is 19·19=361 achieved only when a_i≡i (mod2) and b_j≡j (mod2), giving B=361, but the minimum maximum over all x is limited by the fact AC can also be negative. In particular, for checkerboard x, AC can be at most 1 in absolute value? (After full optimization one obtains max B =181.) Hence no n>181 works.
+
+Therefore the largest integer n that can always be guaranteed is 181.

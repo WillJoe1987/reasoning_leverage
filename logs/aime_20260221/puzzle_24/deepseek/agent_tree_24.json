@@ -1,0 +1,193 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T19:56:14.626162",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 19592,
+          "advise_cost": 0,
+          "whole_cost": 72208,
+          "execution_cost": 236356
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a65068d1",
+            "advisor_id": "adv_71b81ddb",
+            "task_key_target": "分析无穷级数 S = Σ 1/(10^n - 1) 的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:56:22.398816",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2567,
+                "hire_cost": 0,
+                "advise_cost": 3743,
+                "whole_cost": 26840,
+                "execution_cost": 23097
+              },
+              "advisor": {
+                "system_prompt_size": 11916,
+                "whole_cost": 3937
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a65068d1",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b5725906",
+            "advisor_id": "adv_0f03d9a4",
+            "task_key_target": "探索级数变换和有理函数展开",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:56:32.081182",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2612,
+                "hire_cost": 11880,
+                "advise_cost": 1791,
+                "whole_cost": 55699,
+                "execution_cost": 124280
+              },
+              "advisor": {
+                "system_prompt_size": 11434,
+                "whole_cost": 2063
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b5725906",
+              "agents": [
+                {
+                  "agent_id": "emp_44578044",
+                  "advisor_id": "adv_107f0c3a",
+                  "task_key_target": "探索级数与数论函数的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:57:57.352597",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 510,
+                      "hire_cost": 0,
+                      "advise_cost": 702,
+                      "whole_cost": 53748,
+                      "execution_cost": 53046
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22932,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_7e8a9286",
+                  "advisor_id": "adv_2be16fa9",
+                  "task_key_target": "高精度计算验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:59:34.941556",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 516,
+                      "hire_cost": 0,
+                      "advise_cost": 3489,
+                      "whole_cost": 32695,
+                      "execution_cost": 29206
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32233,
+                      "whole_cost": 3685
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9df59278",
+            "advisor_id": "adv_979d150f",
+            "task_key_target": "精确计算 ⌊10^100 S⌋ mod 1000",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:59:41.774168",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2647,
+                "hire_cost": 0,
+                "advise_cost": 3218,
+                "whole_cost": 19913,
+                "execution_cost": 16695
+              },
+              "advisor": {
+                "system_prompt_size": 36233,
+                "whole_cost": 3487
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9df59278",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_153c362a",
+            "advisor_id": "adv_9cf6fb23",
+            "task_key_target": "验证最终结果 669 的正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:03:17.735428",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2741,
+                "hire_cost": 0,
+                "advise_cost": 2198,
+                "whole_cost": 21866,
+                "execution_cost": 19668
+              },
+              "advisor": {
+                "system_prompt_size": 71902,
+                "whole_cost": 2540
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_153c362a",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

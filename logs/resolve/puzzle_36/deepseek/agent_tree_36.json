@@ -1,0 +1,386 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "working",
+      "depth": 0,
+      "hired_at": "2026-03-08T15:10:28.282122",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 31138,
+          "advise_cost": 0,
+          "whole_cost": 194912,
+          "execution_cost": 686702
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_85192296",
+            "advisor_id": "adv_f182df73",
+            "task_key_target": "分析19×19棋盘反转操作问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-08T15:10:46.980703",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2769,
+                "hire_cost": 29346,
+                "advise_cost": 13394,
+                "whole_cost": 108552,
+                "execution_cost": 408612
+              },
+              "advisor": {
+                "system_prompt_size": 13168,
+                "whole_cost": 66993
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_85192296",
+              "agents": [
+                {
+                  "agent_id": "emp_b113e708",
+                  "advisor_id": "adv_fa77a48f",
+                  "task_key_target": "建立数学模型与寻找不变量",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-08T15:12:15.597729",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2801,
+                      "hire_cost": 19898,
+                      "advise_cost": 2532,
+                      "whole_cost": 79745,
+                      "execution_cost": 129035
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14612,
+                      "whole_cost": 2891
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_b113e708",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b7f2c205",
+                        "advisor_id": "adv_146c367b",
+                        "task_key_target": "GF(2)矩阵运算形式化",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-08T15:13:23.198399",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 792,
+                            "hire_cost": 0,
+                            "advise_cost": 4936,
+                            "whole_cost": 6614,
+                            "execution_cost": 1678
+                          },
+                          "advisor": {
+                            "system_prompt_size": 13231,
+                            "whole_cost": 7821
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_764946ba",
+                        "advisor_id": "adv_7f0866fc",
+                        "task_key_target": "不变量分析与证明",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-08T15:13:36.970790",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 851,
+                            "hire_cost": 0,
+                            "advise_cost": 4810,
+                            "whole_cost": 44060,
+                            "execution_cost": 39250
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14284,
+                            "whole_cost": 5175
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_6b1f3f4e",
+                        "advisor_id": "adv_14d5d2b6",
+                        "task_key_target": "可达状态特征分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-08T15:13:49.355398",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 796,
+                            "hire_cost": 0,
+                            "advise_cost": 3046,
+                            "whole_cost": 33838,
+                            "execution_cost": 30792
+                          },
+                          "advisor": {
+                            "system_prompt_size": 15280,
+                            "whole_cost": 5942
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_f58d889f",
+                  "advisor_id": "adv_32032549",
+                  "task_key_target": "线性代数分析与可达状态刻画",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-08T15:16:53.678029",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2824,
+                      "hire_cost": 7686,
+                      "advise_cost": 4207,
+                      "whole_cost": 130255,
+                      "execution_cost": 118362
+                    },
+                    "advisor": {
+                      "system_prompt_size": 36546,
+                      "whole_cost": 42995
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_f58d889f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_d423ab1a",
+                        "advisor_id": "adv_8ef05b32",
+                        "task_key_target": "GF(2)上线性代数分析",
+                        "status": "working",
+                        "depth": 3,
+                        "hired_at": "2026-03-08T15:29:27.445874",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 661,
+                            "hire_cost": 0,
+                            "advise_cost": 0,
+                            "whole_cost": 0,
+                            "execution_cost": 0
+                          },
+                          "advisor": {
+                            "system_prompt_size": 19310,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_0d378299",
+                  "advisor_id": "adv_17dae803",
+                  "task_key_target": "构造反例证明上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-08T15:19:07.729662",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2701,
+                      "hire_cost": 24364,
+                      "advise_cost": 6858,
+                      "whole_cost": 70700,
+                      "execution_cost": 95403
+                    },
+                    "advisor": {
+                      "system_prompt_size": 45560,
+                      "whole_cost": 12365
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_0d378299",
+                    "agents": [
+                      {
+                        "agent_id": "emp_308be301",
+                        "advisor_id": "adv_4851faec",
+                        "task_key_target": "分析棋盘操作的不变量和约束",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-08T15:25:37.161020",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2907,
+                            "hire_cost": 8399,
+                            "advise_cost": 2129,
+                            "whole_cost": 38756,
+                            "execution_cost": 55925
+                          },
+                          "advisor": {
+                            "system_prompt_size": 21098,
+                            "whole_cost": 2601
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_308be301",
+                          "agents": [
+                            {
+                              "agent_id": "emp_42e07986",
+                              "advisor_id": "adv_8dff7d72",
+                              "task_key_target": "分析19×19棋盘操作的线性不变量",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-03-08T15:27:04.304029",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2907,
+                                  "hire_cost": 845,
+                                  "advise_cost": 1800,
+                                  "whole_cost": 25421,
+                                  "execution_cost": 22776
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 15532,
+                                  "whole_cost": 2273
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_42e07986",
+                                "agents": []
+                              }
+                            },
+                            {
+                              "agent_id": "emp_40f9afda",
+                              "advisor_id": "adv_ca277ea1",
+                              "task_key_target": "搜索限制黑色棋子数的线性不变量",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-03-08T15:29:19.043897",
+                              "hirable": true,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 2922,
+                                  "hire_cost": 0,
+                                  "advise_cost": 2845,
+                                  "whole_cost": 7766,
+                                  "execution_cost": 4921
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 28459,
+                                  "whole_cost": 16265
+                                }
+                              },
+                              "child_manager": {
+                                "manager_depth": 5,
+                                "parent_id": "emp_40f9afda",
+                                "agents": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_be86bd2c",
+            "advisor_id": "adv_c9e283f6",
+            "task_key_target": "构造坏配置证明上界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-08T15:20:21.060069",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2757,
+                "hire_cost": 15337,
+                "advise_cost": 4779,
+                "whole_cost": 110332,
+                "execution_cost": 114316
+              },
+              "advisor": {
+                "system_prompt_size": 52380,
+                "whole_cost": 101590
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_be86bd2c",
+              "agents": [
+                {
+                  "agent_id": "emp_faaf95d2",
+                  "advisor_id": "adv_cd8cb2eb",
+                  "task_key_target": "构造19×19矩阵C使得min_{u,v} W ≥ 180",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-08T15:21:40.900002",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3204,
+                      "hire_cost": 0,
+                      "advise_cost": 1271,
+                      "whole_cost": 25371,
+                      "execution_cost": 24100
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13240,
+                      "whole_cost": 103397
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_faaf95d2",
+                    "agents": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

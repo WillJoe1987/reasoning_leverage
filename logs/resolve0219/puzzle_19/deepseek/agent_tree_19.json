@@ -1,0 +1,238 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-25T15:27:37.689171",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 35697,
+          "advise_cost": 0,
+          "whole_cost": 108491,
+          "execution_cost": 351542
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_461394ef",
+            "advisor_id": "adv_c515a7bf",
+            "task_key_target": "分析S的最小值问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:27:51.634999",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2624,
+                "hire_cost": 21918,
+                "advise_cost": 1246,
+                "whole_cost": 55447,
+                "execution_cost": 137470
+              },
+              "advisor": {
+                "system_prompt_size": 9452,
+                "whole_cost": 1488
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_461394ef",
+              "agents": [
+                {
+                  "agent_id": "emp_d659468b",
+                  "advisor_id": "adv_29091d05",
+                  "task_key_target": "分析S的下界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:34:39.788037",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 670,
+                      "hire_cost": 0,
+                      "advise_cost": 1178,
+                      "whole_cost": 61440,
+                      "execution_cost": 60262
+                    },
+                    "advisor": {
+                      "system_prompt_size": 7260,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_8db84705",
+                  "advisor_id": "adv_fb965377",
+                  "task_key_target": "构造达到下界的序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:35:13.921348",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 619,
+                      "hire_cost": 0,
+                      "advise_cost": 679,
+                      "whole_cost": 45604,
+                      "execution_cost": 44925
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8700,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_62c4c28a",
+            "advisor_id": "adv_79d06290",
+            "task_key_target": "分析前缀和序列性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:28:10.673387",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2684,
+                "hire_cost": 249,
+                "advise_cost": 2773,
+                "whole_cost": 31756,
+                "execution_cost": 28734
+              },
+              "advisor": {
+                "system_prompt_size": 10246,
+                "whole_cost": 3067
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_62c4c28a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8405c128",
+            "advisor_id": "adv_9cf9ac6f",
+            "task_key_target": "构造达到S=998的序列",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:30:26.846217",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2583,
+                "hire_cost": 5233,
+                "advise_cost": 1683,
+                "whole_cost": 43196,
+                "execution_cost": 55833
+              },
+              "advisor": {
+                "system_prompt_size": 18078,
+                "whole_cost": 1883
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8405c128",
+              "agents": [
+                {
+                  "agent_id": "emp_b2ee4233",
+                  "advisor_id": "adv_c6cfda39",
+                  "task_key_target": "构造满足条件的序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T15:31:44.611499",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 625,
+                      "hire_cost": 0,
+                      "advise_cost": 716,
+                      "whole_cost": 20269,
+                      "execution_cost": 19553
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11212,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_969df3cf",
+            "advisor_id": "adv_1b1a9964",
+            "task_key_target": "计算不等式可行性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:35:00.702673",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 524,
+                "hire_cost": 0,
+                "advise_cost": 1979,
+                "whole_cost": 43482,
+                "execution_cost": 41503
+              },
+              "advisor": {
+                "system_prompt_size": 28550,
+                "whole_cost": 2208
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_fd1221a8",
+            "advisor_id": "adv_a91e2b55",
+            "task_key_target": "验证S=666是最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T15:39:57.547379",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 577,
+                "hire_cost": 0,
+                "advise_cost": 413,
+                "whole_cost": 15621,
+                "execution_cost": 15208
+              },
+              "advisor": {
+                "system_prompt_size": 52737,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

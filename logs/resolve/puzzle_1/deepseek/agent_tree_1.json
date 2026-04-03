@@ -1,0 +1,80 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-03-08T18:59:53.617253",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 16770,
+          "advise_cost": 0,
+          "whole_cost": 79559,
+          "execution_cost": 173798
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_6ec10e69",
+            "advisor_id": "adv_500e7622",
+            "task_key_target": "验证最大等腰三角形自由集",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-08T19:03:42.281348",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 608,
+                "hire_cost": 0,
+                "advise_cost": 4675,
+                "whole_cost": 64158,
+                "execution_cost": 59483
+              },
+              "advisor": {
+                "system_prompt_size": 31674,
+                "whole_cost": 62905
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_4e0c2942",
+            "advisor_id": "adv_eadcf40e",
+            "task_key_target": "构造严谨的组合证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-08T19:08:49.892644",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 628,
+                "hire_cost": 0,
+                "advise_cost": 2393,
+                "whole_cost": 53919,
+                "execution_cost": 51526
+              },
+              "advisor": {
+                "system_prompt_size": 52588,
+                "whole_cost": 2611
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

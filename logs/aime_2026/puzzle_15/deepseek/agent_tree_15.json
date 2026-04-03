@@ -1,0 +1,373 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-03-02T13:22:39.744859",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 34990,
+          "advise_cost": 0,
+          "whole_cost": 148818,
+          "execution_cost": 1174109
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d85a5f88",
+            "advisor_id": "adv_9c7764a3",
+            "task_key_target": "枚举可能的环大小",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T13:23:17.393727",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2644,
+                "hire_cost": 11933,
+                "advise_cost": 646,
+                "whole_cost": 169829,
+                "execution_cost": 424508
+              },
+              "advisor": {
+                "system_prompt_size": 14842,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d85a5f88",
+              "agents": [
+                {
+                  "agent_id": "emp_a92daa6f",
+                  "advisor_id": "adv_f5482cc8",
+                  "task_key_target": "分析环在10×10网格中的布局可行性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:25:08.518653",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2738,
+                      "hire_cost": 8281,
+                      "advise_cost": 3822,
+                      "whole_cost": 73928,
+                      "execution_cost": 267258
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25644,
+                      "whole_cost": 34239
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_a92daa6f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_5973767a",
+                        "advisor_id": "adv_e97aa1ad",
+                        "task_key_target": "分析并排环布局的可行性",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T13:27:42.476956",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 701,
+                            "hire_cost": 0,
+                            "advise_cost": 8476,
+                            "whole_cost": 73471,
+                            "execution_cost": 64995
+                          },
+                          "advisor": {
+                            "system_prompt_size": 24661,
+                            "whole_cost": 51424
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_76180e37",
+                        "advisor_id": "adv_6a8ca10b",
+                        "task_key_target": "开发环布局验证算法",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-03-02T13:27:53.930812",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 720,
+                            "hire_cost": 0,
+                            "advise_cost": 5823,
+                            "whole_cost": 146261,
+                            "execution_cost": 140438
+                          },
+                          "advisor": {
+                            "system_prompt_size": 25590,
+                            "whole_cost": 142197
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_036e6a8b",
+            "advisor_id": "adv_a987f479",
+            "task_key_target": "分析环的几何结构和布局",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T13:25:49.739615",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2677,
+                "hire_cost": 2811,
+                "advise_cost": 4482,
+                "whole_cost": 50867,
+                "execution_cost": 72934
+              },
+              "advisor": {
+                "system_prompt_size": 26421,
+                "whole_cost": 40357
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_036e6a8b",
+              "agents": [
+                {
+                  "agent_id": "emp_e7d33b60",
+                  "advisor_id": "adv_a66ff560",
+                  "task_key_target": "分析10×10网格环布局模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:29:52.594442",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 763,
+                      "hire_cost": 0,
+                      "advise_cost": 297,
+                      "whole_cost": 29657,
+                      "execution_cost": 29360
+                    },
+                    "advisor": {
+                      "system_prompt_size": 36786,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1192cf39",
+            "advisor_id": "adv_fa191644",
+            "task_key_target": "探索环的布局模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T13:28:54.838356",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 30563,
+                "advise_cost": 9277,
+                "whole_cost": 117829,
+                "execution_cost": 329278
+              },
+              "advisor": {
+                "system_prompt_size": 40569,
+                "whole_cost": 71627
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1192cf39",
+              "agents": [
+                {
+                  "agent_id": "emp_b305bf1b",
+                  "advisor_id": "adv_13ce4e3d",
+                  "task_key_target": "完全嵌套模式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:34:34.314379",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1041,
+                      "hire_cost": 0,
+                      "advise_cost": 645,
+                      "whole_cost": 48127,
+                      "execution_cost": 47482
+                    },
+                    "advisor": {
+                      "system_prompt_size": 42911,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_31b94fa1",
+                  "advisor_id": "adv_24cc914f",
+                  "task_key_target": "分割模式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:34:52.389073",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1153,
+                      "hire_cost": 0,
+                      "advise_cost": 22280,
+                      "whole_cost": 132591,
+                      "execution_cost": 110311
+                    },
+                    "advisor": {
+                      "system_prompt_size": 44196,
+                      "whole_cost": 127463
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_21138ba5",
+                  "advisor_id": "adv_82982c89",
+                  "task_key_target": "约束满足求解器开发",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:35:14.484853",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1330,
+                      "hire_cost": 0,
+                      "advise_cost": 2186,
+                      "whole_cost": 6430,
+                      "execution_cost": 4244
+                    },
+                    "advisor": {
+                      "system_prompt_size": 45462,
+                      "whole_cost": 87941
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_3e973b80",
+                  "advisor_id": "adv_0206b124",
+                  "task_key_target": "简化网格分析和边界估计",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:41:46.298893",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1229,
+                      "hire_cost": 0,
+                      "advise_cost": 8908,
+                      "whole_cost": 98160,
+                      "execution_cost": 89252
+                    },
+                    "advisor": {
+                      "system_prompt_size": 78350,
+                      "whole_cost": 96790
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e1e9924b",
+            "advisor_id": "adv_d24b972c",
+            "task_key_target": "计数有效划分方式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-03-02T13:40:28.718826",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2840,
+                "hire_cost": 6940,
+                "advise_cost": 1004,
+                "whole_cost": 141300,
+                "execution_cost": 233561
+              },
+              "advisor": {
+                "system_prompt_size": 82094,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e1e9924b",
+              "agents": [
+                {
+                  "agent_id": "emp_9488a2a4",
+                  "advisor_id": "adv_a4ecaa98",
+                  "task_key_target": "开发全面验证和计数系统",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-03-02T13:41:16.913404",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2939,
+                      "hire_cost": 2385,
+                      "advise_cost": 8961,
+                      "whole_cost": 111551,
+                      "execution_cost": 100205
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30731,
+                      "whole_cost": 94260
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9488a2a4",
+                    "agents": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

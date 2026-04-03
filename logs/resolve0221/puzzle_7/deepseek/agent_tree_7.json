@@ -1,0 +1,191 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T17:17:54.329785",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 17839,
+          "advise_cost": 0,
+          "whole_cost": 57752,
+          "execution_cost": 304689
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_50710fa4",
+            "advisor_id": "adv_ddd96392",
+            "task_key_target": "分析表达式数学结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:18:03.697956",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2581,
+                "hire_cost": 10292,
+                "advise_cost": 2282,
+                "whole_cost": 36713,
+                "execution_cost": 49927
+              },
+              "advisor": {
+                "system_prompt_size": 13401,
+                "whole_cost": 2508
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_50710fa4",
+              "agents": [
+                {
+                  "agent_id": "emp_be42f2b6",
+                  "advisor_id": "adv_426870a3",
+                  "task_key_target": "数值计算F(n)的值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T17:20:55.947999",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 665,
+                      "hire_cost": 0,
+                      "advise_cost": 2789,
+                      "whole_cost": 28577,
+                      "execution_cost": 25788
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8585,
+                      "whole_cost": 3116
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_dee1d9db",
+            "advisor_id": "adv_26ac21f5",
+            "task_key_target": "分析模32的理论性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:19:08.311043",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2616,
+                "hire_cost": 11939,
+                "advise_cost": 2386,
+                "whole_cost": 45436,
+                "execution_cost": 110564
+              },
+              "advisor": {
+                "system_prompt_size": 23594,
+                "whole_cost": 2639
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dee1d9db",
+              "agents": [
+                {
+                  "agent_id": "emp_d551b13e",
+                  "advisor_id": "adv_a96e3078",
+                  "task_key_target": "数值计算与模式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T17:20:08.404132",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 754,
+                      "hire_cost": 0,
+                      "advise_cost": 2491,
+                      "whole_cost": 81944,
+                      "execution_cost": 79453
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19057,
+                      "whole_cost": 2924
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6f032ed8",
+            "advisor_id": "adv_fa4080e5",
+            "task_key_target": "证明floor(A)总是偶数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T17:19:55.529759",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2575,
+                "hire_cost": 8271,
+                "advise_cost": 1953,
+                "whole_cost": 79011,
+                "execution_cost": 104285
+              },
+              "advisor": {
+                "system_prompt_size": 36822,
+                "whole_cost": 2159
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6f032ed8",
+              "agents": [
+                {
+                  "agent_id": "emp_b7b93025",
+                  "advisor_id": "adv_fc658564",
+                  "task_key_target": "分析v2不等式关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T17:21:29.257273",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 671,
+                      "hire_cost": 0,
+                      "advise_cost": 659,
+                      "whole_cost": 36157,
+                      "execution_cost": 35498
+                    },
+                    "advisor": {
+                      "system_prompt_size": 57226,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

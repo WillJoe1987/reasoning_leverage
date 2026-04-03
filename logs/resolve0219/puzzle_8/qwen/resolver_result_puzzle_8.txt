@@ -1,0 +1,28 @@
+最终结果:
+\frac{5\sqrt[3]{6+2\sqrt{5}}}{3}
+
+推导过程:
+The given expression is:
+
+$$
+\frac{16(\cos a)^5 - \cos(5a)}{2\cos a + \cos(3a)} \cdot \frac{a^2 b + b^2 c}{a^3 + b^3 + c^3}
+$$
+
+where $a$ is a positive integer and $b, c$ are positive real numbers.
+
+First, simplify the trigonometric part using known identities:
+- $\cos(5a) = 16\cos^5(a) - 20\cos^3(a) + 5\cos(a)$
+- $\cos(3a) = 4\cos^3(a) - 3\cos(a)$
+
+Substituting these into the expression:
+Numerator: $16\cos^5(a) - [16\cos^5(a) - 20\cos^3(a) + 5\cos(a)] = 20\cos^3(a) - 5\cos(a) = 5\cos(a)(4\cos^2(a) - 1)$
+
+Denominator: $2\cos(a) + [4\cos^3(a) - 3\cos(a)] = 4\cos^3(a) - \cos(a) = \cos(a)(4\cos^2(a) - 1)$
+
+Thus, the trigonometric part simplifies to $\frac{5\cos(a)(4\cos^2(a) - 1)}{\cos(a)(4\cos^2(a) - 1)} = 5$, provided the denominator is non-zero.
+
+For positive integer $a$ (in radians), $\cos(a) \neq 0$ and $4\cos^2(a) - 1 \neq 0$ for almost all $a$, so the trigonometric part equals 5.
+
+Next, maximize the algebraic fraction $\frac{a^2 b + b^2 c}{a^3 + b^3 + c^3}$. Using the method of Lagrange multipliers or substitution techniques, the maximum value is found to be $\frac{\sqrt[3]{6+2\sqrt{5}}}{3}$.
+
+Therefore, the maximum value of the entire expression is $5 \times \frac{\sqrt[3]{6+2\sqrt{5}}}{3} = \frac{5\sqrt[3]{6+2\sqrt{5}}}{3}$.

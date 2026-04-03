@@ -1,0 +1,144 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T01:48:16.950244",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 13615,
+          "advise_cost": 0,
+          "whole_cost": 133002,
+          "execution_cost": 204508
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_357ea043",
+            "advisor_id": "adv_523f5506",
+            "task_key_target": "分析组合和式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:48:27.084391",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2635,
+                "hire_cost": 0,
+                "advise_cost": 2981,
+                "whole_cost": 22527,
+                "execution_cost": 19546
+              },
+              "advisor": {
+                "system_prompt_size": 12584,
+                "whole_cost": 3250
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_357ea043",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_f3f39f00",
+            "advisor_id": "adv_13465698",
+            "task_key_target": "单位根方法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:48:40.818832",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2694,
+                "hire_cost": 0,
+                "advise_cost": 3309,
+                "whole_cost": 26115,
+                "execution_cost": 22806
+              },
+              "advisor": {
+                "system_prompt_size": 12502,
+                "whole_cost": 3665
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f3f39f00",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_d358e7b8",
+            "advisor_id": "adv_030a522a",
+            "task_key_target": "严格证明组合恒等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:50:01.148306",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2666,
+                "hire_cost": 0,
+                "advise_cost": 2278,
+                "whole_cost": 23338,
+                "execution_cost": 21060
+              },
+              "advisor": {
+                "system_prompt_size": 21580,
+                "whole_cost": 2568
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d358e7b8",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_4eb96a81",
+            "advisor_id": "adv_3111b16b",
+            "task_key_target": "分解大整数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T01:51:05.387957",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2584,
+                "hire_cost": 0,
+                "advise_cost": 2059,
+                "whole_cost": 23768,
+                "execution_cost": 21709
+              },
+              "advisor": {
+                "system_prompt_size": 31201,
+                "whole_cost": 2285
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4eb96a81",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T19:16:08.287047",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 32740,
+          "advise_cost": 0,
+          "whole_cost": 132301,
+          "execution_cost": 521703
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_eee0686e",
+            "advisor_id": "adv_f2d45cbe",
+            "task_key_target": "分析第一个条件方程",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:16:17.229990",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2611,
+                "hire_cost": 17068,
+                "advise_cost": 2128,
+                "whole_cost": 73815,
+                "execution_cost": 177295
+              },
+              "advisor": {
+                "system_prompt_size": 13142,
+                "whole_cost": 2374
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eee0686e",
+              "agents": [
+                {
+                  "agent_id": "emp_0922a07e",
+                  "advisor_id": "adv_3d969ffb",
+                  "task_key_target": "代数分析xy+xz+yz与u,v,w的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:19:29.749289",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 665,
+                      "hire_cost": 0,
+                      "advise_cost": 706,
+                      "whole_cost": 45570,
+                      "execution_cost": 44864
+                    },
+                    "advisor": {
+                      "system_prompt_size": 35491,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a299c0f8",
+                  "advisor_id": "adv_a4e31a2e",
+                  "task_key_target": "数值探索xy+xz+yz与u,v,w的关系",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:22:37.214654",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 659,
+                      "hire_cost": 0,
+                      "advise_cost": 842,
+                      "whole_cost": 78654,
+                      "execution_cost": 77812
+                    },
+                    "advisor": {
+                      "system_prompt_size": 52651,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_18e76c3b",
+            "advisor_id": "adv_e038adec",
+            "task_key_target": "分析变量变换和关系",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:17:30.024726",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2630,
+                "hire_cost": 0,
+                "advise_cost": 4202,
+                "whole_cost": 60549,
+                "execution_cost": 56347
+              },
+              "advisor": {
+                "system_prompt_size": 15473,
+                "whole_cost": 4463
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_18e76c3b",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_a6d2c5be",
+            "advisor_id": "adv_c05da786",
+            "task_key_target": "探索非对称情况y≠z",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:20:07.516733",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2701,
+                "hire_cost": 0,
+                "advise_cost": 1709,
+                "whole_cost": 61393,
+                "execution_cost": 59684
+              },
+              "advisor": {
+                "system_prompt_size": 30947,
+                "whole_cost": 2052
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a6d2c5be",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_aa74916e",
+            "advisor_id": "adv_052d9620",
+            "task_key_target": "寻找解析解和精确最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T19:25:55.428748",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2726,
+                "hire_cost": 11012,
+                "advise_cost": 2730,
+                "whole_cost": 68826,
+                "execution_cost": 128816
+              },
+              "advisor": {
+                "system_prompt_size": 83929,
+                "whole_cost": 3094
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_aa74916e",
+              "agents": [
+                {
+                  "agent_id": "emp_d5256eff",
+                  "advisor_id": "adv_4d348acd",
+                  "task_key_target": "符号计算和代数推导",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T19:27:30.245201",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 972,
+                      "hire_cost": 0,
+                      "advise_cost": 783,
+                      "whole_cost": 74515,
+                      "execution_cost": 73732
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19824,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

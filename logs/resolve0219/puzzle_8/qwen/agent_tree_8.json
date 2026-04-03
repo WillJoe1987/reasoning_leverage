@@ -1,0 +1,71 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T23:05:46.892904",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 5512,
+          "advise_cost": 0,
+          "whole_cost": 36007
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b56fbf2b",
+            "advisor_id": "adv_9be4ed20",
+            "task_key_target": "Trigonometric simplification",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T23:06:04.994023",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 544,
+                "hire_cost": 0,
+                "advise_cost": 1146,
+                "whole_cost": 2167
+              },
+              "advisor": {
+                "system_prompt_size": 7555,
+                "whole_cost": 1493
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_d03d8f20",
+            "advisor_id": "adv_9b172464",
+            "task_key_target": "Algebraic maximization",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T23:07:04.663673",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 733,
+                "hire_cost": 0,
+                "advise_cost": 2150,
+                "whole_cost": 2751
+              },
+              "advisor": {
+                "system_prompt_size": 9430,
+                "whole_cost": 2565
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

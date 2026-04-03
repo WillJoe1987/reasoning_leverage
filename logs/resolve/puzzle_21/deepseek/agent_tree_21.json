@@ -1,0 +1,166 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T22:25:28.788632",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 12956,
+          "advise_cost": 0,
+          "whole_cost": 123205,
+          "execution_cost": 320436
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_94189bf2",
+            "advisor_id": "adv_84ba183a",
+            "task_key_target": "分析分式表达式性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:25:47.728209",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2727,
+                "hire_cost": 3449,
+                "advise_cost": 3421,
+                "whole_cost": 57756,
+                "execution_cost": 94409
+              },
+              "advisor": {
+                "system_prompt_size": 14367,
+                "whole_cost": 3777
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_94189bf2",
+              "agents": [
+                {
+                  "agent_id": "emp_760ebced",
+                  "advisor_id": "adv_6048371a",
+                  "task_key_target": "证明F(z)=3z+1恒等式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:28:36.795451",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 715,
+                      "hire_cost": 0,
+                      "advise_cost": 670,
+                      "whole_cost": 44193,
+                      "execution_cost": 43523
+                    },
+                    "advisor": {
+                      "system_prompt_size": 47822,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b82af321",
+            "advisor_id": "adv_eb952187",
+            "task_key_target": "分析丢番图方程 x² - 7y⁴ = z",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:25:54.311104",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2615,
+                "hire_cost": 6936,
+                "advise_cost": 1794,
+                "whole_cost": 50029,
+                "execution_cost": 88729
+              },
+              "advisor": {
+                "system_prompt_size": 13541,
+                "whole_cost": 2038
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b82af321",
+              "agents": [
+                {
+                  "agent_id": "emp_9bd24241",
+                  "advisor_id": "adv_24631592",
+                  "task_key_target": "丢番图方程数值分析与模式识别",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:27:44.578426",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 654,
+                      "hire_cost": 0,
+                      "advise_cost": 1517,
+                      "whole_cost": 48947,
+                      "execution_cost": 47430
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29946,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e5f583c2",
+            "advisor_id": "adv_68ad9d60",
+            "task_key_target": "验证完整证明和结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:31:00.949482",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2924,
+                "hire_cost": 0,
+                "advise_cost": 2582,
+                "whole_cost": 29631,
+                "execution_cost": 27049
+              },
+              "advisor": {
+                "system_prompt_size": 122393,
+                "whole_cost": 3149
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e5f583c2",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

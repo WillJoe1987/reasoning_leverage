@@ -1,0 +1,238 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-05T14:33:22.847825",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3491,
+          "hire_cost": 29942,
+          "advise_cost": 0,
+          "whole_cost": 125780,
+          "execution_cost": 464296
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_3cc7e3a5",
+            "advisor_id": "adv_62c2af8f",
+            "task_key_target": "几何分析封装点性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T14:33:50.587714",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2662,
+                "hire_cost": 0,
+                "advise_cost": 2003,
+                "whole_cost": 6723,
+                "execution_cost": 4720
+              },
+              "advisor": {
+                "system_prompt_size": 14803,
+                "whole_cost": 2286
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3cc7e3a5",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_2f17ae6a",
+            "advisor_id": "adv_f99b0695",
+            "task_key_target": "组合拓扑分析最大封装点数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T14:34:00.645998",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2677,
+                "hire_cost": 23068,
+                "advise_cost": 2746,
+                "whole_cost": 84936,
+                "execution_cost": 218566
+              },
+              "advisor": {
+                "system_prompt_size": 13950,
+                "whole_cost": 3025
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2f17ae6a",
+              "agents": [
+                {
+                  "agent_id": "emp_9b70c865",
+                  "advisor_id": "adv_0a7082d0",
+                  "task_key_target": "一维情况最大封装点数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T14:35:55.629052",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 543,
+                      "hire_cost": 0,
+                      "advise_cost": 3044,
+                      "whole_cost": 63489,
+                      "execution_cost": 60445
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15159,
+                      "whole_cost": 3244
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0563863b",
+                  "advisor_id": "adv_f34eaca8",
+                  "task_key_target": "二维情况最大封装点数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T14:36:07.599540",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 598,
+                      "hire_cost": 0,
+                      "advise_cost": 736,
+                      "whole_cost": 21697,
+                      "execution_cost": 20961
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11614,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fbf1d441",
+                  "advisor_id": "adv_2df73e88",
+                  "task_key_target": "修正定义的d=1封装点分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T14:39:50.807917",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 558,
+                      "hire_cost": 0,
+                      "advise_cost": 521,
+                      "whole_cost": 78559,
+                      "execution_cost": 78038
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29422,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e03db5d8",
+            "advisor_id": "adv_748f63f3",
+            "task_key_target": "构造最大封装点配置",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-05T14:37:45.404809",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2666,
+                "hire_cost": 11535,
+                "advise_cost": 2410,
+                "whole_cost": 84738,
+                "execution_cost": 145172
+              },
+              "advisor": {
+                "system_prompt_size": 28571,
+                "whole_cost": 2699
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e03db5d8",
+              "agents": [
+                {
+                  "agent_id": "emp_0b82eb9e",
+                  "advisor_id": "adv_f392883e",
+                  "task_key_target": "分析d=2外部封装点上界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T14:45:14.166213",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 650,
+                      "hire_cost": 0,
+                      "advise_cost": 3036,
+                      "whole_cost": 44377,
+                      "execution_cost": 41341
+                    },
+                    "advisor": {
+                      "system_prompt_size": 37992,
+                      "whole_cost": 3344
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_2ce53983",
+                  "advisor_id": "adv_527dd1eb",
+                  "task_key_target": "构造d=2最大化配置",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-05T14:45:25.063314",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 601,
+                      "hire_cost": 0,
+                      "advise_cost": 2441,
+                      "whole_cost": 35479,
+                      "execution_cost": 33038
+                    },
+                    "advisor": {
+                      "system_prompt_size": 39721,
+                      "whole_cost": 2701
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

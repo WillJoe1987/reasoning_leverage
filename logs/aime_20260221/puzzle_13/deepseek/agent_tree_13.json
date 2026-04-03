@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:55:24.357387",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 21030,
+          "advise_cost": 0,
+          "whole_cost": 56968,
+          "execution_cost": 314220
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_39007772",
+            "advisor_id": "adv_f7a2c0a1",
+            "task_key_target": "生成函数分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:55:38.102718",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2600,
+                "hire_cost": 0,
+                "advise_cost": 2337,
+                "whole_cost": 25076,
+                "execution_cost": 22739
+              },
+              "advisor": {
+                "system_prompt_size": 13345,
+                "whole_cost": 2579
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_39007772",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_552076b4",
+            "advisor_id": "adv_2ec6d36e",
+            "task_key_target": "数论模运算分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:55:42.755121",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2576,
+                "hire_cost": 7138,
+                "advise_cost": 2593,
+                "whole_cost": 66916,
+                "execution_cost": 185550
+              },
+              "advisor": {
+                "system_prompt_size": 11999,
+                "whole_cost": 2812
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_552076b4",
+              "agents": [
+                {
+                  "agent_id": "emp_ff262ab7",
+                  "advisor_id": "adv_5db950f2",
+                  "task_key_target": "数值验证S_r模503性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:57:07.375635",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 606,
+                      "hire_cost": 0,
+                      "advise_cost": 968,
+                      "whole_cost": 129333,
+                      "execution_cost": 128365
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30484,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d8058f8c",
+            "advisor_id": "adv_1abf8073",
+            "task_key_target": "组合恒等式与对称性分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:55:47.197832",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2546,
+                "hire_cost": 5008,
+                "advise_cost": 1909,
+                "whole_cost": 32989,
+                "execution_cost": 48135
+              },
+              "advisor": {
+                "system_prompt_size": 12677,
+                "whole_cost": 2097
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d8058f8c",
+              "agents": [
+                {
+                  "agent_id": "emp_3d9750de",
+                  "advisor_id": "adv_049030d4",
+                  "task_key_target": "组合恒等式与生成函数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T17:56:45.137777",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 529,
+                      "hire_cost": 0,
+                      "advise_cost": 801,
+                      "whole_cost": 22864,
+                      "execution_cost": 22063
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16691,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6ce58b38",
+            "advisor_id": "adv_b22b9825",
+            "task_key_target": "验证最终结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:02:29.325089",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 533,
+                "hire_cost": 0,
+                "advise_cost": 3931,
+                "whole_cost": 25789,
+                "execution_cost": 21858
+              },
+              "advisor": {
+                "system_prompt_size": 58086,
+                "whole_cost": 4151
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

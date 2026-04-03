@@ -1,0 +1,238 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T22:16:12.968545",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22467,
+          "advise_cost": 0,
+          "whole_cost": 46924,
+          "execution_cost": 267522
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_af2cc805",
+            "advisor_id": "adv_29b27fd6",
+            "task_key_target": "组合图论问题分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:16:23.364689",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2730,
+                "hire_cost": 12569,
+                "advise_cost": 2805,
+                "whole_cost": 49113,
+                "execution_cost": 111551
+              },
+              "advisor": {
+                "system_prompt_size": 12873,
+                "whole_cost": 3175
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_af2cc805",
+              "agents": [
+                {
+                  "agent_id": "emp_fc0242c0",
+                  "advisor_id": "adv_7be041e6",
+                  "task_key_target": "矩阵代数方法分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:19:30.699376",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 758,
+                      "hire_cost": 0,
+                      "advise_cost": 604,
+                      "whole_cost": 28399,
+                      "execution_cost": 27795
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14329,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_3f72d333",
+                  "advisor_id": "adv_e5c445e1",
+                  "task_key_target": "图论正则性分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:19:38.998534",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 795,
+                      "hire_cost": 0,
+                      "advise_cost": 738,
+                      "whole_cost": 17640,
+                      "execution_cost": 16902
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11363,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_f00be0d6",
+                  "advisor_id": "adv_66ca2cc5",
+                  "task_key_target": "组合设计方法分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:19:46.603126",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 721,
+                      "hire_cost": 0,
+                      "advise_cost": 2602,
+                      "whole_cost": 35717,
+                      "execution_cost": 33115
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12391,
+                      "whole_cost": 3007
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9224e041",
+            "advisor_id": "adv_bdaa68ba",
+            "task_key_target": "代数组合方法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:16:37.911777",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2832,
+                "hire_cost": 0,
+                "advise_cost": 1452,
+                "whole_cost": 23156,
+                "execution_cost": 21704
+              },
+              "advisor": {
+                "system_prompt_size": 13031,
+                "whole_cost": 1915
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9224e041",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_385863c9",
+            "advisor_id": "adv_c142b36a",
+            "task_key_target": "关联方案分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:18:32.386151",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2728,
+                "hire_cost": 4332,
+                "advise_cost": 2097,
+                "whole_cost": 45534,
+                "execution_cost": 69736
+              },
+              "advisor": {
+                "system_prompt_size": 22710,
+                "whole_cost": 2473
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_385863c9",
+              "agents": [
+                {
+                  "agent_id": "emp_bcaeee1a",
+                  "advisor_id": "adv_8d17a9dc",
+                  "task_key_target": "关联方案理论分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:20:15.026931",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 810,
+                      "hire_cost": 0,
+                      "advise_cost": 744,
+                      "whole_cost": 31375,
+                      "execution_cost": 30631
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18892,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e3d70954",
+            "advisor_id": "adv_3b8323c6",
+            "task_key_target": "验证推导和结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:19:57.668486",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 756,
+                "hire_cost": 0,
+                "advise_cost": 1703,
+                "whole_cost": 41777,
+                "execution_cost": 40074
+              },
+              "advisor": {
+                "system_prompt_size": 26458,
+                "whole_cost": 2156
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

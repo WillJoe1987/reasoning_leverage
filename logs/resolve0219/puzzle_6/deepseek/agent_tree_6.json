@@ -1,0 +1,185 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T14:40:12.118488",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 56065,
+          "advise_cost": 0,
+          "whole_cost": 106424,
+          "execution_cost": 211753
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8d1359f5",
+            "advisor_id": "adv_1604b249",
+            "task_key_target": "分析小规模情况寻找规律",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T14:40:32.922333",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2665,
+                "hire_cost": 20630,
+                "advise_cost": 2006,
+                "whole_cost": 69990,
+                "execution_cost": 95829
+              },
+              "advisor": {
+                "system_prompt_size": 8531,
+                "whole_cost": 2472
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8d1359f5",
+              "agents": [
+                {
+                  "agent_id": "emp_aa8d615b",
+                  "advisor_id": "adv_729f2d7e",
+                  "task_key_target": "分析n=5及寻找一般规律",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T14:50:14.875230",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 689,
+                      "hire_cost": 0,
+                      "advise_cost": 3807,
+                      "whole_cost": 27964,
+                      "execution_cost": 24157
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9642,
+                      "whole_cost": 4166
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_9b249d9e",
+                  "advisor_id": "adv_f0f8caca",
+                  "task_key_target": "证明下界S_n = ∑⌊i²/2⌋",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T14:52:52.293687",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 610,
+                      "hire_cost": 0,
+                      "advise_cost": 563,
+                      "whole_cost": 24881,
+                      "execution_cost": 24318
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18287,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_4ec87146",
+            "advisor_id": "adv_e6426fec",
+            "task_key_target": "线性规划对偶分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T14:40:45.695420",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2721,
+                "hire_cost": 258,
+                "advise_cost": 1391,
+                "whole_cost": 42922,
+                "execution_cost": 41273
+              },
+              "advisor": {
+                "system_prompt_size": 10228,
+                "whole_cost": 1932
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_4ec87146",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0846fb0e",
+            "advisor_id": "adv_17fd47db",
+            "task_key_target": "精确求解n=3情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T14:41:31.646284",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 663,
+                "hire_cost": 0,
+                "advise_cost": 1870,
+                "whole_cost": 13074,
+                "execution_cost": 11204
+              },
+              "advisor": {
+                "system_prompt_size": 14265,
+                "whole_cost": 2218
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_1462f05d",
+            "advisor_id": "adv_fa2e468c",
+            "task_key_target": "验证构造解和最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T14:51:21.731101",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 962,
+                "hire_cost": 0,
+                "advise_cost": 447,
+                "whole_cost": 13535,
+                "execution_cost": 13088
+              },
+              "advisor": {
+                "system_prompt_size": 44001,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

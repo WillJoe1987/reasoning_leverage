@@ -1,0 +1,185 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-30T10:53:08.182784",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3346,
+          "hire_cost": 15205,
+          "advise_cost": 0,
+          "whole_cost": 42364,
+          "execution_cost": 100745
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_fdec9f11",
+            "advisor_id": "adv_1de62064",
+            "task_key_target": "分析照片关系结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:53:20.613011",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2537,
+                "hire_cost": 21699,
+                "advise_cost": 3213,
+                "whole_cost": 42771,
+                "execution_cost": 64324
+              },
+              "advisor": {
+                "system_prompt_size": 10401,
+                "whole_cost": 3374
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_fdec9f11",
+              "agents": [
+                {
+                  "agent_id": "emp_bb2247c4",
+                  "advisor_id": "adv_31a4d96b",
+                  "task_key_target": "系统化组合分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T10:56:40.050279",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 693,
+                      "hire_cost": 0,
+                      "advise_cost": 741,
+                      "whole_cost": 15743,
+                      "execution_cost": 15002
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11070,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_4bc4d504",
+                  "advisor_id": "adv_4843659f",
+                  "task_key_target": "验证26人构造和证明",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T11:00:01.408830",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 823,
+                      "hire_cost": 0,
+                      "advise_cost": 754,
+                      "whole_cost": 21737,
+                      "execution_cost": 20983
+                    },
+                    "advisor": {
+                      "system_prompt_size": 21646,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_3da9c32a",
+                  "advisor_id": "adv_9c317ea6",
+                  "task_key_target": "分析女儿不能与父亲同兄弟群的约束",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-30T11:01:18.793763",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 709,
+                      "hire_cost": 0,
+                      "advise_cost": 755,
+                      "whole_cost": 11235,
+                      "execution_cost": 10480
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30365,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_86d257d6",
+            "advisor_id": "adv_172d33db",
+            "task_key_target": "图论建模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:53:27.167119",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2504,
+                "hire_cost": 0,
+                "advise_cost": 9914,
+                "whole_cost": 11243,
+                "execution_cost": 1329
+              },
+              "advisor": {
+                "system_prompt_size": 9740,
+                "whole_cost": 10060
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_86d257d6",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_8010033a",
+            "advisor_id": "adv_36145e3a",
+            "task_key_target": "验证最小人数证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-30T10:56:20.783407",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 614,
+                "hire_cost": 0,
+                "advise_cost": 874,
+                "whole_cost": 8807,
+                "execution_cost": 7933
+              },
+              "advisor": {
+                "system_prompt_size": 15028,
+                "whole_cost": 1177
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

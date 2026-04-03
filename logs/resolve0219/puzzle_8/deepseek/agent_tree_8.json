@@ -1,0 +1,186 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-22T09:57:27.257540",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2966,
+          "hire_cost": 17164,
+          "advise_cost": 0,
+          "whole_cost": 94508,
+          "execution_cost": 221534
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_f68082b7",
+            "advisor_id": "adv_c4120719",
+            "task_key_target": "分析三角表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T09:57:38.813721",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2571,
+                "hire_cost": 9780,
+                "advise_cost": 750,
+                "whole_cost": 26107,
+                "execution_cost": 30777
+              },
+              "advisor": {
+                "system_prompt_size": 9128,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f68082b7",
+              "agents": [
+                {
+                  "agent_id": "emp_f7a7be1b",
+                  "advisor_id": "adv_aee7ec3c",
+                  "task_key_target": "数值分析和最大值寻找",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T09:58:49.522233",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 542,
+                      "hire_cost": 0,
+                      "advise_cost": 2543,
+                      "whole_cost": 17743,
+                      "execution_cost": 15200
+                    },
+                    "advisor": {
+                      "system_prompt_size": 10636,
+                      "whole_cost": 2745
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b8e33537",
+            "advisor_id": "adv_fe029ebc",
+            "task_key_target": "分析代数表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T09:57:46.532218",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2594,
+                "hire_cost": 45359,
+                "advise_cost": 2134,
+                "whole_cost": 93304,
+                "execution_cost": 93055
+              },
+              "advisor": {
+                "system_prompt_size": 9250,
+                "whole_cost": 2338
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b8e33537",
+              "agents": [
+                {
+                  "agent_id": "emp_26f3d1a5",
+                  "advisor_id": "adv_88e3cde9",
+                  "task_key_target": "不等式分析与上界确定",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:00:48.659562",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 648,
+                      "hire_cost": 0,
+                      "advise_cost": 1839,
+                      "whole_cost": 16151,
+                      "execution_cost": 14312
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13023,
+                      "whole_cost": 2177
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_25bfad12",
+                  "advisor_id": "adv_10ef5311",
+                  "task_key_target": "代数表达式不等式分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-22T10:08:42.133909",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 640,
+                      "hire_cost": 0,
+                      "advise_cost": 3428,
+                      "whole_cost": 36360,
+                      "execution_cost": 32932
+                    },
+                    "advisor": {
+                      "system_prompt_size": 47584,
+                      "whole_cost": 3700
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_79f7c94b",
+            "advisor_id": "adv_dab268b1",
+            "task_key_target": "验证最终结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-22T10:12:03.655944",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 772,
+                "hire_cost": 0,
+                "advise_cost": 3112,
+                "whole_cost": 23470,
+                "execution_cost": 20358
+              },
+              "advisor": {
+                "system_prompt_size": 76569,
+                "whole_cost": 3561
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

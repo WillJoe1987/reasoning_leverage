@@ -1,0 +1,50 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-05T23:00:03.663918",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 7374,
+          "advise_cost": 0,
+          "whole_cost": 28698
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9847aab2",
+            "advisor_id": "adv_87ea3189",
+            "task_key_target": "Calculate floor(n!/(n+1)(n+2)) mod 32 for various n",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-05T23:01:10.454385",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 420,
+                "hire_cost": 0,
+                "advise_cost": 1466,
+                "whole_cost": 4982
+              },
+              "advisor": {
+                "system_prompt_size": 8240,
+                "whole_cost": 1666
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T00:36:37.602338",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 43294,
+          "advise_cost": 0,
+          "whole_cost": 101882,
+          "execution_cost": 423226
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9ca293d1",
+            "advisor_id": "adv_e8b0f44c",
+            "task_key_target": "生成函数模分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:36:57.258434",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2744,
+                "hire_cost": 7760,
+                "advise_cost": 2682,
+                "whole_cost": 39148,
+                "execution_cost": 52314
+              },
+              "advisor": {
+                "system_prompt_size": 20558,
+                "whole_cost": 3045
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9ca293d1",
+              "agents": [
+                {
+                  "agent_id": "emp_7346e9f3",
+                  "advisor_id": "adv_3d91af04",
+                  "task_key_target": "代数恒等式变换",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:38:18.392139",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 688,
+                      "hire_cost": 0,
+                      "advise_cost": 675,
+                      "whole_cost": 24283,
+                      "execution_cost": 23608
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15789,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b8eabc09",
+            "advisor_id": "adv_97d4f619",
+            "task_key_target": "数值验证与模式发现",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:37:06.451219",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2960,
+                "hire_cost": 30817,
+                "advise_cost": 1699,
+                "whole_cost": 97643,
+                "execution_cost": 271184
+              },
+              "advisor": {
+                "system_prompt_size": 19966,
+                "whole_cost": 2274
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b8eabc09",
+              "agents": [
+                {
+                  "agent_id": "emp_9a48c20c",
+                  "advisor_id": "adv_52ab5a64",
+                  "task_key_target": "计算生成函数系数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:38:31.390868",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 591,
+                      "hire_cost": 0,
+                      "advise_cost": 838,
+                      "whole_cost": 86364,
+                      "execution_cost": 85526
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14382,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_8d177f19",
+                  "advisor_id": "adv_bb9b6c41",
+                  "task_key_target": "计算更大的 \\(\\bar{R_6^*}(n)\\) 值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:42:24.552766",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 780,
+                      "hire_cost": 0,
+                      "advise_cost": 997,
+                      "whole_cost": 99314,
+                      "execution_cost": 98317
+                    },
+                    "advisor": {
+                      "system_prompt_size": 55968,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_f2a3f736",
+                  "advisor_id": "adv_ea00e854",
+                  "task_key_target": "计算特定n值的 \\(\\bar{R_6^*}(n)\\)",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:50:05.842128",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 817,
+                      "hire_cost": 0,
+                      "advise_cost": 814,
+                      "whole_cost": 23028,
+                      "execution_cost": 22214
+                    },
+                    "advisor": {
+                      "system_prompt_size": 97892,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2bc6373f",
+            "advisor_id": "adv_8bcbb096",
+            "task_key_target": "恒等式分析与应用",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:39:44.298226",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2663,
+                "hire_cost": 0,
+                "advise_cost": 3009,
+                "whole_cost": 29424,
+                "execution_cost": 26415
+              },
+              "advisor": {
+                "system_prompt_size": 26504,
+                "whole_cost": 3296
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2bc6373f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_851365d6",
+            "advisor_id": "adv_c362eaa0",
+            "task_key_target": "快速数值验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:52:08.561076",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 877,
+                "hire_cost": 0,
+                "advise_cost": 2540,
+                "whole_cost": 17265,
+                "execution_cost": 14725
+              },
+              "advisor": {
+                "system_prompt_size": 117860,
+                "whole_cost": 3090
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

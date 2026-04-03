@@ -1,0 +1,243 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-27T10:03:16.191456",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 34121,
+          "advise_cost": 0,
+          "whole_cost": 89914,
+          "execution_cost": 303583
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_bce9f31d",
+            "advisor_id": "adv_5b97d1b3",
+            "task_key_target": "分析指数丢番图方程解的结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T10:03:28.572478",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2634,
+                "hire_cost": 18634,
+                "advise_cost": 2488,
+                "whole_cost": 63048,
+                "execution_cost": 104055
+              },
+              "advisor": {
+                "system_prompt_size": 8939,
+                "whole_cost": 2764
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bce9f31d",
+              "agents": [
+                {
+                  "agent_id": "emp_5cf956df",
+                  "advisor_id": "adv_062e5eb9",
+                  "task_key_target": "验证2的幂构造解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T10:07:53.973856",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 581,
+                      "hire_cost": 0,
+                      "advise_cost": 755,
+                      "whole_cost": 11453,
+                      "execution_cost": 10698
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12372,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_08e539cb",
+                  "advisor_id": "adv_0a19d8c9",
+                  "task_key_target": "模运算分析必要条件",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T10:08:02.613663",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 596,
+                      "hire_cost": 0,
+                      "advise_cost": 2796,
+                      "whole_cost": 31911,
+                      "execution_cost": 29115
+                    },
+                    "advisor": {
+                      "system_prompt_size": 8309,
+                      "whole_cost": 3044
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_20dfcb54",
+                  "advisor_id": "adv_eeba0a07",
+                  "task_key_target": "探索其他形式解和缩放性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T10:08:10.181454",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 539,
+                      "hire_cost": 0,
+                      "advise_cost": 699,
+                      "whole_cost": 23015,
+                      "execution_cost": 22316
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9122,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8a62187d",
+            "advisor_id": "adv_cd502c24",
+            "task_key_target": "寻找具体解和构造方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T10:04:46.655381",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2652,
+                "hire_cost": 9208,
+                "advise_cost": 1668,
+                "whole_cost": 86106,
+                "execution_cost": 134508
+              },
+              "advisor": {
+                "system_prompt_size": 12139,
+                "whole_cost": 1948
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8a62187d",
+              "agents": [
+                {
+                  "agent_id": "emp_9f9ef94d",
+                  "advisor_id": "adv_5d46a25a",
+                  "task_key_target": "寻找方程 x^999 + y^1000 = z^1001 的参数化解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-27T10:07:36.644150",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2968,
+                      "hire_cost": 9164,
+                      "advise_cost": 625,
+                      "whole_cost": 46795,
+                      "execution_cost": 59278
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18473,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9f9ef94d",
+                    "agents": [
+                      {
+                        "agent_id": "emp_4b9966ca",
+                        "advisor_id": "adv_4701dc65",
+                        "task_key_target": "探索方程 x^999 + y^1000 = z^1001 的其他参数化构造方法",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-27T10:11:02.370407",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 654,
+                            "hire_cost": 0,
+                            "advise_cost": 3419,
+                            "whole_cost": 25691,
+                            "execution_cost": 22272
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10407,
+                            "whole_cost": 10701
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a15e9972",
+            "advisor_id": "adv_cb21169c",
+            "task_key_target": "验证解的正确性和完备性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-27T10:07:13.708861",
+            "hirable": true,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2682,
+                "hire_cost": 0,
+                "advise_cost": 1691,
+                "whole_cost": 10918,
+                "execution_cost": 9227
+              },
+              "advisor": {
+                "system_prompt_size": 22970,
+                "whole_cost": 1999
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a15e9972",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

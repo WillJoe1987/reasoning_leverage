@@ -1,0 +1,330 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T02:12:26.719088",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 29574,
+          "advise_cost": 0,
+          "whole_cost": 114477,
+          "execution_cost": 787477
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0ebc3a00",
+            "advisor_id": "adv_1e7f5182",
+            "task_key_target": "问题澄清与数学建模",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:12:42.268045",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2977,
+                "hire_cost": 8588,
+                "advise_cost": 2136,
+                "whole_cost": 40960,
+                "execution_cost": 92052
+              },
+              "advisor": {
+                "system_prompt_size": 13015,
+                "whole_cost": 2752
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0ebc3a00",
+              "agents": [
+                {
+                  "agent_id": "emp_5be7ff36",
+                  "advisor_id": "adv_acb309b3",
+                  "task_key_target": "小规模立方体分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:13:58.030971",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 574,
+                      "hire_cost": 0,
+                      "advise_cost": 2885,
+                      "whole_cost": 64701,
+                      "execution_cost": 61816
+                    },
+                    "advisor": {
+                      "system_prompt_size": 16227,
+                      "whole_cost": 2899
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_76a22463",
+            "advisor_id": "adv_9bd46508",
+            "task_key_target": "小规模n的探索与模式发现",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:12:58.613690",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2678,
+                "hire_cost": 6614,
+                "advise_cost": 2045,
+                "whole_cost": 53239,
+                "execution_cost": 107084
+              },
+              "advisor": {
+                "system_prompt_size": 14437,
+                "whole_cost": 2357
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_76a22463",
+              "agents": [
+                {
+                  "agent_id": "emp_12d3609b",
+                  "advisor_id": "adv_9e1b5ef7",
+                  "task_key_target": "n=3哈密顿路径优化",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:14:56.336380",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 546,
+                      "hire_cost": 0,
+                      "advise_cost": 837,
+                      "whole_cost": 63341,
+                      "execution_cost": 62504
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23390,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_89189ad5",
+            "advisor_id": "adv_58695ba2",
+            "task_key_target": "上界分析与理论证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:14:12.500012",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2697,
+                "hire_cost": 0,
+                "advise_cost": 4349,
+                "whole_cost": 62311,
+                "execution_cost": 57962
+              },
+              "advisor": {
+                "system_prompt_size": 13756,
+                "whole_cost": 29083
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_89189ad5",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_008f7e0e",
+            "advisor_id": "adv_4f5db87c",
+            "task_key_target": "路径构造与验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:15:40.585207",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2609,
+                "hire_cost": 4220,
+                "advise_cost": 4461,
+                "whole_cost": 90085,
+                "execution_cost": 144079
+              },
+              "advisor": {
+                "system_prompt_size": 18988,
+                "whole_cost": 4710
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_008f7e0e",
+              "agents": [
+                {
+                  "agent_id": "emp_12e0daf9",
+                  "advisor_id": "adv_78560b98",
+                  "task_key_target": "n=3哈密顿路径搜索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:20:31.113353",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 614,
+                      "hire_cost": 0,
+                      "advise_cost": 737,
+                      "whole_cost": 63412,
+                      "execution_cost": 62675
+                    },
+                    "advisor": {
+                      "system_prompt_size": 63880,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_046575a2",
+            "advisor_id": "adv_d7d6d327",
+            "task_key_target": "算法搜索最优路径",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T02:17:36.826940",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2582,
+                "hire_cost": 11841,
+                "advise_cost": 1878,
+                "whole_cost": 125963,
+                "execution_cost": 301397
+              },
+              "advisor": {
+                "system_prompt_size": 40894,
+                "whole_cost": 2094
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_046575a2",
+              "agents": [
+                {
+                  "agent_id": "emp_0bb34dcc",
+                  "advisor_id": "adv_47ade90d",
+                  "task_key_target": "哈密顿路径搜索算法实现",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T02:18:32.620936",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2936,
+                      "hire_cost": 6275,
+                      "advise_cost": 3421,
+                      "whole_cost": 77095,
+                      "execution_cost": 189153
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12803,
+                      "whole_cost": 38953
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_0bb34dcc",
+                    "agents": [
+                      {
+                        "agent_id": "emp_cfddb6e6",
+                        "advisor_id": "adv_f8133d42",
+                        "task_key_target": "哈密顿路径搜索算法设计与实现",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T02:19:56.645720",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2885,
+                            "hire_cost": 14282,
+                            "advise_cost": 1133,
+                            "whole_cost": 65714,
+                            "execution_cost": 121754
+                          },
+                          "advisor": {
+                            "system_prompt_size": 12265,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_cfddb6e6",
+                          "agents": [
+                            {
+                              "agent_id": "emp_031c0615",
+                              "advisor_id": "adv_15876f8f",
+                              "task_key_target": "哈密顿路径搜索算法实现",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-20T02:22:01.535724",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 775,
+                                  "hire_cost": 0,
+                                  "advise_cost": 3446,
+                                  "whole_cost": 74901,
+                                  "execution_cost": 71455
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 9544,
+                                  "whole_cost": 3864
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

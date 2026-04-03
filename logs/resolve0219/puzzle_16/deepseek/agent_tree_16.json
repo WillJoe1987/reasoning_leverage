@@ -1,0 +1,194 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-24T15:00:02.288102",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2966,
+          "hire_cost": 12278,
+          "advise_cost": 0,
+          "whole_cost": 73455,
+          "execution_cost": 150057
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_a1338c16",
+            "advisor_id": "adv_f4c690c8",
+            "task_key_target": "计算矩形坐标",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:00:17.828234",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2646,
+                "hire_cost": 0,
+                "advise_cost": 2101,
+                "whole_cost": 4462,
+                "execution_cost": 2361
+              },
+              "advisor": {
+                "system_prompt_size": 10393,
+                "whole_cost": 2346
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a1338c16",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_bb846812",
+            "advisor_id": "adv_3e6e0c1b",
+            "task_key_target": "分析曲线形状",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:00:38.224590",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2555,
+                "hire_cost": 0,
+                "advise_cost": 1275,
+                "whole_cost": 5237,
+                "execution_cost": 3962
+              },
+              "advisor": {
+                "system_prompt_size": 11727,
+                "whole_cost": 1463
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bb846812",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_687b97d4",
+            "advisor_id": "adv_5fb58a58",
+            "task_key_target": "分析优化问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:03:04.549631",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2649,
+                "hire_cost": 12452,
+                "advise_cost": 1856,
+                "whole_cost": 48052,
+                "execution_cost": 82557
+              },
+              "advisor": {
+                "system_prompt_size": 16995,
+                "whole_cost": 2126
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_687b97d4",
+              "agents": [
+                {
+                  "agent_id": "emp_c2d58399",
+                  "advisor_id": "adv_73c7fd6c",
+                  "task_key_target": "分析距离计算和优化策略",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:05:49.130886",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2962,
+                      "hire_cost": 9456,
+                      "advise_cost": 2623,
+                      "whole_cost": 34265,
+                      "execution_cost": 48813
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18568,
+                      "whole_cost": 3218
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_c2d58399",
+                    "agents": [
+                      {
+                        "agent_id": "emp_0bbcedc4",
+                        "advisor_id": "adv_324eeac2",
+                        "task_key_target": "距离计算和取值范围分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-24T15:07:43.257910",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 930,
+                            "hire_cost": 0,
+                            "advise_cost": 3241,
+                            "whole_cost": 17553,
+                            "execution_cost": 14312
+                          },
+                          "advisor": {
+                            "system_prompt_size": 15715,
+                            "whole_cost": 3826
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_c6fc8844",
+                        "advisor_id": "adv_b6d29e46",
+                        "task_key_target": "优化策略和对称性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-24T15:07:52.382266",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 617,
+                            "hire_cost": 0,
+                            "advise_cost": 678,
+                            "whole_cost": 12993,
+                            "execution_cost": 12315
+                          },
+                          "advisor": {
+                            "system_prompt_size": 12803,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

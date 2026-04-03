@@ -1,0 +1,128 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T18:37:14.657463",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 16064,
+          "advise_cost": 0,
+          "whole_cost": 32382,
+          "execution_cost": 65352
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_9ebf603b",
+            "advisor_id": "adv_d3766213",
+            "task_key_target": "数论验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:38:12.843936",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 712,
+                "hire_cost": 0,
+                "advise_cost": 1460,
+                "whole_cost": 8493,
+                "execution_cost": 7033
+              },
+              "advisor": {
+                "system_prompt_size": 19690,
+                "whole_cost": 1872
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_40900497",
+            "advisor_id": "adv_84d80d13",
+            "task_key_target": "等差数列验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:38:19.753086",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 712,
+                "hire_cost": 0,
+                "advise_cost": 2234,
+                "whole_cost": 10381,
+                "execution_cost": 8147
+              },
+              "advisor": {
+                "system_prompt_size": 14639,
+                "whole_cost": 2636
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_32b7f05b",
+            "advisor_id": "adv_c1fa17e9",
+            "task_key_target": "枚举验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:38:27.553322",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 742,
+                "hire_cost": 0,
+                "advise_cost": 1880,
+                "whole_cost": 15410,
+                "execution_cost": 13530
+              },
+              "advisor": {
+                "system_prompt_size": 15567,
+                "whole_cost": 2315
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_964fbf1f",
+            "advisor_id": "adv_312d974f",
+            "task_key_target": "最终验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:40:20.811957",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 638,
+                "hire_cost": 0,
+                "advise_cost": 1762,
+                "whole_cost": 22086,
+                "execution_cost": 20324
+              },
+              "advisor": {
+                "system_prompt_size": 27930,
+                "whole_cost": 2090
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T04:00:09.136383",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 23755,
+          "advise_cost": 0,
+          "whole_cost": 81721,
+          "execution_cost": 379725
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c1a7c2cd",
+            "advisor_id": "adv_83bf29b6",
+            "task_key_target": "分析f(x)函数性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:00:27.192357",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2619,
+                "hire_cost": 0,
+                "advise_cost": 2336,
+                "whole_cost": 28443,
+                "execution_cost": 26107
+              },
+              "advisor": {
+                "system_prompt_size": 15600,
+                "whole_cost": 2595
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c1a7c2cd",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_45de0a28",
+            "advisor_id": "adv_50a96fda",
+            "task_key_target": "分析g(y)和h(z)函数性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:00:33.101556",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2678,
+                "hire_cost": 14935,
+                "advise_cost": 1589,
+                "whole_cost": 51005,
+                "execution_cost": 134424
+              },
+              "advisor": {
+                "system_prompt_size": 14265,
+                "whole_cost": 1910
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_45de0a28",
+              "agents": [
+                {
+                  "agent_id": "emp_532f8c2a",
+                  "advisor_id": "adv_ce30a046",
+                  "task_key_target": "分析g(y)函数性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:01:12.645947",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 774,
+                      "hire_cost": 0,
+                      "advise_cost": 2575,
+                      "whole_cost": 30569,
+                      "execution_cost": 27994
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11743,
+                      "whole_cost": 3014
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_fe2b1c07",
+                  "advisor_id": "adv_d3a7f55a",
+                  "task_key_target": "分析h(z)函数性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T04:01:20.847690",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 829,
+                      "hire_cost": 0,
+                      "advise_cost": 697,
+                      "whole_cost": 72646,
+                      "execution_cost": 71949
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9087,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e64de7ef",
+            "advisor_id": "adv_0b100304",
+            "task_key_target": "数值搜索和验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:00:37.970840",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2601,
+                "hire_cost": 0,
+                "advise_cost": 2255,
+                "whole_cost": 94334,
+                "execution_cost": 92079
+              },
+              "advisor": {
+                "system_prompt_size": 15172,
+                "whole_cost": 2476
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e64de7ef",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_89a4cec5",
+            "advisor_id": "adv_d87fcdc5",
+            "task_key_target": "证明解的唯一性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:06:07.870230",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2705,
+                "hire_cost": 0,
+                "advise_cost": 3499,
+                "whole_cost": 72648,
+                "execution_cost": 69149
+              },
+              "advisor": {
+                "system_prompt_size": 54779,
+                "whole_cost": 3834
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_89a4cec5",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

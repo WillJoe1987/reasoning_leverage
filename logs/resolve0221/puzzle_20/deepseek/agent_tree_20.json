@@ -1,0 +1,165 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T20:09:19.980619",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 18762,
+          "advise_cost": 0,
+          "whole_cost": 45658,
+          "execution_cost": 135158
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_ed1c28f6",
+            "advisor_id": "adv_9296c4b0",
+            "task_key_target": "分析班级认识关系模型",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:09:33.866003",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2810,
+                "hire_cost": 0,
+                "advise_cost": 2197,
+                "whole_cost": 15054,
+                "execution_cost": 12857
+              },
+              "advisor": {
+                "system_prompt_size": 12873,
+                "whole_cost": 2644
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ed1c28f6",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_f0d3fd50",
+            "advisor_id": "adv_4458c921",
+            "task_key_target": "图论模型分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:09:49.096468",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2853,
+                "hire_cost": 5329,
+                "advise_cost": 3251,
+                "whole_cost": 32029,
+                "execution_cost": 42650
+              },
+              "advisor": {
+                "system_prompt_size": 13568,
+                "whole_cost": 3741
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f0d3fd50",
+              "agents": [
+                {
+                  "agent_id": "emp_b1e9a1c0",
+                  "advisor_id": "adv_2b3e51e5",
+                  "task_key_target": "三部图方程组求解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T20:12:30.324113",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 932,
+                      "hire_cost": 0,
+                      "advise_cost": 665,
+                      "whole_cost": 19866,
+                      "execution_cost": 19201
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19633,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_bf6a35c7",
+            "advisor_id": "adv_7857c993",
+            "task_key_target": "验证对称性和完整方程组",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:10:11.661203",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2809,
+                "hire_cost": 0,
+                "advise_cost": 3214,
+                "whole_cost": 14532,
+                "execution_cost": 11318
+              },
+              "advisor": {
+                "system_prompt_size": 15890,
+                "whole_cost": 3658
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bf6a35c7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3a9c329e",
+            "advisor_id": "adv_2ebd64ba",
+            "task_key_target": "验证解的正确性和完整性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T20:13:38.284886",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 595,
+                "hire_cost": 0,
+                "advise_cost": 3838,
+                "whole_cost": 45275,
+                "execution_cost": 41437
+              },
+              "advisor": {
+                "system_prompt_size": 31598,
+                "whole_cost": 4112
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

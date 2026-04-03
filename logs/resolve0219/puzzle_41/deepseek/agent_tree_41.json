@@ -1,0 +1,239 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-03T11:54:50.326935",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 37359,
+          "advise_cost": 0,
+          "whole_cost": 145010,
+          "execution_cost": 600704
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_048669be",
+            "advisor_id": "adv_3333a1df",
+            "task_key_target": "分析模方程y^2≡1(mod x)的解结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T11:55:22.831166",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2738,
+                "hire_cost": 43974,
+                "advise_cost": 7699,
+                "whole_cost": 113014,
+                "execution_cost": 232447
+              },
+              "advisor": {
+                "system_prompt_size": 13518,
+                "whole_cost": 8065
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_048669be",
+              "agents": [
+                {
+                  "agent_id": "emp_5e103f38",
+                  "advisor_id": "adv_e85a5296",
+                  "task_key_target": "分析解结构与模m条件的交互",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T11:59:32.989565",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 727,
+                      "hire_cost": 0,
+                      "advise_cost": 3690,
+                      "whole_cost": 35201,
+                      "execution_cost": 31511
+                    },
+                    "advisor": {
+                      "system_prompt_size": 30413,
+                      "whole_cost": 4073
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_931d011a",
+                  "advisor_id": "adv_aa29fedb",
+                  "task_key_target": "分析区间内解的数量控制",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T11:59:43.983137",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 691,
+                      "hire_cost": 0,
+                      "advise_cost": 731,
+                      "whole_cost": 59530,
+                      "execution_cost": 58799
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27145,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0558d892",
+                  "advisor_id": "adv_a43fac95",
+                  "task_key_target": "研究x的具体构造方法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T11:59:55.360127",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 714,
+                      "hire_cost": 0,
+                      "advise_cost": 2246,
+                      "whole_cost": 83042,
+                      "execution_cost": 80796
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28017,
+                      "whole_cost": 2640
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_0d763e62",
+            "advisor_id": "adv_9354cfe7",
+            "task_key_target": "分析区间内满足模条件的解的数量控制",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T11:56:54.218827",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2829,
+                "hire_cost": 29001,
+                "advise_cost": 2853,
+                "whole_cost": 92573,
+                "execution_cost": 148128
+              },
+              "advisor": {
+                "system_prompt_size": 19497,
+                "whole_cost": 3290
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0d763e62",
+              "agents": [
+                {
+                  "agent_id": "emp_6b5f5445",
+                  "advisor_id": "adv_b7a65580",
+                  "task_key_target": "数值验证模条件解的数量控制",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T12:01:54.235260",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 914,
+                      "hire_cost": 0,
+                      "advise_cost": 3156,
+                      "whole_cost": 90565,
+                      "execution_cost": 87409
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24064,
+                      "whole_cost": 3747
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_55244fd3",
+            "advisor_id": "adv_b8bd9156",
+            "task_key_target": "数值测试解r模m的分布",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T12:01:49.270341",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2850,
+                "hire_cost": 4334,
+                "advise_cost": 2065,
+                "whole_cost": 75085,
+                "execution_cost": 112478
+              },
+              "advisor": {
+                "system_prompt_size": 32079,
+                "whole_cost": 2550
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_55244fd3",
+              "agents": [
+                {
+                  "agent_id": "emp_0bc6be2f",
+                  "advisor_id": "adv_a6b484f1",
+                  "task_key_target": "中国剩余定理数值测试",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T12:06:06.643035",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 859,
+                      "hire_cost": 0,
+                      "advise_cost": 2434,
+                      "whole_cost": 46226,
+                      "execution_cost": 43792
+                    },
+                    "advisor": {
+                      "system_prompt_size": 31618,
+                      "whole_cost": 2954
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

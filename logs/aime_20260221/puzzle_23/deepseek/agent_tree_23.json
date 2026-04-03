@@ -1,0 +1,137 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T19:46:54.093730",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 22470,
+          "advise_cost": 0,
+          "whole_cost": 43521,
+          "execution_cost": 135643
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8e814114",
+            "advisor_id": "adv_8405acc2",
+            "task_key_target": "代数推导和简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:47:10.027541",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2624,
+                "hire_cost": 6278,
+                "advise_cost": 2396,
+                "whole_cost": 26301,
+                "execution_cost": 50663
+              },
+              "advisor": {
+                "system_prompt_size": 12009,
+                "whole_cost": 2667
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8e814114",
+              "agents": [
+                {
+                  "agent_id": "emp_4b6dd861",
+                  "advisor_id": "adv_1251bdc1",
+                  "task_key_target": "代数推导验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T19:50:24.866364",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 972,
+                      "hire_cost": 0,
+                      "advise_cost": 584,
+                      "whole_cost": 33620,
+                      "execution_cost": 33036
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11408,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8fb178b3",
+            "advisor_id": "adv_06e63308",
+            "task_key_target": "数值搜索解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:48:03.898790",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2657,
+                "hire_cost": 0,
+                "advise_cost": 1751,
+                "whole_cost": 30631,
+                "execution_cost": 28880
+              },
+              "advisor": {
+                "system_prompt_size": 13558,
+                "whole_cost": 2051
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8fb178b3",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b58f7230",
+            "advisor_id": "adv_15cafe07",
+            "task_key_target": "验证解的正确性和完整性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T19:49:42.527796",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 610,
+                "hire_cost": 0,
+                "advise_cost": 1854,
+                "whole_cost": 36903,
+                "execution_cost": 35049
+              },
+              "advisor": {
+                "system_prompt_size": 25637,
+                "whole_cost": 2152
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

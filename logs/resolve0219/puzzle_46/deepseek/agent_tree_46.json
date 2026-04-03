@@ -1,0 +1,470 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-04T11:05:43.160963",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 33625,
+          "advise_cost": 0,
+          "whole_cost": 189878,
+          "execution_cost": 1092825
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_600b98fc",
+            "advisor_id": "adv_539cb069",
+            "task_key_target": "分析n×n×n立方体中的最长直线段问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T11:05:59.551341",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2632,
+                "hire_cost": 22645,
+                "advise_cost": 3554,
+                "whole_cost": 110027,
+                "execution_cost": 445074
+              },
+              "advisor": {
+                "system_prompt_size": 11882,
+                "whole_cost": 3798
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_600b98fc",
+              "agents": [
+                {
+                  "agent_id": "emp_fb8eccf6",
+                  "advisor_id": "adv_0b140b1c",
+                  "task_key_target": "理论分析与上界推导",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:08:16.775811",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2831,
+                      "hire_cost": 24581,
+                      "advise_cost": 819,
+                      "whole_cost": 42444,
+                      "execution_cost": 157935
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12943,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_fb8eccf6",
+                    "agents": [
+                      {
+                        "agent_id": "emp_15b4030c",
+                        "advisor_id": "adv_5611cf0e",
+                        "task_key_target": "图论建模与结构分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:11:12.048887",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 634,
+                            "hire_cost": 0,
+                            "advise_cost": 763,
+                            "whole_cost": 31004,
+                            "execution_cost": 30241
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8440,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_caea1fc4",
+                        "advisor_id": "adv_c860468a",
+                        "task_key_target": "小规模n值精确计算",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:11:33.850420",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 697,
+                            "hire_cost": 0,
+                            "advise_cost": 736,
+                            "whole_cost": 64883,
+                            "execution_cost": 64147
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10871,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_f718c8ad",
+                        "advisor_id": "adv_3aafdffe",
+                        "task_key_target": "构造验证与紧性分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:18:10.366050",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 733,
+                            "hire_cost": 0,
+                            "advise_cost": 470,
+                            "whole_cost": 46973,
+                            "execution_cost": 46503
+                          },
+                          "advisor": {
+                            "system_prompt_size": 37654,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_91ce6c87",
+                  "advisor_id": "adv_23012b18",
+                  "task_key_target": "构造性证明与下界分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:08:30.684048",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2773,
+                      "hire_cost": 20036,
+                      "advise_cost": 803,
+                      "whole_cost": 71262,
+                      "execution_cost": 203311
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14758,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_91ce6c87",
+                    "agents": [
+                      {
+                        "agent_id": "emp_8b9e260f",
+                        "advisor_id": "adv_bc127677",
+                        "task_key_target": "分层蛇形构造算法设计与分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:10:36.136086",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 645,
+                            "hire_cost": 0,
+                            "advise_cost": 1542,
+                            "whole_cost": 58271,
+                            "execution_cost": 56729
+                          },
+                          "advisor": {
+                            "system_prompt_size": 10337,
+                            "whole_cost": 1889
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_252ec972",
+                        "advisor_id": "adv_5b13f0ec",
+                        "task_key_target": "隧道构造方案设计与分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:10:45.479137",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 570,
+                            "hire_cost": 0,
+                            "advise_cost": 773,
+                            "whole_cost": 29200,
+                            "execution_cost": 28427
+                          },
+                          "advisor": {
+                            "system_prompt_size": 7479,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_03af7810",
+                        "advisor_id": "adv_724ece5d",
+                        "task_key_target": "小n值最优构造验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-04T11:10:56.289321",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 615,
+                            "hire_cost": 0,
+                            "advise_cost": 2397,
+                            "whole_cost": 70129,
+                            "execution_cost": 67732
+                          },
+                          "advisor": {
+                            "system_prompt_size": 8150,
+                            "whole_cost": 2665
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_191ffa2c",
+            "advisor_id": "adv_f037cb57",
+            "task_key_target": "分析n=3的具体构造",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T11:07:17.458858",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2582,
+                "hire_cost": 14798,
+                "advise_cost": 2721,
+                "whole_cost": 79841,
+                "execution_cost": 143992
+              },
+              "advisor": {
+                "system_prompt_size": 15614,
+                "whole_cost": 2928
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_191ffa2c",
+              "agents": [
+                {
+                  "agent_id": "emp_1e2638bb",
+                  "advisor_id": "adv_15b66dac",
+                  "task_key_target": "搜索3×3×3网格的最优哈密顿路径",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:19:02.740703",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 598,
+                      "hire_cost": 0,
+                      "advise_cost": 460,
+                      "whole_cost": 82130,
+                      "execution_cost": 81670
+                    },
+                    "advisor": {
+                      "system_prompt_size": 67754,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_74e7038c",
+            "advisor_id": "adv_9b72589e",
+            "task_key_target": "研究上界的紧性和一般构造",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T11:10:29.137414",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2630,
+                "hire_cost": 17675,
+                "advise_cost": 2335,
+                "whole_cost": 85151,
+                "execution_cost": 210251
+              },
+              "advisor": {
+                "system_prompt_size": 24601,
+                "whole_cost": 2580
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_74e7038c",
+              "agents": [
+                {
+                  "agent_id": "emp_6a178cc5",
+                  "advisor_id": "adv_369d78d7",
+                  "task_key_target": "n=3立方体的精确分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:12:03.138235",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 533,
+                      "hire_cost": 0,
+                      "advise_cost": 707,
+                      "whole_cost": 69329,
+                      "execution_cost": 68622
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11943,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_0b4e4d0e",
+                  "advisor_id": "adv_13add33f",
+                  "task_key_target": "一般n的构造方法与下界分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:12:10.968426",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 525,
+                      "hire_cost": 0,
+                      "advise_cost": 390,
+                      "whole_cost": 47106,
+                      "execution_cost": 46716
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12366,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_32f2641a",
+                  "advisor_id": "adv_f083aeeb",
+                  "task_key_target": "图论与组合优化分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:12:19.735158",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 527,
+                      "hire_cost": 0,
+                      "advise_cost": 631,
+                      "whole_cost": 30403,
+                      "execution_cost": 29772
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13123,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1133faa7",
+            "advisor_id": "adv_5934bcf8",
+            "task_key_target": "分析二维类比问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T11:14:32.946394",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2607,
+                "hire_cost": 9988,
+                "advise_cost": 2381,
+                "whole_cost": 76294,
+                "execution_cost": 137255
+              },
+              "advisor": {
+                "system_prompt_size": 34064,
+                "whole_cost": 2611
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1133faa7",
+              "agents": [
+                {
+                  "agent_id": "emp_8947d5b0",
+                  "advisor_id": "adv_995600c0",
+                  "task_key_target": "系统搜索n=3的最大直线段",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T11:21:25.792658",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 590,
+                      "hire_cost": 0,
+                      "advise_cost": 824,
+                      "whole_cost": 74154,
+                      "execution_cost": 73330
+                    },
+                    "advisor": {
+                      "system_prompt_size": 43788,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

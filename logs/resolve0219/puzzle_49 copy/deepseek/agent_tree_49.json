@@ -1,0 +1,222 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-11T15:43:18.219867",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 23984,
+          "advise_cost": 0,
+          "whole_cost": 99068,
+          "execution_cost": 480811
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_3e7ca9f7",
+            "advisor_id": "adv_832ef08e",
+            "task_key_target": "分析开关系统的线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-11T15:44:33.328992",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2657,
+                "hire_cost": 627,
+                "advise_cost": 2716,
+                "whole_cost": 46088,
+                "execution_cost": 42745
+              },
+              "advisor": {
+                "system_prompt_size": 20985,
+                "whole_cost": 2992
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3e7ca9f7",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_362c953f",
+            "advisor_id": "adv_e40f9eba",
+            "task_key_target": "组合数学分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-11T15:44:41.233143",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2550,
+                "hire_cost": 0,
+                "advise_cost": 2220,
+                "whole_cost": 56667,
+                "execution_cost": 54447
+              },
+              "advisor": {
+                "system_prompt_size": 19901,
+                "whole_cost": 2431
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_362c953f",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_682be165",
+            "advisor_id": "adv_969048ae",
+            "task_key_target": "数值实验验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-11T15:44:47.738631",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2517,
+                "hire_cost": 12104,
+                "advise_cost": 1988,
+                "whole_cost": 124354,
+                "execution_cost": 268335
+              },
+              "advisor": {
+                "system_prompt_size": 20430,
+                "whole_cost": 2133
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_682be165",
+              "agents": [
+                {
+                  "agent_id": "emp_5945f38c",
+                  "advisor_id": "adv_4e8a2a0e",
+                  "task_key_target": "线性代数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-11T15:47:18.816852",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2637,
+                      "hire_cost": 0,
+                      "advise_cost": 2779,
+                      "whole_cost": 58729,
+                      "execution_cost": 55950
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22833,
+                      "whole_cost": 3031
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_5945f38c",
+                    "agents": []
+                  }
+                },
+                {
+                  "agent_id": "emp_9890f248",
+                  "advisor_id": "adv_6753c25a",
+                  "task_key_target": "组合数学分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-11T15:47:28.114277",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2633,
+                      "hire_cost": 11273,
+                      "advise_cost": 591,
+                      "whole_cost": 65034,
+                      "execution_cost": 102123
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23960,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_9890f248",
+                    "agents": [
+                      {
+                        "agent_id": "emp_86d9b22b",
+                        "advisor_id": "adv_c7ab3c03",
+                        "task_key_target": "线性代数验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-11T15:50:00.555503",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 545,
+                            "hire_cost": 0,
+                            "advise_cost": 2238,
+                            "whole_cost": 51191,
+                            "execution_cost": 48953
+                          },
+                          "advisor": {
+                            "system_prompt_size": 22589,
+                            "whole_cost": 2438
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8939422e",
+            "advisor_id": "adv_6736a768",
+            "task_key_target": "验证覆盖半径上界",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-11T15:56:13.834554",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 510,
+                "hire_cost": 0,
+                "advise_cost": 2957,
+                "whole_cost": 43157,
+                "execution_cost": 40200
+              },
+              "advisor": {
+                "system_prompt_size": 77295,
+                "whole_cost": 3156
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

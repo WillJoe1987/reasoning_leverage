@@ -1,0 +1,275 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-25T17:31:45.412307",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3021,
+          "hire_cost": 15393,
+          "advise_cost": 0,
+          "whole_cost": 41797,
+          "execution_cost": 197364
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_59698c71",
+            "advisor_id": "adv_157f99fc",
+            "task_key_target": "分析目标函数的结构和对称性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T17:32:00.250497",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2667,
+                "hire_cost": 16550,
+                "advise_cost": 2508,
+                "whole_cost": 57684,
+                "execution_cost": 130667
+              },
+              "advisor": {
+                "system_prompt_size": 9273,
+                "whole_cost": 2803
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_59698c71",
+              "agents": [
+                {
+                  "agent_id": "emp_307f9e43",
+                  "advisor_id": "adv_66166c03",
+                  "task_key_target": "分析函数 A(x,y) = (2+x^2)(4+y^2)/(x+y) 的优化性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T17:34:56.208413",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2690,
+                      "hire_cost": 9899,
+                      "advise_cost": 614,
+                      "whole_cost": 31604,
+                      "execution_cost": 40538
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14650,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_307f9e43",
+                    "agents": [
+                      {
+                        "agent_id": "emp_b673853e",
+                        "advisor_id": "adv_407f4d36",
+                        "task_key_target": "数值分析和验证函数 A(s,t) 的优化",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T17:37:08.018897",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 640,
+                            "hire_cost": 0,
+                            "advise_cost": 2157,
+                            "whole_cost": 21604,
+                            "execution_cost": 19447
+                          },
+                          "advisor": {
+                            "system_prompt_size": 7280,
+                            "whole_cost": 3804
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_07fe82a1",
+                  "advisor_id": "adv_57a58c36",
+                  "task_key_target": "分析函数 B(c) = (49+6c^2+4c√(3+3c^2))/(7√3 c+14√(1+c^2)) 的性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-25T17:35:05.408262",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2658,
+                      "hire_cost": 9195,
+                      "advise_cost": 690,
+                      "whole_cost": 29977,
+                      "execution_cost": 51503
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15641,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_07fe82a1",
+                    "agents": [
+                      {
+                        "agent_id": "emp_2418829a",
+                        "advisor_id": "adv_a951974d",
+                        "task_key_target": "函数数值分析和换元方法探索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T17:37:00.619713",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 572,
+                            "hire_cost": 0,
+                            "advise_cost": 702,
+                            "whole_cost": 13120,
+                            "execution_cost": 12418
+                          },
+                          "advisor": {
+                            "system_prompt_size": 9821,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_e96cef83",
+                        "advisor_id": "adv_a074ed8d",
+                        "task_key_target": "函数代数性质分析",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-01-25T17:37:08.892400",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 564,
+                            "hire_cost": 0,
+                            "advise_cost": 922,
+                            "whole_cost": 19915,
+                            "execution_cost": 18993
+                          },
+                          "advisor": {
+                            "system_prompt_size": 6523,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9251f8d3",
+            "advisor_id": "adv_a89c3858",
+            "task_key_target": "分析函数 g(c) 的最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T17:32:19.884579",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2667,
+                "hire_cost": 0,
+                "advise_cost": 1964,
+                "whole_cost": 15988,
+                "execution_cost": 14024
+              },
+              "advisor": {
+                "system_prompt_size": 10257,
+                "whole_cost": 2248
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9251f8d3",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_83c41695",
+            "advisor_id": "adv_d8e53900",
+            "task_key_target": "分析函数 h(x,y) = (2+x^2)(4+y^2)/(x+y) 的最小值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T17:32:34.197756",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2644,
+                "hire_cost": 0,
+                "advise_cost": 1638,
+                "whole_cost": 11308,
+                "execution_cost": 9670
+              },
+              "advisor": {
+                "system_prompt_size": 12536,
+                "whole_cost": 1874
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_83c41695",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_717adf7b",
+            "advisor_id": "adv_28b5175d",
+            "task_key_target": "验证最小值候选的正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-25T17:43:03.803788",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2730,
+                "hire_cost": 0,
+                "advise_cost": 1160,
+                "whole_cost": 17759,
+                "execution_cost": 16599
+              },
+              "advisor": {
+                "system_prompt_size": 62204,
+                "whole_cost": 1517
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_717adf7b",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

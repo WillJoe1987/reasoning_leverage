@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-06T16:41:02.323304",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3490,
+          "hire_cost": 21445,
+          "advise_cost": 0,
+          "whole_cost": 76265,
+          "execution_cost": 340887
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c6b94464",
+            "advisor_id": "adv_e18ec55c",
+            "task_key_target": "方法一：拉格朗日乘数法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T16:41:33.549356",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2598,
+                "hire_cost": 3061,
+                "advise_cost": 3143,
+                "whole_cost": 50301,
+                "execution_cost": 59819
+              },
+              "advisor": {
+                "system_prompt_size": 14051,
+                "whole_cost": 3281
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c6b94464",
+              "agents": [
+                {
+                  "agent_id": "emp_0cb73b1d",
+                  "advisor_id": "adv_cea813e4",
+                  "task_key_target": "符号偏导数计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T16:43:45.854526",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 724,
+                      "hire_cost": 0,
+                      "advise_cost": 1279,
+                      "whole_cost": 17001,
+                      "execution_cost": 15722
+                    },
+                    "advisor": {
+                      "system_prompt_size": 17485,
+                      "whole_cost": 1683
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_62464067",
+            "advisor_id": "adv_61086c5c",
+            "task_key_target": "方法二：不等式技巧分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T16:41:41.757708",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2572,
+                "hire_cost": 8906,
+                "advise_cost": 1182,
+                "whole_cost": 76517,
+                "execution_cost": 162814
+              },
+              "advisor": {
+                "system_prompt_size": 12977,
+                "whole_cost": 1342
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_62464067",
+              "agents": [
+                {
+                  "agent_id": "emp_754854bb",
+                  "advisor_id": "adv_7158e6d4",
+                  "task_key_target": "目标函数下界估计",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T16:47:14.180533",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 727,
+                      "hire_cost": 0,
+                      "advise_cost": 2635,
+                      "whole_cost": 54163,
+                      "execution_cost": 51528
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32456,
+                      "whole_cost": 3069
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_47720e4a",
+                  "advisor_id": "adv_9b7bbba3",
+                  "task_key_target": "b^3d^2项深入分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-06T16:47:27.656486",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 593,
+                      "hire_cost": 0,
+                      "advise_cost": 752,
+                      "whole_cost": 45609,
+                      "execution_cost": 44857
+                    },
+                    "advisor": {
+                      "system_prompt_size": 33627,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_513f954b",
+            "advisor_id": "adv_87d8a0fc",
+            "task_key_target": "方法三：数值搜索与验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-06T16:41:48.863192",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2563,
+                "hire_cost": 0,
+                "advise_cost": 2193,
+                "whole_cost": 65627,
+                "execution_cost": 63434
+              },
+              "advisor": {
+                "system_prompt_size": 13618,
+                "whole_cost": 2371
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_513f954b",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

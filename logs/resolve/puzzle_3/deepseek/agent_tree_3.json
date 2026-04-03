@@ -1,0 +1,128 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T17:56:21.390170",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 15073,
+          "advise_cost": 0,
+          "whole_cost": 59094,
+          "execution_cost": 127361
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b404794e",
+            "advisor_id": "adv_4f3d3374",
+            "task_key_target": "分析n=1的情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:56:36.576076",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 513,
+                "hire_cost": 0,
+                "advise_cost": 1483,
+                "whole_cost": 3180,
+                "execution_cost": 1697
+              },
+              "advisor": {
+                "system_prompt_size": 14632,
+                "whole_cost": 1686
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_021bf49a",
+            "advisor_id": "adv_a70cc843",
+            "task_key_target": "分析n=2的情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:56:42.095882",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 549,
+                "hire_cost": 0,
+                "advise_cost": 1553,
+                "whole_cost": 11173,
+                "execution_cost": 9620
+              },
+              "advisor": {
+                "system_prompt_size": 9005,
+                "whole_cost": 1793
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_bf418db4",
+            "advisor_id": "adv_ca154390",
+            "task_key_target": "分析n=3的情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:56:47.102420",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 527,
+                "hire_cost": 0,
+                "advise_cost": 2009,
+                "whole_cost": 45740,
+                "execution_cost": 43731
+              },
+              "advisor": {
+                "system_prompt_size": 9832,
+                "whole_cost": 2222
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_79960842",
+            "advisor_id": "adv_47ddc6d4",
+            "task_key_target": "严格证明n=3",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:59:41.144415",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 565,
+                "hire_cost": 0,
+                "advise_cost": 2302,
+                "whole_cost": 30594,
+                "execution_cost": 28292
+              },
+              "advisor": {
+                "system_prompt_size": 46001,
+                "whole_cost": 2557
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

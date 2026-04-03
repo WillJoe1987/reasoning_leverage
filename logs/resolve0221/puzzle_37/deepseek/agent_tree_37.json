@@ -1,0 +1,475 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T00:03:40.326413",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 21132,
+          "advise_cost": 0,
+          "whole_cost": 150084,
+          "execution_cost": 1448268
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_d3427d54",
+            "advisor_id": "adv_950f991b",
+            "task_key_target": "几何问题分析与坐标化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:03:52.300627",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2776,
+                "hire_cost": 42523,
+                "advise_cost": 2933,
+                "whole_cost": 72895,
+                "execution_cost": 506692
+              },
+              "advisor": {
+                "system_prompt_size": 14688,
+                "whole_cost": 3341
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d3427d54",
+              "agents": [
+                {
+                  "agent_id": "emp_6edcac92",
+                  "advisor_id": "adv_433d98fa",
+                  "task_key_target": "复数坐标推导与几何计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:04:51.015495",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2874,
+                      "hire_cost": 19499,
+                      "advise_cost": 714,
+                      "whole_cost": 67728,
+                      "execution_cost": 162183
+                    },
+                    "advisor": {
+                      "system_prompt_size": 13345,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_6edcac92",
+                    "agents": [
+                      {
+                        "agent_id": "emp_d07ebb1c",
+                        "advisor_id": "adv_02efb92c",
+                        "task_key_target": "三角形顶点坐标与边长关系推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:18.615417",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 606,
+                            "hire_cost": 0,
+                            "advise_cost": 491,
+                            "whole_cost": 49020,
+                            "execution_cost": 48529
+                          },
+                          "advisor": {
+                            "system_prompt_size": 20781,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_945c529f",
+                        "advisor_id": "adv_07ac234f",
+                        "task_key_target": "三角形内心坐标推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:24.573369",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 593,
+                            "hire_cost": 0,
+                            "advise_cost": 778,
+                            "whole_cost": 33426,
+                            "execution_cost": 32648
+                          },
+                          "advisor": {
+                            "system_prompt_size": 21621,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_a5a7d84a",
+                        "advisor_id": "adv_799295d6",
+                        "task_key_target": "弧中点坐标推导",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:31.275308",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 617,
+                            "hire_cost": 0,
+                            "advise_cost": 755,
+                            "whole_cost": 34246,
+                            "execution_cost": 33491
+                          },
+                          "advisor": {
+                            "system_prompt_size": 22394,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent_id": "emp_04979108",
+                  "advisor_id": "adv_a70ed1c3",
+                  "task_key_target": "几何性质分析与简化方法探索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:05:00.281735",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2887,
+                      "hire_cost": 25098,
+                      "advise_cost": 3358,
+                      "whole_cost": 81283,
+                      "execution_cost": 317070
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15010,
+                      "whole_cost": 3324
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_04979108",
+                    "agents": [
+                      {
+                        "agent_id": "emp_f8b8b30a",
+                        "advisor_id": "adv_34c52abe",
+                        "task_key_target": "几何性质探索与定理发现",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:00.170927",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 738,
+                            "hire_cost": 0,
+                            "advise_cost": 746,
+                            "whole_cost": 120545,
+                            "execution_cost": 119799
+                          },
+                          "advisor": {
+                            "system_prompt_size": 14830,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_9fb4aa38",
+                        "advisor_id": "adv_3193ea6e",
+                        "task_key_target": "坐标计算与特殊情形验证",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:08.635393",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 826,
+                            "hire_cost": 0,
+                            "advise_cost": 6350,
+                            "whole_cost": 86133,
+                            "execution_cost": 79783
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11522,
+                            "whole_cost": 63827
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_4333c35c",
+                        "advisor_id": "adv_22e70de3",
+                        "task_key_target": "对称性分析与不变量探索",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:07:17.383339",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 868,
+                            "hire_cost": 0,
+                            "advise_cost": 3073,
+                            "whole_cost": 67734,
+                            "execution_cost": 64661
+                          },
+                          "advisor": {
+                            "system_prompt_size": 12696,
+                            "whole_cost": 60947
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2d56803a",
+            "advisor_id": "adv_76f2d599",
+            "task_key_target": "几何性质分析与对称性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:03:59.183101",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2720,
+                "hire_cost": 13052,
+                "advise_cost": 2104,
+                "whole_cost": 183125,
+                "execution_cost": 563214
+              },
+              "advisor": {
+                "system_prompt_size": 14193,
+                "whole_cost": 2462
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2d56803a",
+              "agents": [
+                {
+                  "agent_id": "emp_6d980c3f",
+                  "advisor_id": "adv_8db2e144",
+                  "task_key_target": "坐标系建立与符号计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:05:16.128079",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2852,
+                      "hire_cost": 10425,
+                      "advise_cost": 783,
+                      "whole_cost": 128690,
+                      "execution_cost": 395245
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12962,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_6d980c3f",
+                    "agents": [
+                      {
+                        "agent_id": "emp_ea2fe961",
+                        "advisor_id": "adv_c060f0dd",
+                        "task_key_target": "三角形几何符号计算",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-20T00:06:35.267116",
+                        "hirable": true,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 2878,
+                            "hire_cost": 19622,
+                            "advise_cost": 2968,
+                            "whole_cost": 112503,
+                            "execution_cost": 277763
+                          },
+                          "advisor": {
+                            "system_prompt_size": 11802,
+                            "whole_cost": 3463
+                          }
+                        },
+                        "child_manager": {
+                          "manager_depth": 4,
+                          "parent_id": "emp_ea2fe961",
+                          "agents": [
+                            {
+                              "agent_id": "emp_2cfaa405",
+                              "advisor_id": "adv_086fee3f",
+                              "task_key_target": "内心坐标符号计算",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-20T00:07:54.372383",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 848,
+                                  "hire_cost": 0,
+                                  "advise_cost": 720,
+                                  "whole_cost": 37955,
+                                  "execution_cost": 37235
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 11780,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_ebcdc092",
+                              "advisor_id": "adv_29954025",
+                              "task_key_target": "垂直交点S_b和S_c坐标计算",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-20T00:08:07.146124",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 903,
+                                  "hire_cost": 0,
+                                  "advise_cost": 3457,
+                                  "whole_cost": 87071,
+                                  "execution_cost": 83614
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 13340,
+                                  "whole_cost": 4017
+                                }
+                              },
+                              "child_manager": null
+                            },
+                            {
+                              "agent_id": "emp_d2e8fbf6",
+                              "advisor_id": "adv_1ad9e0d3",
+                              "task_key_target": "交点H_a、H_b、H_c坐标计算",
+                              "status": "completed",
+                              "depth": 4,
+                              "hired_at": "2026-02-20T00:08:22.525026",
+                              "hirable": false,
+                              "force_order": false,
+                              "costs": {
+                                "agent": {
+                                  "system_prompt_size": 995,
+                                  "hire_cost": 0,
+                                  "advise_cost": 871,
+                                  "whole_cost": 67872,
+                                  "execution_cost": 67001
+                                },
+                                "advisor": {
+                                  "system_prompt_size": 15985,
+                                  "whole_cost": 0
+                                }
+                              },
+                              "child_manager": null
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_676ccf63",
+            "advisor_id": "adv_cb00e0ad",
+            "task_key_target": "数值验证与模式发现",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T00:04:05.148092",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2603,
+                "hire_cost": 6844,
+                "advise_cost": 1688,
+                "whole_cost": 157493,
+                "execution_cost": 249410
+              },
+              "advisor": {
+                "system_prompt_size": 14901,
+                "whole_cost": 1924
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_676ccf63",
+              "agents": [
+                {
+                  "agent_id": "emp_abf90231",
+                  "advisor_id": "adv_1de57ce3",
+                  "task_key_target": "符号推导与模式识别",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T00:13:11.078812",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1090,
+                      "hire_cost": 0,
+                      "advise_cost": 725,
+                      "whole_cost": 101174,
+                      "execution_cost": 100449
+                    },
+                    "advisor": {
+                      "system_prompt_size": 122629,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

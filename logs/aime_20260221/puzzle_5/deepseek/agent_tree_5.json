@@ -1,0 +1,189 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:42:35.536437",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 15937,
+          "advise_cost": 0,
+          "whole_cost": 30906,
+          "execution_cost": 108080
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_5bb7b3e9",
+            "advisor_id": "adv_9c8a5a30",
+            "task_key_target": "几何推导与方程建立",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:42:50.288554",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2636,
+                "hire_cost": 0,
+                "advise_cost": 1566,
+                "whole_cost": 4539,
+                "execution_cost": 2973
+              },
+              "advisor": {
+                "system_prompt_size": 13441,
+                "whole_cost": 1821
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5bb7b3e9",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_faa9b8ac",
+            "advisor_id": "adv_294770d7",
+            "task_key_target": "复数方法分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:42:56.452876",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2678,
+                "hire_cost": 0,
+                "advise_cost": 1515,
+                "whole_cost": 17299,
+                "execution_cost": 15784
+              },
+              "advisor": {
+                "system_prompt_size": 12156,
+                "whole_cost": 1835
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_faa9b8ac",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_048ffb76",
+            "advisor_id": "adv_840c65cd",
+            "task_key_target": "向量几何分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:43:02.938251",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2670,
+                "hire_cost": 3071,
+                "advise_cost": 1158,
+                "whole_cost": 24358,
+                "execution_cost": 55823
+              },
+              "advisor": {
+                "system_prompt_size": 13083,
+                "whole_cost": 1464
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_048ffb76",
+              "agents": [
+                {
+                  "agent_id": "emp_cd9a28a9",
+                  "advisor_id": "adv_8cb8d2d5",
+                  "task_key_target": "坐标法验证旋转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:44:37.831102",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 573,
+                      "hire_cost": 0,
+                      "advise_cost": 671,
+                      "whole_cost": 19645,
+                      "execution_cost": 18974
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22980,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c771fd55",
+                  "advisor_id": "adv_b6239f57",
+                  "task_key_target": "复数法验证旋转问题",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:44:44.410810",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 635,
+                      "hire_cost": 0,
+                      "advise_cost": 606,
+                      "whole_cost": 17326,
+                      "execution_cost": 16720
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19525,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_50a17370",
+            "advisor_id": "adv_659f9ec3",
+            "task_key_target": "结果验证与检查",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:47:28.084863",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 758,
+                "hire_cost": 0,
+                "advise_cost": 1959,
+                "whole_cost": 20490,
+                "execution_cost": 18531
+              },
+              "advisor": {
+                "system_prompt_size": 34250,
+                "whole_cost": 2402
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

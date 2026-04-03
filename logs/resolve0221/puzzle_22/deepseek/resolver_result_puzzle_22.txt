@@ -1,0 +1,47 @@
+最终结果:
+函数 $f(x,y,c) = \frac{(2+x^2)(4+y^2)\big(49+6c^2+4c\sqrt{3+3c^2}\big)}{\big(7\sqrt{3}\,c+14\sqrt{1+c^2}\big)(x+y)}$ 在约束 $x+y+c > \sqrt{13}$, $x,y \ge 0$ 下没有最小值，下确界为 $-\infty$。
+
+推导过程:
+# 推导过程
+
+## 1. 问题分析
+求函数 $f(x,y,c) = \frac{(2+x^2)(4+y^2)\big(49+6c^2+4c\sqrt{3+3c^2}\big)}{\big(7\sqrt{3}\,c+14\sqrt{1+c^2}\big)(x+y)}$ 的最小值，约束条件为 $x+y+c > \sqrt{13}$, $x,y \ge 0$。
+
+## 2. 函数分解
+令：
+- $h(x,y) = \frac{(2+x^2)(4+y^2)}{x+y}$
+- $g(c) = \frac{49+6c^2+4c\sqrt{3+3c^2}}{7\sqrt{3}c+14\sqrt{1+c^2}}$
+则 $f(x,y,c) = h(x,y) \cdot g(c)$。
+
+## 3. $g(c)$ 的性质分析
+通过详细分析 $g(c)$：
+- 当 $c = \sqrt{3}$ 时，$g(c) = \frac{13}{7} \approx 1.857$ 是局部最小值。
+- 当 $c \to -\infty$ 时，$g(c) \to -\infty$。
+- 当 $c$ 为足够负的数时，$g(c) < 0$。
+
+具体地，渐近分析显示：
+当 $c \to -\infty$ 时，
+$$g(c) \sim \frac{6-4\sqrt{3}}{7\sqrt{3}-14} \cdot c \approx 0.494872c \to -\infty$$
+
+## 4. 约束条件下的行为
+当 $c \to -\infty$ 时，约束 $x+y+c > \sqrt{13}$ 要求 $x+y \to \infty$。
+选择 $x$ 很小，$y$ 很大，使得 $x+y \approx -c$。
+
+此时：
+- $h(x,y) = \frac{(2+x^2)(4+y^2)}{x+y} \sim \frac{2 \cdot y^2}{y} = 2y$（当 $y \to \infty$）
+- $g(c) \sim kc$，其中 $k = \frac{6-4\sqrt{3}}{7\sqrt{3}-14} \approx 0.494872$
+- 因此 $f(x,y,c) = h(x,y) \cdot g(c) \sim (2y) \cdot (kc) = 2k y c$
+
+由于 $y \approx -c$，有 $f \sim -2k c^2 \to -\infty$ 当 $c \to -\infty$。
+
+## 5. 数值验证
+取 $c = -200$, $x = 0.001$, $y = \sqrt{13} - c - x + 0.001 \approx 203.606$：
+计算得 $f \approx -40254$。
+
+更一般地，对于任意 $M > 0$，可以选择 $c$ 负得足够大，使得 $f < -M$。
+
+## 6. 结论
+函数 $f(x,y,c)$ 在给定约束下无下界，可以取任意负值。因此函数没有最小值，下确界为 $-\infty$。
+
+## 7. 补充说明
+如果问题隐含 $c \ge 0$ 的条件，则最小值需要重新计算。但题目只明确给出了 $x,y \ge 0$，对 $c$ 没有非负限制。

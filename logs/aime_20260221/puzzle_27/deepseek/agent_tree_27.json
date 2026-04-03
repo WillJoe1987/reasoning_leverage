@@ -1,0 +1,262 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T20:36:00.073922",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 28345,
+          "advise_cost": 0,
+          "whole_cost": 91230,
+          "execution_cost": 283919
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_eb61d621",
+            "advisor_id": "adv_8425ed4e",
+            "task_key_target": "四面体几何结构分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:36:08.374361",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2649,
+                "hire_cost": 4190,
+                "advise_cost": 3145,
+                "whole_cost": 21154,
+                "execution_cost": 36905
+              },
+              "advisor": {
+                "system_prompt_size": 12404,
+                "whole_cost": 3458
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eb61d621",
+              "agents": [
+                {
+                  "agent_id": "emp_80782048",
+                  "advisor_id": "adv_a26abe75",
+                  "task_key_target": "四面体计算验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:40:37.106140",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 770,
+                      "hire_cost": 0,
+                      "advise_cost": 636,
+                      "whole_cost": 23722,
+                      "execution_cost": 23086
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11359,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e0415189",
+            "advisor_id": "adv_e46f87ab",
+            "task_key_target": "四面体构造方案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:36:29.349987",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2811,
+                "hire_cost": 0,
+                "advise_cost": 2108,
+                "whole_cost": 32934,
+                "execution_cost": 30826
+              },
+              "advisor": {
+                "system_prompt_size": 13183,
+                "whole_cost": 2554
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e0415189",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_3616b091",
+            "advisor_id": "adv_b597aadd",
+            "task_key_target": "计算四面体坐标",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:37:10.248066",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2868,
+                "hire_cost": 6725,
+                "advise_cost": 1639,
+                "whole_cost": 58469,
+                "execution_cost": 72694
+              },
+              "advisor": {
+                "system_prompt_size": 19874,
+                "whole_cost": 2140
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_3616b091",
+              "agents": [
+                {
+                  "agent_id": "emp_a682da92",
+                  "advisor_id": "adv_a03e442d",
+                  "task_key_target": "四面体坐标符号计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T20:39:30.862023",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 925,
+                      "hire_cost": 0,
+                      "advise_cost": 658,
+                      "whole_cost": 23247,
+                      "execution_cost": 22589
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27535,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d7cef54c",
+            "advisor_id": "adv_a3661ae6",
+            "task_key_target": "证明思路1：坐标几何法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:43:36.774029",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 625,
+                "hire_cost": 0,
+                "advise_cost": 2236,
+                "whole_cost": 20074,
+                "execution_cost": 17838
+              },
+              "advisor": {
+                "system_prompt_size": 67849,
+                "whole_cost": 2546
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_1e0b1864",
+            "advisor_id": "adv_6a5844e9",
+            "task_key_target": "证明思路2：向量代数法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:43:41.715646",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 528,
+                "hire_cost": 0,
+                "advise_cost": 2217,
+                "whole_cost": 14601,
+                "execution_cost": 12384
+              },
+              "advisor": {
+                "system_prompt_size": 68777,
+                "whole_cost": 2434
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_48d56079",
+            "advisor_id": "adv_dd792632",
+            "task_key_target": "证明思路3：解析几何法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:43:46.184324",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 488,
+                "hire_cost": 0,
+                "advise_cost": 2540,
+                "whole_cost": 18845,
+                "execution_cost": 16305
+              },
+              "advisor": {
+                "system_prompt_size": 69263,
+                "whole_cost": 2708
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_b54cefd4",
+            "advisor_id": "adv_9d951999",
+            "task_key_target": "验证结果正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T20:43:51.790131",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 559,
+                "hire_cost": 0,
+                "advise_cost": 2216,
+                "whole_cost": 36298,
+                "execution_cost": 34082
+              },
+              "advisor": {
+                "system_prompt_size": 69820,
+                "whole_cost": 2466
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

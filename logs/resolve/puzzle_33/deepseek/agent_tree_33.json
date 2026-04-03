@@ -1,0 +1,189 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T01:14:54.491785",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 20616,
+          "advise_cost": 0,
+          "whole_cost": 34516,
+          "execution_cost": 140937
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_f5413450",
+            "advisor_id": "adv_1fa8a424",
+            "task_key_target": "建立问题数学模型和基本分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:15:04.542580",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2648,
+                "hire_cost": 0,
+                "advise_cost": 3902,
+                "whole_cost": 23332,
+                "execution_cost": 19430
+              },
+              "advisor": {
+                "system_prompt_size": 13217,
+                "whole_cost": 4183
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f5413450",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_b2331977",
+            "advisor_id": "adv_6f2bcb5b",
+            "task_key_target": "图论建模和最小化分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:15:11.249015",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2713,
+                "hire_cost": 9970,
+                "advise_cost": 2762,
+                "whole_cost": 33461,
+                "execution_cost": 84978
+              },
+              "advisor": {
+                "system_prompt_size": 12336,
+                "whole_cost": 3109
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b2331977",
+              "agents": [
+                {
+                  "agent_id": "emp_f8f5c272",
+                  "advisor_id": "adv_634a508f",
+                  "task_key_target": "图论下界分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:16:35.944993",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 664,
+                      "hire_cost": 0,
+                      "advise_cost": 4687,
+                      "whole_cost": 27575,
+                      "execution_cost": 22888
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18563,
+                      "whole_cost": 12645
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_d0a66da3",
+                  "advisor_id": "adv_342c5b0e",
+                  "task_key_target": "最小构造探索",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T01:16:41.832876",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 612,
+                      "hire_cost": 0,
+                      "advise_cost": 2037,
+                      "whole_cost": 43398,
+                      "execution_cost": 41361
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15447,
+                      "whole_cost": 2338
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_9e16acea",
+            "advisor_id": "adv_814f1199",
+            "task_key_target": "数值验证和构造示例",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:15:17.341772",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2658,
+                "hire_cost": 0,
+                "advise_cost": 2683,
+                "whole_cost": 24341,
+                "execution_cost": 21658
+              },
+              "advisor": {
+                "system_prompt_size": 13357,
+                "whole_cost": 2979
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9e16acea",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_0f954609",
+            "advisor_id": "adv_fc431d5e",
+            "task_key_target": "验证26人构造的有效性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T01:22:54.617620",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 775,
+                "hire_cost": 0,
+                "advise_cost": 1945,
+                "whole_cost": 2916,
+                "execution_cost": 971
+              },
+              "advisor": {
+                "system_prompt_size": 45346,
+                "whole_cost": 2376
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

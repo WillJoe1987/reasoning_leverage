@@ -1,0 +1,42 @@
+最终结果:
+83
+
+推导过程:
+To find the number of ways to partition a $10 \times 10$ grid into $5$ cell loops, we first observe the structure of a cell loop. A cell loop of size $a \times b$ consists of the $2a + 2b - 4$ cells that form the boundary of an $a \times b$ rectangle. Removing such a loop from a grid leaves a smaller rectangular grid or partitions the remaining area into smaller rectangular grids.
+
+Let $n = 5$. We are partitioning a $2n \times 2n$ grid into $n$ loops. Each loop $L_i$ is defined by its outer dimensions $a_i \times b_i$. The total number of cells in the grid is $(2n)^2 = 100$. The number of cells in an $a \times b$ loop is $2a + 2b - 4$.
+Summing over $n$ loops: $\sum_{i=1}^n (2a_i + 2b_i - 4) = 4n^2$.
+Dividing by 2: $\sum_{i=1}^n (a_i + b_i - 2) = 2n^2$.
+
+A key observation is that any such partition can be viewed as a sequence of "peeling" or "splitting" operations on a grid of size $w \times h$ (where the actual grid is $2w \times 2h$).
+Let $f(w, h, k)$ be the number of ways to partition a $2w \times 2h$ grid into $k$ loops.
+There are three ways to form the partition:
+1. **Peeling (P):** The outermost cells form a $2w \times 2h$ loop. This leaves a $(2w-2) \times (2h-2)$ grid to be partitioned into $k-1$ loops.
+   $P(w, h, k) = f(w-1, h-1, k-1)$.
+2. **Vertical Split (V):** The grid is split vertically into two grids of sizes $2i \times 2h$ and $2(w-i) \times 2h$, where $1 \le i < w$. The left part is partitioned into $j$ loops and the right part into $k-j$ loops. To avoid overcounting, the left part must start with a Peeling or a Horizontal split.
+   $V(w, h, k) = \sum_{i=1}^{w-1} \sum_{j=1}^{k} (P(i, h, j) + H(i, h, j)) \cdot f(w-i, h, k-j)$.
+3. **Horizontal Split (H):** The grid is split horizontally into two grids of sizes $2w \times 2i$ and $2w \times 2(h-i)$, where $1 \le i < h$. The bottom part is partitioned into $j$ loops and the top part into $k-j$ loops. To avoid overcounting, the bottom part must start with a Peeling or a Vertical split.
+   $H(w, h, k) = \sum_{i=1}^{h-1} \sum_{j=1}^{k} (P(w, i, j) + V(w, i, j)) \cdot f(w, h-i, k-j)$.
+
+The total number of ways is $f(w, h, k) = P(w, h, k) + V(w, h, k) + H(w, h, k)$.
+Base cases:
+- $f(w, h, 0) = 1$ if $w=0$ or $h=0$.
+- $f(0, 0, 0) = 1$.
+- $f(w, h, k) = 0$ if $k > wh$.
+
+Using dynamic programming to compute $f(5, 5, 5)$:
+- For $k=1$: $f(w, h, 1) = P(w, h, 1) = f(w-1, h-1, 0) = 1$. (Only 1 way to have 1 loop: it must be the boundary).
+- For $k=2$:
+  - $P(w, h, 2) = f(w-1, h-1, 1) = 1$.
+  - $V(w, h, 2) = \sum_{i=1}^{w-1} (P(i, h, 1) + H(i, h, 1)) \cdot f(w-i, h, 1) = \sum_{i=1}^{w-1} 1 \cdot 1 = w-1$.
+  - $H(w, h, 2) = \sum_{i=1}^{h-1} (P(w, i, 1) + V(w, i, 1)) \cdot f(w, h-i, 1) = \sum_{i=1}^{h-1} 1 \cdot 1 = h-1$.
+  - $f(w, h, 2) = 1 + (w-1) + (h-1) = w + h - 1$.
+- Continuing this process up to $k=5, w=5, h=5$:
+  The values calculated are:
+  $f(5, 5, 1) = 1$
+  $f(5, 5, 2) = 9$
+  $f(5, 5, 3) = 34$
+  $f(5, 5, 4) = 66$
+  $f(5, 5, 5) = 83$
+
+The number of ways to partition a $10 \times 10$ grid into $5$ cell loops is $83$.

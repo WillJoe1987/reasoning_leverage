@@ -1,0 +1,243 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T22:34:38.334106",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 18159,
+          "advise_cost": 0,
+          "whole_cost": 58041,
+          "execution_cost": 419015
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_658c2abe",
+            "advisor_id": "adv_c7035c3b",
+            "task_key_target": "问题分析与函数简化",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:34:46.705116",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2663,
+                "hire_cost": 11639,
+                "advise_cost": 3133,
+                "whole_cost": 31221,
+                "execution_cost": 120734
+              },
+              "advisor": {
+                "system_prompt_size": 12745,
+                "whole_cost": 3456
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_658c2abe",
+              "agents": [
+                {
+                  "agent_id": "emp_d59bce80",
+                  "advisor_id": "adv_d1431d60",
+                  "task_key_target": "g(c)函数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:35:52.350367",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 577,
+                      "hire_cost": 0,
+                      "advise_cost": 1846,
+                      "whole_cost": 47668,
+                      "execution_cost": 45822
+                    },
+                    "advisor": {
+                      "system_prompt_size": 15033,
+                      "whole_cost": 2090
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_25dc58a4",
+                  "advisor_id": "adv_448641a3",
+                  "task_key_target": "f(x,y)函数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:35:58.369488",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 593,
+                      "hire_cost": 0,
+                      "advise_cost": 720,
+                      "whole_cost": 59183,
+                      "execution_cost": 58463
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12313,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_b4d935cb",
+            "advisor_id": "adv_5f2430b5",
+            "task_key_target": "数值探索与最小值搜索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:34:52.364790",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2611,
+                "hire_cost": 6009,
+                "advise_cost": 1818,
+                "whole_cost": 77745,
+                "execution_cost": 196862
+              },
+              "advisor": {
+                "system_prompt_size": 11840,
+                "whole_cost": 2092
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b4d935cb",
+              "agents": [
+                {
+                  "agent_id": "emp_abe0c0ae",
+                  "advisor_id": "adv_a4790fd4",
+                  "task_key_target": "函数F(x,y,c)的数值搜索与分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T22:35:37.365636",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 2916,
+                      "hire_cost": 12166,
+                      "advise_cost": 777,
+                      "whole_cost": 77563,
+                      "execution_cost": 126944
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12834,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_abe0c0ae",
+                    "agents": [
+                      {
+                        "agent_id": "emp_c95b71bc",
+                        "advisor_id": "adv_7ba214e8",
+                        "task_key_target": "函数F(x,y,c)的数值搜索算法实现",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-21T22:36:46.531121",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 804,
+                            "hire_cost": 0,
+                            "advise_cost": 2553,
+                            "whole_cost": 64877,
+                            "execution_cost": 62324
+                          },
+                          "advisor": {
+                            "system_prompt_size": 7791,
+                            "whole_cost": 3003
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_2d5abe29",
+            "advisor_id": "adv_69ca241f",
+            "task_key_target": "解析方法与不等式证明",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:34:56.937958",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2550,
+                "hire_cost": 262,
+                "advise_cost": 3613,
+                "whole_cost": 37896,
+                "execution_cost": 34021
+              },
+              "advisor": {
+                "system_prompt_size": 12432,
+                "whole_cost": 3805
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2d5abe29",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9a97feb9",
+            "advisor_id": "adv_71cc18d1",
+            "task_key_target": "验证最小值结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T22:42:08.892215",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 683,
+                "hire_cost": 0,
+                "advise_cost": 2370,
+                "whole_cost": 29886,
+                "execution_cost": 27516
+              },
+              "advisor": {
+                "system_prompt_size": 62127,
+                "whole_cost": 2741
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

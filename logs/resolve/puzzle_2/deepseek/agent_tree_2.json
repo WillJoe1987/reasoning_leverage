@@ -1,0 +1,128 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T17:46:31.633434",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 19290,
+          "advise_cost": 0,
+          "whole_cost": 61878,
+          "execution_cost": 216350
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_c384a185",
+            "advisor_id": "adv_37c19f89",
+            "task_key_target": "数值探索",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:46:47.843554",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 563,
+                "hire_cost": 0,
+                "advise_cost": 2060,
+                "whole_cost": 55183,
+                "execution_cost": 53123
+              },
+              "advisor": {
+                "system_prompt_size": 13590,
+                "whole_cost": 2315
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_85a6b6ff",
+            "advisor_id": "adv_4eccc30a",
+            "task_key_target": "理论分析-情况1",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:46:56.651128",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 575,
+                "hire_cost": 0,
+                "advise_cost": 2633,
+                "whole_cost": 21685,
+                "execution_cost": 19052
+              },
+              "advisor": {
+                "system_prompt_size": 8197,
+                "whole_cost": 2899
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_cc1a4111",
+            "advisor_id": "adv_68b7c103",
+            "task_key_target": "理论分析-情况2",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:47:04.001938",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 748,
+                "hire_cost": 0,
+                "advise_cost": 2203,
+                "whole_cost": 44533,
+                "execution_cost": 42330
+              },
+              "advisor": {
+                "system_prompt_size": 9372,
+                "whole_cost": 2638
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_aa41896e",
+            "advisor_id": "adv_40b5a660",
+            "task_key_target": "最终验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T17:51:38.223294",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 598,
+                "hire_cost": 0,
+                "advise_cost": 2586,
+                "whole_cost": 61843,
+                "execution_cost": 59257
+              },
+              "advisor": {
+                "system_prompt_size": 47760,
+                "whole_cost": 2869
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

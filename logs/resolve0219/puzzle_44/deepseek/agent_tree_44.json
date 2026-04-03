@@ -1,0 +1,169 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-03T16:57:25.027340",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 24255,
+          "advise_cost": 0,
+          "whole_cost": 66630,
+          "execution_cost": 177731
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_b7b78944",
+            "advisor_id": "adv_b84ef639",
+            "task_key_target": "分析组合求和表达式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:57:40.990832",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2656,
+                "hire_cost": 16374,
+                "advise_cost": 1815,
+                "whole_cost": 39183,
+                "execution_cost": 38775
+              },
+              "advisor": {
+                "system_prompt_size": 11443,
+                "whole_cost": 2098
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_b7b78944",
+              "agents": [
+                {
+                  "agent_id": "emp_c1a0d293",
+                  "advisor_id": "adv_f5c852df",
+                  "task_key_target": "生成函数法证明组合求和",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-03T17:05:23.429843",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 557,
+                      "hire_cost": 0,
+                      "advise_cost": 791,
+                      "whole_cost": 18572,
+                      "execution_cost": 17781
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20779,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_bd0f91eb",
+            "advisor_id": "adv_f8771f6e",
+            "task_key_target": "数值验证组合求和",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T16:58:10.987397",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2598,
+                "hire_cost": 0,
+                "advise_cost": 2612,
+                "whole_cost": 46773,
+                "execution_cost": 44161
+              },
+              "advisor": {
+                "system_prompt_size": 12880,
+                "whole_cost": 2840
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bd0f91eb",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_bb109576",
+            "advisor_id": "adv_e68b76cf",
+            "task_key_target": "因式分解多项式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:00:25.625434",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2614,
+                "hire_cost": 0,
+                "advise_cost": 1797,
+                "whole_cost": 25505,
+                "execution_cost": 23708
+              },
+              "advisor": {
+                "system_prompt_size": 23567,
+                "whole_cost": 2037
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_bb109576",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_f8f443c8",
+            "advisor_id": "adv_ab2063ff",
+            "task_key_target": "验证组合求和推导",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-03T17:08:05.108945",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2968,
+                "hire_cost": 0,
+                "advise_cost": 2416,
+                "whole_cost": 31128,
+                "execution_cost": 28712
+              },
+              "advisor": {
+                "system_prompt_size": 56546,
+                "whole_cost": 3007
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f8f443c8",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

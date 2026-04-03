@@ -1,0 +1,104 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-26T17:43:28.034381",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3679,
+          "hire_cost": 5792,
+          "advise_cost": 0,
+          "whole_cost": 10160,
+          "execution_cost": 8310
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e7101be5",
+            "advisor_id": "adv_21dcc486",
+            "task_key_target": "check",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T17:43:39.249329",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 498,
+                "hire_cost": 0,
+                "advise_cost": 1680,
+                "whole_cost": 2458,
+                "execution_cost": 778
+              },
+              "advisor": {
+                "system_prompt_size": 13067,
+                "whole_cost": 1792
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_21d184c0",
+            "advisor_id": "adv_ff9bba3c",
+            "task_key_target": "search",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T17:43:50.436531",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 521,
+                "hire_cost": 0,
+                "advise_cost": 2350,
+                "whole_cost": 4999,
+                "execution_cost": 2649
+              },
+              "advisor": {
+                "system_prompt_size": 13590,
+                "whole_cost": 2484
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_92658773",
+            "advisor_id": "adv_08b2366b",
+            "task_key_target": "construct",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-26T17:43:56.324408",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 505,
+                "hire_cost": 0,
+                "advise_cost": 2231,
+                "whole_cost": 2746,
+                "execution_cost": 515
+              },
+              "advisor": {
+                "system_prompt_size": 14136,
+                "whole_cost": 2346
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

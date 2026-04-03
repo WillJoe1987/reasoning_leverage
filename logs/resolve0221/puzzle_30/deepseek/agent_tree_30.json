@@ -1,0 +1,247 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T22:34:01.918093",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 28389,
+          "advise_cost": 0,
+          "whole_cost": 90854,
+          "execution_cost": 474071
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8f070d5a",
+            "advisor_id": "adv_322f264a",
+            "task_key_target": "求解满足同余条件的p和q",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:34:15.170657",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2773,
+                "hire_cost": 0,
+                "advise_cost": 1843,
+                "whole_cost": 46762,
+                "execution_cost": 44919
+              },
+              "advisor": {
+                "system_prompt_size": 13734,
+                "whole_cost": 2258
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8f070d5a",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_eadba593",
+            "advisor_id": "adv_5b09987d",
+            "task_key_target": "分析序列方程和周期性条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:34:34.800071",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2978,
+                "hire_cost": 14167,
+                "advise_cost": 2327,
+                "whole_cost": 44359,
+                "execution_cost": 77818
+              },
+              "advisor": {
+                "system_prompt_size": 13526,
+                "whole_cost": 2943
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_eadba593",
+              "agents": [
+                {
+                  "agent_id": "emp_955e2775",
+                  "advisor_id": "adv_07d066e4",
+                  "task_key_target": "搜索满足统计条件的周期序列",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:36:54.170316",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 673,
+                      "hire_cost": 0,
+                      "advise_cost": 1317,
+                      "whole_cost": 51270,
+                      "execution_cost": 49953
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28184,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a285c4a8",
+            "advisor_id": "adv_ebc87ff6",
+            "task_key_target": "数值验证序列条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:35:10.774464",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3347,
+                "hire_cost": 11903,
+                "advise_cost": 2833,
+                "whole_cost": 67755,
+                "execution_cost": 253111
+              },
+              "advisor": {
+                "system_prompt_size": 17216,
+                "whole_cost": 3818
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a285c4a8",
+              "agents": [
+                {
+                  "agent_id": "emp_618cc089",
+                  "advisor_id": "adv_f4e8bf0e",
+                  "task_key_target": "搜索满足条件的周期序列模式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:36:58.908320",
+                  "hirable": true,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 3134,
+                      "hire_cost": 11734,
+                      "advise_cost": 820,
+                      "whole_cost": 68253,
+                      "execution_cost": 200092
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23388,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": {
+                    "manager_depth": 3,
+                    "parent_id": "emp_618cc089",
+                    "agents": [
+                      {
+                        "agent_id": "emp_79ceb6b8",
+                        "advisor_id": "adv_aa69c7b1",
+                        "task_key_target": "系统搜索周期T=1到5的序列",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-19T22:38:33.843416",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 800,
+                            "hire_cost": 0,
+                            "advise_cost": 748,
+                            "whole_cost": 72529,
+                            "execution_cost": 71781
+                          },
+                          "advisor": {
+                            "system_prompt_size": 22350,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      },
+                      {
+                        "agent_id": "emp_1b128cee",
+                        "advisor_id": "adv_f8a9632a",
+                        "task_key_target": "系统搜索周期T=6到10的序列",
+                        "status": "completed",
+                        "depth": 3,
+                        "hired_at": "2026-02-19T22:38:43.328958",
+                        "hirable": false,
+                        "force_order": false,
+                        "costs": {
+                          "agent": {
+                            "system_prompt_size": 858,
+                            "hire_cost": 0,
+                            "advise_cost": 717,
+                            "whole_cost": 73329,
+                            "execution_cost": 72612
+                          },
+                          "advisor": {
+                            "system_prompt_size": 19067,
+                            "whole_cost": 0
+                          }
+                        },
+                        "child_manager": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_a5544b47",
+            "advisor_id": "adv_b4c6f311",
+            "task_key_target": "验证完整解",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:44:01.178035",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3412,
+                "hire_cost": 0,
+                "advise_cost": 3473,
+                "whole_cost": 39231,
+                "execution_cost": 35758
+              },
+              "advisor": {
+                "system_prompt_size": 88286,
+                "whole_cost": 4534
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_a5544b47",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

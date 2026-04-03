@@ -1,0 +1,100 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-08T17:25:09.030753",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2591,
+          "hire_cost": 11189,
+          "advise_cost": 0,
+          "whole_cost": 17888
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0f37dd03",
+            "advisor_id": "adv_36159e5c",
+            "task_key_target": "对数乘积简化分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T17:25:26.263698",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 550,
+                "hire_cost": 0,
+                "advise_cost": 1370,
+                "whole_cost": 9007
+              },
+              "advisor": {
+                "system_prompt_size": 7789,
+                "whole_cost": 1711
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_7294fd23",
+            "advisor_id": "adv_ef29eb1a",
+            "task_key_target": "乘积简化计算",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T17:27:16.707422",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 526,
+                "hire_cost": 0,
+                "advise_cost": 1635,
+                "whole_cost": 6730
+              },
+              "advisor": {
+                "system_prompt_size": 8605,
+                "whole_cost": 1944
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_f4611666",
+            "advisor_id": "adv_58d6b9da",
+            "task_key_target": "验证计算结果",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-08T17:28:53.717172",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 514,
+                "hire_cost": 0,
+                "advise_cost": 1886,
+                "whole_cost": 10476
+              },
+              "advisor": {
+                "system_prompt_size": 13561,
+                "whole_cost": 2188
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

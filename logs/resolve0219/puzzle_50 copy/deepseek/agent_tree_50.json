@@ -1,0 +1,315 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-04T17:15:12.495543",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3517,
+          "hire_cost": 37371,
+          "advise_cost": 0,
+          "whole_cost": 148196,
+          "execution_cost": 544662
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_abcf3238",
+            "advisor_id": "adv_807c54e8",
+            "task_key_target": "分析多项式f(x)的最小正实根α",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T17:15:35.048964",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2604,
+                "hire_cost": 18529,
+                "advise_cost": 876,
+                "whole_cost": 86044,
+                "execution_cost": 154234
+              },
+              "advisor": {
+                "system_prompt_size": 14862,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_abcf3238",
+              "agents": [
+                {
+                  "agent_id": "emp_16683756",
+                  "advisor_id": "adv_5e2e9408",
+                  "task_key_target": "分析多项式根的性质和最小正实根",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:16:26.903082",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 554,
+                      "hire_cost": 0,
+                      "advise_cost": 1506,
+                      "whole_cost": 20988,
+                      "execution_cost": 19482
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14539,
+                      "whole_cost": 1743
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6879e38f",
+                  "advisor_id": "adv_2b818fc0",
+                  "task_key_target": "计算α³⁵的高精度值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:20:55.516821",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 557,
+                      "hire_cost": 0,
+                      "advise_cost": 2357,
+                      "whole_cost": 31349,
+                      "execution_cost": 28992
+                    },
+                    "advisor": {
+                      "system_prompt_size": 44161,
+                      "whole_cost": 2616
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_c40b0dfe",
+                  "advisor_id": "adv_b09d304b",
+                  "task_key_target": "计算α³⁵模1498的精确值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:24:48.065947",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 625,
+                      "hire_cost": 0,
+                      "advise_cost": 2967,
+                      "whole_cost": 42088,
+                      "execution_cost": 39121
+                    },
+                    "advisor": {
+                      "system_prompt_size": 60436,
+                      "whole_cost": 5104
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_1933133b",
+            "advisor_id": "adv_327a911c",
+            "task_key_target": "分析模7、11、13的剩余集合",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T17:15:58.822385",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2712,
+                "hire_cost": 0,
+                "advise_cost": 1363,
+                "whole_cost": 11844,
+                "execution_cost": 10481
+              },
+              "advisor": {
+                "system_prompt_size": 15627,
+                "whole_cost": 1688
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_1933133b",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_01d5b9d6",
+            "advisor_id": "adv_3dcbaa1a",
+            "task_key_target": "验证多项式计算和N值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T17:25:50.757532",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2752,
+                "hire_cost": 15830,
+                "advise_cost": 1309,
+                "whole_cost": 87311,
+                "execution_cost": 135725
+              },
+              "advisor": {
+                "system_prompt_size": 76367,
+                "whole_cost": 1655
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_01d5b9d6",
+              "agents": [
+                {
+                  "agent_id": "emp_82ef612c",
+                  "advisor_id": "adv_c6e7018a",
+                  "task_key_target": "高精度计算α^35",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:27:33.094415",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 501,
+                      "hire_cost": 0,
+                      "advise_cost": 1639,
+                      "whole_cost": 12241,
+                      "execution_cost": 10602
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18729,
+                      "whole_cost": 1802
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a27283ed",
+                  "advisor_id": "adv_66956ebd",
+                  "task_key_target": "代数方法计算α^35",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:33:14.445369",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 573,
+                      "hire_cost": 0,
+                      "advise_cost": 821,
+                      "whole_cost": 54556,
+                      "execution_cost": 53735
+                    },
+                    "advisor": {
+                      "system_prompt_size": 58642,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6223615b",
+                  "advisor_id": "adv_2a121e55",
+                  "task_key_target": "最终验证N值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:40:24.821745",
+                  "hirable": false,
+                  "force_order": true,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 554,
+                      "hire_cost": 0,
+                      "advise_cost": 1896,
+                      "whole_cost": 3112,
+                      "execution_cost": 1216
+                    },
+                    "advisor": {
+                      "system_prompt_size": 100579,
+                      "whole_cost": 2144
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ee5348ad",
+            "advisor_id": "adv_2cbf47db",
+            "task_key_target": "验证合格序列号计数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-04T17:26:02.153510",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2780,
+                "hire_cost": 9720,
+                "advise_cost": 2766,
+                "whole_cost": 85546,
+                "execution_cost": 133397
+              },
+              "advisor": {
+                "system_prompt_size": 81559,
+                "whole_cost": 3164
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ee5348ad",
+              "agents": [
+                {
+                  "agent_id": "emp_41b0987b",
+                  "advisor_id": "adv_9800a9c4",
+                  "task_key_target": "高精度计算α^35和N值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-04T17:31:18.040432",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 817,
+                      "hire_cost": 0,
+                      "advise_cost": 6553,
+                      "whole_cost": 66890,
+                      "execution_cost": 60337
+                    },
+                    "advisor": {
+                      "system_prompt_size": 41509,
+                      "whole_cost": 46729
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-19T21:58:22.464124",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 42670,
+          "advise_cost": 0,
+          "whole_cost": 95109,
+          "execution_cost": 376676
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_864489f6",
+            "advisor_id": "adv_858deff2",
+            "task_key_target": "分析f(n)函数的性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:58:32.117356",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2547,
+                "hire_cost": 0,
+                "advise_cost": 2793,
+                "whole_cost": 34878,
+                "execution_cost": 32085
+              },
+              "advisor": {
+                "system_prompt_size": 13036,
+                "whole_cost": 2976
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_864489f6",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_363cc3ba",
+            "advisor_id": "adv_d0e3fcbe",
+            "task_key_target": "分析多项式系数条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:58:36.744551",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2533,
+                "hire_cost": 0,
+                "advise_cost": 1702,
+                "whole_cost": 12791,
+                "execution_cost": 11089
+              },
+              "advisor": {
+                "system_prompt_size": 11954,
+                "whole_cost": 1876
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_363cc3ba",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_2f732a7a",
+            "advisor_id": "adv_ad7aad54",
+            "task_key_target": "分析无穷多个n满足P(n)=f(n)的条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T21:58:41.378424",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2567,
+                "hire_cost": 8161,
+                "advise_cost": 3386,
+                "whole_cost": 73550,
+                "execution_cost": 86181
+              },
+              "advisor": {
+                "system_prompt_size": 12558,
+                "whole_cost": 3581
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2f732a7a",
+              "agents": [
+                {
+                  "agent_id": "emp_a9817dd7",
+                  "advisor_id": "adv_7084f597",
+                  "task_key_target": "系统搜索满足条件的线性多项式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:02:10.897555",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 671,
+                      "hire_cost": 0,
+                      "advise_cost": 4367,
+                      "whole_cost": 28545,
+                      "execution_cost": 24178
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38106,
+                      "whole_cost": 5044
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d2eee958",
+            "advisor_id": "adv_ed7e3f5e",
+            "task_key_target": "分析平方自由数的分布和性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:01:51.677253",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2529,
+                "hire_cost": 0,
+                "advise_cost": 2825,
+                "whole_cost": 65946,
+                "execution_cost": 63121
+              },
+              "advisor": {
+                "system_prompt_size": 27228,
+                "whole_cost": 2979
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d2eee958",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_2e8c7382",
+            "advisor_id": "adv_94cb5bb9",
+            "task_key_target": "严格证明P(x)必须是线性函数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:02:42.133301",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2556,
+                "hire_cost": 0,
+                "advise_cost": 2267,
+                "whole_cost": 11454,
+                "execution_cost": 9187
+              },
+              "advisor": {
+                "system_prompt_size": 32816,
+                "whole_cost": 2452
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_2e8c7382",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_9f8e2f45",
+            "advisor_id": "adv_e39906d4",
+            "task_key_target": "分析所有可能的线性函数P(x)=ax+b",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:04:50.389051",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2637,
+                "hire_cost": 8183,
+                "advise_cost": 3358,
+                "whole_cost": 56741,
+                "execution_cost": 97866
+              },
+              "advisor": {
+                "system_prompt_size": 53439,
+                "whole_cost": 3372
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_9f8e2f45",
+              "agents": [
+                {
+                  "agent_id": "emp_d8fc3667",
+                  "advisor_id": "adv_eba4df38",
+                  "task_key_target": "严格证明P(x)=x/k满足条件1",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:06:16.218789",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 687,
+                      "hire_cost": 0,
+                      "advise_cost": 2909,
+                      "whole_cost": 25292,
+                      "execution_cost": 22383
+                    },
+                    "advisor": {
+                      "system_prompt_size": 23942,
+                      "whole_cost": 3248
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_d5476f22",
+                  "advisor_id": "adv_d252fefe",
+                  "task_key_target": "分析a不是1/k形式且b≠0的情况",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-19T22:06:35.640538",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 691,
+                      "hire_cost": 0,
+                      "advise_cost": 471,
+                      "whole_cost": 30754,
+                      "execution_cost": 30283
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22720,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_325ad773",
+            "advisor_id": "adv_cfe85906",
+            "task_key_target": "严格证明只有P(x)=x/k可能",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-19T22:06:49.406469",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2601,
+                "hire_cost": 0,
+                "advise_cost": 3387,
+                "whole_cost": 28095,
+                "execution_cost": 24708
+              },
+              "advisor": {
+                "system_prompt_size": 63649,
+                "whole_cost": 3612
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_325ad773",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

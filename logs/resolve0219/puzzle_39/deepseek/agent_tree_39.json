@@ -1,0 +1,268 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-02T16:27:05.324988",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3460,
+          "hire_cost": 45814,
+          "advise_cost": 0,
+          "whole_cost": 152798,
+          "execution_cost": 411363
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e81e49dc",
+            "advisor_id": "adv_ef4dd001",
+            "task_key_target": "分析生成函数和模恒等式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T16:27:33.080390",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3057,
+                "hire_cost": 7750,
+                "advise_cost": 3864,
+                "whole_cost": 29878,
+                "execution_cost": 32442
+              },
+              "advisor": {
+                "system_prompt_size": 19174,
+                "whole_cost": 4534
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e81e49dc",
+              "agents": [
+                {
+                  "agent_id": "emp_0f111d46",
+                  "advisor_id": "adv_2257cfd7",
+                  "task_key_target": "分析模恒等式在模3幂次下的性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T16:32:27.974305",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 756,
+                      "hire_cost": 0,
+                      "advise_cost": 855,
+                      "whole_cost": 15033,
+                      "execution_cost": 14178
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29503,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c390acac",
+            "advisor_id": "adv_2dd03fb1",
+            "task_key_target": "研究模3的同余性质",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T16:27:46.707198",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2918,
+                "hire_cost": 13012,
+                "advise_cost": 1359,
+                "whole_cost": 47091,
+                "execution_cost": 64645
+              },
+              "advisor": {
+                "system_prompt_size": 19675,
+                "whole_cost": 0
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c390acac",
+              "agents": [
+                {
+                  "agent_id": "emp_d1864f07",
+                  "advisor_id": "adv_2bd21e6a",
+                  "task_key_target": "分析模3同余性质中的生成函数和恒等式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T16:29:58.899744",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 759,
+                      "hire_cost": 0,
+                      "advise_cost": 812,
+                      "whole_cost": 32737,
+                      "execution_cost": 31925
+                    },
+                    "advisor": {
+                      "system_prompt_size": 25414,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e9982c4a",
+            "advisor_id": "adv_6d87d385",
+            "task_key_target": "研究生成函数的模形式展开",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T16:30:23.158059",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3116,
+                "hire_cost": 18165,
+                "advise_cost": 4120,
+                "whole_cost": 50564,
+                "execution_cost": 114318
+              },
+              "advisor": {
+                "system_prompt_size": 27178,
+                "whole_cost": 4841
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e9982c4a",
+              "agents": [
+                {
+                  "agent_id": "emp_c1959cf1",
+                  "advisor_id": "adv_f2a4c2dc",
+                  "task_key_target": "计算生成函数系数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T16:32:42.347050",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 721,
+                      "hire_cost": 0,
+                      "advise_cost": 2868,
+                      "whole_cost": 60832,
+                      "execution_cost": 57964
+                    },
+                    "advisor": {
+                      "system_prompt_size": 12881,
+                      "whole_cost": 3248
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_584ffed6",
+                  "advisor_id": "adv_7b4ce3be",
+                  "task_key_target": "分析模3^k性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T16:35:09.299946",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 768,
+                      "hire_cost": 0,
+                      "advise_cost": 897,
+                      "whole_cost": 28972,
+                      "execution_cost": 28075
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27741,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_f0504895",
+            "advisor_id": "adv_67d4431a",
+            "task_key_target": "验证同余假设",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-02T16:34:27.514958",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2975,
+                "hire_cost": 10655,
+                "advise_cost": 4594,
+                "whole_cost": 80012,
+                "execution_cost": 92974
+              },
+              "advisor": {
+                "system_prompt_size": 55894,
+                "whole_cost": 5181
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_f0504895",
+              "agents": [
+                {
+                  "agent_id": "emp_01f214db",
+                  "advisor_id": "adv_8fc88b27",
+                  "task_key_target": "分析生成函数的模性质",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-02T16:47:41.761286",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 893,
+                      "hire_cost": 0,
+                      "advise_cost": 885,
+                      "whole_cost": 29096,
+                      "execution_cost": 28211
+                    },
+                    "advisor": {
+                      "system_prompt_size": 77737,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

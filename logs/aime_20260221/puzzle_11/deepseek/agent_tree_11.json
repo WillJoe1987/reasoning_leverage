@@ -1,0 +1,176 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T17:36:00.797657",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 31291,
+          "advise_cost": 0,
+          "whole_cost": 58195,
+          "execution_cost": 206682
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_8131ec4a",
+            "advisor_id": "adv_da1ac93f",
+            "task_key_target": "公式分析与验证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:36:20.835307",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 601,
+                "hire_cost": 0,
+                "advise_cost": 2552,
+                "whole_cost": 13926,
+                "execution_cost": 11374
+              },
+              "advisor": {
+                "system_prompt_size": 13790,
+                "whole_cost": 2840
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_b4826ab2",
+            "advisor_id": "adv_9ff0dd7b",
+            "task_key_target": "线性排列最大绝对差和",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:37:32.998911",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 517,
+                "hire_cost": 0,
+                "advise_cost": 1729,
+                "whole_cost": 18805,
+                "execution_cost": 17076
+              },
+              "advisor": {
+                "system_prompt_size": 12986,
+                "whole_cost": 1938
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_6c0703f4",
+            "advisor_id": "adv_d46d54ca",
+            "task_key_target": "最大M的上界分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:39:12.132145",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 602,
+                "hire_cost": 0,
+                "advise_cost": 2046,
+                "whole_cost": 57316,
+                "execution_cost": 55270
+              },
+              "advisor": {
+                "system_prompt_size": 24988,
+                "whole_cost": 2339
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_e9bf14ef",
+            "advisor_id": "adv_6f4b13a6",
+            "task_key_target": "3x3网格最大M分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:41:33.310060",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 562,
+                "hire_cost": 0,
+                "advise_cost": 1912,
+                "whole_cost": 43492,
+                "execution_cost": 41580
+              },
+              "advisor": {
+                "system_prompt_size": 43820,
+                "whole_cost": 2164
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_e4e42b22",
+            "advisor_id": "adv_315a491a",
+            "task_key_target": "证明思路2：线性规划对偶",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:42:28.329796",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 501,
+                "hire_cost": 0,
+                "advise_cost": 2179,
+                "whole_cost": 37220,
+                "execution_cost": 35041
+              },
+              "advisor": {
+                "system_prompt_size": 47947,
+                "whole_cost": 2368
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_91c82dfc",
+            "advisor_id": "adv_9aebb9e7",
+            "task_key_target": "证明思路3：交换论证",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T17:42:32.908970",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 525,
+                "hire_cost": 0,
+                "advise_cost": 4082,
+                "whole_cost": 23519,
+                "execution_cost": 19437
+              },
+              "advisor": {
+                "system_prompt_size": 49501,
+                "whole_cost": 4295
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

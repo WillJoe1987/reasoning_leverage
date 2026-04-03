@@ -1,0 +1,218 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-18T15:10:50.013282",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2661,
+          "hire_cost": 37599,
+          "advise_cost": 0,
+          "whole_cost": 73726,
+          "execution_cost": 141479
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_92bf2ce2",
+            "advisor_id": "adv_ef409026",
+            "task_key_target": "计算表达式值并分析模式",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T15:11:20.808388",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2419,
+                "hire_cost": 0,
+                "advise_cost": 1386,
+                "whole_cost": 6588,
+                "execution_cost": 5202
+              },
+              "advisor": {
+                "system_prompt_size": 11657,
+                "whole_cost": 1624
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_92bf2ce2",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_5e6a96c4",
+            "advisor_id": "adv_abefdd57",
+            "task_key_target": "数论分析表达式值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T15:13:35.937652",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2414,
+                "hire_cost": 5916,
+                "advise_cost": 1444,
+                "whole_cost": 37860,
+                "execution_cost": 37421
+              },
+              "advisor": {
+                "system_prompt_size": 19609,
+                "whole_cost": 1674
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_5e6a96c4",
+              "agents": [
+                {
+                  "agent_id": "emp_4f704ed5",
+                  "advisor_id": "adv_1834f368",
+                  "task_key_target": "计算 floor(n!/((n+1)*(n+2))) mod 32 的值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T15:19:45.645186",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 614,
+                      "hire_cost": 0,
+                      "advise_cost": 2171,
+                      "whole_cost": 9092,
+                      "execution_cost": 6921
+                    },
+                    "advisor": {
+                      "system_prompt_size": 38820,
+                      "whole_cost": 2466
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_d4450525",
+            "advisor_id": "adv_eaba8e22",
+            "task_key_target": "证明 floor(n!/((n+1)(n+2))) 总是偶数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T15:16:10.432516",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2388,
+                "hire_cost": 0,
+                "advise_cost": 2061,
+                "whole_cost": 29925,
+                "execution_cost": 27864
+              },
+              "advisor": {
+                "system_prompt_size": 30685,
+                "whole_cost": 2248
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_d4450525",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_592cd582",
+            "advisor_id": "adv_c0991d1f",
+            "task_key_target": "计算 n=1 到 18 的所有结果值",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T15:18:27.124820",
+            "hirable": false,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 496,
+                "hire_cost": 0,
+                "advise_cost": 1653,
+                "whole_cost": 5075,
+                "execution_cost": 3422
+              },
+              "advisor": {
+                "system_prompt_size": 40614,
+                "whole_cost": 1808
+              }
+            },
+            "child_manager": null
+          },
+          {
+            "agent_id": "emp_735cb6fc",
+            "advisor_id": "adv_0ca3260a",
+            "task_key_target": "验证最终答案",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-18T15:21:07.059444",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2476,
+                "hire_cost": 6803,
+                "advise_cost": 3403,
+                "whole_cost": 32854,
+                "execution_cost": 31443
+              },
+              "advisor": {
+                "system_prompt_size": 47512,
+                "whole_cost": 3703
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_735cb6fc",
+              "agents": [
+                {
+                  "agent_id": "emp_59ad5fd8",
+                  "advisor_id": "adv_2fff2ba9",
+                  "task_key_target": "数值计算验证",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-18T15:23:12.263437",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 618,
+                      "hire_cost": 0,
+                      "advise_cost": 2364,
+                      "whole_cost": 11159,
+                      "execution_cost": 8795
+                    },
+                    "advisor": {
+                      "system_prompt_size": 14067,
+                      "whole_cost": 2633
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

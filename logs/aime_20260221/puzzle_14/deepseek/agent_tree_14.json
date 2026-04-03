@@ -1,0 +1,190 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T18:06:00.621469",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 51655,
+          "advise_cost": 0,
+          "whole_cost": 93140,
+          "execution_cost": 372008
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0d4735ac",
+            "advisor_id": "adv_002b4d5d",
+            "task_key_target": "等角五边形几何性质分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:06:08.544471",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2553,
+                "hire_cost": 17571,
+                "advise_cost": 2761,
+                "whole_cost": 86211,
+                "execution_cost": 138014
+              },
+              "advisor": {
+                "system_prompt_size": 12128,
+                "whole_cost": 2959
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0d4735ac",
+              "agents": [
+                {
+                  "agent_id": "emp_03fea241",
+                  "advisor_id": "adv_52d66e92",
+                  "task_key_target": "等角五边形符号计算",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:12:42.104380",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1003,
+                      "hire_cost": 0,
+                      "advise_cost": 671,
+                      "whole_cost": 72806,
+                      "execution_cost": 72135
+                    },
+                    "advisor": {
+                      "system_prompt_size": 59802,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_e0ce471b",
+            "advisor_id": "adv_225d90e1",
+            "task_key_target": "复数法分析等角五边形",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:06:20.106036",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2574,
+                "hire_cost": 18060,
+                "advise_cost": 1627,
+                "whole_cost": 88548,
+                "execution_cost": 123519
+              },
+              "advisor": {
+                "system_prompt_size": 11800,
+                "whole_cost": 1810
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e0ce471b",
+              "agents": [
+                {
+                  "agent_id": "emp_b1e125c0",
+                  "advisor_id": "adv_6b83ba9c",
+                  "task_key_target": "等角五边形复数分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T18:08:56.442937",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 724,
+                      "hire_cost": 0,
+                      "advise_cost": 673,
+                      "whole_cost": 55331,
+                      "execution_cost": 54658
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28905,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_6fc4b255",
+            "advisor_id": "adv_57bc235d",
+            "task_key_target": "向量法分析等角五边形",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:06:55.073568",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2737,
+                "hire_cost": 0,
+                "advise_cost": 1766,
+                "whole_cost": 43622,
+                "execution_cost": 41856
+              },
+              "advisor": {
+                "system_prompt_size": 17511,
+                "whole_cost": 2142
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_6fc4b255",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_862b2512",
+            "advisor_id": "adv_1067c41c",
+            "task_key_target": "验证等角五边形角度分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T18:12:35.463227",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 526,
+                "hire_cost": 0,
+                "advise_cost": 3570,
+                "whole_cost": 30704,
+                "execution_cost": 27134
+              },
+              "advisor": {
+                "system_prompt_size": 45736,
+                "whole_cost": 3785
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

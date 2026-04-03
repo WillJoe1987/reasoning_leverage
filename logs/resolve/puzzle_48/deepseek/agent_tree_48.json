@@ -1,0 +1,316 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-22T04:59:29.415490",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 25709,
+          "advise_cost": 0,
+          "whole_cost": 120706,
+          "execution_cost": 793349
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_e8bc6c5c",
+            "advisor_id": "adv_9a2dcf51",
+            "task_key_target": "思路1：棋盘着色与独立集分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:59:41.227484",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2536,
+                "hire_cost": 7805,
+                "advise_cost": 2878,
+                "whole_cost": 67308,
+                "execution_cost": 149462
+              },
+              "advisor": {
+                "system_prompt_size": 14200,
+                "whole_cost": 3048
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_e8bc6c5c",
+              "agents": [
+                {
+                  "agent_id": "emp_20217267",
+                  "advisor_id": "adv_eaa40075",
+                  "task_key_target": "验证安全亭放置方案",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:01:21.635025",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 599,
+                      "hire_cost": 0,
+                      "advise_cost": 698,
+                      "whole_cost": 40310,
+                      "execution_cost": 39612
+                    },
+                    "advisor": {
+                      "system_prompt_size": 20567,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_cae8bcec",
+                  "advisor_id": "adv_ec898754",
+                  "task_key_target": "计算网格图支配数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:03:34.563015",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 691,
+                      "hire_cost": 0,
+                      "advise_cost": 602,
+                      "whole_cost": 53827,
+                      "execution_cost": 53225
+                    },
+                    "advisor": {
+                      "system_prompt_size": 35258,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_05967de4",
+            "advisor_id": "adv_d161703b",
+            "task_key_target": "思路2：线性规划与整数规划分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:59:45.104014",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2516,
+                "hire_cost": 17008,
+                "advise_cost": 1746,
+                "whole_cost": 53983,
+                "execution_cost": 215222
+              },
+              "advisor": {
+                "system_prompt_size": 12613,
+                "whole_cost": 1914
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_05967de4",
+              "agents": [
+                {
+                  "agent_id": "emp_21bcc45f",
+                  "advisor_id": "adv_c6e1661f",
+                  "task_key_target": "对偶线性规划分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:01:26.167392",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 693,
+                      "hire_cost": 0,
+                      "advise_cost": 515,
+                      "whole_cost": 44285,
+                      "execution_cost": 43770
+                    },
+                    "advisor": {
+                      "system_prompt_size": 18685,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_a403a9a4",
+                  "advisor_id": "adv_c6b1b580",
+                  "task_key_target": "构造可行解",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:04:01.679974",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 608,
+                      "hire_cost": 0,
+                      "advise_cost": 706,
+                      "whole_cost": 84101,
+                      "execution_cost": 83395
+                    },
+                    "advisor": {
+                      "system_prompt_size": 32955,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_028de327",
+                  "advisor_id": "adv_ee04006c",
+                  "task_key_target": "最优值分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:08:44.452956",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 622,
+                      "hire_cost": 0,
+                      "advise_cost": 1085,
+                      "whole_cost": 53913,
+                      "execution_cost": 52828
+                    },
+                    "advisor": {
+                      "system_prompt_size": 57689,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8bb24c60",
+            "advisor_id": "adv_367ed486",
+            "task_key_target": "思路3：图论与支配集分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T04:59:49.286174",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2533,
+                "hire_cost": 5627,
+                "advise_cost": 1918,
+                "whole_cost": 84039,
+                "execution_cost": 180974
+              },
+              "advisor": {
+                "system_prompt_size": 13188,
+                "whole_cost": 1870
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8bb24c60",
+              "agents": [
+                {
+                  "agent_id": "emp_2bf7adc7",
+                  "advisor_id": "adv_ab71e001",
+                  "task_key_target": "网格图最小支配集算法研究",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:01:35.740045",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 707,
+                      "hire_cost": 0,
+                      "advise_cost": 4508,
+                      "whole_cost": 108988,
+                      "execution_cost": 104480
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19012,
+                      "whole_cost": 4871
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_74c532f6",
+            "advisor_id": "adv_a0bce7ba",
+            "task_key_target": "搜索更优解（少于50个）",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-22T05:04:05.102664",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2568,
+                "hire_cost": 10863,
+                "advise_cost": 1974,
+                "whole_cost": 96517,
+                "execution_cost": 152694
+              },
+              "advisor": {
+                "system_prompt_size": 39760,
+                "whole_cost": 2179
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_74c532f6",
+              "agents": [
+                {
+                  "agent_id": "emp_b1e610d5",
+                  "advisor_id": "adv_d21eeccf",
+                  "task_key_target": "编写安全亭放置搜索算法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-22T05:04:46.057676",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 715,
+                      "hire_cost": 0,
+                      "advise_cost": 2895,
+                      "whole_cost": 71909,
+                      "execution_cost": 69014
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11784,
+                      "whole_cost": 3266
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-24T15:41:19.797236",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2966,
+          "hire_cost": 29156,
+          "advise_cost": 0,
+          "whole_cost": 72440,
+          "execution_cost": 252909
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_7d4ce3d0",
+            "advisor_id": "adv_8c76a9a5",
+            "task_key_target": "分析分数和的最大化问题",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:41:30.175528",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2598,
+                "hire_cost": 16654,
+                "advise_cost": 3012,
+                "whole_cost": 80842,
+                "execution_cost": 103892
+              },
+              "advisor": {
+                "system_prompt_size": 9024,
+                "whole_cost": 3230
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7d4ce3d0",
+              "agents": [
+                {
+                  "agent_id": "emp_a4505999",
+                  "advisor_id": "adv_f1d4bd3f",
+                  "task_key_target": "严格证明最优排列结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:45:36.595563",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 653,
+                      "hire_cost": 0,
+                      "advise_cost": 854,
+                      "whole_cost": 16098,
+                      "execution_cost": 15244
+                    },
+                    "advisor": {
+                      "system_prompt_size": 24789,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_83b20d38",
+                  "advisor_id": "adv_f4e5ae74",
+                  "task_key_target": "验证最优排列并计算最大值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:45:48.075314",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 727,
+                      "hire_cost": 0,
+                      "advise_cost": 704,
+                      "whole_cost": 28176,
+                      "execution_cost": 27472
+                    },
+                    "advisor": {
+                      "system_prompt_size": 22073,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_90e89be6",
+            "advisor_id": "adv_a1396d5c",
+            "task_key_target": "证明最大和的结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:44:49.727067",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2640,
+                "hire_cost": 17959,
+                "advise_cost": 1994,
+                "whole_cost": 49839,
+                "execution_cost": 83591
+              },
+              "advisor": {
+                "system_prompt_size": 24282,
+                "whole_cost": 2260
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_90e89be6",
+              "agents": [
+                {
+                  "agent_id": "emp_5ff60db0",
+                  "advisor_id": "adv_91f83793",
+                  "task_key_target": "证明交替模式的最优性",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:46:11.472314",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 604,
+                      "hire_cost": 0,
+                      "advise_cost": 2363,
+                      "whole_cost": 41841,
+                      "execution_cost": 39478
+                    },
+                    "advisor": {
+                      "system_prompt_size": 5992,
+                      "whole_cost": 2655
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_6eb37812",
+                  "advisor_id": "adv_f7d9be3e",
+                  "task_key_target": "推导公式并计算n=2025",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:46:21.047625",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 625,
+                      "hire_cost": 0,
+                      "advise_cost": 1773,
+                      "whole_cost": 16000,
+                      "execution_cost": 14227
+                    },
+                    "advisor": {
+                      "system_prompt_size": 6625,
+                      "whole_cost": 2084
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_966635cc",
+            "advisor_id": "adv_7274a738",
+            "task_key_target": "计算 n=2025 的最大和",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-24T15:48:39.682041",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2589,
+                "hire_cost": 17032,
+                "advise_cost": 2067,
+                "whole_cost": 24463,
+                "execution_cost": 22142
+              },
+              "advisor": {
+                "system_prompt_size": 29894,
+                "whole_cost": 2284
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_966635cc",
+              "agents": [
+                {
+                  "agent_id": "emp_356cab28",
+                  "advisor_id": "adv_438af2b2",
+                  "task_key_target": "推导排列求和公式并计算 n=2025 的精确值",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:50:37.077026",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 738,
+                      "hire_cost": 0,
+                      "advise_cost": 2850,
+                      "whole_cost": 14318,
+                      "execution_cost": 11468
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11241,
+                      "whole_cost": 3258
+                    }
+                  },
+                  "child_manager": null
+                },
+                {
+                  "agent_id": "emp_8f4fe4cf",
+                  "advisor_id": "adv_8cc826d2",
+                  "task_key_target": "计算高精度调和数 H_{2024} 和 H_{1012}",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-24T15:53:29.528602",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 606,
+                      "hire_cost": 0,
+                      "advise_cost": 2395,
+                      "whole_cost": 7705,
+                      "execution_cost": 5310
+                    },
+                    "advisor": {
+                      "system_prompt_size": 19786,
+                      "whole_cost": 2666
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

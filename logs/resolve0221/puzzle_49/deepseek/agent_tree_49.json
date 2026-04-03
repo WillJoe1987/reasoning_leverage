@@ -1,0 +1,191 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-20T03:02:34.423192",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 35467,
+          "advise_cost": 0,
+          "whole_cost": 90525,
+          "execution_cost": 402265
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_680d6a21",
+            "advisor_id": "adv_36c0f872",
+            "task_key_target": "分析开关系统的线性代数结构",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:04:07.161396",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2775,
+                "hire_cost": 9761,
+                "advise_cost": 4208,
+                "whole_cost": 94391,
+                "execution_cost": 134610
+              },
+              "advisor": {
+                "system_prompt_size": 33692,
+                "whole_cost": 4618
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_680d6a21",
+              "agents": [
+                {
+                  "agent_id": "emp_c5d3076d",
+                  "advisor_id": "adv_698f2970",
+                  "task_key_target": "分析开关系统操作矩阵的线性代数结构",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T03:09:10.520028",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 552,
+                      "hire_cost": 0,
+                      "advise_cost": 772,
+                      "whole_cost": 54960,
+                      "execution_cost": 54188
+                    },
+                    "advisor": {
+                      "system_prompt_size": 60712,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_667b0160",
+            "advisor_id": "adv_447a621f",
+            "task_key_target": "分析最坏情况初始状态和最优策略",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:05:40.189475",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2850,
+                "hire_cost": 17250,
+                "advise_cost": 3664,
+                "whole_cost": 66143,
+                "execution_cost": 99736
+              },
+              "advisor": {
+                "system_prompt_size": 37868,
+                "whole_cost": 4149
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_667b0160",
+              "agents": [
+                {
+                  "agent_id": "emp_2daa1507",
+                  "advisor_id": "adv_0b988dab",
+                  "task_key_target": "小规模数值实验分析",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T03:09:32.204379",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 684,
+                      "hire_cost": 0,
+                      "advise_cost": 722,
+                      "whole_cost": 55229,
+                      "execution_cost": 54507
+                    },
+                    "advisor": {
+                      "system_prompt_size": 29615,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_7a29df2d",
+            "advisor_id": "adv_5811bb59",
+            "task_key_target": "暴力搜索小规模情况",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-20T03:07:04.626721",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2721,
+                "hire_cost": 4934,
+                "advise_cost": 2566,
+                "whole_cost": 57364,
+                "execution_cost": 112861
+              },
+              "advisor": {
+                "system_prompt_size": 45993,
+                "whole_cost": 2924
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_7a29df2d",
+              "agents": [
+                {
+                  "agent_id": "emp_86a7e3b1",
+                  "advisor_id": "adv_faf836c6",
+                  "task_key_target": "n=5聪明枚举算法",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-20T03:08:54.971625",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 819,
+                      "hire_cost": 0,
+                      "advise_cost": 750,
+                      "whole_cost": 63747,
+                      "execution_cost": 62997
+                    },
+                    "advisor": {
+                      "system_prompt_size": 27145,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

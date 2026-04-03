@@ -1,0 +1,218 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-21T20:39:28.162900",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 42949,
+          "advise_cost": 0,
+          "whole_cost": 121546,
+          "execution_cost": 377020
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_0ea3a019",
+            "advisor_id": "adv_fc4d471e",
+            "task_key_target": "分析约束条件并寻找简化方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:39:43.595770",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2620,
+                "hire_cost": 8913,
+                "advise_cost": 1678,
+                "whole_cost": 50927,
+                "execution_cost": 79623
+              },
+              "advisor": {
+                "system_prompt_size": 13112,
+                "whole_cost": 1937
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_0ea3a019",
+              "agents": [
+                {
+                  "agent_id": "emp_08efc512",
+                  "advisor_id": "adv_24b681ca",
+                  "task_key_target": "符号代数分析与配方",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T20:44:02.171420",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 865,
+                      "hire_cost": 0,
+                      "advise_cost": 575,
+                      "whole_cost": 39862,
+                      "execution_cost": 39287
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34547,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ac6c5e36",
+            "advisor_id": "adv_1039edf2",
+            "task_key_target": "分析目标函数结构并寻找优化方法",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:39:50.357078",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2695,
+                "hire_cost": 0,
+                "advise_cost": 1764,
+                "whole_cost": 59375,
+                "execution_cost": 57611
+              },
+              "advisor": {
+                "system_prompt_size": 12656,
+                "whole_cost": 2094
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_ac6c5e36",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_322e4d8b",
+            "advisor_id": "adv_c625b133",
+            "task_key_target": "在 u=v 条件下求解约束条件",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:46:14.990081",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2683,
+                "hire_cost": 0,
+                "advise_cost": 3021,
+                "whole_cost": 45795,
+                "execution_cost": 42774
+              },
+              "advisor": {
+                "system_prompt_size": 44822,
+                "whole_cost": 3338
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_322e4d8b",
+              "agents": []
+            }
+          },
+          {
+            "agent_id": "emp_65b15646",
+            "advisor_id": "adv_b1ef4e9d",
+            "task_key_target": "证明 f ≥ 7",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:49:41.770239",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2839,
+                "hire_cost": 18619,
+                "advise_cost": 2019,
+                "whole_cost": 68076,
+                "execution_cost": 82606
+              },
+              "advisor": {
+                "system_prompt_size": 78861,
+                "whole_cost": 2505
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_65b15646",
+              "agents": [
+                {
+                  "agent_id": "emp_9cd9fe3c",
+                  "advisor_id": "adv_db1fc7c3",
+                  "task_key_target": "从约束条件推导 uv 的下界",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-21T20:53:09.437391",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 698,
+                      "hire_cost": 0,
+                      "advise_cost": 610,
+                      "whole_cost": 35778,
+                      "execution_cost": 35168
+                    },
+                    "advisor": {
+                      "system_prompt_size": 34118,
+                      "whole_cost": 0
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_aaf32196",
+            "advisor_id": "adv_62aeaf68",
+            "task_key_target": "快速验证最小值7的正确性",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-21T20:59:30.504501",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 844,
+                "hire_cost": 0,
+                "advise_cost": 2314,
+                "whole_cost": 38123,
+                "execution_cost": 35809
+              },
+              "advisor": {
+                "system_prompt_size": 124832,
+                "whole_cost": 2845
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-01-04T17:35:11.127154",
+      "costs": {
+        "agent": {
+          "system_prompt_size": 2529,
+          "hire_cost": 5155,
+          "advise_cost": 0,
+          "whole_cost": 31908
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_dd51ae7d",
+            "advisor_id": "adv_e4ffd91d",
+            "task_key_target": "数学不等式优化问题分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T17:35:23.875056",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3397,
+                "hire_cost": 1699,
+                "advise_cost": 1248,
+                "whole_cost": 16351
+              },
+              "advisor": {
+                "system_prompt_size": 4255,
+                "whole_cost": 1600
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_dd51ae7d",
+              "agents": [
+                {
+                  "agent_id": "emp_a58ad64d",
+                  "advisor_id": "adv_69285b14",
+                  "task_key_target": "计算平方和公式",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-01-04T17:36:52.065697",
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 1373,
+                      "hire_cost": 0,
+                      "advise_cost": 1561,
+                      "whole_cost": 4161
+                    },
+                    "advisor": {
+                      "system_prompt_size": 9110,
+                      "whole_cost": 1753
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_8ffe3da3",
+            "advisor_id": "adv_2eb26f07",
+            "task_key_target": "下界构造分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-01-04T17:35:37.850901",
+            "costs": {
+              "agent": {
+                "system_prompt_size": 3345,
+                "hire_cost": 0,
+                "advise_cost": 1822,
+                "whole_cost": 2932
+              },
+              "advisor": {
+                "system_prompt_size": 6254,
+                "whole_cost": 2100
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_8ffe3da3",
+              "agents": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

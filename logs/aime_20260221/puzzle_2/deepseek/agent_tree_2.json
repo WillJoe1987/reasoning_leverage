@@ -1,0 +1,162 @@
+{
+  "manager_depth": 0,
+  "parent_id": null,
+  "agents": [
+    {
+      "agent_id": "root",
+      "advisor_id": null,
+      "task_key_target": "",
+      "status": "completed",
+      "depth": 0,
+      "hired_at": "2026-02-18T16:19:13.320613",
+      "hirable": true,
+      "force_order": false,
+      "costs": {
+        "agent": {
+          "system_prompt_size": 3649,
+          "hire_cost": 13668,
+          "advise_cost": 0,
+          "whole_cost": 60303,
+          "execution_cost": 160016
+        },
+        "advisor": {}
+      },
+      "child_manager": {
+        "manager_depth": 1,
+        "parent_id": "root",
+        "agents": [
+          {
+            "agent_id": "emp_42c68d51",
+            "advisor_id": "adv_eb3ccc87",
+            "task_key_target": "回文数数字和问题分析",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:19:21.682412",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2634,
+                "hire_cost": 3532,
+                "advise_cost": 2950,
+                "whole_cost": 27290,
+                "execution_cost": 41997
+              },
+              "advisor": {
+                "system_prompt_size": 12021,
+                "whole_cost": 3228
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_42c68d51",
+              "agents": [
+                {
+                  "agent_id": "emp_03693243",
+                  "advisor_id": "adv_1e5e9603",
+                  "task_key_target": "回文数验证检查",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:22:16.864372",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 606,
+                      "hire_cost": 0,
+                      "advise_cost": 2306,
+                      "whole_cost": 23495,
+                      "execution_cost": 21189
+                    },
+                    "advisor": {
+                      "system_prompt_size": 28040,
+                      "whole_cost": 2572
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_c92a5331",
+            "advisor_id": "adv_f20503d5",
+            "task_key_target": "组合数学分析回文数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:19:34.766508",
+            "hirable": true,
+            "force_order": false,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 2685,
+                "hire_cost": 3776,
+                "advise_cost": 1145,
+                "whole_cost": 15411,
+                "execution_cost": 31308
+              },
+              "advisor": {
+                "system_prompt_size": 11889,
+                "whole_cost": 1467
+              }
+            },
+            "child_manager": {
+              "manager_depth": 2,
+              "parent_id": "emp_c92a5331",
+              "agents": [
+                {
+                  "agent_id": "emp_f80a9549",
+                  "advisor_id": "adv_d5d23efe",
+                  "task_key_target": "计算回文数组合数",
+                  "status": "completed",
+                  "depth": 2,
+                  "hired_at": "2026-02-18T16:20:19.108218",
+                  "hirable": false,
+                  "force_order": false,
+                  "costs": {
+                    "agent": {
+                      "system_prompt_size": 631,
+                      "hire_cost": 0,
+                      "advise_cost": 2142,
+                      "whole_cost": 22960,
+                      "execution_cost": 20818
+                    },
+                    "advisor": {
+                      "system_prompt_size": 11414,
+                      "whole_cost": 2469
+                    }
+                  },
+                  "child_manager": null
+                }
+              ]
+            }
+          },
+          {
+            "agent_id": "emp_ffa0ab0a",
+            "advisor_id": "adv_fd3f9ab3",
+            "task_key_target": "独立验证回文数计数",
+            "status": "completed",
+            "depth": 1,
+            "hired_at": "2026-02-18T16:22:35.926060",
+            "hirable": false,
+            "force_order": true,
+            "costs": {
+              "agent": {
+                "system_prompt_size": 527,
+                "hire_cost": 0,
+                "advise_cost": 3059,
+                "whole_cost": 43135,
+                "execution_cost": 40076
+              },
+              "advisor": {
+                "system_prompt_size": 35733,
+                "whole_cost": 3270
+              }
+            },
+            "child_manager": null
+          }
+        ]
+      }
+    }
+  ]
+}

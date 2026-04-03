@@ -161,10 +161,7 @@ if __name__ == "__main__":
     is_git_ignored = create_check_git_ignore_tool()
     # 测试样例
     test_paths = [
-        "/prog/pweb/AI-Trader/agent_tools/local_tools/git.py",
-        "/prog/pweb/AI-Trader/.env",
-        "/prog/pweb/AI-Trader/some_ignored_file.tmp",
-        "/prog/pweb/AI-Trader/some_directory/",
+
     ]
     for tp in test_paths:
         result = is_git_ignored(tp)

@@ -32,19 +32,19 @@ class data_spaces():
     def get_default_spaces(cls, index: int = 0):
         default_spaces = [{
             "name": "A股市场数据",
-            "path": "/prog/pweb/AI-Trader/data/A_stock/A_stock_data",
+            "path": project_root+"/data/A_stock/A_stock_data",
             "description": "A_stock数据集，包含股票的历史数据等，用于股票分析与建模。"
         },{
             "name": "交易数据",
-            "path": "/prog/pweb/AI-Trader/data/agent_data_astock",
+            "path": project_root+"/data/agent_data_astock",
             "description": "agent_data_astock数据集，包含各个交易员的持仓和交易数据，用于交易策略分析与复盘。"
         },{
             "name": "整个工程",
-            "path": "/prog/pweb/AI-Trader",
+            "path": project_root,
             "description": "包含整个工程的数据和代码，用于全面的项目分析与开发。"
         },{
             "name": "数据目录",
-            "path": "/prog/pweb/AI-Trader/data",
+            "path": project_root+"/data",
             "description": "包含项目中的所有数据文件，用于数据分析与处理。"
         }]
 

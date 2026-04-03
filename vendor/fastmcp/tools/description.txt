@@ -1,219 +1,165 @@
 # FastMCP Tools 目录描述
 
 ## 目录概述
-**相对路径**: `/vendor/fastmcp/tools`（相对于项目根目录 `/prog/pweb/AI-Trader`）
-
-该目录包含FastMCP框架的工具相关模块，主要用于处理MCP（Model Context Protocol）工具的定义、注册和调用。这些模块是AI-Trader项目中AI工具系统的核心组件，负责将Python业务函数转换为标准化、类型安全的AI可调用工具。
+- **路径**: `vendor/fastmcp/tools/`
+- **类型**: 第三方依赖库目录（FastMCP框架的工具模块）
+- **内容**: 包含FastMCP框架的核心工具定义和管理模块
 
 ## 文件结构
 
-### Python模块文件
-1. **tool.py** (22,266字节)
-   - **状态**: 主文件，包含最新功能和改进
-   - **功能**: FastMCP框架的核心工具模块，提供完整的MCP工具支持
-   - **关键特性**:
-     - 完整的工具类体系（Tool、FunctionTool、ParsedFunction）
-     - 工具参数验证和类型转换
-     - 工具结果序列化和MCP协议兼容性
-     - 元数据支持
-     - 动态工具启用/禁用管理
+### 1. `tool.py` - 核心工具定义文件
+- **功能**: FastMCP框架的核心工具模块，负责工具定义、管理和转换
+- **代码长度**: 10005字符
+- **模块名称**: `vendor.fastmcp.tools.tool`
 
-2. **tool copy.py** (19,909字节)
-   - **状态**: 备份文件，是`tool.py`的旧版本副本
-   - **版本关系**: 比`tool.py`功能简化，缺少元数据支持等新特性
-   - **说明**: 建议使用主文件`tool.py`，此文件为历史参考
+#### 主要功能
+1. **工具定义和管理**: 提供工具类的定义和注册机制
+2. **函数解析**: 将Python函数解析为MCP（Model Context Protocol）兼容的工具
+3. **结果处理**: 处理工具执行结果的序列化和转换
+4. **工具转换**: 支持工具的参数转换和功能扩展
 
-### 缓存目录
-- **__pycache__**: Python字节码缓存目录，无需关注
+#### 类结构
+```
+FastMCPComponent (父类)
+    └── Tool (基础工具类)
+        └── FunctionTool (函数工具类)
 
-## 模块功能详细分析
-
-### tool.py 核心功能架构
-
-#### 1. 主要类定义
-
-**Tool类** (`class Tool(FastMCPComponent)`)
-- **作用**: 内部工具注册信息容器，继承自`FastMCPComponent`
-- **主要属性**:
-  - `parameters`: JSON schema格式的工具参数定义
-  - `output_schema`: 工具输出JSON schema（可选）
-  - `annotations`: 工具附加注解
-  - `serializer`: 自定义结果序列化器
-- **核心方法**:
-  - `enable()`/`disable()`: 启用/禁用工具，通知上下文更新
-  - `to_mcp_tool()`: 转换为MCP工具格式
-  - `from_function()`: 从函数创建工具（静态方法）
-  - `run()`: 运行工具（抽象方法）
-  - `from_tool()`: 从现有工具创建转换后的工具
-
-**FunctionTool类** (`class FunctionTool`)
-- **作用**: 函数工具注册信息，继承自Tool类
-- **额外属性**: `fn` - 封装的Python函数
-- **关键方法**: `run()` - 执行包装的函数，处理参数验证和结果转换
-
-**ParsedFunction类** (`@dataclass class ParsedFunction`)
-- **作用**: 解析后的函数信息数据类
-- **属性**: `fn`, `name`, `description`, `input_schema`, `output_schema`
-- **类方法**: `from_function()` - 从Python函数解析生成工具定义
-
-**ToolResult类** (`class ToolResult`)
-- **作用**: 工具执行结果封装
-- **构造函数**: `__init__(content, structured_content, meta=None)`
-- **方法**: `to_mcp_result()` - 转换为MCP结果格式
-
-**辅助类**:
-- `_WrappedResult`: 非对象返回类型的通用包装器
-- `_UnserializableType`: 标记不可序列化类型的占位符
-
-#### 2. 核心函数
-
-**转换函数**:
-- `_convert_to_content(result: Any, serializer=None) -> list[ContentBlock]`: 将结果转换为内容对象序列
-- `_convert_to_single_content_block(item: Any, serializer=None) -> ContentBlock`: 将单个项目转换为内容块
-- `_serialize_with_fallback(result: Any, serializer=None) -> str`: 使用备用序列化器序列化结果
-
-**验证函数**:
-- `_is_object_schema(schema: dict[str, Any]) -> bool`: 检查JSON模式是否表示对象类型
-
-**序列化函数**:
-- `default_serializer(data: Any) -> str`: 默认JSON序列化器
-
-### 版本差异分析
-
-基于对比分析，`tool.py`相比`tool copy.py`有以下重要改进：
-
-1. **ToolResult类增强**:
-   - 增加了`meta`参数，支持元数据传递
-   - 更好的MCP协议兼容性，支持返回`CallToolResult`类型
-
-2. **功能扩展**:
-   - 新增`_is_object_schema()`函数，用于更复杂的JSON schema检查
-   - `_convert_to_content()`支持更多内容类型（Image、Audio、File）
-
-3. **参数验证优化**:
-   - 放宽了对`**kwargs`的限制，提高了灵活性
-   - 更清晰的错误信息
-   - 添加了"VENDOR CHANGE"注释，表明AI-Trader项目的定制修改
-
-4. **类型适配器处理**:
-   - 使用`create_function_without_params()`创建无参数函数用于类型适配
-   - 更完善的输出schema检查机制
-
-## 业务含义
-
-### 在AI-Trader项目中的作用
-该模块是FastMCP框架的核心部分，用于：
-
-1. **AI工具集成**: 将交易算法、数据分析函数封装为MCP兼容的工具
-2. **协议适配**: 使AI交易功能能够通过MCP协议与外部系统交互
-3. **结果标准化**: 确保所有工具输出都符合统一的格式标准
-4. **元数据支持**: `meta`参数可用于传递交易相关的元数据（如时间戳、交易ID、策略版本等）
-5. **运行时管理**: 支持工具的动态启用/禁用，适应不同的交易场景
-
-### 关键发现
-1. **vendor修改痕迹**: `tool.py`中明确标记了"VENDOR CHANGE"，说明AI-Trader项目对原始FastMCP代码进行了定制
-2. **装饰器位置**: 该模块不包含`@tool`装饰器定义，装饰器可能在FastMCP的顶层API中定义
-3. **功能演进**: `tool.py`相比备份版本增加了重要功能，特别是元数据支持
-
-## 调用方式
-
-### 基本使用模式
-虽然`@tool`装饰器不在本模块中定义，但工具创建的核心逻辑如下：
-
-```python
-# 假设@tool装饰器在其他模块定义，内部会调用Tool.from_function()
-from fastmcp import tool  # 装饰器可能在其他位置
-
-@tool
-def analyze_market(symbol: str, indicators: list[str]) -> dict:
-    """分析市场数据
-    
-    Args:
-        symbol: 交易对符号
-        indicators: 技术指标列表
-        
-    Returns:
-        分析结果字典
-    """
-    # 实现市场分析逻辑
-    return analysis_result
+其他辅助类：
+├── ToolResult (工具结果类)
+├── ParsedFunction (解析函数类)
+├── _WrappedResult[T] (泛型包装结果类)
+└── _UnserializableType (不可序列化类型标记类)
 ```
 
-### 直接使用工具类
+#### 关键类说明
+- **Tool类**: 基础工具类，继承自`FastMCPComponent`，包含工具注册信息
+- **FunctionTool类**: 函数工具类，将Python函数包装为MCP工具
+- **ToolResult类**: 封装工具执行结果，支持转换为MCP结果格式
+- **ParsedFunction类**: 解析Python函数，提取名称、文档、输入输出schema
+
+#### 主要函数
+- `_convert_to_content()`: 将任意结果转换为内容块序列
+- `_convert_to_single_content_block()`: 将单个项目转换为ContentBlock
+- `_serialize_with_fallback()`: 使用序列化器序列化结果，失败时使用默认序列化器
+- `_is_object_schema()`: 检查JSON schema是否表示对象类型
+- `default_serializer()`: 默认序列化器，使用pydantic_core进行JSON序列化
+
+#### 依赖关系
+- **标准库**: `inspect`, `warnings`, `dataclasses`, `typing`等
+- **第三方库**: `pydantic_core`, `pydantic`, `typing_extensions`
+- **MCP协议**: `mcp.types`（Model Context Protocol类型定义）
+- **FastMCP内部**: `fastmcp`及其子模块
+
+#### 输入/输出接口
+- **工具创建**: `Tool.from_function()`从函数创建工具，`Tool.from_tool()`从现有工具创建转换工具
+- **工具执行**: `await tool.run(arguments={...})`执行工具
+- **结果处理**: `result.to_mcp_result()`转换为MCP结果格式
+
+#### 在业务流中的角色
+```
+Python函数 → ParsedFunction解析 → Tool/FunctionTool包装 → MCP工具注册
+    ↓
+用户调用 → 参数验证 → 函数执行 → 结果转换 → MCP结果返回
+```
+
+#### 供应商修改（VENDOR CHANGE）
+文件中包含重要的供应商修改，位于`ParsedFunction.from_function()`方法中：
+
+**修改内容**：
+原始代码（被注释掉）：
 ```python
-from fastmcp.tools import Tool, ToolResult
-
-def calculate_position_size(capital: float, risk_percent: float) -> float:
-    """计算仓位大小"""
-    return capital * risk_percent / 100
-
-# 创建工具实例
-position_tool = Tool.from_function(
-    fn=calculate_position_size,
-    name="calculate_position_size",
-    description="根据资金和风险比例计算仓位大小"
-)
-
-# 使用ToolResult返回结果
-def execute_trade_with_metadata(symbol: str, amount: float) -> ToolResult:
-    """执行交易并返回带元数据的结果"""
-    # 交易逻辑
-    trade_result = {
-        "order_id": "TRADE_001",
-        "status": "executed",
-        "executed_amount": amount
-    }
-    
-    return ToolResult(
-        content=trade_result,
-        structured_content=trade_result,
-        meta={
-            "timestamp": "2024-01-01T10:00:00Z",
-            "trader_id": "ai_trader_001",
-            "strategy_version": "v2.1"
-        }
+if param.kind == inspect.Parameter.VAR_KEYWORD:
+    raise ValueError(
+        "Functions with **kwargs are not supported as tools"
     )
 ```
 
-## 数据关联
+**修改影响**：
+1. **允许 `**kwargs` 参数**: 原始FastMCP框架不支持带有`**kwargs`参数的函数作为工具，但此修改移除了该限制
+2. **灵活性增强**: 允许函数接受任意关键字参数，提高了工具的灵活性
+3. **向后兼容**: 保持了其他参数验证逻辑不变
 
-### 与项目其他部分的关系
-1. **与MCP服务器**: 工具通过`to_mcp_tool()`方法生成MCP服务器可用的工具定义
-2. **与交易逻辑**: 工具可以封装交易系统的核心功能（下单、撤单、查询等）
-3. **与数据层**: 工具可以访问数据库、API等数据源获取市场数据
-4. **与策略模块**: 工具可以执行交易策略和算法，返回标准化结果
-5. **与上下文管理**: 通过`FastMCPComponent`继承关系，支持运行时上下文感知
+### 2. `tool copy.py` - 工具副本文件
+- **功能**: `tool.py`的副本文件，导入信息与原始文件完全相同
+- **代码长度**: 10005字符
+- **模块名称**: `vendor.fastmcp.tools.tool copy`
+- **状态**: 存在且未被git忽略，受版本控制
 
-## 注意事项
+#### 与原始文件的关系
+- **备份性质确认**: 文件名包含"copy"，表明是备份文件
+- **功能一致性**: 包含相同的核心类和功能
+- **代码结构**: 与`tool.py`高度相似
 
-1. **版本选择**: 应使用`tool.py`而非`tool copy.py`，因为前者包含更多功能和改进
-2. **vendor修改**: AI-Trader项目对原始FastMCP代码进行了定制，需注意兼容性
-3. **装饰器位置**: `@tool`装饰器可能在其他模块定义，本模块提供底层实现
-4. **依赖关系**: 该模块依赖`mcp.types`、`pydantic`、`pydantic_core`等库
-5. **缓存目录**: `__pycache__`为Python运行时生成，无需关注
+#### 定制化痕迹发现
+在`ParsedFunction.from_function()`方法中，发现异常的错误消息字符串：
+```python
+raise ValueError("vender   ======vFunctions with *args are not supported as tools")
+```
 
-## 更新策略
-- 作为第三方库的一部分，更新频率较低
-- 通常随FastMCP框架整体更新
-- AI-Trader项目进行了定制修改，需注意版本升级时的兼容性
+**分析**：
+1. **异常字符串**: "vender   ======vFunctions with *args are not supported as tools"
+2. **正常应为**: "Functions with *args are not supported as tools"
+3. **前缀分析**: "vender   ======v"可能是调试标记、测试标识或特定版本的修改痕迹
 
-## 代码复用建议
-当需要创建新的MCP工具时：
+#### 可能用途
+1. **备份目的**: 在修改`tool.py`前创建的安全副本
+2. **测试目的**: 用于测试新功能而不影响原始文件
+3. **版本控制**: 作为不同版本的参考
+4. **定制化基础**: 作为定制化修改的起点
 
-1. **使用最新版本**: 始终导入`tool.py`中的类和函数
-2. **遵循类型注解**: 使用Python类型注解定义参数和返回值，支持自动schema生成
-3. **利用元数据**: 使用`ToolResult`的`meta`参数传递业务相关的元数据
-4. **错误处理**: 在工具函数中包含适当的错误处理逻辑
-5. **性能考虑**: 对于高频调用的工具，考虑性能优化和缓存机制
+### 3. `__pycache__`目录
+- **状态**: 自动忽略（Python缓存目录）
+- **内容**: Python字节码缓存文件，用于提高模块加载速度
 
-## 扩展建议
-如需扩展工具功能，建议：
+## 设计模式和架构特点
 
-1. **继承扩展**: 创建自定义工具类继承自`Tool`或`FunctionTool`
-2. **组合模式**: 将多个简单工具组合成复杂工具
-3. **中间件**: 在工具执行前后添加日志、监控等中间件逻辑
-4. **业务封装**: 将AI-Trader特定的业务逻辑封装为专用工具
+### 使用的设计模式
+1. **工厂模式**: `from_function()`, `from_tool()`方法
+2. **适配器模式**: 将Python函数适配为MCP工具
+3. **策略模式**: 可插拔的序列化器
+4. **装饰器模式**: 通过工具转换增强功能
 
----
+### 架构特点
+1. **类型驱动**: 充分利用Python类型注解
+2. **协议优先**: 围绕MCP协议设计
+3. **可扩展**: 支持自定义序列化器和工具转换
+4. **错误处理**: 完善的错误处理和日志记录
 
-*基于两个子智能体的详细分析，本描述提供了完整的模块功能、使用方式和在AI-Trader项目中的作用。建议在实际开发中直接使用`tool.py`，并注意AI-Trader项目的定制修改。*
+## 在项目中的作用
+
+### 核心作用
+1. **工具抽象层**: 提供统一的工具定义接口
+2. **协议适配器**: 将Python函数适配为MCP协议兼容的工具
+3. **类型安全**: 通过pydantic确保输入输出的类型安全
+4. **扩展性**: 支持工具转换和自定义序列化
+
+### 业务价值
+1. **工具管理**: 负责AI/ML工具的定义、验证和注册
+2. **类型安全**: 确保工具接口的类型安全和数据验证
+3. **框架集成**: 作为FastMCP框架的核心工具模块
+
+## 使用建议
+
+### 代码复用
+1. **工具定义**: 使用`Tool.from_function()`将现有Python函数快速转换为MCP工具
+2. **工具转换**: 使用`Tool.from_tool()`创建具有参数转换功能的工具变体
+3. **自定义序列化**: 通过`serializer`参数支持自定义结果序列化
+
+### 开发实践
+1. **类型注解**: 充分利用Python类型注解以获得自动schema生成
+2. **依赖注入**: 支持Context等依赖的自动注入
+3. **错误处理**: 利用内置的错误处理和日志记录机制
+
+### 维护建议
+1. **副本管理**: 如果`tool copy.py`不再需要，建议清理以避免混淆
+2. **版本控制**: 考虑使用git分支而不是文件副本进行版本管理
+3. **文档完善**: 为自定义工具补充详细的文档说明
+4. **调试痕迹清理**: 清理`tool copy.py`中的异常字符串"vender   ======v"
+
+## 总结
+`tools/`目录包含FastMCP框架的核心工具模块，提供了完整的工具定义、管理和转换功能。该模块是连接Python业务逻辑和MCP协议的重要桥梁，体现了现代Python框架的类型安全、协议兼容和可扩展性特点。
+
+**关键发现**：
+1. `tool.py`包含重要的供应商修改，允许`**kwargs`参数，增强了工具灵活性
+2. `tool copy.py`作为备份文件存在，包含调试痕迹"vender   ======v"，需要关注其维护状态
+3. 两个文件在功能上一致，但`tool.py`是主要使用的版本

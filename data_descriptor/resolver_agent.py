@@ -488,7 +488,6 @@ def signature_python_module(python_file: str):
     if not os.path.exists(python_file):
         return {"error": "the python_file is not exsist, to check it"}
     
-    project_root = "/prog/pweb/AI-Trader"
     sys.path.insert(0, project_root)
     if not python_file.startswith(project_root):
         return {"error": f"the python_file should be under {project_root}"}
@@ -567,7 +566,6 @@ def get_python_object_code(python_file: str, object_name: str) -> str:
     if not os.path.exists(python_file):
         return {"error": "the python_file is not exsist, to check it"}
     
-    project_root = "/prog/pweb/AI-Trader"
     sys.path.insert(0, project_root)
     if not python_file.startswith(project_root):
         return {"error": f"the python_file should be under {project_root}"}

@@ -1,175 +1,152 @@
-# FastMCP 框架目录描述
+# FastMCP 供应商目录描述
 
 ## 目录概述
-**相对路径**: `/vendor/fastmcp`（相对于项目根目录 `/prog/pweb/AI-Trader`）
-
-该目录是 FastMCP（Fast Model Context Protocol）框架的源代码目录，是 AI-Trader 项目中 AI 工具系统的核心依赖。FastMCP 是一个用于将 Python 函数封装为标准化、类型安全的 AI 可调用工具的框架，实现了 MCP（Model Context Protocol）协议，使 AI 系统能够与外部工具和服务进行安全、可靠的交互。
+- **路径**: `vendor/fastmcp/`
+- **类型**: 第三方依赖库目录（FastMCP框架）
+- **内容**: FastMCP框架的核心实现，包含工具模块和供应商补丁机制
+- **根目录**: `/prog/pweb/reasoning_leverage`
 
 ## 目录结构
 
-### 子目录
-1. **tools/** - FastMCP 工具系统核心模块
-   - **状态**: 主要功能目录，包含工具定义和管理的核心实现
-   - **内容**: 
-     - `tool.py` (22,266字节) - 主工具模块，包含最新功能和改进
-     - `tool copy.py` (19,909字节) - 备份文件，是 `tool.py` 的旧版本副本
-     - `description.txt` - 详细的模块描述文档
-   - **功能**: 提供完整的 MCP 工具支持，包括工具类体系、参数验证、类型转换、结果序列化和 MCP 协议兼容性
+### 1. `tools/` - FastMCP工具模块目录
+- **路径**: `vendor/fastmcp/tools/`
+- **状态**: 已有详细描述文件，受git管理
+- **内容**: FastMCP框架的核心工具定义和管理模块
 
-2. **__pycache__/** - Python 字节码缓存目录
-   - **状态**: 运行时生成，无需关注
+#### 核心文件
+1. **`tool.py`** - 核心工具定义文件
+   - **功能**: FastMCP框架的核心工具模块，负责工具定义、管理和转换
+   - **代码长度**: 10005字符
+   - **模块名称**: `vendor.fastmcp.tools.tool`
+   - **关键特性**: 包含重要的供应商修改，允许`**kwargs`参数，增强了工具灵活性
 
-## 核心模块分析
+2. **`tool copy.py`** - 工具副本文件
+   - **功能**: `tool.py`的备份副本
+   - **代码长度**: 10005字符
+   - **状态**: 存在且未被git忽略，包含调试痕迹"vender   ======v"
+   - **用途**: 可能用于备份、测试或定制化基础
 
-### tools/tool.py - 主工具模块
-**文件大小**: 22,266字节
-**状态**: 最新版本，包含 AI-Trader 项目的定制修改
+#### 主要功能
+- **工具定义和管理**: 提供工具类的定义和注册机制
+- **函数解析**: 将Python函数解析为MCP（Model Context Protocol）兼容的工具
+- **结果处理**: 处理工具执行结果的序列化和转换
+- **工具转换**: 支持工具的参数转换和功能扩展
 
-#### 主要类和功能
-1. **Tool 类** (`class Tool(FastMCPComponent)`)
-   - 内部工具注册信息容器
-   - 支持参数验证、类型转换和 MCP 协议兼容性
-   - 主要方法: `enable()`/`disable()`, `to_mcp_tool()`, `from_function()`, `run()`
+#### 类结构
+```
+FastMCPComponent (父类)
+    └── Tool (基础工具类)
+        └── FunctionTool (函数工具类)
 
-2. **FunctionTool 类** (`class FunctionTool`)
-   - 函数工具注册信息，继承自 Tool 类
-   - 封装 Python 函数，支持参数验证和结果转换
-   - 关键方法: `run()` - 执行包装的函数
-
-3. **ToolResult 类** (`class ToolResult`)
-   - 工具执行结果封装
-   - 支持内容块和结构化内容的组合
-   - 包含 `meta` 参数，支持元数据传递
-   - 方法: `to_mcp_result()` - 转换为 MCP 结果格式
-
-4. **ParsedFunction 类** (`@dataclass class ParsedFunction`)
-   - 解析后的函数信息数据类
-   - 从 Python 函数解析生成工具定义
-   - 属性: `fn`, `name`, `description`, `input_schema`, `output_schema`
-
-#### 核心功能
-- **函数封装**: 将任意 Python 函数封装为标准化工具
-- **类型安全**: 基于 Python 类型注解自动生成 JSON Schema
-- **协议适配**: 将工具转换为 MCP 协议兼容格式
-- **结果处理**: 统一处理结构化和非结构化结果
-- **依赖注入**: 支持上下文和依赖注入（通过 `Depends()`）
-
-### tools/tool copy.py - 备份版本
-**文件大小**: 19,909字节
-**状态**: 备份文件，功能简化版本
-**差异**: 相比 `tool.py` 缺少元数据支持、部分辅助函数和错误处理增强
-
-## 业务含义
-
-### 在 AI-Trader 项目中的作用
-FastMCP 框架是 AI-Trader 项目中 AI 工具系统的核心，用于：
-
-1. **AI 工具集成**: 将交易算法、数据分析函数封装为 MCP 兼容的工具
-2. **协议适配**: 使 AI 交易功能能够通过 MCP 协议与外部系统交互
-3. **结果标准化**: 确保所有工具输出都符合统一的格式标准
-4. **元数据支持**: `meta` 参数可用于传递交易相关的元数据（如时间戳、交易 ID、策略版本等）
-5. **运行时管理**: 支持工具的动态启用/禁用，适应不同的交易场景
-
-### 关键发现
-1. **vendor 修改痕迹**: `tool.py` 中明确标记了 "VENDOR CHANGE"，说明 AI-Trader 项目对原始 FastMCP 代码进行了定制
-2. **功能演进**: `tool.py` 相比备份版本增加了重要功能，特别是元数据支持
-3. **MCP 协议兼容**: 完全支持 Model Context Protocol 标准
-
-## 调用方式
-
-### 基本使用模式
-```python
-# 假设 @tool 装饰器在其他模块定义
-from fastmcp import tool
-
-@tool
-def analyze_market(symbol: str, indicators: list[str]) -> dict:
-    """分析市场数据
-    
-    Args:
-        symbol: 交易对符号
-        indicators: 技术指标列表
-        
-    Returns:
-        分析结果字典
-    """
-    # 实现市场分析逻辑
-    return analysis_result
+其他辅助类：
+├── ToolResult (工具结果类)
+├── ParsedFunction (解析函数类)
+├── _WrappedResult[T] (泛型包装结果类)
+└── _UnserializableType (不可序列化类型标记类)
 ```
 
-### 直接使用工具类
-```python
-from fastmcp.tools import Tool, ToolResult
-
-def calculate_position_size(capital: float, risk_percent: float) -> float:
-    """计算仓位大小"""
-    return capital * risk_percent / 100
-
-# 创建工具实例
-position_tool = Tool.from_function(
-    fn=calculate_position_size,
-    name="calculate_position_size",
-    description="根据资金和风险比例计算仓位大小"
-)
-
-# 使用 ToolResult 返回带元数据的结果
-def execute_trade_with_metadata(symbol: str, amount: float) -> ToolResult:
-    """执行交易并返回带元数据的结果"""
-    trade_result = {
-        "order_id": "TRADE_001",
-        "status": "executed",
-        "executed_amount": amount
-    }
-    
-    return ToolResult(
-        content=trade_result,
-        structured_content=trade_result,
-        meta={
-            "timestamp": "2024-01-01T10:00:00Z",
-            "trader_id": "ai_trader_001",
-            "strategy_version": "v2.1"
-        }
-    )
+#### 在业务流中的角色
+```
+Python函数 → ParsedFunction解析 → Tool/FunctionTool包装 → MCP工具注册
+    ↓
+用户调用 → 参数验证 → 函数执行 → 结果转换 → MCP结果返回
 ```
 
-## 数据关联
+### 2. `__pycache__/` - Python缓存目录
+- **状态**: 自动忽略（Python缓存目录）
+- **内容**: Python字节码缓存文件，用于提高模块加载速度
 
-### 与项目其他部分的关系
-1. **与 MCP 服务器**: 工具通过 `to_mcp_tool()` 方法生成 MCP 服务器可用的工具定义
-2. **与交易逻辑**: 工具可以封装交易系统的核心功能（下单、撤单、查询等）
-3. **与数据层**: 工具可以访问数据库、API 等数据源获取市场数据
-4. **与策略模块**: 工具可以执行交易策略和算法，返回标准化结果
-5. **与上下文管理**: 通过 `FastMCPComponent` 继承关系，支持运行时上下文感知
+## 父目录关联文件
 
-## 注意事项
+### `vendor/vendor_patch.py` - 供应商补丁文件
+- **路径**: `vendor/vendor_patch.py`（相对于当前目录的父目录）
+- **功能**: 供应商模块重载和LangChain工具装饰器增强
+- **代码长度**: 4668字符
 
-1. **版本选择**: 应使用 `tool.py` 而非 `tool copy.py`，因为前者包含更多功能和改进
-2. **vendor 修改**: AI-Trader 项目对原始 FastMCP 代码进行了定制，需注意兼容性
-3. **依赖关系**: 该模块依赖 `mcp.types`、`pydantic`、`pydantic_core` 等库
-4. **缓存目录**: `__pycache__` 为 Python 运行时生成，无需关注
+#### 主要功能
+1. **供应商模块重载机制**: 通过`sys.meta_path`重载`fastmcp.tools.tool`模块，使其从vendor目录加载
+2. **LangChain工具装饰器增强**: 对`langchain.tools.tool`装饰器进行补丁，增加对`metadata`参数的支持
+3. **元数据管理**: 提供元数据合并功能，支持深度合并字典
 
-## 更新策略
-- 作为第三方库的一部分，更新频率较低
-- 通常随 FastMCP 框架整体更新
-- AI-Trader 项目进行了定制修改，需注意版本升级时的兼容性
+#### 关键配置
+```python
+patched_modules = [
+    ('fastmcp.tools.tool', 'fastmcp/tools/tool.py'),
+]
+```
 
-## 代码复用建议
-当需要创建新的 MCP 工具时：
+#### 在业务流中的角色
+1. **供应商模块定制化入口**: 项目启动时自动执行，将`fastmcp.tools.tool`模块重定向到vendor目录下的版本
+2. **LangChain集成增强器**: 通过补丁`langchain.tools.tool`装饰器，为项目提供增强的元数据支持
+3. **元数据管理中间件**: 提供统一的元数据合并机制
 
-1. **使用最新版本**: 始终导入 `tool.py` 中的类和函数
-2. **遵循类型注解**: 使用 Python 类型注解定义参数和返回值，支持自动 schema 生成
-3. **利用元数据**: 使用 `ToolResult` 的 `meta` 参数传递业务相关的元数据
-4. **错误处理**: 在工具函数中包含适当的错误处理逻辑
-5. **性能考虑**: 对于高频调用的工具，考虑性能优化和缓存机制
+## 设计模式和架构特点
 
-## 扩展建议
-如需扩展工具功能，建议：
+### 使用的设计模式
+1. **工厂模式**: `from_function()`, `from_tool()`方法
+2. **适配器模式**: 将Python函数适配为MCP工具
+3. **策略模式**: 可插拔的序列化器
+4. **装饰器模式**: 通过工具转换增强功能
 
-1. **继承扩展**: 创建自定义工具类继承自 `Tool` 或 `FunctionTool`
-2. **组合模式**: 将多个简单工具组合成复杂工具
-3. **中间件**: 在工具执行前后添加日志、监控等中间件逻辑
-4. **业务封装**: 将 AI-Trader 特定的业务逻辑封装为专用工具
+### 架构特点
+1. **类型驱动**: 充分利用Python类型注解
+2. **协议优先**: 围绕MCP协议设计
+3. **可扩展**: 支持自定义序列化器和工具转换
+4. **错误处理**: 完善的错误处理和日志记录
 
----
+## 在项目中的作用
 
-*基于 tools 子目录的详细分析和两个子智能体的技术分析，本描述提供了 FastMCP 框架在 AI-Trader 项目中的完整功能、使用方式和作用。建议在实际开发中直接使用 `tool.py`，并注意 AI-Trader 项目的定制修改。*
+### 核心作用
+1. **工具抽象层**: 提供统一的工具定义接口
+2. **协议适配器**: 将Python函数适配为MCP协议兼容的工具
+3. **类型安全**: 通过pydantic确保输入输出的类型安全
+4. **扩展性**: 支持工具转换和自定义序列化
+
+### 业务价值
+1. **工具管理**: 负责AI/ML工具的定义、验证和注册
+2. **类型安全**: 确保工具接口的类型安全和数据验证
+3. **框架集成**: 作为FastMCP框架的核心工具模块
+
+## 关键发现和注意事项
+
+### 供应商修改痕迹
+1. **`tool.py`中的修改**: 移除了对`**kwargs`参数的限制，增强了工具灵活性
+2. **`tool copy.py`中的调试痕迹**: 包含异常字符串"vender   ======v"，需要关注维护状态
+3. **`vendor_patch.py`中的定制化**: 包含中文注释和文档，表明是中国开发者或团队的定制化代码
+
+### 元数据格式兼容性
+- 支持`inject_requires`格式的元数据自动包装
+- 提供深度合并字典功能，确保元数据正确合并
+
+### 防重复机制
+- 通过标记防止多次执行补丁代码
+- 条件导入，优雅处理`langchain`不存在的情况
+
+## 使用建议
+
+### 代码复用
+1. **工具定义**: 使用`Tool.from_function()`将现有Python函数快速转换为MCP工具
+2. **工具转换**: 使用`Tool.from_tool()`创建具有参数转换功能的工具变体
+3. **自定义序列化**: 通过`serializer`参数支持自定义结果序列化
+
+### 开发实践
+1. **类型注解**: 充分利用Python类型注解以获得自动schema生成
+2. **依赖注入**: 支持Context等依赖的自动注入
+3. **错误处理**: 利用内置的错误处理和日志记录机制
+
+### 维护建议
+1. **副本管理**: 如果`tool copy.py`不再需要，建议清理以避免混淆
+2. **版本控制**: 考虑使用git分支而不是文件副本进行版本管理
+3. **文档完善**: 为自定义工具补充详细的文档说明
+4. **调试痕迹清理**: 清理`tool copy.py`中的异常字符串"vender   ======v"
+
+## 总结
+
+`vendor/fastmcp/`目录包含FastMCP框架的核心实现，通过`tools/`目录提供完整的工具定义、管理和转换功能，并通过`vendor_patch.py`实现供应商模块的重载和增强。该模块是连接Python业务逻辑和MCP协议的重要桥梁，体现了现代Python框架的类型安全、协议兼容和可扩展性特点。
+
+**关键集成点**:
+1. **工具模块**: `vendor/fastmcp/tools/tool.py` - 核心工具定义
+2. **供应商补丁**: `vendor/vendor_patch.py` - 模块重载和装饰器增强
+3. **元数据管理**: 统一的元数据合并和传递机制
+
+**版本状态**: 包含供应商修改和定制化痕迹，需要关注维护状态和调试痕迹清理。

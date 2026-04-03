@@ -12,6 +12,8 @@ import os
 
 load_dotenv()
 
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 ds_context_limit = 131072  # DeepSeek API context length limit in characters
 
 class DeepSeekChatOpenAI(ChatDeepSeek):
@@ -27,7 +29,7 @@ class DeepSeekChatOpenAI(ChatDeepSeek):
             """
             log_date_str = datetime.now().strftime("%Y%m%d")
            
-            interaction_log_file = f"/prog/pweb/AI-Trader/logs/sepc_call_llm_{log_date_str}.log"
+            interaction_log_file = f"{project_root}/logs/sepc_call_llm_{log_date_str}.log"
             try:
                 ts = datetime.now().isoformat()
                 p = Path(interaction_log_file)

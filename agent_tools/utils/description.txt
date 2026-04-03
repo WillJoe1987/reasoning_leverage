@@ -1,0 +1,105 @@
+# agent_tools/utils 目录描述
+
+## 目录概述
+`/prog/pweb/reasoning_leverage/agent_tools/utils` 目录包含agent_tools系统的工具函数和辅助模块，主要用于处理工具调用中的参数注入和元数据管理。
+
+## 文件详情
+
+### extra_kwargs.py
+**路径**: `agent_tools/utils/extra_kwargs.py`
+
+**功能概述**:
+该模块提供工具调用中额外参数（extra kwargs）的提取和管理功能，主要用于从工具调用请求中提取需要注入的元数据要求。
+
+**核心函数**:
+
+1. **`get_key_injects(kwargs: dict, key: str)`**
+   - **功能**: 检查请求中的工具调用，获取指定键需要注入的元数据要求列表
+   - **输入参数**:
+     - `kwargs`: 工具调用的参数字典
+     - `key`: 要查询的键名
+   - **返回值**: 
+     - 格式: `[{ "key": key, "required": bool }, ...]`
+     - 若无注入要求，返回 `None`
+   - **使用场景**: 当需要检查特定键是否有元数据注入要求时使用
+
+2. **`get_all_injects(kwargs: dict)`**
+   - **功能**: 检查请求中的工具调用，获取所有需要注入的元数据要求
+   - **输入参数**:
+     - `kwargs`: 工具调用的参数字典
+   - **返回值**:
+     - 格式: `{ key: value, ... }`
+     - 从 `kwargs` 字典的 `"kwargs"` 键中提取所有注入要求
+   - **使用场景**: 当需要获取工具调用中的所有元数据注入要求时使用
+
+**代码结构**:
+```python
+def get_key_injects(kwargs:dict, key:str):
+    """
+        检查请求中的工具调用，获取需要注入的元数据要求列表。
+        返回格式：[{ "key": key, "required": bool }, ...]
+        若无注入要求，返回空列表。
+    """
+    return get_all_injects(kwargs).get(key, None)
+
+def get_all_injects(kwargs:dict):
+    """
+        检查请求中的工具调用，获取所有需要注入的元数据要求。
+        返回格式：{ key: value, ... }
+    """
+    args = kwargs.get("kwargs", {})
+    return args
+```
+
+**在业务流中的角色**:
+1. **元数据注入管理**: 在agent_tools系统中，当智能体调用工具时，可能需要注入额外的元数据（如用户上下文、会话信息等）
+2. **参数提取**: 从工具调用请求中提取预定义的注入要求
+3. **条件检查**: 根据注入要求决定是否需要在工具调用前注入特定元数据
+
+**使用示例**:
+```python
+# 假设工具调用请求
+tool_call_request = {
+    "tool_name": "some_tool",
+    "kwargs": {
+        "user_context": [{"key": "user_id", "required": True}],
+        "session_info": [{"key": "session_id", "required": False}]
+    }
+}
+
+# 获取特定键的注入要求
+user_injects = get_key_injects(tool_call_request, "user_context")
+# 返回: [{"key": "user_id", "required": True}]
+
+# 获取所有注入要求
+all_injects = get_all_injects(tool_call_request)
+# 返回: {
+#   "user_context": [{"key": "user_id", "required": True}],
+#   "session_info": [{"key": "session_id", "required": False}]
+# }
+```
+
+**依赖关系**:
+- 该模块是agent_tools系统的基础工具模块
+- 可能被其他agent_tools模块调用，用于处理工具调用前的参数准备
+- 依赖于标准的Python字典操作，无外部依赖
+
+**文件大小**: 约390字节
+
+## 目录结构说明
+- `__pycache__/`: Python字节码缓存目录（自动生成，应忽略）
+- `extra_kwargs.py`: 核心工具函数文件
+
+## 更新频率
+- 该工具模块相对稳定，更新频率较低
+- 当agent_tools系统的参数注入机制发生变化时可能需要更新
+
+## 复用建议
+1. **查找元数据注入要求**: 使用 `get_key_injects()` 检查特定键是否有注入要求
+2. **批量获取注入配置**: 使用 `get_all_injects()` 获取所有注入配置
+3. **工具调用预处理**: 在工具调用前使用该模块检查是否需要注入额外参数
+
+## 注意事项
+1. 该模块假设工具调用请求的参数字典中包含 `"kwargs"` 键
+2. 注入要求的格式为列表，每个元素是包含 `"key"` 和 `"required"` 字段的字典
+3. 如果 `kwargs` 参数中没有 `"kwargs"` 键，`get_all_injects()` 返回空字典

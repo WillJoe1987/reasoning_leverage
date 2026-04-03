@@ -63,6 +63,9 @@ class descriptor_agent(SubAgent):
         model = get_default_model()
         base_tools=[signature_python_module,get_python_includes,get_python_object_code,create_check_git_ignore_tool()]
         manager = AgentManager(llm_client=model)
+        manager.open_email_service()
+        manager.open_shared_blackboard()
+        
         super().__init__(manager=manager, task_key_target="", task_description=f"请描述{self.path}文件夹下的数据情况", enable_hiring=True, depth=0, base_tools=base_tools)
 
         thread_id = self.path.replace(self.PROJECT_ROOT, "").replace(os.sep, "_").strip("_") +datetime.now().strftime("%Y%m%d%H%M%S")
@@ -294,7 +297,6 @@ def signature_python_module(python_file: str):
     if not os.path.exists(python_file):
         return {"error": "the python_file is not exsist, to check it"}
     
-    project_root = "/prog/pweb/AI-Trader"
     sys.path.insert(0, project_root)
     if not python_file.startswith(project_root):
         return {"error": f"the python_file should be under {project_root}"}
@@ -373,7 +375,7 @@ def get_python_object_code(python_file: str, object_name: str) -> str:
     if not os.path.exists(python_file):
         return {"error": "the python_file is not exsist, to check it"}
     
-    project_root = "/prog/pweb/AI-Trader"
+
     sys.path.insert(0, project_root)
     if not python_file.startswith(project_root):
         return {"error": f"the python_file should be under {project_root}"}
@@ -397,34 +399,9 @@ def get_python_object_code(python_file: str, object_name: str) -> str:
         return {"error": f"Failed to get source code for {object_name}: {str(e)}"}
 
 async def run():
-    data_path = "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_realtime_cache/2025120317"
+    data_path = project_root+"data/A_stock/A_stock_data/stock_realtime_cache/2025120317"
     paths = [
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow/dfcf",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow/dfcf_blocks",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow/ths",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow/ths_blocks",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow/tushare",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_money_flow",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/indexes",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/blocks/ths",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/blocks/dfcf",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/blocks/sw_industry",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/blocks",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/market_summary",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_news_cache",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_realtime_cache",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_daily_open",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/stock_snap_ma_daily",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data/indexes_daily",
-        # "/prog/pweb/AI-Trader/data/A_stock",
-        # "/prog/pweb/AI-Trader/data/A_stock/A_stock_data",
-        # "/prog/pweb/AI-Trader/scripts/crawler",
-        # "/prog/pweb/AI-Trader/tools",
-        # "/prog/pweb/AI-Trader/agent",
-        # "/prog/pweb/AI-Trader/data",
-        # "/prog/pweb/AI-Trader",
-        "/prog/pweb/AI-Trader/data/agent_finnal_decision",
-        "/prog/pweb/AI-Trader/data"
+        project_root
     ]
      
     for p in paths:
@@ -437,7 +414,10 @@ async def walk_run(base_path: str):
     for dirpath, dirnames, filenames in os.walk(base_path, topdown=False):
         # 取dirpath的最后一级目录名作为data_path
         data_path = dirpath.split("/")[-1]
-        # 如果 data_path是日期格式，则跳过
+        # 如果dirpath包含是.git，或者.vscode，则跳过；
+        if ".git" in dirpath or ".vscode" in dirpath or "backup" in dirpath or "old" in dirpath or "cache" in dirpath or "__pycache__" in dirpath or "agent_checkpoints" in dirpath or "logs" in dirpath:
+            print(f"Skipping ignored directory: {dirpath}")
+            continue
         try :
             datetime.strptime(data_path, "%Y-%m-%d")
             print(f"Skipping date-formatted directory: {dirpath}")
@@ -450,20 +430,6 @@ async def walk_run(base_path: str):
 
 if __name__ == "__main__":
     asyncio.run(run())
-    # chooser = "/prog/pweb/AI-Trader/data/agent_chooser_astock"
-    # reviwer = "/prog/pweb/AI-Trader/data/agent_review_astock"
-    # root_path = "/prog/pweb/AI-Trader/scripts"
-    # vendor = "/prog/pweb/AI-Trader/vendor"
-    # utils = "/prog/pweb/AI-Trader/utils"
-    # scripts = "/prog/pweb/AI-Trader/scripts"
-    # prompts = "/prog/pweb/AI-Trader/prompts"
-    # data_sources = "/prog/pweb/AI-Trader/data_sources"
-    # data_descriptor = "/prog/pweb/AI-Trader/data_descriptor"
-    # configs = "/prog/pweb/AI-Trader/configs"
-    # agentic_codes = "/prog/pweb/AI-Trader/agentic_codes"
-    # agent_tools = "/prog/pweb/AI-Trader/agent_tools"
-    # agent_runnable_path = "/prog/pweb/AI-Trader/agent_runnables"
-    # agent = "/prog/pweb/AI-Trader/agent"
-    # asyncio.run(walk_run(agent))
+    # asyncio.run(walk_run(project_root))
 
         
